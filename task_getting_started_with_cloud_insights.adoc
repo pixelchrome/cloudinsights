@@ -53,7 +53,7 @@ See each section below for more information on the the general onboarding flow.
 
 If you selected an _Infrastructure_ data collector, an Acquisition Unit is required to inject data into Cloud Insights. You will need to download and install the Acquisition Unit software on a server or VM to collect data for Cloud Insights. A single Acquisition Unit can be used for multiple data collectors.
 
-image:NewLinuxAUInstall.png[Linux AU Instructions]
+//image:NewLinuxAUInstall.png[Linux AU Instructions]
 
 * Follow the link:task_configure_acquisition_unit.html[instructions] displayed to install your Acquisition Unit. Once the Acquisition Unit software is installed, the Continue button is displayed and you can proceed to the next step.
 
@@ -82,8 +82,8 @@ In general, configuring an integration data collector for a service such as Dock
 
 . Select the operating system on the host or VM where you want to install the integration agent.
 . Choose or create an link:concept_API_Overview.html[API Key].
-. Follow the provided instructions for configuring the service and installing the agent
-. Allow Cloud Insights to connect to the service and begin collecting data
+. Follow the provided instructions for configuring the service and installing the agent.
+. Allow Cloud Insights to connect to the service and begin collecting data.
 
 The specific instructions will vary from one integration service to another, so be sure to read all instructions carefully.
 
