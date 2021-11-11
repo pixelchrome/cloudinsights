@@ -57,7 +57,7 @@ If you selected an _Infrastructure_ data collector, an Acquisition Unit is requi
 
 * Follow the link:task_configure_acquisition_unit.html[instructions] displayed to install your Acquisition Unit. Once the Acquisition Unit software is installed, the Continue button is displayed and you can proceed to the next step.
 
-image:NewAUDetected.png[New AU Detected]
+//image:NewAUDetected.png[New AU Detected]
 
 You may set up additional acquisition units later if needed. For example, you may want different Acquisition Units collecting information from data centers in different regions. 
 
