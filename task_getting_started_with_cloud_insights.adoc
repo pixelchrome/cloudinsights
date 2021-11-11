@@ -65,10 +65,10 @@ You may set up additional acquisition units later if needed. For example, you ma
 
 For _Infrastructure_ data collectors, you will be asked to fill out the data collector fields presented:
 
-* Give the data collector a unique and meaningful name.
+* Give the data collector a unique and meaningful name, and select an acquisition unit for data collection.
 * Enter the user name and password to connect to the device, as appropriate.
 * Fill in any other mandatory fields in _Configuration_ and _Advanced Configuration_ sections.
-* Click *Test Connection* to test the connection to the device.
+* Click *Test Connection* to test the connection to the device. If necessary, correct any incorrect fields.
 * Click *Add Collector* to save the data collector.
 
 You will be able to configure additional data collectors later.
