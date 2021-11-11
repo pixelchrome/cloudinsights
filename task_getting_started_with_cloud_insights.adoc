@@ -84,7 +84,7 @@ In general, configuring an integration data collector for a service such as Dock
 . Choose or create an link:concept_API_Overview.html[API Key].
 . If you do not have an agent configured (if this is your very first time setting up an integration data collector, you will not have an agent yet), follow the instructions to install the agent.
 . Follow the provided instructions for configuring the service. The specific instructions will vary from one integration service to another, so be sure to read all instructions carefully.
-. Allow Cloud Insights to connect to the service and begin collecting data.
+. Click _Complete Setup_ and allow Cloud Insights to connect to the service and begin collecting data.
 
 image:Integration_Service_Install_Docker_Example.png[Integration Docker Example Instructions]
 
