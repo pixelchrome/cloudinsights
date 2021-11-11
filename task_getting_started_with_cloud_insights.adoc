@@ -1,4 +1,4 @@
----
+e---
 sidebar: sidebar
 permalink: task_getting_started_with_cloud_insights.html
 summary: Getting started with Cloud Insights.
@@ -15,7 +15,7 @@ keywords: invite, roles, data collector, acquisition unit, AU
 :linkattrs:
 :imagesdir: ./media/
 
-After you have signed up for Cloud Insights and log in to your environment for the first time, you will be guided through the following steps in order to begin collecting and managing data. 
+After you have signed up for Cloud Insights and log in to your environment for the first time, you will be guided through the steps needed to begin collecting and managing data. 
 
 ////
 == See How It Works
@@ -25,19 +25,24 @@ The first thing you see after logging in the first time is a short video explain
 When you are finished watching the video, click *Continue* to proceed to the next step.
 
 == Select a Data Collector
-////
 
 Data collectors discover information from your data sources, such as storage devices, network switches, and virtual machines. The information gathered is used for analysis, validation, monitoring and troubleshooting. 
 
-Cloud Insights utilizes three types of data collectors:
+Cloud Insights collects many types of data from many different sources, such as:
 
-* Operating Systems
-* Services
-* Infrastructure
+* Operating Systems including RHEL, CentOS, Windows, and Kubernetes
+* Integration data from services such as Docker 
+* Advanced Counters such as those available in ONTAP systems
+* Infrastructure such as Storage or Ports
 
-Select your first data collector from the supported vendors and models available. You can easily add additional data collectors later. 
+The first time you log in to your Cloud Insights environment, you are prompted to install an initial data collector from the supported vendors and models available. You can easily add additional data collectors later. 
 
-== Install an Acquisition Unit
+You can type in the filter to find the data collector you want to install.
+
+image:Onboarding_NetApp_Data_Collectors.png[Select a data collector]
+
+
+== Infrastructure: Install an Acquisition Unit
 
 If you selected an _Infrastructure_ data collector, an Acquisition Unit is required to inject data into Cloud Insights. You will need to download and install the Acquisition Unit software on a server or VM to collect data for Cloud Insights. A single Acquisition Unit can be used for multiple data collectors.
 
@@ -49,7 +54,7 @@ image:NewAUDetected.png[New AU Detected]
 
 You may set up additional acquisition units later if needed. For example, you may want different Acquisition Units collecting information from data centers in different regions. 
 
-== Configure the Data Collector - Infrastructure
+== Infrastructure: Configure the Data Collector
 
 For _Infrastructure_ data collectors, you will be asked to fill out the data collector fields presented:
 
@@ -61,7 +66,7 @@ For _Infrastructure_ data collectors, you will be asked to fill out the data col
 
 You will be able to configure additional data collectors later.
 
-== Configure the Data Collector - Operating Systems and Services
+== Integration: Configure the Data Collector
 
 === Operating System:
 
