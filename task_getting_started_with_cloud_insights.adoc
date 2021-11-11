@@ -1,4 +1,4 @@
-e---
+---
 sidebar: sidebar
 permalink: task_getting_started_with_cloud_insights.html
 summary: Getting started with Cloud Insights.
