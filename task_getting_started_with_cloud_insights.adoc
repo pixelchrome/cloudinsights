@@ -73,6 +73,8 @@ For _Infrastructure_ data collectors, you will be asked to fill out the data col
 
 You will be able to configure additional data collectors later.
 
+image:Data_Collector_ONTAP.png[ONTAP Data Collector installation]
+
 
 == Integration:
 
