@@ -88,7 +88,7 @@ In general, configuring an integration data collector for a service such as Dock
 The specific instructions will vary from one integration service to another, so be sure to read all instructions carefully.
 
 
-== Kubernetes
+== Kubernetes:
 
 When installing a Kubernetes Data Collector, you choose from two installation methods to collect data:
 
