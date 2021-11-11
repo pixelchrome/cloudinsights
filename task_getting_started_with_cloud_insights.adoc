@@ -86,6 +86,41 @@ You will be able to configure additional data collectors later.
 The specific instructions will vary from one integration service to another, so be sure to read all instructions carefully.
 
 
+== Kubernetes
+
+When installing a Kubernetes Data Collector, you choose from two installation methods to collect data:
+
+* Operator-based configuration. This is recommended for Kubernetes.
+* Traditional script-based Agent installation
+
+Installation instructions vary based on which tile you choose.
+
+image:Kubernetes_Operator_Tile_Choices.png[Kubernetes Installation Choices]
+
+NOTE: Operator-based installation is considered a _Preview_ feature and is therefore subject to change.
+
+=== Operator-based installation
+
+To install Operator-based agent on Kubernetes:
+
+. Choose an existing, or create a new API Token.
+. Enter the cluster name and namespace.
+. Once these are entered, you can copy the Agent Installer snippet.
+. Click the button to copy this snippet to the clipboard.
+. Paste the snippet into a _bash_ window and execute it.
+. The installation proceeds automatically. When it is complete, click the _Next_ button.
+
+image:Kubernetes_Operator_Plus_Agents.png[Operator-Based Install]
+
+Once the agent has been installed, you are asked whether you wish to retrieve log information (if enabled on the kubernetes cluster) and/or install an acquisition unit on the Kubernetes cluster. Select these as desired and click _Complete Setup_.
+
+image:Kubernetes_Operator_Retrieve_Cluster.png[Select log retrieval and/or AU installation]
+
+
+
+=== Script-based installation
+
+
 
 ////
 === Operating System:
