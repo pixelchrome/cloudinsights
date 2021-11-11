@@ -17,23 +17,19 @@ keywords: invite, roles, data collector, acquisition unit, AU
 
 After you have signed up for Cloud Insights and log in to your environment for the first time, you will be guided through the steps needed to begin collecting and managing data. 
 
-////
-== See How It Works
 
-The first thing you see after logging in the first time is a short video explaining how Cloud Insights collects data. 
-
-When you are finished watching the video, click *Continue* to proceed to the next step.
-
-== Select a Data Collector
+== Select an Initial Data Collector
 
 Data collectors discover information from your data sources, such as storage devices, network switches, and virtual machines. The information gathered is used for analysis, validation, monitoring and troubleshooting. 
 
 Cloud Insights collects many types of data from many different sources, such as:
 
-* Operating Systems including RHEL, CentOS, Windows, and Kubernetes
-* Integration data from services such as Docker 
-* Advanced Counters such as those available in ONTAP systems
 * Infrastructure such as Storage or Ports
+* Kubernetes
+* Integration of services such as Docker 
+* Advanced Counters such as those available in ONTAP systems
+* Operating Systems
+
 
 The first time you log in to your Cloud Insights environment, you are prompted to install an initial data collector from the supported vendors and models available. You can easily add additional data collectors later. 
 
@@ -41,8 +37,19 @@ You can type in the filter to find the data collector you want to install.
 
 image:Onboarding_NetApp_Data_Collectors.png[Select a data collector]
 
+The steps you follow vary depending on the type of data collector you are configuring.
 
-== Infrastructure: Install an Acquisition Unit
+* Infrastructure
+* Integration
+* Kubernetes
+
+See each section below for more information on the the general onboarding flow.
+
+
+
+== Infrastructure:
+
+=== Step 1: Install an Acquisition Unit
 
 If you selected an _Infrastructure_ data collector, an Acquisition Unit is required to inject data into Cloud Insights. You will need to download and install the Acquisition Unit software on a server or VM to collect data for Cloud Insights. A single Acquisition Unit can be used for multiple data collectors.
 
@@ -54,7 +61,7 @@ image:NewAUDetected.png[New AU Detected]
 
 You may set up additional acquisition units later if needed. For example, you may want different Acquisition Units collecting information from data centers in different regions. 
 
-== Infrastructure: Configure the Data Collector
+=== Step 2: Configure the Data Collector
 
 For _Infrastructure_ data collectors, you will be asked to fill out the data collector fields presented:
 
@@ -66,8 +73,21 @@ For _Infrastructure_ data collectors, you will be asked to fill out the data col
 
 You will be able to configure additional data collectors later.
 
-== Integration: Configure the Data Collector
 
+== Integration:
+
+== In general, configuring an integration data collector for a service such as Docker follows these basic steps:
+
+. Select the operating system on the host or VM where you want to install the integration agent.
+. Choose or create an link:concept_API_Overview.html[API Key].
+. Follow the provided instructions for configuring the service and installing the agent
+. Allow Cloud Insights to connect to the service and begin collecting data
+
+The specific instructions will vary from one integration service to another, so be sure to read all instructions carefully.
+
+
+
+////
 === Operating System:
 
 For _Operating System_ data collectors, choose a platform (MacOS, Linux, Windows) to install a Cloud Insights Agent.
@@ -89,6 +109,8 @@ For _Service_ data collectors, click on a tile to open the instructions page for
 * Click *Continue* to open the data collector instruction page.
 * Follow the instructions to configure the data collector.
 * When configuration is complete, click *Complete Setup*.
+////
+
 
 == Add Dashboards
 
