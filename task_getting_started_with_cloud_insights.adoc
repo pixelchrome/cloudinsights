@@ -76,7 +76,7 @@ You will be able to configure additional data collectors later.
 
 == Integration:
 
-== In general, configuring an integration data collector for a service such as Docker follows these basic steps:
+In general, configuring an integration data collector for a service such as Docker follows these basic steps:
 
 . Select the operating system on the host or VM where you want to install the integration agent.
 . Choose or create an link:concept_API_Overview.html[API Key].
