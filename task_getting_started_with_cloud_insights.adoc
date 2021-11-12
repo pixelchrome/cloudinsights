@@ -93,7 +93,7 @@ image:Integration_Service_Install_Docker_Example.png[Integration Docker Example 
 
 When installing a Kubernetes Data Collector, you choose from two installation methods to collect data:
 
-* Operator-based configuration. This is recommended for Kubernetes.
+* Operator-based configuration. This is the recommended method.
 * Traditional script-based Agent installation
 
 Installation instructions vary based on which tile you choose.
