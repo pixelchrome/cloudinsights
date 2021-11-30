@@ -477,7 +477,7 @@ image:Kubernetes_Operator_Retrieve_Cluster.png[Retrieve Cluster Information]
 
 On this screen you are prompted whether to collect available log data from the Kubernetes cluster. Note that logs must be made available on the Kubernetes cluster before Cloud Insights can collect data from them. You can also choose whether to install an link:task_configure_acquisition_unit.html[Acquisition Unit] on the cluster. An Acquisition Unit is required in order to collect metrics from the cluster.
 
-Click _Complete_ to finish setup.
+Click _Complete Setup_ to finish.
 
 
 
