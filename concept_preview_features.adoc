@@ -27,6 +27,9 @@ Here are some features currently in Preview:
 
 |*Feature* |*Description*
 
+|NetApp Config Advisor
+|Using link:/task_dc_na_ca.html[Config Advisor] is as simple as configuring the collector and then importing the Config Advisor dashboard from the gallery. Config Advisor performs configuration validation and health checks on the whole stack of ONTAP cluster configuration to identify cabling, configuration, resiliency, availability and security issues. It is often used to validate correct system configuration at initial setup or after an upgrade.
+
 |Internal Volume and Volume Capacity Time-to-Full forecasting	
 |Cloud Insights is able to prognose the number of days until capacity runs out for each Internal Volume and Volume monitored. This value can help to significantly reduce the risk of an outage. Use the _timeToFull.total_ and _timeToFull.confidenceInterval_ counters in Queries, Monitors, or Dashboards.
 
