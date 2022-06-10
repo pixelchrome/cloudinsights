@@ -552,6 +552,8 @@ Critical @ < 5 %|The Storage capacity for a volume is used to store application 
 
 === Data Collection Monitors
 
+Note: If Cloud Insights is reporting an active Acquisition Unit Heartbeat alert, and the AU itself goes down or is uninstalled before that alert is resolved, the alert will remain active. In this case, you must manually dismiss the alert.
+
 |===
 Monitor Name|Description|Corrective Action
 |Acquisition Unit Shutdown|Cloud Insights Acquisition Units periodically restart as part of upgrades to introduce new features. This happens once a month or less in a typical environment. A Warning Alert that an Acquisition Unit has shutdown should be followed soon after by a Resolution noting that the newly-restarted Acquisition Unit has completed a registration with Cloud Insights. Typically this shutdown-to-registration cycle takes 5 to 15 minutes. |If the alert occurs frequently or lasts longer than 15 minutes, check on the operation of the system hosting the Acquisition Unit, the network, and any proxy connecting the AU to the Internet.
