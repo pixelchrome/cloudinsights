@@ -44,6 +44,15 @@ Now you can leverage time charts (bar, line, area) to identify trends and patter
 
 image:log_insights_dashboard_example.png[log insights on a dashboard]
 
+
+=== Proactively Manage Risk with Forensics Grouping
+
+Introducing our latest feature designed to enhance your security and resource management capabilities! With advanced forensics group-by functionality and hierarchical multiple group-by support, you can now easily identify which users accessed specific folders, determine the most active users and shares, and proactively manage risk by tracking active client IP addresses. Optimize your storage and bandwidth usage by pinpointing the most accessed files and folders, and gain increased control over system access by identifying real users.
+
+image:forensics-group-by-example-screen.png[forensics example screen showing group-by]
+
+'''
+
 == November 2024
 
 === New Workload Security Alerts API
