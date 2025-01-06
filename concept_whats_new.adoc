@@ -38,11 +38,20 @@ image:vm_optimization_summary.png[VM Optimization Summary Screen]
 
 
 
-=== Uncover Logs Insights with Time Charts and Table widget support
+=== Uncover Log Insights with Time Charts and Table Widget Support
 
 Now you can leverage time charts (bar, line, area) to identify trends and patterns in log data, such as recurring errors or spikes in activity, providing valuable insights into system behavior over time. Additionally, with tables, you can now include log messages directly in the dashboard, enabling a more comprehensive view of log details.
 
 image:log_insights_dashboard_example.png[log insights on a dashboard]
+
+
+=== Proactively Manage Risk with Forensics Grouping
+
+Introducing our latest feature designed to enhance your security and resource management capabilities! With advanced forensics group-by functionality and hierarchical multiple group-by support, you can now easily identify which users accessed specific folders, determine the most active users and shares, and proactively manage risk by tracking active client IP addresses. Optimize your storage and bandwidth usage by pinpointing the most accessed files and folders, and gain increased control over system access by identifying real users.
+
+image:forensics-group-by-example-screen.png[forensics example screen showing group-by]
+
+'''
 
 == November 2024
 
