@@ -412,6 +412,33 @@ Windows:
  .\cloudinsights-windows.ps1 -install
  
 
+== Creating and Using API Access Tokens
+
+To create an API access token for Telegraf data ingestion please do one of the following:
+
+=== Create through the Data Collector Installation Page
+
+. Navigate to the Data Collector install page for the platform you wish to use (Windows, Linux).
+. Create a token with the + API Access Token button.
+. Input a name and click save.
+. The token name should now be selected in the dropdown, and will be used when installing the collector.
+
+=== Manually create an API access token
+
+. Navigate to Admin>API Access.
+. Click + API Access Token.
+. Input a name and optionally a description.
+. Under “What type of APIs will this token be used to call?” select “Data Ingestion” only and then unselect “Acquisition Unit”.
+. Under “Permissions” select Read/Write.
+. Unselect “Automatically rotate tokens for Kubernetes”.
+
+To use your newly created API access token, select it from the “Select existing API Access Token or create a new one” dropdown on the installer page. 
+Please note that only tokens with the following properties can be used:
+
+* API Type: “Data Ingestion” only
+* Permissions: Read/Write
+* Kubernetes Auto Rotation: Off
+
 
 
 == Troubleshooting
