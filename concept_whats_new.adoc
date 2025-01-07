@@ -19,11 +19,17 @@ NetApp is continually improving and enhancing its products and services. Here ar
 
 == January 2025
 
-=== Risk management is easier with Forensics Grouping
+=== Proactively manage risk with Forensics Grouping
 
-Introducing our latest feature designed to enhance your security and resource management capabilities! With advanced group-by functionality and hierarchical multiple group-by support, you can now easily identify users who accessed specific folders, determine the most active users and shares, and proactively manage risk by tracking active client IP addresses. Optimize your storage and bandwidth usage by pinpointing the most accessed files and folders, and gain increased control over system access by identifying real users.
+Introducing our latest feature designed to enhance your security and resource management capabilities! With advanced group-by functionality and hierarchical multiple group-by support, you can now easily identify users who accessed specific folders, determine the most active users and shares, and proactively manage risk by tracking active client IP addresses. Optimize your storage and bandwidth usage by pinpointing the most accessed files and folders, and gain increased control over system access by identifying users.
 
 image:forensics_activity_example.png[forensics activity tracking example screen]
+
+=== Dashboard Access Control
+Data Infrastructure Insights now gives you greater control over access to the dashboards you create. You choose who can modify your graphs. You control exposure to potentially sensitive information. Still working on a dashboard that isn’t ready for general visibility? You can keep it private until you are ready to share it.
+
+image:Dashboard_Sharing_Options.png[dashboard sharing options]
+
 
 
 '''
