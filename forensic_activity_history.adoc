@@ -63,7 +63,7 @@ The _*All Activity*_ table shows the following information. Note that not all of
 
 **	*Other Change* - Any other event which are not described above. All unmapped events are mapped to “Other Change” activity type. Applicable to files and folders.
 
-* The *Path* is _entity_ path.
+* The *Path* is _entity_ path. This should be either exact entity path (e.g., "_/home/userX/nested1/nested2/abc.txt_”) OR directory portion of path for recursive search (e.g., "_/home/userX/nested1/nested2/_”). NOTE: regex path patterns (e.g., _userX_) are NOT allowed here. Alternatively, individual path folder level filters as mentioned below can also be specified for path filtering.
 
 * The *1st Level Folder (Root)* is the root directory of entity path in lower case.
 * The *2nd Level Folder* is the second level directory of entity path in lower case.
@@ -131,7 +131,8 @@ You can filter Forensic Activity data by the following fields:
 The following fields are subject to special filtering rules:
 
 * *Entity Type*, using entity (file) extension - it is preferable to specify exact entity type within quotes. For example _“txt”_.
-* *Path* of the entity - Directory Path filters (path string ending with /) up to 4 directories deep are recommended for faster results. For example, _"/home/userX/nested1/nested2/"_. See the table below for more details.
+
+* *Path* of the entity - This should be either exact entity path(e.g., "_/home/userX/nested1/nested2/abc.txt_”) OR directory portion of path for recursive search(e.g., "_/home/userX/nested1/nested2/_”). NOTE: regex path patterns (e.g., *userX*) are NOT allowed here. Directory Path filters (path string ending with /) up to 4 directories deep are recommended for faster results. For example, "_/home/userX/nested1/nested2/_". See the table below for more details.
 
 * 1st Level Folder (Root) - root directory of entity Path as filters.
 For example, if entity path is /home/userX/nested1/nested2/, then home OR "home” can be used.
@@ -165,7 +166,7 @@ The preceding fields are subject to the following when filtering:
 
 |Path = "/home/userX/nested1/nested2/"|Recursive lookup of all files and folders under given directory |Fast|Directory searches up to 4 directories will be fast. 
 |Path = "/home/userX/nested1/"|Recursive lookup of all files and folders under given directory |Fast|Directory searches up to 4 directories will be fast. 
-|Path = “/home/userX/nested1/test”|Recursive lookup of all files and folders under given path regex(test* could mean file OR directory OR Both)|Slower|Directory+File regex search will be slower to search on compared to Directory searches.
+|Path = “/home/userX/nested1/test”|Exact match where path value matches with /home/userX/nested1/test|Slower|Exact search will be slower to search on compared to Directory searches.
 |Path = "/home/userX/nested1/nested2/nested3/"|Recursive lookup of all files and folders under given directory |Slower|More than 4 directories searches are slower to search on.
 |Any other Non path based filters. User and Entity Type filters recommended to be in quotes
 e.g., User="Administrator"
@@ -236,7 +237,7 @@ If search text contains hyphen or underscore, give expression in brackets. e.g.,
 |===
 
 
-== Path / Original path Search
+== Path Search
 
 Search results with and  without / will be different 
 
