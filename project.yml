@@ -268,8 +268,7 @@ sidebar:
           entries:
             - title: Activity Forensics - All Activity
               url: /forensic_activity_history.html
-            - title: Activity Forensics - Entities
-              url: /forensic_entity_detail.html
+
             - title: Users
               url: /forensic_user_overview.html
         - title: Automated Response Policies
