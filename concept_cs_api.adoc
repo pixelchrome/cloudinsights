@@ -15,7 +15,6 @@ summary: Workload Security includes a powerful API for integration with other ap
 [.lead]
 The Workload Security API enables NetApp customers and independent software vendors (ISVs) to integrate Workload Security with other applications, such as CMDB’s or other ticketing systems.
 
-NOTE: Workload Security is not available in Cloud Insights Federal Edition.
 
 Requirements for API Access:
 
@@ -25,7 +24,10 @@ Requirements for API Access:
 
 == API Documentation (Swagger)
 The latest API information is found by logging in to Workload Security and navigating to *Admin > API Access*. Click the *API Documentation* link.
-The API Documentation is Swagger-based, which provides a brief description and usage information for the API and allows you to try it out in your environment.
+The API Documentation is Swagger-based, which provides a brief description and usage information for the API and allows you to try it out on your tenant.
+
+NOTE: If calling the Forensics Activity API, use the cloudsecure_forensics.activities.*v2* API. If you are making multiple calls to this API, ensure that the calls occur sequentially, not in parallel. Multiple parallel calls may cause the API to time out.
+
 
 == API Access Tokens
 Before using the Workload Security API, you must create one or more *API Access Tokens*. Access tokens grant read permissions. You can also set the expiration for each access token. 
@@ -41,7 +43,7 @@ NOTE: Your token will only be available for copying to the clipboard and saving 
 
 You can disable, enable, and revoke tokens. Tokens that are disabled can be enabled.
 
-Tokens grant general purpose access to APIs from a customer perspective, managing access to APIs in the scope of their own environment. 
+Tokens grant general purpose access to APIs from a customer perspective, managing access to APIs in the scope of their own tenant. 
 
 The application receives an Access Token after a user successfully authenticates and authorizes access, then passes the Access Token as a credential when it calls the target API. The passed token informs the API that the bearer of the token has been authorized to access the API and perform specific actions based on the scope that was granted during authorization.
 
@@ -54,5 +56,22 @@ For example, use the following to retrieve storages assets:
 Where _<API_Access_Token>_ is the token you saved during API access key creation.
 
 Detailed information can be found in the _API Documentation_ link under *Admin > API Access*. 
+
+== Script to extract data via the API
+
+Workload Security agents include an export script to facilitate parallel calls to the v2 API by dividing the requested time range into smaller batches.
+
+The script is located at _/opt/netapp/cloudsecure/agent/export-script_. A README file in the same directory provides usage instructions. 
+
+Here is an example command to invoke the script:
+
+```
+python3 data-export.py --tenant_url <tenant id>.cs01.cloudinsights.netapp.com --access_key %ACCESS_KEY% --path_filter "<dir path>" --user_name "<user>" --from_time "01-08-2024 00:00:00" --to_time "31-08-2024 23:59:59" --iteration_interval 12 --num_workers 3
+```
+
+Key Parameters:
+- `--iteration_interval 12`: Splits the requested time range into intervals of 12 hours.
+- `--num_workers 3`: Fetches these intervals in parallel using 3 threads.
+
 
 

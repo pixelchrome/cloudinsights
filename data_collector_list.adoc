@@ -5,8 +5,7 @@ summary: List of supported data collectors.
 keywords: data collector, vendor, infrastructure, integration, service
 ---
 
-= Cloud Insights Data Collector List
-:toc: macro
+= Data Infrastructure Insights Data Collector List
 :hardbreaks:
 :toclevels: 1
 :nofooter:
@@ -15,14 +14,14 @@ keywords: data collector, vendor, infrastructure, integration, service
 :imagesdir: ./media/
 
 [.lead]
-Cloud Insights supports a variety of Data Collectors from many vendors and services. 
+Data Infrastructure Insights supports a variety of Data Collectors from many vendors and services. 
 
 Data Collectors are categorized by these types:
 
 * Infrastructure: Acquired from vendor devices such as storage arrays, switches, hypervisors, or backup devices.
 * Service: Acquired from services such as Kubernetes or Docker. Also called _Integration_.
 
-Alphabetical list of Data Collectors supported by Cloud Insights:
+Alphabetical list of Data Collectors supported by Data Infrastructure Insights:
 
 [cols="<,<", options="header"]
 |===
@@ -103,6 +102,7 @@ Alphabetical list of Data Collectors supported by Cloud Insights:
 | link:task_dc_na_hci.html[NetApp HCI Virtual Center ] |Infrastructure 
 | link:task_dc_na_cdot.html[NetApp ONTAP Data Management Software ] |Infrastructure 
 | link:task_dc_na_ontap_rest.html[NetApp ONTAP REST collector ] |Infrastructure
+| link:task_dc_na_ontap_all_san_array.html[NetApp ONTAP All-SAN Array (ASA) collector] |Infrastructure
 | link:task_dc_na_cdot.html[NetApp ONTAP Select ] |Infrastructure 
 | link:task_dc_na_solidfire.html[NetApp SolidFire All-Flash Array ] |Infrastructure 
 | link:task_dc_na_storagegrid.html[NetApp StorageGRID ] |Infrastructure 
@@ -116,12 +116,14 @@ Alphabetical list of Data Collectors supported by Cloud Insights:
 | link:task_config_telegraf_postgresql.html[PostgreSQL ] |Service 
 | link:task_config_telegraf_puppetagent.html[Puppet Agent ] |Service 
 | link:task_dc_pure_flasharray.html[Pure Storage FlashArray ] |Infrastructure 
+//| link:task_dc_pure_flashblade.html[Pure Storage FlashBlade ] |Infrastructure 
 | link:task_dc_redhat_virtualization.html[Red Hat Virtualization ] |Infrastructure 
 | link:task_config_telegraf_redis.html[Redis ] |Service 
 | link:task_config_telegraf_rethinkdb.html[RethinkDB ] |Service 
 | link:task_config_telegraf_agent.html#rhel-and-centos[RHEL & CentOS ] |Service 
 | link:task_dc_rubrik_cdm.html[Rubrik CDM Storage ] |Infrastructure 
 | link:task_config_telegraf_agent.html#ubuntu-and-debian[Ubuntu & Debian ] |Service 
+| link:task_dc_vast_datastore.html[VAST DataStore] |Infrastructure
 | link:task_dc_vmware.html[VMware vSphere ] |Infrastructure 
 | link:task_config_telegraf_agent.html#windows[Windows ] |Service 
 | link:task_config_telegraf_zookeeper.html[ZooKeeper ] |Service 

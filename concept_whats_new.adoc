@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: concept_whats_new.html
-summary: New features and functionality available in Cloud Insights. 
+summary: New features and functionality available in Data Infrastructure Insights.
 keywords: features
 ---
 
-= What\'s New with Cloud Insights 
+= What\'s New with Data Infrastructure Insights
 :hardbreaks:
 :toclevels: 2
 :nofooter:
@@ -15,7 +15,265 @@ keywords: features
 
 [#whats-new]
 [.lead]
-NetApp is continually improving and enhancing its products and services. Here are some of the latest features and functionalities available in the commercial Editions of Cloud Insights.  
+NetApp is continually improving and enhancing its products and services. Here are some of the latest features and functionalities available in Data Infrastructure Insights (formerly Cloud Insights).
+
+== January 2025
+
+=== Proactively manage risk with Forensics Grouping
+
+Introducing our latest feature designed to enhance your security and resource management capabilities! With advanced group-by functionality and hierarchical multiple group-by support, you can now easily identify users who accessed specific folders, determine the most active users and shares, and proactively manage risk by tracking active client IP addresses. Optimize your storage and bandwidth usage by pinpointing the most accessed files and folders, and gain increased control over system access by identifying users.
+
+image:forensics_activity_example.png[forensics activity tracking example screen]
+
+=== Dashboard Access Control
+Data Infrastructure Insights now gives you greater control over access to the dashboards you create. You choose who can modify your graphs. You control exposure to potentially sensitive information. Still working on a dashboard that isn’t ready for general visibility? You can keep it private until you are ready to share it.
+
+image:Dashboard_Sharing_Options.png[dashboard sharing options]
+
+
+
+'''
+== December 2024
+
+
+=== Introducing SAN Analyzer: Enhanced Visibility for Block Workloads
+
+SAN plays a crucial role in handling vital workloads, but its complexity can result in significant outages and customer disruptions. With DII's *SAN Analyzer*, managing SAN becomes simpler and more efficient. This powerful tool offers end-to-end visibility, mapping dependencies from VM/Host to network to LUN and storage.
+By providing an interactive topology map, SAN Analyzer enables you to pinpoint issues, understand changes, and enhance comprehension of data flow. Streamline SAN management in complex IT environments with SAN Analyzer and increase your visibility into block workloads.
+
+image:san_analyzer_example_with_panel.png[SAN Analyzer topology map of a storage system]
+
+
+=== Optimize VM Costs with Intelligent Host Decommissioning and VM Reclamation
+
+Data Infrastructure Insights helps you manage infrastructure and licensing costs by analyzing the historical behavior of the environment and establishing short- and long-term predictions, generating detailed recommendations for host decommissioning and reclamation of powered-off and idle VMs. These recommendations help you ensure performance stability, free up unused capacity, and reduce memory and CPU allocation.
+
+
+image:vm_optimization_summary.png[VM Optimization Summary Screen]
+
+
+
+=== Uncover Log Insights with Time Charts and Table Widget Support
+
+Now you can leverage time charts (bar, line, area) to identify trends and patterns in log data, such as recurring errors or spikes in activity, providing valuable insights into system behavior over time. Additionally, with tables, you can now include log messages directly in the dashboard, enabling a more comprehensive view of log details.
+
+image:log_insights_dashboard_example.png[log insights on a dashboard]
+
+
+=== Proactively Manage Risk with Forensics Grouping
+
+Introducing our latest feature designed to enhance your security and resource management capabilities! With advanced forensics group-by functionality and hierarchical multiple group-by support, you can now easily identify which users accessed specific folders, determine the most active users and shares, and proactively manage risk by tracking active client IP addresses. Optimize your storage and bandwidth usage by pinpointing the most accessed files and folders, and gain increased control over system access by identifying real users.
+
+image:forensics-group-by-example-screen.png[forensics example screen showing group-by]
+
+'''
+
+== November 2024
+
+=== New Workload Security Alerts API
+
+Retrieve forensics alert details with the new Workload Security link:concept_cs_api.html[*cloudsecure_forensics.alerts* API].  
+
+image:ws_forensics_alerts_api.png[Workload Security Forensics Alerts API]
+
+
+
+=== Analyze Configuration Changes in your Environment
+ 
+Configuration changes are one of the most common causes of issues in modern IT. Data Infrastructure Insights' (DII’s) new link:infrastructure_change_analytics.html[change analysis] capability lets you clearly understand changes that cause issues in your environment. Accelerate troubleshooting time by showing all changes in devices and  related infrastructure components that may have led to an issue. Additionally, when you or your team perform planned changes, you can validate those changes quickly and ensure there are no unexpected effects before service levels are impacted.
+
+
+image:Change_Analysis_Example_showing_alert-change_correlation.png[Infrastructure Change Analytics example]
+
+
+
+=== KubeVirt Support: Monitor Virtual Machine workloads running within your Kubernetes Cluster 
+
+DII now fully supports KubeVirt, the Kubernetes-native virtualization solution used by platforms like OpenShift Virtualization and Harvester. Gain full visibility into the metrics, events, configuration changes, and network traffic of both Virtual Machines and Container workloads within your Kubernetes clusters. 
+
+'''
+
+== October 2024
+
+
+
+=== Unlock New Insights with Custom Expressions in Monitors
+
+Expressions enable you to perform arithmetic operations in Metric and Anomaly Detection Monitors. Here are some examples:
+
+* Ratio: IOPS/TB to detect where service level limits are being reached on cloud storage providers.
+* Percentage: Used/Available to calculate utilization
+* Aggregation: Combine multiple types of physical port errors into one monitor
+* Comparison: Compare current resource headroom utilization with the optimal headroom point to identify resources that are not running at full capacity.
+
+
+image:Expressions_In_Monitors.png[Creating an expression in a metric monitor]
+
+=== Minimize Alert Disruptions During Maintenance Period
+
+Maintenance Windows allow you to suppress alert notifications during scheduled maintenance periods, helping you avoid unnecessary disruptions.
+
+With Maintenance Windows, you can schedule specific maintenance periods during which alert notifications are suppressed, for the objects and metrics you choose. For example, you can suppress alert notifications triggered by specific storage systems, when those storage systems are in a planned upgrade period.
+
+Note that only alert notifications are suppressed (email, webhook); the alerts themselves are still shown on the Observability > Alerts > All Alerts page.
+
+image:Maintenance_Windows_example.png[Maintenance Windows Example]
+
+=== Streamline Alert Management with New Alert Notification Rules
+
+Alert Notification Rules simplify notification management across monitors and teams.
+
+Control alert delivery across your organization's channels, ensuring the right information reaches the right team. No need to manage separate monitors for different teams; route alerts based on related object attributes (storage name, data center, application name) or monitor attributes (group, severity).
+
+image:notification_rule_configure.png[setting filters for notification rule]
+
+
+=== Log Analytics in dashboards
+You can now include log events in your dashboards, to visualize event data and have more comprehensive and contextual understanding of your environment. Investigate logs and view related metrics without leaving the dashboard!
+
+image:log_analytics_bar_graph_example.png[Log Analysis example]
+
+
+=== Better VMware Observability with VMware Events
+
+Proactively manage and troubleshoot your VMware environment with real-time events. VMware events provide insights on VM migrations, resource allocations, and host health. Now available for use in Queries, Dashboards, and Monitors. Requires VMware version 8 or higher. Simply select the _logs.vmware.events_ source.
+
+VMware Events are also used for DII's new Configuration Change Analysis noted above.
+
+image:vmware_log_events.png[vmware log selection in the drop-down]
+
+
+
+
+
+=== Data Collector updates:
+
+* *Pure FlashBlade*: This collector gathers inventory and performance data from FlashBlade clusters that expose version 2 of their REST API.
+
+
+
+'''
+
+== September 2024
+
+=== Introducing Data Infrastructure Insights, formerly Cloud Insights
+ 
+On Tuesday, September 24, 2024, NetApp has officially changed the name of Cloud Insights to *Data Infrastructure Insights* (DII). This has been announced during the Insight user conference by Haiyan Song in her main stage keynote presentation and in an Insight conference product press release.
+
+The DII service remains the same; there are no feature changes or modifications. This is a name change to better align the service name with its capabilities for all IT infrastructure.
+
+
+
+
+
+== August 2024 
+
+
+=== View Data Specific to Your Time Range
+
+Investigating an alert? Zoomed in on a chart? These actions change the time range for those pages. Now you can lock that time range, navigate to other Cloud Insights pages, and see data specific to that locked time range. Investigating and troubleshooting just got a whole lot easier!
+
+image:timerange_lock.png[tooltip stating to click the icon to lock the time range for use on other pages]
+
+=== Change and Change Ratio (%) Analysis
+
+Change-ratio time aggregations aid you in identifying significant changes and trends in metric values over time.
+Those insights are key to understanding what changed, such as considerable capacity growth for a specific time or a change in single port performance.
+
+* *Change* - observe the change in a metric between two points within a selected period.
+* *Change Ratio* - observe the proportional change in a metric between two points, with respect to the initial point, within a selected period.
+
+image:change_and_change_ratio_bar_chart.png[bar chart example showing change and change ration aggregation choices]
+
+
+
+=== Export Log Query Results to .CSV
+
+When viewing log query results, easily export up to 10,000 rows to .CSV by clicking the new "Export" button. This enhances data accessibility, eases data analysis and reporting, and facilitates seamless integration with other data processing tools.
+
+image:csv_export_button.png[Export to CSV button on a log query page]
+
+
+
+=== Resolve Alerts by time
+
+Cloud Insights now gives you the option to resolve an alert when the monitored metric stays within the acceptable range for a specified duration. This lets you focus on genuine issues, reducing the noise associated with metrics repeatedly crossing defined thresholds by consolidating multiple alerts to one.
+
+image:resolve_alert_by_time_dropdown.png[resolving an alert based on time]
+
+
+
+
+
+'''
+
+== July 2024
+
+
+=== AIOps: Anomaly Detection
+
+
+Cloud Insights uses machine learning to detect unexpected changes in the patterns of data in your environment, and provide proactive alerts to help you identify problems early. 
+
+A data center behaves in different ways at different times of the day, and on different days of the week. Cloud Insights uses weekly seasonality to compare historical behavior for each day and time.
+
+
+Anomaly Detection Monitoring can provide alerts for situations such as when the definition of "normal" is unclear, where behavior changes over time, or when working with large amounts of data where manually defining thresholds is impractical. 
+
+New link:concept_anomaly_detection.html[Anomaly Detection Monitors] alert when anomalies such as this occur on object metrics you choose.
+
+//Cloud Insights allows the creation of link:concept_anomaly_detection.html[Anomaly Detection Monitors] to alert when anomalies such as this occur on object metrics you choose.
+
+
+
+image:anomaly_detection_expert_view.png[graph showing detected anomaly]
+
+
+=== Workload Security Improvements
+
+*NFS 4.1 support*
+
+The SVM Data Collector now supports NFS versions up to and including *NFS 4.1* with ONTAP 9.15.1 or later..
+
+*New Forensics Activity API*
+
+The Forensics Activity link:concept_cs_api.html[API] has a new version. When calling the API for Forensics Activity, use the *cloudsecure_forensics.activities._v2_* API. 
+
+Note that if you are making multiple calls to this API, for best results ensure that the calls occur sequentially, instead of in parallel. Multiple parallel calls may cause the API to time out.
+
+
+=== Easier Dashboard Navigation 
+
+This feature is all about streamlining your operational workflows and making it easier to collaborate between teams. 
+
+Grouping your dashboards makes it easier to quickly get the visibility you need, and now with the new navigation menu, you can jump between different dashboards without losing your place, making it a breeze to explore and manage your infrastructure. 
+Align dashboard groups with your operational runbooks to further enhance your experience. 
+
+image:Dashboard_Nav_Group_Dropdown.png[Drop-down to select another dashboard in the same group(s) as the current dashboard] 
+
+
+
+'''
+
+== June 2024
+
+////
+ ////=== Your Data, Your Way: Expressions in Table Widgets
+
+Dashboard Table Widgets allow you to add columns for custom expressions that you define. Up to five expression columns can be added, each having up to five terms, giving you more freedom to express your data in the ways you need it.
+
+image:ExpressionExampleScreen.png[Example of Expressions in Table Widget]
+////
+
+
+=== Operating System support
+
+The following operating systems are supported with Cloud Insights Acquisition Units, in addition to those link:https://docs.netapp.com/us-en/cloudinsights/concept_acquisition_unit_requirements.html[already supported]:
+
+* Red Hat Enterprise Linux 8.9, 8.10, 9.4
+* Rocky 9.4
+* AlmaLinux 9.3 and 9.4
+
 
 
 == May 2024

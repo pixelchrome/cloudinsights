@@ -1,22 +1,21 @@
 ---
 settings:
-  name: Cloud Insights
+  name: Data Infrastructure Insights
   harmony_integration: maestro
   rss_page: concept_whats_new.html
   internal:
     pdf_enabled: true
-    termcheck_enabled: true
   prod:
     pdf_enabled: true
     harmony_enabled: true
 sidebar:
   entries:
-    - title: Cloud Insights documentation
+    - title: Data Infrastructure Insights documentation
       url: /index.html
     - title: What's New
       url: /concept_whats_new.html
   
-    - title: Signing Up for Cloud Insights
+    - title: Signing Up for Data Infrastructure Insights
       url: /task_cloud_insights_onboarding_1.html
   
     - title: Security
@@ -60,7 +59,7 @@ sidebar:
     - title: Data Collector List
       url: /data_collector_list.html          
           
-    - title: Subscribing to Cloud Insights
+    - title: Subscribing to Data Infrastructure Insights
       url: /concept_subscribing_to_cloud_insights.html
 
     - title: Observability
@@ -272,8 +271,7 @@ sidebar:
           entries:
             - title: Activity Forensics - All Activity
               url: /forensic_activity_history.html
-            - title: Activity Forensics - Entities
-              url: /forensic_entity_detail.html
+
             - title: Users
               url: /forensic_user_overview.html
         - title: Automated Response Policies

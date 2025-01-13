@@ -28,3 +28,4 @@ Rows showing a Check are active. "X" indicates inactive devices.
 
 To remove inactive devices, simply select the devices to remove and in the *Bulk Actions* drop-down, select _Delete Inactive Devices_.
 
+
