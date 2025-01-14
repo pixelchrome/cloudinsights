@@ -618,6 +618,13 @@ Note: to make these settings persistent across node restarts, you need to put th
  fs.inotify.max_user_watches=<something larger than current setting>
 ----
 
+|The telegraf DS pods are reporting errors pertaining to the kubernetes input plugin failing to make HTTP requests due to the inability to validate the TLS certificate. For example:
+
+E! [inputs.kubernetes] Error in plugin: error making HTTP request to "https://<kubelet_IP>:10250/stats/summary": Get "https://<kubelet_IP>:10250/stats/summary": tls: failed to verify certificate: x509: cannot validate certificate for <kubelet_IP> because it doesn't contain any IP SANs 
+|This will occur if the kubelet is using self-signed certificates, and/or the specified certificate does not include the <kubelet_IP> in the certificates _Subject Alternative Name_ list.  To resolve this, the user can modify the link:telegraf_agent_k8s_config_options.html[agentconfiguration], and set _telegraf:insecureK8sSkipVerify_ to _true_.  This will configure the telegraf input plugin to skip verification.  
+
+Alternatively, the user can configure the kubelet for link:https://kubernetes.io/docs/reference/config-api/kubelet-config.v1beta1/[serverTLSBootstrap], which will trigger a certificate request from the 'certificates.k8s.io' API.
+
 
 |===
 
