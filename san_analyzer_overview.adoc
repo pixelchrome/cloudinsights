@@ -35,18 +35,20 @@ image:san_analyzer_slideout_example.png[]
 
 
 ////
-//Show alerts and changes for connected resources.
 
-//Click a resource to open a slideout, 
+Show alerts and changes for connected resources.
 
-//Grouped devices shows an overview
-//Ungrouped devices show details
+Click a resource to open a slideout, 
 
-//Known Issue: sometimes a traffic line appears to pass through an object (for example, a switch), but that is an error in the visualization. Hovering over an object will show the correct traffic lines.
+Grouped devices shows an overview
+Ungrouped devices show details
 
-//Legend in documentation:
+Known Issue: sometimes a traffic line appears to pass through an object (for example, a switch), but that is an error in the visualization. Hovering over an object will show the correct traffic lines.
+
+Legend in documentation:
 CIS-15561
 ICI-15561
+
 ////
 
 
