@@ -23,3 +23,39 @@ image:san_analyzer_example_with_panel.png[SAN Analyzer topology map of a storage
 
 == Explore connections among your assets
 
+Select *Observability > Analyze > SAN Analyzer* to view the SAN Analyzer. Set a filter for Application, Host, Fabric, and/or Storage. 
+The map for the objects is displayed, showing connected objects. Hover over an object to view traffic metrics for those connections.
+
+image:san_analyzer_traffic_metrics.png[]
+
+Clicking on an object or group opens a slideout panel providing additional details about the object and its connections. The slideout includes tabs showing a Summary, Port details, and Zone information, if available.
+
+image:san_analyzer_slideout_example.png[]
+
+
+
+////
+
+Show alerts and changes for connected resources.
+
+Click a resource to open a slideout, 
+
+Grouped devices shows an overview
+Ungrouped devices show details
+
+Known Issue: sometimes a traffic line appears to pass through an object (for example, a switch), but that is an error in the visualization. Hovering over an object will show the correct traffic lines.
+
+Legend in documentation:
+CIS-15561
+ICI-15561
+
+////
+
+
+
+
+
+
+
+
+
