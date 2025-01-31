@@ -18,7 +18,7 @@ keywords: dashboard, public, shared, private
 [.lead]
 Data Infrastructure Insights now gives you greater control over access to the dashboards you create. You choose who can modify your graphs. You control exposure to potentially sensitive information. Keeping a dashboard Private allows you to finalize your visualizations until they are ready to be consumed by others in your organization.
 
-image:Dashboard_Sharing_Options.png[dashboard sharing options]
+image:Dashboard_Sharing_Options.png[dashboard sharing options, width=300]
 
 By default, when you create a new dashboard, that dashboard is only visible to you, the creator. No other user can see or modify the dashboard.
 
