@@ -19,6 +19,8 @@ NetApp is continually improving and enhancing its products and services. Here ar
 
 == January 2025
 
+
+
 === Proactively manage risk with Forensics Grouping
 
 Introducing our latest feature designed to enhance your security and resource management capabilities! With advanced group-by functionality and hierarchical multiple group-by support, you can now easily identify users who accessed specific folders, determine the most active users and shares, and proactively manage risk by tracking active client IP addresses. Optimize your storage and bandwidth usage by pinpointing the most accessed files and folders, and gain increased control over system access by identifying users.
