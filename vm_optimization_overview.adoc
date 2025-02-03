@@ -26,4 +26,10 @@ image:vm_optimization_overview.png[vm optimization overview]
 
 The Hypervisor Decommissioning tab shows your potential cost savings based on the optimization strategy you select. Each strategy utilizes different thresholds to determine potential savings.
 
-image:vm_optimization_hypervisor_decommissioning_tab.png[]
+Select a Cluster in the list to open a slideout panel with details about CPU and memory utilization for the cluster.
+
+image:vm_optimization_hypervisor_decommissioning_tab.png[hypervisor optimization tab]
+
+The VM Reclamation tab gives you details about VMs that are idle or powered-off for more than 30, 60, or 90 days, along with potential capacity, memory, and vCPU savings. Selecting a VM from the list opens the detail page for that VM.
+
+image:vm_optimization_reclamation_tab.png[vm reclamation tab]
