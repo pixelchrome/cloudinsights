@@ -15,7 +15,7 @@ summary: Configuring VAST Data DataStore storage data collector.
 :imagesdir: ./media/
 
 [.lead] 
-Data Infrastructure Insights uses the VAST DataStore data collector to gather inventory and performance data.
+Data Infrastructure Insights uses the VAST DataStore data collector to gather inventory and performance data. 
 
 == Terminology
 
