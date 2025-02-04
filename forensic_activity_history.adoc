@@ -31,7 +31,7 @@ You can zoom the graph by dragging out a rectangle in the graph. The entire page
 * A common path button will be available above the table on click of which we can get slide out panel with entity path details.
 
 
-The _*All Activity*_ table shows the following information. Note that not all of these columns are displayed by default. You can select columns to display by clicking on the "gear" icon.
+The *All Activity* table shows the following information. Note that not all of these columns are displayed by default. You can select columns to display by clicking on the "gear" icon.
 
 * The *time* an entity was accessed including the year, month, day, and time of the last access. 
 
@@ -53,7 +53,7 @@ The _*All Activity*_ table shows the following information. Note that not all of
 
 **	*Read* - File is read.
 
-**	*Read Metadata* - Only on enabling folder monitoring option. Will be generated on opening a folder on Windows or Running “ls” inside a folder in Linux.
+**	*Read Metadata* - Only on enabling folder monitoring option. Will be generated on opening a folder on Windows or Running "ls" inside a folder in Linux.
 
 **	*Rename* - Rename file or folder.
 
@@ -61,9 +61,9 @@ The _*All Activity*_ table shows the following information. Note that not all of
 
 **	*Write Metadata* - File metadata is written, for example, permission changed.
 
-**	*Other Change* - Any other event which are not described above. All unmapped events are mapped to “Other Change” activity type. Applicable to files and folders.
+**	*Other Change* - Any other event which are not described above. All unmapped events are mapped to "Other Change" activity type. Applicable to files and folders.
 
-* The *Path* is _entity_ path. This should be either exact entity path (e.g., "_/home/userX/nested1/nested2/abc.txt_”) OR directory portion of path for recursive search (e.g., "_/home/userX/nested1/nested2/_”). NOTE: regex path patterns (e.g., \*nested\*) are NOT allowed here. Alternatively, individual path folder level filters as mentioned below can also be specified for path filtering.
+* The *Path* is _entity_ path. This should be either exact entity path (e.g., "_/home/userX/nested1/nested2/abc.txt_") OR directory portion of path for recursive search (e.g., "_/home/userX/nested1/nested2/_"). NOTE: regex path patterns (e.g., \*nested*) are NOT allowed here. Alternatively, individual path folder level filters as mentioned below can also be specified for path filtering.
 
 * The *1st Level Folder (Root)* is the root directory of entity path in lower case.
 * The *2nd Level Folder* is the second level directory of entity path in lower case.
@@ -106,7 +106,7 @@ There are two methods you can use to filter data.
 
 * Filter data by typing in the _Filter By_ field:
 +
-Select the appropriate filter from the top ‘Filter By’ widget by clicking the *[+]* button:
+Select the appropriate filter from the top 'Filter By' widget by clicking the *[+]* button:
 +
 image:Forensic_Activity_Filter.png[Entity Filer, width=500]
 +
@@ -122,7 +122,7 @@ You can filter Forensic Activity data by the following fields:
 * *Protocol* to fetch protocol-specific activities.
 
 
-* *Username* of the user performing the activity. You need to provide the exact Username to filter. Search with partial username, or partial username prefixed or suffixed with ‘*’ will not work.
+* *Username* of the user performing the activity. You need to provide the exact Username to filter. Search with partial username, or partial username prefixed or suffixed with '*' will not work.
 
 * *Noise Reduction* to filter files which are created in the last 2 hours by the user. It is also used to filter temporary files (for example, .tmp files) accessed by the user.
 
@@ -131,21 +131,21 @@ You can filter Forensic Activity data by the following fields:
 
 The following fields are subject to special filtering rules:
 
-* *Entity Type*, using entity (file) extension - it is preferable to specify exact entity type within quotes. For example _“txt”_.
+* *Entity Type*, using entity (file) extension - it is preferable to specify exact entity type within quotes. For example _"txt"_.
 
-* *Path* of the entity - This should be either exact entity path(e.g., "_/home/userX/nested1/nested2/abc.txt_”) OR directory portion of path for recursive search(e.g., "_/home/userX/nested1/nested2/_”). NOTE: regex path patterns (e.g., \*nested\*) are NOT allowed here. Directory Path filters (path string ending with /) up to 4 directories deep are recommended for faster results. For example, "_/home/userX/nested1/nested2/_". See the table below for more details.
+* *Path* of the entity - This should be either exact entity path(e.g., "_/home/userX/nested1/nested2/abc.txt_") OR directory portion of path for recursive search(e.g., "_/home/userX/nested1/nested2/_"). NOTE: regex path patterns (e.g., \*nested*) are NOT allowed here. Directory Path filters (path string ending with /) up to 4 directories deep are recommended for faster results. For example, "_/home/userX/nested1/nested2/_". See the table below for more details.
 
 * 1st Level Folder (Root) - root directory of entity Path as filters.
-For example, if entity path is /home/userX/nested1/nested2/, then home OR "home” can be used.
+For example, if entity path is /home/userX/nested1/nested2/, then home OR "home" can be used.
 
 * 2nd Level Folder - 2nd level directory of entity Path filters.
-For example, if entity path is /home/userX/nested1/nested2/, then userX OR "userX” can be used.
+For example, if entity path is /home/userX/nested1/nested2/, then userX OR "userX" can be used.
 
 * 3rd Level Folder – 3rd level directory of entity Path filters.
-* For example, if entity path is /home/userX/nested1/nested2/, then nested1 OR “nested1” can be used.
+* For example, if entity path is /home/userX/nested1/nested2/, then nested1 OR "nested1" can be used.
 
 * 4th Level Folder - Directory 4th level directory of entity Path filters.
-For example, if entity path is /home/userX/nested1/nested2/, then nested2 OR “nested2” can be used.
+For example, if entity path is /home/userX/nested1/nested2/, then nested2 OR "nested2" can be used.
 
 
 * *User* performing the activity - it is preferable to specify the exact user within quotes. For example, _"Administrator"_.
@@ -156,7 +156,7 @@ For example, if entity path is /home/userX/nested1/nested2/, then nested2 OR “
 
 * *Source IP* from which the entity was accessed. 
 ** You can use wild-cards * and ?. For example:10.0.0.*, 10.0?.0.10, 10.10* 
-** If exact match is required then, you must provide a valid source IP address in double quotes, for example "10.1.1.1.". Incomplete IPs with double quotes such as "10.1.1.", "10.1..\*", etc. will not work.
+** If exact match is required then, you must provide a valid source IP address in double quotes, for example "10.1.1.1.". Incomplete IPs with double quotes such as "10.1.1.", "10.1..*", etc. will not work.
 * The *Entity Name* - the file name of the Entity Path as filters.
 For example, if the entity path is /home/userX/nested1/testfile.txt then, entity name is testfile.txt.
 Please note that it is recommended to specify the exact file name within quotes; Try to avoid the wildcard searches. For example, "testfile.txt".
@@ -166,10 +166,10 @@ Also, note that this entity name filter is recommended for shorter time ranges (
 The preceding fields are subject to the following when filtering:
 
 * Exact value should be within quotes: Example: "searchtext"
-* Wildcard strings must contain no quotes: Example: searchtext, \*searchtext*, will filter for any strings containing ‘searchtext’.
-* String with a prefix, Example: searchtext* , will search any strings which start with ‘searchtext’.
+* Wildcard strings must contain no quotes: Example: searchtext, \*searchtext*, will filter for any strings containing 'searchtext'.
+* String with a prefix, Example: searchtext* , will search any strings which start with 'searchtext'.
 
-Please note that all filter fields are case in-sensitive search. For example: if the applied filter is Entity Type with value as ‘searchtext’, it will return results with Entity Type as ‘searchtext’, ‘SearchText’, ‘SEARCHTEXT’
+Please note that all filter fields are case in-sensitive search. For example: if the applied filter is Entity Type with value as 'searchtext', it will return results with Entity Type as 'searchtext', 'SearchText', 'SEARCHTEXT'
 
 == Activity Forensics Filter Examples:
 
@@ -178,7 +178,7 @@ Please note that all filter fields are case in-sensitive search. For example: if
 
 |Path = "/home/userX/nested1/nested2/"|Recursive lookup of all files and folders under given directory |Fast|Directory searches up to 4 directories will be fast. 
 |Path = "/home/userX/nested1/"|Recursive lookup of all files and folders under given directory |Fast|Directory searches up to 4 directories will be fast. 
-|Path = “/home/userX/nested1/test”|Exact match where path value matches with /home/userX/nested1/test|Slower|Exact search will be slower to search on compared to Directory searches.
+|Path = "/home/userX/nested1/test"|Exact match where path value matches with /home/userX/nested1/test|Slower|Exact search will be slower to search on compared to Directory searches.
 |Path = "/home/userX/nested1/nested2/nested3/"|Recursive lookup of all files and folders under given directory |Slower|More than 4 directories searches are slower to search on.
 |Any other Non path based filters. User and Entity Type filters recommended to be in quotes
 e.g., User="Administrator"
@@ -245,10 +245,10 @@ Activity history is retained for 13 months for active Workload Security environm
 |Filter|What it does|Example|Applicable for these Filters|Not applicable for these filters|Result
 
 |* (Asterisk)|enables you to search for everything|Auto*03172022
-If search text contains hyphen or underscore, give expression in brackets. e.g., (svm*) for searching svm-123|User, Entity Type, Device, Volume, Original Path, 1stLevel Folder, 2ndLevel Folder, 3rdLevel Folder, 4thLevel Folder, Entity Name, Source IP||Returns all resources that start with “Auto" and end with “03172022”
+If search text contains hyphen or underscore, give expression in brackets. e.g., (svm*) for searching svm-123|User, Entity Type, Device, Volume, Original Path, 1stLevel Folder, 2ndLevel Folder, 3rdLevel Folder, 4thLevel Folder, Entity Name, Source IP||Returns all resources that start with "Auto" and end with "03172022"
 |? (question mark)|enables you to search for a specific number of characters|AutoSabotageUser1_03172022?|User, Entity Type, Device, Volume, 1stLevel Folder, 2ndLevel Folder, 3rdLevel Folder, 4thLevel Folder, Entity Name, Source IP||returns AutoSabotageUser1_03172022A, AutoSabotageUser1_03172022B, AutoSabotageUser1_031720225, and so on
 |OR|enables you to specify multiple entities|AutoSabotageUser1_03172022 OR AutoRansomUser4_03162022|User, Domain, Entity Type, Original Path, Entity Name, Source IP||returns any of AutoSabotageUser1_03172022 OR AutoRansomUser4_03162022
-|NOT|allows you to exclude text from the search results|NOT AutoRansomUser4_03162022|User,Domain, Entity Type, Original Path, 1stLevel Folder, 2ndLevel Folder, 3rdLevel Folder, 4thLevel Folder, Entity Name, Source IP|Device|returns everything that does not start with"AutoRansomUser4_03162022”
+|NOT|allows you to exclude text from the search results|NOT AutoRansomUser4_03162022|User,Domain, Entity Type, Original Path, 1stLevel Folder, 2ndLevel Folder, 3rdLevel Folder, 4thLevel Folder, Entity Name, Source IP|Device|returns everything that does not start with"AutoRansomUser4_03162022"
 |None|searches for NULL values in all fields|None|Domain||returns results where the target field is empty
 
 |===
@@ -263,11 +263,11 @@ Search results with and  without / will be different
 |"/AutoDir1/AutoFile03242022"	|Only Exact search works; returns all activities with exact path as /AutoDir1/AutoFile03242022 (case insensitively)
 |"/AutoDir1/ "	|Works; returns all activities with 1st level directory matching with AutoDir1 (case insensitively)
 |"/AutoDir1/AutoFile03242022/"	|Works; returns all activities with 1st level directory matching with AutoDir1 and 2nd level directory matching with AutoFile03242022 (case insensitively)
-|/AutoDir1/AutoFile03242022 OR /AutoDir1/AutoFile03242022	|Doesn’t work
-|NOT /AutoDir1/AutoFile03242022	|Doesn’t work
-|NOT /AutoDir1	|Doesn’t work
-|NOT /AutoFile03242022	|Doesn’t work
-|*	|Doesn’t work
+|/AutoDir1/AutoFile03242022 OR /AutoDir1/AutoFile03242022	|Doesn't work
+|NOT /AutoDir1/AutoFile03242022	|Doesn't work
+|NOT /AutoDir1	|Doesn't work
+|NOT /AutoFile03242022	|Doesn't work
+|*	|Doesn't work
 
 |===
 
@@ -296,10 +296,10 @@ For example:
 
 |===
 |Problem|Try This
-|In the “All Activities” table, under the ‘User’ column, the user name is shown as:
-“ldap:HQ.COMPANYNAME.COM:S-1-5-21-3577637-1906459482-1437260136-1831817”
+|In the "All Activities" table, under the 'User' column, the user name is shown as:
+"ldap:HQ.COMPANYNAME.COM:S-1-5-21-3577637-1906459482-1437260136-1831817"
 or
-"ldap:default:80038003”
+"ldap:default:80038003"
 
 |Possible reasons could be:
 1. No User Directory Collectors have been configured yet. To add one, go to *Workload Security > Collectors > User Directory Collectors* and click on *+User Directory Collector*. Choose _Active Directory_ or _LDAP Directory Server_.
@@ -321,8 +321,8 @@ If it still does not get resolved, check if you have added the correct User Data
 To get better performance, use prefix strings instead, in the format _<searchTerm>*_ (in other words, append the asterisk (*) _after_ a search term).
 Example: use the string _testvolume*_, rather than _*testvolume_ or _*test*volume_.
 
-Use a directory search to see all activities underneath a given folder recursively (Hierarchical search). e.g., “/path1/path2/path3/” will list all the activities recursively under /path1/path2/path3.
-Alternatively use the "Add To Filter" option under the All Activity tab.”
+Use a directory search to see all activities underneath a given folder recursively (Hierarchical search). e.g., "/path1/path2/path3/" will list all the activities recursively under /path1/path2/path3.
+Alternatively use the "Add To Filter" option under the All Activity tab."
 
 
 
@@ -330,7 +330,7 @@ Alternatively use the "Add To Filter" option under the All Activity tab.”
 |Try using a smaller date range for filtering records.
 
 |Forensic UI is loading data slowly when using the _path_ filter.
-|Directory Path filters (path string ending with /) up to 4 directories deep are recommended for faster results. e.g., If the directory path is /Aaa/Bbb/Ccc/Ddd, try searching for “/Aaa/Bbb/Ccc/Ddd/”  to load data faster.
+|Directory Path filters (path string ending with /) up to 4 directories deep are recommended for faster results. e.g., If the directory path is /Aaa/Bbb/Ccc/Ddd, try searching for "/Aaa/Bbb/Ccc/Ddd/"  to load data faster.
 
 |Forensics UI is loading data slowly and facing failures when using the entity name filter.
 |Please try with smaller time-ranges and with exact value search with double quotes. e.g., If the entityPath is "/home/userX/nested1/nested2/nested3/testfile.txt" then, try with "testfile.txt" as entity name filter.
