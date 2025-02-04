@@ -31,7 +31,7 @@ image:api_usage_analytics_screenshot.png[API usage analytics example]
 
 === Workload Security API to restrict users
 
-A new API has been added to manage user restriction in Workload Security. With the API you can block or unblock a user, or change the duration of their restricted access. See the Admin > Api Access > API Documentation page for the _clousecure\_actions.block_ API.
+A new API has been added to manage user restriction in Workload Security. With the API you can block or unblock a user, or change the duration of their restricted access. See the Admin > API Access > API Documentation page for the _cloudsecure_actions.block_ API.
 
 
 
