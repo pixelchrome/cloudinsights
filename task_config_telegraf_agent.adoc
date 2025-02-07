@@ -23,7 +23,7 @@ For information on installing on Kubernetes, see the link:task_config_telegraf_a
 
 NOTE: For accurate audit and data reporting, it is strongly recommended to synchronize the time on the Agent machine using *Network Time Protocol (NTP)* or *Simple Network Time Protocol (SNTP)*.
 
-NOTE: If you want to verify the installation files before instaling the Agent, see the section below on <<Verifying Checksums>>.
+NOTE: If you want to verify the installation files before installing the Agent, see the section below on <<Verifying Telegraf Package Checksums>>.
 
 == Installing an Agent
 
@@ -320,7 +320,7 @@ To upgrade the telegraf agent, do the following:
 
 
 == Verifying Telegraf Package Checksums
-[#Verifying Checksums]
+[#verifying-checksums]
 
 The Data Infrastructure Insights agent installer performs integrity checks, but some users may want to perform their own verifications before installing the downloaded Telegraf binary. This can be done by downloading the installer and generating a checksum for the downloaded package, then comparing the checksum to the value shown in the install instructions.
 
