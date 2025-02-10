@@ -13,7 +13,6 @@ summary: Reporting Schema Diagrams
 :linkattrs:
 :imagesdir: ./media/
 
-
 [.lead]
 This document provides schema diagrams for the Reporting Database. 
 
