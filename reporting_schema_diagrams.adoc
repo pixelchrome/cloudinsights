@@ -1,4 +1,4 @@
-performance datamart---
+---
 sidebar: sidebar
 permalink: reporting_schema_diagrams.html
 keywords: Schema, DB Schema, premium, dwh, data warehouse
@@ -7,7 +7,7 @@ summary: Reporting Schema Diagrams
 
 = Data Infrastructure Insights Reporting Schema Diagrams
 :hardbreaks:
-:toclevekls: 2
+:toclevels: 2
 :nofooter:
 :icons: font
 :linkattrs:
