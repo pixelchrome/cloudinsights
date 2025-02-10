@@ -19,19 +19,26 @@ NetApp is continually improving and enhancing its products and services. Here ar
 
 == February 2025
 
+
 === DII API Usage Tracking: Enhance Security and Efficiency
 
-Strengthen your security posture and streamline resource management with enhanced REST API Usage tracking. With API usage tracking you can see which API tokens are being used, from which IP addresses, and the volume of traffic they generate. This information, accessible to Admin users, enables you to quickly detect unusual activity patterns, identify potential threats, and optimize performance by eliminating unnecessary requests. By linking tokens to specific IP addresses and usage levels, you'll gain powerful insights into system access and usage trends, giving you the control you need to maintain a safe, efficient environment and keep operations running smoothly.
+Strengthen your security posture and streamline resource management with enhanced REST API Usage tracking, available for Admin users. With API usage tracking you can see which API tokens are being used, from which IP addresses, and the volume of traffic they generate.  By linking tokens to specific IP addresses and usage levels, you'll gain powerful insights into system access and usage trends, giving you the control you need to maintain a safe, efficient environment and keep operations running smoothly.
 
 To view API Usage, navigate to *Observability > Admin > API Access* and select _View API Usage_. Note that this API is available for DII Observability APIs only; it does not apply to Workload Security or Reporting APIs.
 
 image:api_usage_analytics_screenshot.png[API usage analytics example]
 
 
-
 === Workload Security API to restrict users
 
 A new API has been added to manage user restriction in Workload Security. With the API you can block or unblock a user, or change the duration of their restricted access. See the Admin > API Access > API Documentation page for the _cloudsecure_actions.block_ API.
+
+
+=== ONTAP Essentials includes views for ASA devices
+
+The ONTAP Essentials menu pages have been updated for ASA R2 and now have ASA specific views for many of the pages.
+
+image:ontap_essentials_asa_views.png[ONTAP Essentials drop-down showing ASa as separate from Unified]
 
 
 '''
