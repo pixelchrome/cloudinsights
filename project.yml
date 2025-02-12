@@ -29,9 +29,7 @@ sidebar:
           
     - title: Getting Started
       entries:
-        - title: Feature Tutorials
-          url: /concept_feature_tutorials.html
-        - title: Collecting Data
+       - title: Collecting Data
           entries:
             - title: Overview
               url: /task_getting_started_with_cloud_insights.html
