@@ -19,6 +19,12 @@ NetApp is continually improving and enhancing its products and services. Here ar
 
 == February 2025
 
+=== ONTAP Essentials for the latest generation of ASA systems
+ 
+ONTAP essentials now includes out-of-the-box manageability for the latest generation of link:task_dc_na_ontap_all_san_array.html[ASA] devices. This includes SAN Analyzer for VM-to-LUN topologies of workloads running on ONTAP, now also available with NetApp support as part of Data Infrastructure Insights Basic Edition.
+
+image:ontap_essentials_asa_views.png[ONTAP Essentials drop-down showing ASA as distinct from Unified]
+
 
 === DII API Usage Tracking: Enhance Security and Efficiency
 
@@ -34,11 +40,6 @@ image:api_usage_analytics_screenshot.png[API usage analytics example]
 A new API has been added to manage user restriction in Workload Security. With the API you can block or unblock a user, or change the duration of their restricted access. See the Admin > API Access > API Documentation page for the _cloudsecure_actions.block_ API.
 
 
-=== ONTAP Essentials includes views for ASA devices
-
-The ONTAP Essentials menu pages have been updated for ASA R2 and now have ASA specific views for many of the pages.
-
-image:ontap_essentials_asa_views.png[ONTAP Essentials drop-down showing ASa as separate from Unified]
 
 
 '''
