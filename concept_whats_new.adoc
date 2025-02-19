@@ -31,7 +31,7 @@ image:ontap_essentials_asa_views.png[ONTAP Essentials drop-down showing ASA as d
 
 Strengthen your security posture and streamline resource management with enhanced REST API Usage tracking, available for Admin users. With API usage tracking you can see which API tokens are being used, from which IP addresses, and the volume of traffic they generate.  By linking tokens to specific IP addresses and usage levels, you'll gain powerful insights into system access and usage trends, giving you the control you need to maintain a safe, efficient environment and keep operations running smoothly.
 
-To view API Usage, navigate to *Observability > Admin > API Access* and select _View API Usage_. Note that this API is available for DII Observability APIs only; it does not apply to Workload Security or Reporting APIs.
+To view API Usage, navigate to *Observability > Admin > API Access* and select _View API Usage_. Note that this API is available for DII Observability APIs only; it does not apply to Workload Security.
 
 image:api_usage_analytics_screenshot.png[API usage analytics example]
 
