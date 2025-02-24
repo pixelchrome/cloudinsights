@@ -14,19 +14,11 @@ keywords: onboarding, getting started, video, tutorial, resolution, dashboard, q
 :imagesdir: ./media/
 
 [.lead]
-Data Infrastructure Insights is loaded with useful features that enable you to quickly and easily find data, troubleshoot issues, and provide insights into your corporate environment. Find data easily with powerful queries, visualize data in dashboards, and send email alerts for data thresholds you set. 
-
-Data Infrastructure Insights includes a number of video tutorials to help you understand these features and better implement your business insight strategies. 
-
-== Introduction
-
-Watch a brief tutorial explaining how Data Infrastructure Insights works.
-
-video::howTo.mp4[]
+Data Infrastructure Insights is loaded with useful features that enable you to quickly and easily troubleshoot issues, and provide insights into your corporate environment. Find data easily with powerful queries, visualize data in dashboards, and send email alerts for data thresholds you set. 
 
 == Checklist and Video Tutorials
 
-The *Startup Checklist* displayed on your Data Infrastructure Insights site contains a list of several useful tasks and concepts. Selecting an item in the checklist takes you to the appropriate Data Infrastructure Insights page for that concept. For example, clicking on the _Create a Dashboard_ item opens the Data Infrastructure Insights *Dashboards* page.
+The *Startup Checklist* displayed on your Data Infrastructure Insights tenant contains a list of several useful tasks and concepts. Selecting an item in the checklist takes you to the appropriate Data Infrastructure Insights page for that concept. For example, clicking on the _Create a Dashboard_ item opens the Data Infrastructure Insights *Dashboards* page.
 
 image:OnboardingChecklist.png[Tutorial Checklist Progress]
 
@@ -40,25 +32,4 @@ NOTE: You can view the tutorials in any order you like, as many times as you lik
 
 === Dismissing the Checklist
 
-The Startup Checklist is displayed on your site until you click the _Don't Show This Again_ link at the bottom of the checklist. Even after dismissing the checklist, the tutorials are still available on each appropriate Data Infrastructure Insights page until you dismiss each one from the message header bar. 
-
-== View the Tutorials
-
-
-=== Querying Data
-video::Queries.mp4[]
-
-
-=== Creating a Dashboard
-video::Dashboards.mp4[]
-
-
-=== Troubleshooting
-video::Troubleshooting.mp4[]
-
-=== Resolve Devices
-video::AHR_small.mp4[]
-
-
-
-
+The Startup Checklist is displayed until you click the _Don't Show This Again_ link at the bottom of the checklist. Even after dismissing the checklist, the tutorials are still available on each appropriate Data Infrastructure Insights page until you dismiss each one from the message header bar. 
