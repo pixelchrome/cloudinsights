@@ -23,7 +23,7 @@ Getting started with Data Infrastructure Insights is as easy as three simple ste
 ** Select *Request trial*. If you are not already registered with BlueXP, Enter your details and sign up. Otherwise, sign in.
 ** Schedule a meeting or wait for a representative to contact you about your trial.
 
-* *Subscribe* to Data Infrastructure Insights for on-going, uninterrupted access to your data via link:https://www.netapp.com/us/forms/sales-inquiry/cloud-insights-sales-inquiries.aspx[NetApp Sales] direct or link:https://aws.amazon.com/marketplace/pp/prodview-pbc3h2mkgaqxe[AWS Marketplace].
+* *Subscribe* to Data Infrastructure Insights for on-going, uninterrupted access to your data via link:https://bluexp.netapp.com/contact-cds[NetApp Sales] direct or link:https://aws.amazon.com/marketplace/pp/prodview-pbc3h2mkgaqxe[AWS Marketplace].
 
 During the registration process, you can choose the global region to host your Data Infrastructure Insights environment. 
 For more information, read about Data Infrastructure Insights link:security_information_and_region.html[Information and Region].
@@ -192,7 +192,7 @@ If your Managed Unit count is less than 1,000, you can subscribe via NetApp Sale
 
 === Subscribe through NetApp Sales direct
 
-If your expected Managed Unit count is 1,000 or greater, click on the link:https://www.netapp.com/us/forms/sales-inquiry/cloud-insights-sales-inquiries.aspx[*Contact Sales*] button to subscribe though the NetApp Sales Team. 
+If your expected Managed Unit count is 1,000 or greater, click on the link:https://bluexp.netapp.com/contact-cds[*Contact Sales*] button to subscribe though the NetApp Sales Team. 
 
 You must provide your Data Infrastructure Insights *Serial Number* to your NetApp sales representative so that your paid subscription can be applied to your Data Infrastructure Insights environment. The Serial Number uniquely identifies your Data Infrastructure Insights trial environment and can be found on the *Admin > Subscription* page.
 

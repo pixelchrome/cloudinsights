@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: san_anayzer_overview.html
+permalink: san_analyzer_overview.html
 summary: SAN Analyzer provides topology for assets on your tenant
 keywords: topology, analyze, analysis, map
 ---
@@ -26,11 +26,11 @@ image:san_analyzer_example_with_panel.png[SAN Analyzer topology map of a storage
 Select *Observability > Analyze > SAN Analyzer* to view the SAN Analyzer. Set a filter for Application, Host, Fabric, and/or Storage. 
 The map for the objects is displayed, showing connected objects. Hover over an object to view traffic metrics for those connections.
 
-image:san_analyzer_traffic_metrics.png[]
+image:san_analyzer_traffic_metrics.png[SAN Analyzer Traffic Metrics example]
 
 Clicking on an object or group opens a slideout panel providing additional details about the object and its connections. The slideout includes tabs showing a Summary, Port details, and Zone information, if available.
 
-image:san_analyzer_slideout_example.png[]
+image:san_analyzer_slideout_example.png[SAN Analyzer slideout panel]
 
 
 
