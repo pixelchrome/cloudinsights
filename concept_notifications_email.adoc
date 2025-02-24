@@ -48,6 +48,14 @@ Account will be deleted after 48 hours|Contact NetApp sales to purchase a subscr
 |===
 
 
+[NOTE]
+====
+To ensure your recipients receive notifications from Data Infrastructure Insights, add the following email addresses to  any "allow" lists:
+
+* \accounts@service.cloudinsights.netapp.com
+* \DoNotReply@cloudinsights.netapp.com
+====
+
 == Global Recipient List for Alerts
 
 Email notifications of alerts are sent to the alert recipient list for every action on the alert. You can choose to send alert notifications to a global recipient list.
@@ -71,3 +79,5 @@ image:EditONTAPNotifications.png[ONTAP Edit Notifications]
 From here, you can set notifications for Critical, Warning, Informational, and/or Resolved alerts. Each scenario can notify the Global Recipient list or other recipients you choose.
 
 image:EditONTAPNotifications_MultipleScenarios.png[ONTAP Notifications for different scenarios]
+
+
