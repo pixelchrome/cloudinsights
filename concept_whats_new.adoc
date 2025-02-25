@@ -551,7 +551,7 @@ image:StorageNodeSupportData.png[Storage Node Support Information]
 
 === Map VMWare tags to Cloud Insights annotations
 
-The link:task_dc_vmware.html#mapping-vmware-tags-to-cloud-insights-annotations[VMWare] data collector allows you to populate Cloud Insights text annotations with same-name tags that are configured on VMWare. 
+The link:task_dc_vmware.html[VMWare] data collector allows you to populate Cloud Insights text annotations with same-name tags that are configured on VMWare. 
 
 === Brocade CLI collector reliability enhancements for FOS 9.1.1c and higher firmware
 
@@ -1387,7 +1387,7 @@ Previous versions of the agent will continue to function with no user action req
 
 === Preview Features
 
-Cloud Insights regularly highlights a number of exciting new preview features. If you are interested in previewing one or more of these features, contact your link:https://www.netapp.com/us/forms/sales-inquiry/cloud-insights-sales-inquiries.aspx[NetApp Sales Team] for more information.
+Cloud Insights regularly highlights a number of exciting new preview features. If you are interested in previewing one or more of these features, contact your link:https://bluexp.netapp.com/contact-cds[NetApp Sales Team] for more information.
 
 |===
 
@@ -1453,7 +1453,7 @@ You can now configure Cloud Insights to alert when modification or removal of Fl
 
 === Preview Features
 
-Cloud Insights regularly highlights a number of exciting new preview features. If you are interested in previewing one or more of these features, contact your link:https://www.netapp.com/us/forms/sales-inquiry/cloud-insights-sales-inquiries.aspx[NetApp Sales Team] for more information.
+Cloud Insights regularly highlights a number of exciting new preview features. If you are interested in previewing one or more of these features, contact your link:https://bluexp.netapp.com/contact-cds[NetApp Sales Team] for more information.
 
 |===
 
@@ -1513,7 +1513,7 @@ Cloud Insights keeps you on top of changes in your Kubernetes environment by ale
 
 === Preview Features
 
-Cloud Insights regularly highlights a number of exciting new preview features. If you are interested in previewing one or more of these features, contact your link:https://www.netapp.com/us/forms/sales-inquiry/cloud-insights-sales-inquiries.aspx[NetApp Sales Team] for more information.
+Cloud Insights regularly highlights a number of exciting new preview features. If you are interested in previewing one or more of these features, contact your link:https://bluexp.netapp.com/contact-cds[NetApp Sales Team] for more information.
 
 |===
 
@@ -2274,7 +2274,7 @@ Their user role in Cloud Insights determines their link:reporting_user_roles.htm
 
 NOTE: Cloud Insights Reporting is available for environments of 500 MUs or more.
 
-IMPORTANT: If you are a current Premium Edition customer and wish to retain your reports, read this link:reporting_user_roles.html#important-note-for-existing-customers[important note for existing customers].
+IMPORTANT: If you are a current Premium Edition customer and wish to retain your reports, read this link:reporting_user_roles.html[important note for existing customers].
 
 
 
@@ -2827,7 +2827,7 @@ The link:task_config_telegraf_kubernetes.html[Kubernetes Data Collector] now col
 
 === Cloud Insights Editions
 
-Cloud Insights is available in different Editions to fit your budget and business needs. Existing NetApp customers with an active NetApp support account can enjoy 7 days of data retention and access to NetApp data collectors with the free *Basic Edition*, or get increased data retention, access to all supported data collectors, expert technical support and more with *Standard Edition*. For more information on available features, see NetApp's link:https://cloud.netapp.com/cloud-insights[Cloud Insights] site.
+Cloud Insights is available in different Editions to fit your budget and business needs. Existing NetApp customers with an active NetApp support account can enjoy 7 days of data retention and access to NetApp data collectors with the free *Basic Edition*, or get increased data retention, access to all supported data collectors, expert technical support and more with *Standard Edition*. For more information on available features, see NetApp's link:https://www.netapp.com/cloud-services/cloud-insights/[Cloud Insights] site.
 
 === New Infrastructure Data Collector: NetApp HCI
 
