@@ -17,6 +17,19 @@ keywords: features
 [.lead]
 NetApp is continually improving and enhancing its products and services. Here are some of the latest features and functionalities available in Data Infrastructure Insights (formerly Cloud Insights).
 
+
+
+== March 2025
+
+=== DII's time range selector and APIs now include a FOURTEEN_DAYS time range.
+
+
+=== Infrastructure Contextual Links (https://jira.ngage.netapp.com/browse/CIS-46163)
+
+
+
+'''
+
 == February 2025
 
 
