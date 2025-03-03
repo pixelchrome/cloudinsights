@@ -7,10 +7,8 @@ keywords: dashboard, widget, custom, concepts, queries, variables, rollup, roll 
 ---
 
 = Dashboard Features
-:toc: macro
 :hardbreaks:
 :nofooter:
-:toclevels: 1
 :icons: font
 :linkattrs:
 :imagesdir: ./media/
@@ -864,5 +862,20 @@ image:Interpolation_Stair.png[Simple straight line showing stair interpolation]
 image:Interpolation_Linear.png[Simple straight line showing linear interpolation with additional data points between each original point]
 
 
+=== Expected Bounds in Line Widgets
 
+When including a Line or Spline chart widget on a dashboard or landing page, you may choose to view the chart in context of the *expected bounds* for the data. 
+
+DII uses seasonal data (hourly or daily) to set upper and lower bounds on where it _expects_ the data to fall at a given time. If the data spikes above or falls below those expected bounds, the chart will highlight that.
+
+image:media/expected_bounds_disk_example.png[expected bounds example - disk - showing a spike where the actual data spikes above the expected bound]
+
+To view expected bounds, edit the widget and choose _Show Expected Bounds_. You may choose from among two detection algorithms:
+
+* *Adaptive Detector* adapts to changes quickly, making it helpful for detailed investigations.
+* *Smooth Detector* minimizes noise and fals positives, filtering out short-term fluctuations while still detecting significant shifts.
+
+Additionally, you may choose to show either _Hourly_ or _Daily_ seasonality, as well as set the sensitivity of detection. _High_ sensitivity detects more boundary crossing, _Low_ sensitivity detects less.
+
+image:expected_bounds_settings.png[settings for expected bounds, including the detection algorithm, seasonality, and sensitivity]
 
