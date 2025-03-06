@@ -23,11 +23,20 @@ NetApp is continually improving and enhancing its products and services. Here ar
 
 === Enhanced Contextual Menus for Quicker Analysis
 
-Discover DII's enhanced contextual menus on tables, in SAN Analyzer and Infrastructure Change Analysis, and on asset pages. Jump directly from asset summaries to detailed logs without the hassle of searching or switching contexts. With instant access to key data across multiple views, you gain a clearer understanding of your SAN environment and object relationships. This streamlined workflow accelerates troubleshooting and decision-making, ultimately saving you time and enhancing your overall analysis process.
+Save time and streamline your analysis with DII’s contextual menu links. Jump directly from any object to the asset landing page for device metric troubleshooting, SAN Analyzer for network topology analysis, logs for error detection, or Change Analyzer for configuration tracking—without the hassle of searching or switching contexts. 
+
+With instant access to key data across multiple views, you gain a clearer understanding of your SAN environment and object relationships. This streamlined workflow accelerates troubleshooting and decision-making, ultimately saving you time and enhancing your overall analysis process.
 
 image:contextual_menu_in_change_analysis.png[Contextual menu in Change Analysis page]
 
-//Infrastructure Contextual Links (https://jira.ngage.netapp.com/browse/CIS-46163)
+=== Expected Bounds in Line Widgets
+
+When including a Line or Spline chart widget on a dashboard or landing page, you may choose to view the chart in context of the expected bounds for the data. You can think of this as looking for anomalies in the patterns of your data.
+
+DII uses seasonal data (hourly or daily) to set upper and lower bounds on where it expects the data to fall at a given time. If the data spikes above or falls below those expected bounds, the chart will highlight that.
+
+image:expected_bounds_disk_example.png[expected bounds showing spike above, width=400]
+
 
 
 
