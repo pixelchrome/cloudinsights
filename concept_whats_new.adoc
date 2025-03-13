@@ -18,6 +18,35 @@ keywords: features
 NetApp is continually improving and enhancing its products and services. Here are some of the latest features and functionalities available in Data Infrastructure Insights (formerly Cloud Insights).
 
 
+
+== March 2025
+
+=== Enhanced Contextual Navigation for Efficient SAN Management
+
+Save time by leveraging Data Infrastructure Insights for operational excellence. New contextual menu links allow you to jump directly from any object to the asset landing page for device performance insights, SAN Analyzer for network topology visualization, logs for operational awareness, or Change Analyzer for configuration management.
+
+With instant access to key data across multiple views, you gain a quicker, clearer understanding of your SAN environment and object relationships. This streamlined workflow accelerates decision-making and issue resolution, ultimately saving you time and enhancing your overall analysis capabilities.
+
+image:contextual_menu_in_change_analysis.png[Contextual menu in Change Analysis page]
+
+
+=== Operating System support
+
+The following operating systems are now supported with Data Infrastructure Insights Acquisition Units, in addition to those link:https://docs.netapp.com/us-en/cloudinsights/concept_acquisition_unit_requirements.html[already supported]:
+
+* AlmaLinux 9.5
+* Debian (64-bit) 11
+* OpenSUSE Leap 15.6
+* Oracle Enterprise Linux (64-bit) 8.9, 8.10, 9.5
+* Red Hat (64-bit) 8.9, 8.10, 9.5
+* Rocky 9.5
+* SUSE Linux Enterprise Server 15 SP6
+* Ubuntu Server 24.04 LTS
+
+
+'''
+
+
 == February 2025
 
 === ONTAP Essentials for the latest generation of ASA systems 
