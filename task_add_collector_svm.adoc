@@ -97,6 +97,39 @@ For csuser with cluster credentials, do the following from the ONTAP command lin
  security login role create -role csrole -cmddirname "vserver name-mapping" -access all
 
 
+== Test Connectivity for Data Collectors
+
+The test connectivity feature (introduced March 2025) aims to help end users identify the specific causes of failures when setting up data collectors in Data Infrastructure Insights (DII) Workload Security. This allows the users to self-correct issues related to network communication or missing roles.
+
+This feature will help users determine if all network-related checks are in place before setting up a data collector. Additionally, it will inform users about the features they can access based on the ONTAP version, roles, and permissions assigned to them in ONTAP.
+
+NOTE: Test connectivity is not supported for User Directory collectors
+
+=== Prerequisites
+
+* Cluster level credentials are needed for this feature to work in full.
+* Feature access check is not supported in SVM mode.
+* If you are using cluster administration credentials, no new permissions are needed.
+* If you are using a custom user (e.g., _csuser_), provide the mandatory permissions and feature specific permissions for the features you want to use.
+* A Workload Security administrator must enable the Test Connectivity feature while adding a new data collector or editing an existing data collector in order for end users to use this feature. Users will see a *Test Connection* button on the add/edit collector page when the feature is enabled.
+
+image:ws_test_connection_button.png[workload security test connection button]
+
+Be sure to review the <<a-note-about-permissions,Permissions>> section below as well.
+
+//Note: The Cancel button has been removed from the add/edit data collector page. The Save button has been renamed to Save Collector.
+
+=== Test the Connection
+
+Once the Test Connectivity feature is enabled for the user, the user can go to the add/edit collector page, enter the cluster level details (in Cluster Mode) or SVM level details (in SVM Mode), and click on the *Test Connection* button. Workload Security will then process the request and display an appropriate success or failure message.
+
+image:ws_test_connection_success_example.png[Workload Security 'Test Connection' success message]
+
+
+
+
+
+
 == A Note About Permissions
 
 === Permissions when adding via *Cluster Management IP*:
