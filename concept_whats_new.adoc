@@ -29,21 +29,23 @@ With instant access to key data across multiple views, you gain a quicker, clear
 
 image:contextual_menu_in_change_analysis.png[Contextual menu in Change Analysis page]
 
-////
-=== Expected Bounds in Line Widgets
 
-When including a Line or Spline chart widget on a dashboard or landing page, you may choose to view the chart in context of the anticipated bounds for the data. You can think of this as looking for anomalies in the patterns of your data. 
+=== Preserve the History of Removed Assets
 
-DII uses seasonal data (hourly or daily) to set upper and lower bounds on where it expects the data to fall at a given time. If the data spikes above or falls below those expected bounds, the chart will highlight that.
+Our enhanced Infra Change Feature now preserves the history of removed assets like qtrees and volumes that have moved and are no longer available. 
 
-image:expected_bounds_disk_example.png[expected bounds showing spike above, width=400]
-////
+Missing something in your troubleshooting puzzle? Not any more! You'll see everything—including deleted objects marked with a strike-through—giving you complete context even after assets were removed, ensuring you never miss critical elements from past changes or alerts across the end-to-end path.
 
-////
-=== Showing removed resources
+The result? Quicker resolution times and more confident infrastructure decisions, even when the assets in question no longer exist.
 
-image:deleted_objects_strikethrough.png[deleted objects]
-////
+image:infra_change_removed_assets.png[removed assets in infra change showing with a strikethrough]
+
+=== Operator Push-Button Upgrade
+
+Want to be sure you have the latest Kubernetes Operator? Upgrade the operator on-demand from the DII Kubernetes Collectors cluster menu. Simply select Upgrade from the menu, and the operator will verify the image signatures, capture a snapshot of your current installation, and perform the upgrade.
+
+image:dii_push_button_upgrade.png[push-button operator upgrade from cluster menu]
+
 
 === Operating System support
 
