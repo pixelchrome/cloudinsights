@@ -105,7 +105,7 @@ This feature will help users determine if all network-related checks are in plac
 
 NOTE: Test connectivity is not supported for User Directory collectors
 
-=== Prerequisites
+=== Prerequisites for Connection Testing
 
 * Cluster level credentials are needed for this feature to work in full.
 * Feature access check is not supported in SVM mode.
