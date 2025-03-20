@@ -28,7 +28,7 @@ To troubleshoot performance issues with Line or Spline chart widgets, you can no
 DII machine learning with seasonal data analysis establishes intelligent thresholds based on historical patterns. When metrics deviate from expected ranges, the system highlights anomalies, enabling quick issue identification, reducing mean time to resolution, and addressing problems before they impact operations.
 
 
-image:expected_bounds_disk_example.png[Expected Bounds disk example showing a spike in the chart, width=400]
+image:expected_bounds_disk_example.png[Expected Bounds disk example showing a spike in the chart, width=300
 
 
 === Enhanced Contextual Navigation for Efficient Infrastructure Management
@@ -38,7 +38,7 @@ Save time by leveraging Data Infrastructure Insights for operational excellence.
 With instant access to key data across multiple views, you gain a clearer understanding of object relationships more quickly. This streamlined workflow accelerates decision-making and issue resolution, ultimately saving you time and enhancing your overall analysis capabilities.
 
 
-image:contextual_menu_example.png[Contextual menu example]
+image:contextual_menu_example.png[Contextual menu example, width=500]
 
 
 === Preserve the History of Removed Assets
@@ -51,13 +51,15 @@ The result? Quicker resolution times and more confident infrastructure decisions
 
 image:infra_change_removed_assets.png[removed assets in infra change showing with a strikethrough]
 
+
+
 === Kubernetes Operator Push-Button Upgrade
 
 Want to be sure you have the latest Kubernetes Operator? Upgrade the operator on-demand from the DII Kubernetes Collectors cluster menu. Simply select Upgrade from the menu, and the operator will verify the image signatures, capture a snapshot of your current installation, and perform the upgrade.
 
 The Push-Button Upgrade is an optional feature, and its activation can be managed on a per-cluster basis.
 
-image:dii_push_button_upgrade.png[push-button operator upgrade from cluster menu]
+image:dii_push_button_upgrade.png[push-button operator upgrade from cluster menu, width=500]
 
 
 === Operating System support
