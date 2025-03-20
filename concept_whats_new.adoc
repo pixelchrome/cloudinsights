@@ -58,7 +58,7 @@ Want to be sure you have the latest Kubernetes Operator? Upgrade the operator on
 
 The Push-Button Upgrade is an optional feature, and its activation can be managed on a per-cluster basis.
 
-image:dii_push_button_upgrade.png[push-button operator upgrade from cluster menu, width=600]
+image:dii_push_button_upgrade.png[push-button operator upgrade from cluster menu, width=700]
 
 
 
