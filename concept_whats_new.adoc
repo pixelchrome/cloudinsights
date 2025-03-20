@@ -38,7 +38,7 @@ Save time by leveraging Data Infrastructure Insights for operational excellence.
 With instant access to key data across multiple views, you gain a clearer understanding of object relationships more quickly. This streamlined workflow accelerates decision-making and issue resolution, ultimately saving you time and enhancing your overall analysis capabilities.
 
 
-image:contextual_menu_example.png[Contextual menu example]
+image:contextual_menu_example.png[Contextual menu example, width=500]
 
 
 === Preserve the History of Removed Assets
@@ -49,7 +49,7 @@ Missing something in your troubleshooting puzzle? Not any more! You'll see every
 
 The result? Quicker resolution times and more confident infrastructure decisions, even when the assets in question no longer exist.
 
-image:infra_change_removed_assets.png[removed assets in infra change showing with a strikethrough]
+image:infra_change_removed_assets.png[removed assets in infra change showing with a strikethrough, width=]
 
 
 === Kubernetes Operator Push-Button Upgrade
@@ -58,7 +58,7 @@ Want to be sure you have the latest Kubernetes Operator? Upgrade the operator on
 
 The Push-Button Upgrade is an optional feature, and its activation can be managed on a per-cluster basis.
 
-image:dii_push_button_upgrade.png[push-button operator upgrade from cluster menu]
+image:dii_push_button_upgrade.png[push-button operator upgrade from cluster menu, width=600]
 
 
 
