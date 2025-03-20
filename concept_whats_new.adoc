@@ -49,7 +49,7 @@ Missing something in your troubleshooting puzzle? Not any more! You'll see every
 
 The result? Quicker resolution times and more confident infrastructure decisions, even when the assets in question no longer exist.
 
-image:infra_change_removed_assets.png[removed assets in infra change showing with a strikethrough, width=]
+image:infra_change_removed_assets.png[removed assets in infra change showing with a strikethrough, width=300]
 
 
 === Kubernetes Operator Push-Button Upgrade
