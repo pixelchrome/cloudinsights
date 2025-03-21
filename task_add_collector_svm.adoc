@@ -93,13 +93,12 @@ NOTE: Test connectivity is not supported for User Directory collectors
 * Feature access check is not supported in SVM mode.
 * If you are using cluster administration credentials, no new permissions are needed.
 * If you are using a custom user (e.g., _csuser_), provide the mandatory permissions and feature specific permissions for the features you want to use.
-//* A Workload Security administrator must enable the Test Connectivity feature while adding a new data collector or editing an existing data collector in order for end users to use this feature. Users will see a *Test Connection* button on the add/edit collector page when the feature is enabled.
+
 
 image:ws_test_connection_button.png[workload security test connection button]
 
 Be sure to review the <<a-note-about-permissions,Permissions>> section below as well.
 
-//Note: The Cancel button has been removed from the add/edit data collector page. The Save button has been renamed to Save Collector.
 
 === Test the Connection
 
