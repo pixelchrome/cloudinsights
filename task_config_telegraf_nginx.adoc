@@ -6,7 +6,7 @@ summary: Nginx data collector configuration
 ---
 
 = Nginx Data Collector
-::hardbreaks:
+:hardbreaks:
 :toclevels: 1
 :nofooter:
 :icons: font

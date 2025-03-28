@@ -6,7 +6,7 @@ summary: forensic activity history data
 ---
 
 = Forensics - All Activity
-::hardbreaks:
+:hardbreaks:
 :nofooter:
 :icons: font
 :linkattrs:

@@ -6,7 +6,7 @@ summary:
 ---
 
 = Regular expression examples
-::hardbreaks:
+:hardbreaks:
 :toclevels: 2
 :nofooter:
 :icons: font

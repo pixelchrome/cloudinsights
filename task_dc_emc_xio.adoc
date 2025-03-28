@@ -6,7 +6,7 @@ summary: Configuring XtremeIO data collector.
 ---
 
 = Dell EMC XtremeIO data collector
-::hardbreaks:
+:hardbreaks:
 :toclevels: 2
 :nofooter:
 :icons: font

@@ -6,7 +6,7 @@ summary: Configuring Azure NetApp Files data collector.
 ---
 
 = Configuring the Azure NetApp Files data collector
-::hardbreaks:
+:hardbreaks:
 :toclevels: 2
 :nofooter:
 :icons: font

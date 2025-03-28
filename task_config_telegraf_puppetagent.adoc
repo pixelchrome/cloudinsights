@@ -6,7 +6,7 @@ summary: Puppet data collector configuration
 ---
 
 = Puppet Agent Data Collector
-::hardbreaks:
+:hardbreaks:
 :toclevels: 1
 :nofooter:
 :icons: font

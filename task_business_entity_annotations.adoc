@@ -6,7 +6,7 @@ summary: Business Entity annotations can be used for monitoring and reporting of
 ---
 
 = Business Entity Annotations
-::hardbreaks:
+:hardbreaks:
 :toclevels: 1
 :nofooter:
 :icons: font

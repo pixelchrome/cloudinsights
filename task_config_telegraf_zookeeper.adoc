@@ -6,7 +6,7 @@ summary: Apache Zookeeper data collector configuration
 ---
 
 = Zookeeper Data Collector
-::hardbreaks:
+:hardbreaks:
 :toclevels: 1
 :nofooter:
 :icons: font

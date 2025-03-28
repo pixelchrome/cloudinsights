@@ -6,7 +6,7 @@ keywords: agent, Linux, requirements, docker, browsers, permissions, Network, Cl
 ---
 
 = Workload Security Agent Requirements
-::hardbreaks:
+:hardbreaks:
 :toclevels: 1
 :nofooter:
 :icons: font

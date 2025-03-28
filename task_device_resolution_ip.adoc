@@ -6,7 +6,7 @@ summary:
 ---
 
 = IP device resolution
-::hardbreaks:
+:hardbreaks:
 :toclevels: 2
 :nofooter:
 :icons: font

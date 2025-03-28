@@ -6,7 +6,7 @@ summary: Apache data collector configuration
 ---
 
 = Apache Data Collector
-::hardbreaks:
+:hardbreaks:
 :toclevels: 1
 :nofooter:
 :icons: font

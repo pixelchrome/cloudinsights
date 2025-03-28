@@ -6,7 +6,7 @@ summary: Elasticsearch data collector configuration
 ---
 
 = Elasticsearch Data Collector
-::hardbreaks:
+:hardbreaks:
 :toclevels: 1
 :nofooter:
 :icons: font

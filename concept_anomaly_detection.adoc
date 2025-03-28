@@ -6,7 +6,7 @@ summary: Monitor metrics for anomalies
 ---
 
 = Anomaly Detection Monitors
-::hardbreaks:
+:hardbreaks:
 :nofooter:
 :toclevels: 1
 :icons: font

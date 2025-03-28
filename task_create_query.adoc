@@ -6,7 +6,7 @@ keywords: query, queries
 ---
 
 = Creating Queries
-::hardbreaks:
+:hardbreaks:
 :toclevels: 1
 :nofooter:
 :icons: font

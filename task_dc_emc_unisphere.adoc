@@ -6,7 +6,7 @@ summary: Configuring Dell EMC Unisphere REST data collector.
 ---
 
 = Configuring the Dell EMC Unisphere REST data collector
-::hardbreaks:
+:hardbreaks:
 :toclevels: 2
 :nofooter:
 :icons: font

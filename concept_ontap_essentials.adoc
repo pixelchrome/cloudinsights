@@ -6,7 +6,7 @@ keywords: dashboard, widget, ontap, overview, insight
 ---
 
 = ONTAP Essentials
-::hardbreaks:
+:hardbreaks:
 :toclevels: 2
 :nofooter:
 :icons: font

@@ -6,7 +6,7 @@ summary: JVM data collector configuration
 ---
 
 = JVM Data Collector
-::hardbreaks:
+:hardbreaks:
 :toclevels: 1
 :nofooter:
 :icons: font
