@@ -11,7 +11,7 @@ keywords: data collector, vendor, infrastructure, integration, service
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ./media/The alerting page redesign will also be ready by the of the month. Need to add it to what’s new as wellopens
 
 [.lead]
 Data Infrastructure Insights supports a variety of Data Collectors from many vendors and services. 
