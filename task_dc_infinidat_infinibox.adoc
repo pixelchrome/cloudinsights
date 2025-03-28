@@ -6,7 +6,7 @@ summary: Configuring Infinidat InfiniBox data collector.
 ---
 
 = Infinidat InfiniBox data collector
-::hardbreaks:
+:hardbreaks:
 :toclevels: 1
 :nofooter:
 :icons: font

@@ -18,7 +18,7 @@ Data Infrastructure Insights provides users the flexibility to create operationa
 
 IMPORTANT: The examples in these sections are for explanation purposes only and do not cover every possible scenario. The concepts and steps herein can be used to create your own dashboards to highlight the data specific to your particular needs.
 
-toc::[]
+toc:[]
 
 == Creating a Dashboard
 

@@ -6,7 +6,7 @@ summary: Configuring VNXe data collector.
 ---
 
 = Configuring the EMC VNXe data collector
-::hardbreaks:
+:hardbreaks:
 :toclevels: 2
 :nofooter:
 :icons: font

@@ -6,7 +6,7 @@ summary: PostgreSQL data collector configuration
 ---
 
 = PostgreSQL Data Collector
-::hardbreaks:
+:hardbreaks:
 :toclevels: 1
 :nofooter:
 :icons: font

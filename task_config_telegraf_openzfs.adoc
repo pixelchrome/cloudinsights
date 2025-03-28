@@ -6,7 +6,7 @@ summary: OpenZFS data collector configuration
 ---
 
 = OpenZFS Data Collector
-::hardbreaks:
+:hardbreaks:
 :toclevels: 1
 :nofooter:
 :icons: font

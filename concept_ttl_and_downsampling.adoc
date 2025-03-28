@@ -6,7 +6,7 @@ keywords: time-to-live, TTL, downsampling, downsample, retention
 ---
 
 = Data Retention and Downsampled Data
-::hardbreaks:
+:hardbreaks:
 :toclevels: 1
 :nofooter:
 :icons: font

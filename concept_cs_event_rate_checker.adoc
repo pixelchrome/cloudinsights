@@ -7,7 +7,7 @@ keywords: event, checker, rate, sizing, cloud secure
 
 
 = SVM Event Rate Checker (Agent Sizing Guide)
-::hardbreaks:
+:hardbreaks:
 :toclevels: 1
 :nofooter:
 :icons: font

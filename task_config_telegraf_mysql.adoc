@@ -6,7 +6,7 @@ summary: MySQL data collector configuration
 ---
 
 = MySQL Data Collector
-::hardbreaks:
+:hardbreaks:
 :toclevels: 1
 :nofooter:
 :icons: font

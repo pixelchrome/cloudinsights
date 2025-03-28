@@ -6,7 +6,7 @@ keywords: asset, summary, landing page, topology, auto, refresh
 ---
 
 = Asset Page Summary section
-::hardbreaks:
+:hardbreaks:
 :toclevels: 2
 :nofooter:
 :icons: font

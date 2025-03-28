@@ -6,7 +6,7 @@ summary: The Kubernetes landing page explained
 ---
 
 = Kubernetes Cluster Overview 
-::hardbreaks:
+:hardbreaks:
 :toclevels: 1
 :nofooter:
 :icons: font

@@ -6,7 +6,7 @@ summary: Configuring DELL EMC ScaleIO/PowerFlex data collector.
 ---
 
 = DELL EMC ScaleIO / PowerFlex data collector
-::hardbreaks:
+:hardbreaks:
 :toclevels: 1
 :nofooter:
 :icons: font

@@ -6,7 +6,7 @@ summary: Configuring Lenovo HX data collector.
 ---
 
 = Lenovo HX data collector
-::hardbreaks:
+:hardbreaks:
 :toclevels: 1
 :nofooter:
 :icons: font

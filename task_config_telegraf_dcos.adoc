@@ -6,7 +6,7 @@ summary: dcos configuration
 ---
 
 = DC/OS Data Collector 
-::hardbreaks:
+:hardbreaks:
 :toclevels: 1
 :nofooter:
 :icons: font

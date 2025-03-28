@@ -6,7 +6,7 @@ keywords: reporting, cognos, data warehouse, dwh, create, report
 ---
 
 = Creating a Report (Example)
-::hardbreaks:
+:hardbreaks:
 :toclevels: 2
 :nofooter:
 :icons: font

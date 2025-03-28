@@ -6,7 +6,7 @@ keywords: AU, acquisition unit, requirements, sizing
 ---
 
 = Acquisition Unit Requirements
-::hardbreaks:
+:hardbreaks:
 :toclevels: 1
 :nofooter:
 :icons: font

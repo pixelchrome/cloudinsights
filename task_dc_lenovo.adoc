@@ -6,7 +6,7 @@ summary: Configuring Lenovo data collector.
 ---
 
 = Lenovo data collector
-::hardbreaks:
+:hardbreaks:
 :toclevels: 2
 :nofooter:
 :icons: font

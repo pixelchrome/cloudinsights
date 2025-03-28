@@ -6,7 +6,7 @@ summary: Create monitors to alert on performance or inventory thresholds, as wel
 ---
 
 = System Monitors
-::hardbreaks:
+:hardbreaks:
 :toclevels: 2
 :nofooter:
 :icons: font
@@ -22,7 +22,7 @@ image:Enable_Log_Monitor_Collection.png[Enabling Advanced Counter and EMS Log co
 
 [#top]
 
-toc::[]
+toc:[]
 
 
 

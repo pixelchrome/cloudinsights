@@ -6,7 +6,7 @@ keywords: query, queries, application, annotation, multiple
 ---
 
 = Assigning multiple applications to or removing multiple applications from assets
-::hardbreaks:
+:hardbreaks:
 :toclevels: 1
 :nofooter:
 :icons: font

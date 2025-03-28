@@ -6,7 +6,7 @@ summary: Adding Workload Security data collectors
 ---
 
 = Configuring the ONTAP SVM Data Collector
-::hardbreaks:
+:hardbreaks:
 :toclevels: 1
 :nofooter:
 :icons: font
@@ -50,25 +50,25 @@ Workload Security uses data collectors to collect file and user access data from
 
 * Ensure the correct applications are set for the SVM by executing the following command:
 
- clustershell::> security login show -vserver <vservername> -user-or-group-name <username>
+ clustershell:> security login show -vserver <vservername> -user-or-group-name <username>
 
 Example output:
  image:cs_svm_sample_output.png[SVM Command Output Example]
 
 
 * Ensure that the SVM has a CIFS server configured:
- clustershell::> `vserver cifs show`
+ clustershell:> `vserver cifs show`
 +
 The system returns the Vserver name, CIFS server name and additional fields.
 
 * Set a password for the SVM vsadmin user. If using custom user or cluster admin user, skip this step.
- clustershell::> `security login password -username vsadmin -vserver svmname`
+ clustershell:> `security login password -username vsadmin -vserver svmname`
 
 * Unlock the SVM vsadmin user for external access. If using custom user or cluster admin user, skip this step.
- clustershell::> `security login unlock -username vsadmin -vserver svmname`
+ clustershell:> `security login unlock -username vsadmin -vserver svmname`
 
 * Ensure the firewall-policy of the data LIF is set to ‘mgmt’ (not ‘data’). Skip this step if using a dedicated management lif to add the SVM.
- clustershell::> `network interface modify -lif <SVM_data_LIF_name> -firewall-policy mgmt`
+ clustershell:> `network interface modify -lif <SVM_data_LIF_name> -firewall-policy mgmt`
 
 * When a firewall is enabled, you must have an exception defined to allow TCP traffic for the port using the Data ONTAP Data Collector.
 +
@@ -284,7 +284,7 @@ If using service policy with ONTAP *version 9.9.1 or newer*, in order to connect
 
 Example:
 
- Testcluster-1::*> net int service-policy create -policy only_data_fpolicy -allowed-addresses 0.0.0.0/0 -vserver aniket_svm
+ Testcluster-1:*> net int service-policy create -policy only_data_fpolicy -allowed-addresses 0.0.0.0/0 -vserver aniket_svm
  -services data-cifs,data-nfs,data,-core,data-fpolicy-client
  (network interface service-policy create)
 

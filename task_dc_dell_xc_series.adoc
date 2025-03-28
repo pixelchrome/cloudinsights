@@ -8,7 +8,7 @@ summary: Configuring Dell EMC XC Series data collector.
 ---
 
 = Dell EMC XC Series data collector
-::hardbreaks:
+:hardbreaks:
 :toclevels: 2
 :nofooter:
 :icons: font
