@@ -6,9 +6,7 @@ keywords: icons, assets, objects, reference, map
 ---
 
 = Object Icon Reference
-
-::hardbreaks:
-:toclevels: 1
+:hardbreaks:
 :nofooter:
 :icons: font
 :linkattrs:
