@@ -6,8 +6,7 @@ summary: Configuring Nutanix data collector.
 ---
 
 = Nutanix NX data collector
-:toc: macro
-:hardbreaks:
+::hardbreaks:
 :toclevels: 2
 :nofooter:
 :icons: font

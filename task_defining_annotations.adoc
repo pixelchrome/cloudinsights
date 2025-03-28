@@ -6,8 +6,7 @@ summary: Track data using annotations.
 ---
 
 = Defining annotations
-:toc: macro
-:hardbreaks:
+::hardbreaks:
 :toclevels: 2
 :nofooter:
 :icons: font

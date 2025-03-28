@@ -6,8 +6,7 @@ summary: The Kubernetes detail page provides information and details to assist w
 ---
 
 = Kubernetes Cluster Detail Page
-:toc: macro
-:hardbreaks:
+::hardbreaks:
 :toclevels: 1
 :nofooter:
 :icons: font

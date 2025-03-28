@@ -6,8 +6,7 @@ keywords: collector, acquisition, status
 ---
 
 = Determining data collector acquisition status
-:toc: macro
-:hardbreaks:
+::hardbreaks:
 :toclevels: 2
 :nofooter:
 :icons: font

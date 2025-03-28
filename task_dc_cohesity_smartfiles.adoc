@@ -8,8 +8,7 @@ summary: Configuring the Cohesity SmartFiles data collector.
 ---
 
 = Cohesity SmartFiles data collector
-:toc: macro
-:hardbreaks:
+::hardbreaks:
 :toclevels: 2
 :nofooter:
 :icons: font

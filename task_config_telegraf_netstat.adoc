@@ -6,8 +6,7 @@ summary: Netstat data collector configuration
 ---
 
 = Netstat Data Collector
-:toc: macro
-:hardbreaks:
+::hardbreaks:
 :toclevels: 1
 :nofooter:
 :icons: font

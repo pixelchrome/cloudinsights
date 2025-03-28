@@ -6,8 +6,7 @@ summary: MongoDB data collector configuration
 ---
 
 = MongoDB Data Collector
-:toc: macro
-:hardbreaks:
+::hardbreaks:
 :toclevels: 1
 :nofooter:
 :icons: font

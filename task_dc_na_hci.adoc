@@ -6,8 +6,7 @@ summary: Configuring NetApp HCI Management server data collector.
 ---
 
 = Configuring the NetApp HCI Management server data collector 
-:toc: macro
-:hardbreaks:
+::hardbreaks:
 :toclevels: 2
 :nofooter:
 :icons: font

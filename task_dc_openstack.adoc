@@ -6,8 +6,7 @@ summary: OpenStack data collector.
 ---
 
 = OpenStack data collector
-:toc: macro
-:hardbreaks:
+::hardbreaks:
 :toclevels: 2
 :nofooter:
 :icons: font

@@ -6,8 +6,7 @@ keywords: coming soon, preview,
 ---
 
 = Preview Features and Functionality
-:toc: macro
-:hardbreaks:
+::hardbreaks:
 :toclevels: 2
 :nofooter:
 :icons: font

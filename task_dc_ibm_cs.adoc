@@ -6,8 +6,7 @@ summary: Configuring IBM CS data collector.
 ---
 
 = IBM CS data collector
-:toc: macro
-:hardbreaks:
+::hardbreaks:
 :toclevels: 2
 :nofooter:
 :icons: font
