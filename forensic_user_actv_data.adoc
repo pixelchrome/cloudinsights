@@ -6,8 +6,7 @@ summary: forensic user activity data
 ---
 
 = Forensic User Activity Data
-:toc: macro
-:hardbreaks:
+::hardbreaks:
 :toclevels:
 :nofooter:
 :icons: font

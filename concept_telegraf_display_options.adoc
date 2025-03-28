@@ -7,8 +7,7 @@ summary: Telegraf data display options
 
 
 = Transforming Metrics
-:toc: macro
-:hardbreaks:
+::hardbreaks:
 :toclevels: 1
 :nofooter:
 :icons: font

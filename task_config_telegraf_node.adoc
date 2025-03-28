@@ -6,8 +6,7 @@ summary: Flink data collector configuration
 ---
 
 = Node Data Collection
-:toc: macro
-:hardbreaks:
+::hardbreaks:
 :toclevels: 1
 :nofooter:
 :icons: font

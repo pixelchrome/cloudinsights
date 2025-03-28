@@ -6,8 +6,7 @@ keywords: reporting, cognos, data warehouse, dwh, smd, storage manager dashboard
 ---
 
 = Storage Manager Dashboard
-:toc: macro
-:hardbreaks:
+::hardbreaks:
 :toclevels: 2
 :nofooter:
 :icons: font

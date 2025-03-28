@@ -6,8 +6,7 @@ keywords: asset page, user data, applications, annotations
 ---
 
 = User Data Section
-:toc: macro
-:hardbreaks:
+::hardbreaks:
 :toclevels: 1
 :nofooter:
 :icons: font

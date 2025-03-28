@@ -6,8 +6,7 @@ summary: HAProxy data collector configuration
 ---
 
 = HAProxy Data Collector
-:toc: macro
-:hardbreaks:
+::hardbreaks:
 :toclevels: 1
 :nofooter:
 :icons: font
