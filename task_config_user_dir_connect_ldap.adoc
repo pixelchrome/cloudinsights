@@ -7,7 +7,7 @@ summary: Configuring Workload Security LDAP User Directory Collector
 
 = Configuring an LDAP Directory Server Collector 
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

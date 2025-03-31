@@ -7,7 +7,7 @@ summary: Data Infrastructure Insights supports Telegraf as its agent for collect
 = Before Installing or Upgrading the NetApp Kubernetes Monitoring Operator
 :hardbreaks:
 :nofooter:
-:toclevels: 2
+
 :icons: font
 :linkattrs:
 :imagesdir: ./media/

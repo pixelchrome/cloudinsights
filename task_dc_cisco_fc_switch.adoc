@@ -7,7 +7,7 @@ summary: Configuring Cisco MDS Fablic Switch data collector.
 
 = Cisco MDS Fabric Switches data collector
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:

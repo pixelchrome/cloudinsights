@@ -7,7 +7,7 @@ keywords: reporting, cognos, data warehouse, dwh, API
 
 = Access the Reporting Database via API
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:

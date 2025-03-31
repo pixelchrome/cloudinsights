@@ -7,7 +7,7 @@ keywords: dashboard, widget, legends
 
 = Displaying Widget Legends
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:

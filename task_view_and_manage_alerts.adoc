@@ -7,7 +7,7 @@ keywords: monitor, alert, viewing
 
 = Viewing and Managing Alerts from Monitors
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

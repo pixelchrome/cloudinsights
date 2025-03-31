@@ -7,7 +7,7 @@ summary: Configuring Brocade FOS REST data collector.
 
 = Brocade FOS REST Data Collector
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:

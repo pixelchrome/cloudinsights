@@ -7,7 +7,7 @@ summary: General data collector instructions
 
 = Configuring Data Collectors
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

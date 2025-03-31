@@ -7,7 +7,7 @@ summary: Amazon FSx for NetApp ONTAP Data Collector
 
 = Amazon FSx for NetApp ONTAP data collector
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:

@@ -7,7 +7,7 @@ keywords: email, notifications, alerts, warnings, attacks
 
 = Configuring Email Notifications for Alerts, Warnings, and Agent/Data Source Collector health
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

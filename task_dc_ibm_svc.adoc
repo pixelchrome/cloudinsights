@@ -7,7 +7,7 @@ summary: Configuring IBM SAN Volume Controller data collector.
 
 = Configuring the IBM SAN Volume Controller data collector
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:

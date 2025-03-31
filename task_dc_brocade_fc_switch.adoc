@@ -7,7 +7,7 @@ summary: Configuring Brocade FC Switches data collector.
 
 = Brocade FC Switch data collector
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:

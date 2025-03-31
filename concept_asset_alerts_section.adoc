@@ -8,7 +8,7 @@ keywords: asset, landing page, violations, Alerts,
 
 = Asset Page Related Alerts section
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:

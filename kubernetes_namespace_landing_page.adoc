@@ -7,7 +7,7 @@ summary: The Kubernetes namespace landing page explained
 
 = Kubernetes Namespace Detail Page 
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

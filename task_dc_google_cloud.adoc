@@ -7,7 +7,7 @@ keywords: data collector, queries, create
 
 = NetApp Google Compute data collector
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:

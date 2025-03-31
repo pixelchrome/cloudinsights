@@ -7,7 +7,7 @@ summary: Track data using annotations.
 
 = Defining annotations
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:

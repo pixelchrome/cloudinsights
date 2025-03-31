@@ -6,7 +6,7 @@ summary: Configuring Oracle ZFS data collector.
 ---
 = Oracle ZFS Storage Appliance data collector
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:

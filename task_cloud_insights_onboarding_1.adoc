@@ -7,7 +7,7 @@ keywords: onboarding, new user
 
 = Data Infrastructure Insights Onboarding
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:

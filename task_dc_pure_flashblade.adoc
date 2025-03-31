@@ -7,7 +7,7 @@ summary: Configuring Pure Storage data collector.
 
 = Pure Storage FlashBlade data collector
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:

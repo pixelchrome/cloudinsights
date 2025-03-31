@@ -7,7 +7,7 @@ summary: Configuring IBM PowerVM data collector.
 
 = Configuring the IBM PowerVM data collector
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:

@@ -7,7 +7,7 @@ summary:
 
 = Setting options in the Preferences tab
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:

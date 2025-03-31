@@ -7,7 +7,7 @@ summary: Configuring DELL EMC PowerStore data collector.
 
 = Dell EMC PowerStore data collector
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

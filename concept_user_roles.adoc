@@ -9,7 +9,7 @@ summary: Data Infrastructure Insights provides multiple user accounts with diffe
 
 = User Accounts and Roles
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:
@@ -20,7 +20,7 @@ Data Infrastructure Insights provides up to four user account roles: Account Own
 
 
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

@@ -7,7 +7,7 @@ keywords: query, queries, export, csv
 
 = Exporting query results to a .CSV file
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

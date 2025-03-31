@@ -7,7 +7,7 @@ summary: Create a webhook to alert on performance or inventory thresholds for Mi
 
 = Webhook Example for Microsoft Teams
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

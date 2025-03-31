@@ -8,7 +8,7 @@ summary: Monitor metrics for anomalies
 = Anomaly Detection Monitors
 :hardbreaks:
 :nofooter:
-:toclevels: 1
+
 :icons: font
 :linkattrs:
 :imagesdir: ./media/

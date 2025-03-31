@@ -7,7 +7,7 @@ summary: Kafka data collector configuration
 
 = Kafka Data Collector
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:
