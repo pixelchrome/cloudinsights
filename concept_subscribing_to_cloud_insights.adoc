@@ -7,7 +7,7 @@ keywords: subscribe, trial, subscription, contract, raw capacity, region, data r
 
 = Subscribing to Data Infrastructure Insights
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:
