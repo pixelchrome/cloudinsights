@@ -6,7 +6,6 @@ summary: ONTAP Data Collector
 ---
 
 = NetApp ONTAP Data Management Software data collector
-:toc: macro
 :hardbreaks:
 :toclevels: 2
 :nofooter:
@@ -215,7 +214,7 @@ The resulting role and user login will look something like the following. Your a
  cluster1 ci_readonly DEFAULT read only
  cluster1 ci_readonly security readonly
 
- cluster1::security login> show
+ cluster1:security login> show
  Vserver: cluster1
  Authentication Acct
  UserName    Application   Method      Role Name      Locked

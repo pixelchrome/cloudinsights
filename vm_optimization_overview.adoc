@@ -7,7 +7,6 @@ keywords: dashboard, widget, custom, concepts, queries, variables, rollup, roll 
 ---
 
 = VM Optimization
-:toc: macro
 :hardbreaks:
 :nofooter:
 :toclevels: 1

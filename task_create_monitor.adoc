@@ -6,7 +6,6 @@ summary: Create monitors to alert on performance or inventory thresholds, as wel
 ---
 
 = Alerting with Monitors
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :nofooter:
@@ -21,7 +20,7 @@ TIP: Monitors and Alerting is available in all Data Infrastructure Insights Edit
 * You may only have up to five custom monitors active at a time. Any monitors beyond five will be created in or moved to _Paused_ state. 
 * VMDK, Virtual Machine, Host, and DataStore metrics monitors are not supported. If you have monitors created for these metrics, they will be paused and cannot be resumed when downgrading to Basic Edition.
 
-toc::[]
+toc:[]
 
 //When the monitored threshold and conditions are reached or exceeded, Data Infrastructure Insights creates an alert. A Monitor can have a _Warning_ threshold, a _Critical_ threshold, or both. Log Monitors can also have an _Informational_ alert level.
 

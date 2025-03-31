@@ -7,7 +7,6 @@ keywords: dashboard, public, shared, private
 ---
 
 = Dashboard Access Management
-:toc: macro
 :hardbreaks:
 :nofooter:
 :toclevels: 1
