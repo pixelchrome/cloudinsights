@@ -94,11 +94,9 @@ NOTE: Test connectivity is not supported for User Directory collectors
 * If you are using cluster administration credentials, no new permissions are needed.
 * If you are using a custom user (e.g., _csuser_), provide the mandatory permissions and feature specific permissions for the features you want to use.
 
-
 image:ws_test_connection_button.png[workload security test connection button]
 
 Be sure to review the <<a-note-about-permissions,Permissions>> section below as well.
-
 
 === Test the Connection
 
