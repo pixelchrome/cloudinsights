@@ -28,12 +28,6 @@ ONTAP essentials now includes out-of-the-box manageability for the latest genera
 
 image:ontap_essentials_asa_views.png[ONTAP Essentials drop-down showing ASA as distinct from Unified]
 
-=== ONTAP Essentials for the latest generation of ASA systems 
- 
-ONTAP essentials now includes out-of-the-box manageability for the latest generation of link:task_dc_na_ontap_all_san_array.html[ASA] devices. This includes SAN Analyzer for VM-to-LUN topologies of workloads running on ONTAP, now also available with NetApp support as part of Data Infrastructure Insights Basic Edition.
-
-image:ontap_essentials_asa_views.png[ONTAP Essentials drop-down showing ASA as distinct from Unified]
-
 
 === DII API Usage Tracking: Enhance Security and Efficiency
 
