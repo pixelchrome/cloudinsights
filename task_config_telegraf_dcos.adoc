@@ -7,7 +7,7 @@ summary: dcos configuration
 
 = DC/OS Data Collector 
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

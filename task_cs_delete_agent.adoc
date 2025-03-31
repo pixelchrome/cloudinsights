@@ -7,7 +7,7 @@ summary: Deleting Workload Security agents
 
 = Deleting a Workload Security Agent
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

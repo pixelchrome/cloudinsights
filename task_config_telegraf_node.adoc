@@ -7,7 +7,7 @@ summary: Flink data collector configuration
 
 = Node Data Collection
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

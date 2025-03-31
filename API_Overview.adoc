@@ -7,7 +7,7 @@ summary: The Data Infrastructure Insights API enables integration with other app
 
 = Data Infrastructure Insights API 
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:

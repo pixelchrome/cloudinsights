@@ -7,7 +7,7 @@ summary: Configuring IBM Cleversafe data collector.
 
 = IBM Cleversafe data collector
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:

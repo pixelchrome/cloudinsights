@@ -7,7 +7,7 @@ summary: Audit provides a view of system and user activities in the Data Infrast
 
 = Auditing
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

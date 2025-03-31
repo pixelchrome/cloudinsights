@@ -7,7 +7,7 @@ keywords: reporting, cognos, data warehouse, dwh, managing, customizing, copying
 
 = Managing Reports
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:

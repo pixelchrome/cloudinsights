@@ -7,7 +7,7 @@ summary: Configuring VNX data collector.
 
 = Configuring the Dell EMC VNX Unified data collector
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:

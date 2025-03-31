@@ -7,7 +7,7 @@ keywords: query, queries, copy, values, clipboard
 
 = Copying table values
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

@@ -7,7 +7,7 @@ summary: IBM TotalStorage DS4000 data collector
 
 = IBM TotalStorage DS4000 data collector
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:

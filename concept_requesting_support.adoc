@@ -7,7 +7,7 @@ keywords: support, knowledgebase, documentation, community, chat, videos, help, 
 
 = Requesting Support
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:

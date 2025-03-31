@@ -7,7 +7,7 @@ keywords: asset page, user data, applications, annotations
 
 = User Data Section
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

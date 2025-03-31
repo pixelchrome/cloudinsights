@@ -7,7 +7,7 @@ keywords: annotate, annotation, rules
 
 = Creating annotation rules
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

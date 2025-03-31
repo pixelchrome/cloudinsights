@@ -7,7 +7,7 @@ keywords: query, queries
 
 = Creating Queries
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

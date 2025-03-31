@@ -7,7 +7,7 @@ summary: Configuring Brocade BNA collector.
 
 = Brocade Network Advisor data collector
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:

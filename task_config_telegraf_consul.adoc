@@ -7,7 +7,7 @@ summary: Consul data collector configuration
 
 = Consul Data Collector
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

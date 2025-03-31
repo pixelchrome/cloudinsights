@@ -7,7 +7,7 @@ summary: Couchbase data collector configuration
 
 = Couchbase Data Collector
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

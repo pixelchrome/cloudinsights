@@ -7,7 +7,7 @@ keywords: data collector, NetApp, Cloud agent, ONTAP
 
 = NetApp Cloud Connection for ONTAP 9.9+ data collector
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:

@@ -7,7 +7,7 @@ summary: Redis data collector configuration
 
 = Redis Data Collector
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

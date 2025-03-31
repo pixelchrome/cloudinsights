@@ -7,7 +7,7 @@ keywords: Assets, landing page, filtering, context, related
 
 = Filtering for Objects In-Context
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

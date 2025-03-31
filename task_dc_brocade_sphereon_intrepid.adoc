@@ -7,7 +7,7 @@ summary: Configuring the Brocade Sphereon/Intrepid Switch data collector
 
 = Configuring the Brocade Sphereon/Intrepid Switch data collector
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:

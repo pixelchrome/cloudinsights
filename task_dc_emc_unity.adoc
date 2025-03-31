@@ -7,7 +7,7 @@ summary: Configuring VNXe data collector.
 
 = Configuring the EMC Unity data collector
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:

@@ -7,7 +7,7 @@ summary: Acquisition Unit installing, uninstalling, configuring proxy support, a
 
 = Configuring Acquisition Units
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

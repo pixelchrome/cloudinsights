@@ -7,7 +7,7 @@ keywords: email, notifications, signature, recipient, list, subscription
 
 = Configuring Email Notifications
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

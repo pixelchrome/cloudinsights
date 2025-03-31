@@ -7,7 +7,7 @@ summary: Netstat data collector configuration
 
 = Netstat Data Collector
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

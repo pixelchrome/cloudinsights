@@ -6,7 +6,7 @@ summary: Configuring Microsoft Hyper-V data collector.
 ---
 = Microsoft Hyper-V data collector
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

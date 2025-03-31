@@ -7,7 +7,7 @@ summary: Adding Workload Security data collectors
 
 = Configuring the ONTAP SVM Data Collector
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

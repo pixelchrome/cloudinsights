@@ -6,7 +6,7 @@ keywords: storage, virtual, virtualized, virtualization,
 ---
 = Storage Virtualization 
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:

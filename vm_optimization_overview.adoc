@@ -9,7 +9,7 @@ keywords: dashboard, widget, custom, concepts, queries, variables, rollup, roll 
 = VM Optimization
 :hardbreaks:
 :nofooter:
-:toclevels: 1
+
 :icons: font
 :linkattrs:
 :imagesdir: ./media/

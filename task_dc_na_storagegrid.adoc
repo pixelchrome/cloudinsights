@@ -7,7 +7,7 @@ keywords: data collector, queries, create, storagegrid
 
 = NetApp StorageGRID data collector
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:

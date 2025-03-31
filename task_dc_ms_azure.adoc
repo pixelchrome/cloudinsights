@@ -7,7 +7,7 @@ summary: Configuring Azure compute data collector.
 
 = Configuring the Azure compute data collector
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:

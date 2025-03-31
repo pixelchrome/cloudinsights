@@ -7,7 +7,7 @@ summary: Kibana data collector configuration
 
 = Kibana Data Collector
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

@@ -7,7 +7,7 @@ summary: Configuring System Storage DS8000 Series data collector.
 
 = IBM System Storage DS8000 Series data collector
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

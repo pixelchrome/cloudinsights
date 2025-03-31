@@ -7,7 +7,7 @@ summary: alert details
 
 = Alert Details
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

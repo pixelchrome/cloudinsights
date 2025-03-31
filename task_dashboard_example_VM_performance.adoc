@@ -7,7 +7,7 @@ keywords: dashboard, widget, custom, example, virtual machine, vm, performance
 
 = Dashboard Example: Virtual Machine Performance
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

@@ -7,7 +7,7 @@ keywords: AU, acquisition unit, trioubleshooting
 
 = Troubleshooting Acquisition Unit Problems on Linux
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

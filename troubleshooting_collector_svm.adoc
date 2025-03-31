@@ -7,7 +7,7 @@ summary: Troubleshooting Workload Security data collectors
 
 = Troubleshooting the ONTAP SVM Data Collector
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

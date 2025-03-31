@@ -7,7 +7,7 @@ summary: Configuring AWS S3 as Storage data collector.
 
 = Configuring the AWS S3 as Storage data collector
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:

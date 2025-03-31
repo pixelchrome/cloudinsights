@@ -7,7 +7,7 @@ summary: Tracking Kubernetes changes is easier than ever.
 
 = Kubernetes Change Analytics
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:

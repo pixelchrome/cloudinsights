@@ -7,7 +7,7 @@ summary: Configuring VAST Data DataStore storage data collector.
 
 = VAST DataStore data collector
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:

@@ -6,7 +6,7 @@ summary: Presents Kubernetes workload dependencies and flows and highlights netw
 ---
 = Kubernetes Network Performance Monitoring and Map
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:
