@@ -208,6 +208,13 @@ Look into the sizing guide on link:concept_cs_event_rate_checker.html[this page]
 |The Data Collector is erroring out when SVM mode is selected.
 |While connecting in SVM mode, If cluster management IP is used to connect instead of SVM management IP, then the connection will error out. Make sure that the correct SVM IP is used.
 
+|Data collector shows an error message when Access Denied feature is enabled:
+"Connector is in error state. Service name: audit. Reason for failure: Failed to configure fpolicy on SVM test_svm. Reason: User is not authorized."
+|The user might be missing the REST permissions needed for the Access Denied feature. Please follow the instructions on link:concept_ws_integration_with_ontap_access_denied.html[this page] to set the permissions.
+ 
+Restart the collector once the permissions are set.
+
+
 |===
 
 If you are still experiencing problems, reach out to the support links mentioned in the *Help > Support* page.
