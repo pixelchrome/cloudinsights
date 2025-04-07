@@ -826,15 +826,14 @@ image:Interpolation_Stair.png[Simple straight line showing stair interpolation]
 image:Interpolation_Linear.png[Simple straight line showing linear interpolation with additional data points between each original point]
 
 
-////
-=== Expected Bounds in Line Widgets
 
+=== Expected Bounds in Line Widgets
 
 When including a Line or Spline chart widget on a dashboard or landing page, you may choose to view the chart in context of the *expected bounds* for the data. You can think of this as looking for anomalies in the patterns of your data.
 
 DII uses seasonal data (hourly or daily) to set upper and lower bounds on where it _expects_ the data to fall at a given time. If the data spikes above or falls below those expected bounds, the chart will highlight that.
 
-image:expected_bounds_disk_example.png[expected bounds example - disk - showing a spike where the actual data spikes above the expected bound]
+image:expected_bounds_example_showing_spike.png[expected bounds example - showing a spike where the actual data spikes above the expected bound, width=600]
 
 To view expected bounds, edit the widget and choose _Show Expected Bounds_. You may choose from among two detection algorithms:
 
@@ -846,4 +845,3 @@ Additionally, you may choose to show either _Hourly_ or _Daily_ seasonality, as 
 image:expected_bounds_settings.png[settings for expected bounds, including the detection algorithm, seasonality, and sensitivity]
 
 Keep in mind that you may only view expected bounds when the chart is set to display a single line. If your Group By settings or filters show multiple lines, or if you have set multiple queries for the widget, the option to show expected bounds will be disabled.
-////
