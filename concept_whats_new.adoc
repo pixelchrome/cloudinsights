@@ -17,6 +17,27 @@ keywords: features
 [.lead]
 NetApp is continually improving and enhancing its products and services. Here are some of the latest features and functionalities available in Data Infrastructure Insights (formerly Cloud Insights).
 
+== April 2025
+
+=== Expected Bounds in Line Widgets
+
+When including a Line or Spline chart widget on a dashboard or landing page, you may choose to view the chart in context of the anticipated bounds for the data. You can think of this as looking for anomalies in the patterns of your data. 
+
+DII uses seasonal data (hourly or daily) to set upper and lower bounds on where it expects the data to fall at a given time. If the data spikes above or falls below those expected bounds, the chart will highlight that.
+
+image:expected_bounds_disk_example.png[expected bounds showing spike above, width=400]
+
+
+=== Optimize VMware Costs with VSAN Storage Support
+
+Our VM Optimization feature now includes support for VMWare environments with VSAN storage. In addition to CPU and memory usage, the analysis now considers local VSAN storage for reclamation recommendations, helping you further reduce licensing costs.
+
+image:[VM Optimization example with VSAN]
+
+
+
+'''
+
 == February 2025
 
 
