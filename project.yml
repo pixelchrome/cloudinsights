@@ -290,6 +290,8 @@ sidebar:
           url: /cs_notifications_email.html
         - title: Workload Security API
           url: /concept_cs_api.html
+        - title: Troubleshooting the SVM Collector
+          url: /troubleshooting_collector_svm.html
    
     - title: Troubleshooting
       entries:
