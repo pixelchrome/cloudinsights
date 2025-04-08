@@ -7,8 +7,7 @@ summary: Troubleshooting Workload Security data collectors
 
 = Troubleshooting the ONTAP SVM Data Collector
 :hardbreaks:
-
-:nofooter:
+:nofooter:yml
 :icons: font
 :linkattrs:
 :imagesdir: ./media/
@@ -18,14 +17,13 @@ Workload Security uses data collectors to collect file and user access data from
 
 See the link:task_add_collector_svm.html[Configuring the SVM Collector] page for instructions on configuring this collector.
 
-
-== Troubleshooting
-
-Known problems and their resolutions are described in the following table.
-
-In the case of an error, click on _more detail_ in the _Status_ column for detail about the error.
+In the case of an error, you can click on _more detail_ in the _Status_ column of the Installed Data Collectors page for detail about the error.
 
 image:CS_Data_Collector_Error.png[Workload Security Collector Error More Detail Link]
+
+
+
+Known problems and their resolutions are described in the following table.
 
 [cols=2*, options="header", cols"30,70"]
 
