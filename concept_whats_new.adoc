@@ -19,20 +19,31 @@ NetApp is continually improving and enhancing its products and services. Here ar
 
 == April 2025
 
-=== Expected Bounds in Line Widgets
-
-When including a Line or Spline chart widget on a dashboard or landing page, you may choose to view the chart in context of the anticipated bounds for the data. You can think of this as looking for anomalies in the patterns of your data. 
-
-DII uses seasonal data (hourly or daily) to set upper and lower bounds on where it expects the data to fall at a given time. If the data spikes above or falls below those expected bounds, the chart will highlight that.
-
-image:expected_bounds_disk_example.png[expected bounds showing spike above, width=400]
-
-
 === Optimize VMware Costs with VSAN Storage Support
 
 Our VM Optimization feature now includes support for VMWare environments with VSAN storage. In addition to CPU and memory usage, the analysis now considers local VSAN storage for reclamation recommendations, helping you further reduce licensing costs.
 
-image:[VM Optimization example with VSAN]
+image:vm_optimization_with_vsan.png[VM Optimization example with VSAN]
+
+
+=== Alert details at your fingertips
+
+Investigating alerts is easier than ever with the new slideout panel. Select an alert to view details for that alert, and easily switch between alerts without losing your place while investigating issues. 
+
+image:alert_slideout_example.png[Alert slideout for easier navigation]
+
+
+
+=== ML-Powered Expected Bounds in Line Widgets for Proactive Issue Resolution
+
+To troubleshoot performance issues with Line or Spline chart widgets, you can now display expected behavior boundaries alongside actual metrics, allowing you to distinguish between normal and abnormal metric trends. 
+
+DII machine learning with seasonal data analysis establishes intelligent thresholds based on historical patterns. When metrics deviate from expected ranges, the system highlights anomalies, enabling quick issue identification, reducing mean time to resolution, and addressing problems before they impact operations.
+
+image:expected_bounds_example_showing_spike.png[expected bounds showing spike above, width=400]
+
+
+
 
 
 
