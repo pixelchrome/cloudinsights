@@ -7,8 +7,7 @@ summary: Troubleshooting Workload Security data collectors
 
 = Troubleshooting the ONTAP SVM Data Collector
 :hardbreaks:
-:toclevels: 1
-:nofooter:
+:nofooter:yml
 :icons: font
 :linkattrs:
 :imagesdir: ./media/
@@ -18,14 +17,13 @@ Workload Security uses data collectors to collect file and user access data from
 
 See the link:task_add_collector_svm.html[Configuring the SVM Collector] page for instructions on configuring this collector.
 
-
-== Troubleshooting
-
-Known problems and their resolutions are described in the following table.
-
-In the case of an error, click on _more detail_ in the _Status_ column for detail about the error.
+In the case of an error, you can click on _more detail_ in the _Status_ column of the Installed Data Collectors page for detail about the error.
 
 image:CS_Data_Collector_Error.png[Workload Security Collector Error More Detail Link]
+
+
+
+Known problems and their resolutions are described in the following table.
 
 [cols=2*, options="header", cols"30,70"]
 
@@ -207,6 +205,13 @@ Look into the sizing guide on link:concept_cs_event_rate_checker.html[this page]
 
 |The Data Collector is erroring out when SVM mode is selected.
 |While connecting in SVM mode, If cluster management IP is used to connect instead of SVM management IP, then the connection will error out. Make sure that the correct SVM IP is used.
+
+|Data collector shows an error message when Access Denied feature is enabled:
+"Connector is in error state. Service name: audit. Reason for failure: Failed to configure fpolicy on SVM test_svm. Reason: User is not authorized."
+|The user might be missing the REST permissions needed for the Access Denied feature. Please follow the instructions on link:concept_ws_integration_with_ontap_access_denied.html[this page] to set the permissions.
+ 
+Restart the collector once the permissions are set.
+
 
 |===
 
