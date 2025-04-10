@@ -258,6 +258,8 @@ sidebar:
               url: /task_config_user_dir_connect_ldap.html
             - title: Configuring the ONTAP SVM Data Collector
               url: /task_add_collector_svm.html
+            - title: Troubleshooting the SVM Collector
+              url: /troubleshooting_collector_svm.html
             - title: Configuring the Cloud ONTAP Data Collector
               url: /task_config_cs_incloud.html
             - title: Workload Security User Management
@@ -290,6 +292,8 @@ sidebar:
           url: /cs_notifications_email.html
         - title: Workload Security API
           url: /concept_cs_api.html
+        - title: Troubleshooting the SVM Collector
+          url: /troubleshooting_collector_svm.html
    
     - title: Troubleshooting
       entries:
