@@ -26,6 +26,7 @@ Our VM Optimization feature now includes support for VMWare environments with VS
 image:vm_optimization_with_vsan.png[VM Optimization example with VSAN]
 
 
+
 === Alert details at your fingertips
 
 Investigating alerts is easier than ever with the new slideout panel. Select an alert to view details for that alert, and easily switch between alerts without losing your place while investigating issues. 
@@ -34,11 +35,11 @@ image:alert_slideout_example.png[Alert slideout for easier navigation]
 
 
 
-=== ML-Powered Expected Bounds in Line Widgets for Proactive Issue Resolution
+=== ML-Powered Anomaly Bounds in Line Widgets for Proactive Issue Resolution
 
 To troubleshoot performance issues with Line or Spline chart widgets, you can now display expected behavior boundaries alongside actual metrics, allowing you to distinguish between normal and abnormal metric trends. 
 
-DII machine learning with seasonal data analysis establishes intelligent thresholds based on historical patterns. When metrics deviate from expected ranges, the system highlights anomalies, enabling quick issue identification, reducing mean time to resolution, and addressing problems before they impact operations.
+DII machine learning with seasonal data analysis establishes intelligent thresholds based on historical patterns. When metrics deviate from expected ranges, the system highlights these as anomalies, enabling quick issue identification, reducing mean time to resolution, and addressing problems before they impact operations.
 
 image:expected_bounds_example_showing_spike.png[expected bounds showing spike above, width=400]
 
