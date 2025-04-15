@@ -7,7 +7,7 @@ summary: ONTAP REST Data Collector
 
 = NetApp ONTAP REST data collector
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:
