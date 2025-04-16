@@ -17,7 +17,6 @@ keywords: features
 [.lead]
 NetApp is continually improving and enhancing its products and services. Here are some of the latest features and functionalities available in Data Infrastructure Insights (formerly Cloud Insights).
 
-<<<<<<< HEAD
 == April 2025
 
 === ML-Powered Anomaly Bounds in Line Widgets for Proactive Issue Resolution
@@ -47,7 +46,15 @@ image:alert_slideout_example.png[Alert slideout for easier navigation]
 
 Exporting forensics data can take anywhere from a few seconds to a number of hours, depending on the amount of data to export. Workload Security exports that data asynchronously, so you can continue working while the .CSV is being compiled. You will be prompted when the data is ready for you to download. 
 
-=======
+
+=== Data Collector Notifications grouped into Rules
+
+If you have configured notifications on data collectors, starting April 15 those notifications will be handled in Notification Rules, with a single rule for collectors that have identical recipients. Collectors with different recipients will have separate rules. Existing collector notifications are migrated to notification rules.
+
+
+
+
+'''
 
 == March 2025
 
@@ -100,15 +107,10 @@ The following operating systems are now supported with Data Infrastructure Insig
 * Rocky 9.5
 * SUSE Linux Enterprise Server 15 SP6
 * Ubuntu Server 24.04 LTS
->>>>>>> f5f55ddceed239996974d2d06898b861e5aca30b
 
 
 '''
 
-<<<<<<< HEAD
-=======
-
->>>>>>> f5f55ddceed239996974d2d06898b861e5aca30b
 == February 2025
 
 === ONTAP Essentials for the latest generation of ASA systems 
