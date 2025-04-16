@@ -18,6 +18,7 @@ keywords: features
 NetApp is continually improving and enhancing its products and services. Here are some of the latest features and functionalities available in Data Infrastructure Insights (formerly Cloud Insights).
 
 
+
 == April 2025
 
 === ML-Powered Anomaly Bounds in Line Widgets for Proactive Issue Resolution
@@ -89,6 +90,13 @@ The Push-Button Upgrade is an optional feature, and its activation can be manage
 
 image:dii_push_button_upgrade.png[push-button operator upgrade from cluster menu, width=600]
 
+
+=== Test Connectivity for Storage Workload Security Data Collectors
+
+The test connectivity feature aims to help end users identify the specific causes of failures when setting up data collectors in Data Infrastructure Insights (DII) Workload Security. This allows the users to self-correct issues related to network communication or missing roles.
+
+image:ws_test_connection_button.png[workload security test connection button]
+image:ws_test_connection_success_example.png[Workload Security 'Test Connection' success message]
 
 === Test Connectivity for Storage Workload Security Data Collectors
 
