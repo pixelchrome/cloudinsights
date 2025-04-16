@@ -7,7 +7,7 @@ summary: The Kubernetes Monitoring Operator collects Kubernetes data for use in 
 = Kubernetes Monitoring Operator Installation and Configuration
 :hardbreaks:
 :nofooter:
-:toclevels: 2
+
 :icons: font
 :linkattrs:
 :imagesdir: ./media/

@@ -6,9 +6,8 @@ summary: Configuring Rubrik CDM data collector.
 ---
 
 = Rubrik CDM Data Collector
-:toc: macro
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:
