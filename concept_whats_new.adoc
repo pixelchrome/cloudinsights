@@ -44,7 +44,8 @@ image:alert_slideout_example.png[Alert slideout for easier navigation]
 
 === Workload Security Forensics Asynchronous Export
 
-Exporting forensics data can take anywhere from a few seconds to a number of hours, depending on the amount of data to export. Workload Security exports that data asynchronously, so you can continue working while the .CSV is being compiled. You will be prompted when the data is ready for you to download. 
+Exporting forensics data can take anywhere from a few seconds to a number of hours, depending on the amount of data to export. Workload Security exports that data asynchronously, so you can continue working while the .CSV is being compiled. 
+
 
 
 === Data Collector Notifications grouped into Rules
