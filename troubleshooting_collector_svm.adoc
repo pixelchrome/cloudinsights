@@ -106,7 +106,7 @@ If yes, create an SVM Mgmt Only Lif and try connecting via this SVM management o
 
 . Type the following command in the Agent box and ensure that the port range is open.
 +
- sudo iptables-save \| grep 3500*
+ sudo iptables-save | grep 3500*
 +
 Sample output should look like:
 +
