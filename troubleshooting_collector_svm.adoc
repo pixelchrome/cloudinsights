@@ -153,7 +153,7 @@ Check if the fpolicy policy named with prefix “cloudsecure_” has been set an
 **** 
 
 ****
-*Problem:* SVM Data Collector is in error state and Errror message is “Agent failed to connect to the collector”
+*Problem:* SVM Data Collector is in error state and Error message is “Agent failed to connect to the collector”
 *Try this:*
 
 . Most likely the Agent is overloaded and is unable to connect to the Data Source collectors.
