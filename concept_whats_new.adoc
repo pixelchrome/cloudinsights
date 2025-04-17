@@ -25,7 +25,7 @@ To troubleshoot performance issues with Line or Spline chart widgets, you can no
 
 DII machine learning with seasonal data analysis establishes intelligent thresholds based on historical patterns. When metrics deviate from expected ranges, the system highlights these as anomalies, enabling quick issue identification, reducing mean time to resolution, and addressing problems before they impact operations.
 
-image:expected_bounds_example_showing_spike.png[expected bounds showing spike above, width=400]
+image:expected_bounds_example_showing_spike.png[expected bounds showing spike above, width=300]
 
 
 === Optimize VMware Costs with VSAN Storage Support
@@ -44,7 +44,8 @@ image:alert_slideout_example.png[Alert slideout for easier navigation]
 
 === Workload Security Forensics Asynchronous Export
 
-Exporting forensics data can take anywhere from a few seconds to a number of hours, depending on the amount of data to export. Workload Security exports that data asynchronously, so you can continue working while the .CSV is being compiled. You will be prompted when the data is ready for you to download. 
+Exporting forensics data can take anywhere from a few seconds to a number of hours, depending on the amount of data to export. Workload Security exports that data asynchronously, so you can continue working while the .CSV is being compiled. 
+
 
 
 === Data Collector Notifications grouped into Rules
