@@ -121,7 +121,7 @@ link:https://docs.netapp.com/ontap-9/index.jsp?topic=%2Fcom.netapp.doc.dot-cm-nm
 
 . SSH to the SVM/Cluster which you want to monitor. Ping the Agent box from the SVM data lif (with CIFS, NFS protocols support) and ensure that ping is working:
 +
- _network ping -vserver <vserver name> -destination <Agent IP> -lif <Lif Name> -show-detail_
+ network ping -vserver <vserver name> -destination <Agent IP> -lif <Lif Name> -show-detail
 +
 If not pingable, make sure the network settings in ONTAP are correct, so that the Agent machine is pingable.
 
