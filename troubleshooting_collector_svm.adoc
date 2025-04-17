@@ -57,7 +57,7 @@ Restart the collector from the UI after resizing.
 +
 You can also try logging in to the cluster via ssh using the cluster management IP, and ping the Agent IP. Make sure that the agent IP is pingable:
 +
-_network ping -vserver <vserver name> -destination <Agent IP> -lif <Lif Name> -show-detail_
+ network ping -vserver <vserver name> -destination <Agent IP> -lif <Lif Name> -show-detail
 +
 If not pingable, make sure the network settings in ONTAP are correct, so that the Agent machine is pingable.
 
