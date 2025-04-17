@@ -42,6 +42,7 @@ If the Agent was installed in the Agent box prior to 4 March 2021, run the follo
  sysctl -p
 
 Restart the collector from the UI after resizing.
+****
 
 ****
 
@@ -83,15 +84,19 @@ If yes, create an SVM Mgmt Only Lif and try connecting via this SVM management o
 . If it is still not working, please consult the networking team to make sure that no external firewall is blocking the connection from ONTAP to the Agent box.
 
 . If none of the above solves the issue, open a case with link:concept_requesting_support.html[Netapp Support] for further assistance.
+**** 
 
 **** 
+
 
 **** 
 *Problem:* Message: "Failed to determine ONTAP type for [hostname: <IP Address>. Reason: Connection error to Storage System <IP Address>: Host is unreachable (Host unreachable)"
 *Try this:* 
 
+
 . Verify that the correct SVM IP Management address or Cluster Management IP has been provided.
 . SSH to the SVM or the Cluster to which you are intending to connect. Once you are connected ensure that the SVM or the Cluster name is correct.
+****
 
 ****
 
@@ -149,6 +154,11 @@ Please ensure that there are no errors related to fpolicy.
  <SVM>fpolicy show
 +
 Check if the fpolicy policy named with prefix “cloudsecure_” has been set and status is “on”. If not set, then most likely the Agent is unable to execute the commands in the SVM. Please ensure all the prerequisites as described in the beginning of the page have been followed.
+**** 
+
+****
+*Problem:* SVM Data Collector is in error state and Errror message is “Agent failed to connect to the collector”
+*Try this:*
 
 **** 
 
@@ -175,6 +185,7 @@ link:https://docs.netapp.com/ontap-9/index.jsp?topic=%2Fcom.netapp.doc.dot-cm-nm
 
 ****
 
+
 ****
 *Problem:* Error Message: “Connector is in error state. Service name:audit. Reason for failure: No valid data interface (role: data,data protocols: NFS or CIFS or both, status: up) found on the SVM.”
 *Try this:* Ensure there is an operational interface (having role as data and data protocol as CIFS/NFS.
@@ -200,6 +211,7 @@ _Include and exclude shares_ is not intended for a long list of share names. Use
 
 ****
 
+
 ****
 *Problem:* There are existing fpolicies in the Cluster which are unused. What should be done with those prior to installation of Workload Security?
 *Try this:* It is recommended to delete all existing unused fpolicy settings even if they are in disconnected state. Workload Security will create fpolicy with the prefix "cloudsecure_". All other unused fpolicy configurations can be deleted.
@@ -220,6 +232,7 @@ Steps to delete fpolicy configurations:
 |While using ONTAP with Workload Security sometimes latency issues can be seen in ONTAP. There are a number of possible reasons for this as noted in the following: link:https://mysupport.netapp.com/site/bugs-online/product/ONTAP/BURT/1372994[1372994], https://mysupport.netapp.com/site/bugs-online/product/ONTAP/BURT/1415152[1415152], https://mysupport.netapp.com/site/bugs-online/product/ONTAP/BURT/1438207[1438207], https://mysupport.netapp.com/site/bugs-online/product/ONTAP/BURT/1479704[1479704], https://mysupport.netapp.com/site/bugs-online/product/ONTAP/BURT/1354659[1354659]. All of these issues are fixed in ONTAP 9.13.1 and later; it is strongly recommended to use one of these later versions.
 
 ****
+
 
 ****
 *Problem:* Data collector is in error, shows this error message.
