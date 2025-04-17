@@ -42,7 +42,6 @@ If the Agent was installed in the Agent box prior to 4 March 2021, run the follo
  sysctl -p
 
 Restart the collector from the UI after resizing.
-****
 
 ****
 
@@ -84,7 +83,6 @@ If yes, create an SVM Mgmt Only Lif and try connecting via this SVM management o
 . If it is still not working, please consult the networking team to make sure that no external firewall is blocking the connection from ONTAP to the Agent box.
 
 . If none of the above solves the issue, open a case with link:concept_requesting_support.html[Netapp Support] for further assistance.
-**** 
 
 **** 
 
@@ -96,9 +94,9 @@ If yes, create an SVM Mgmt Only Lif and try connecting via this SVM management o
 
 . Verify that the correct SVM IP Management address or Cluster Management IP has been provided.
 . SSH to the SVM or the Cluster to which you are intending to connect. Once you are connected ensure that the SVM or the Cluster name is correct.
-****
 
 ****
+
 
 ****
 *Problem:* Error Message: "Connector is in error state. Service.name: audit. Reason for failure: External fpolicy server terminated."
@@ -156,11 +154,6 @@ Please ensure that there are no errors related to fpolicy.
 Check if the fpolicy policy named with prefix “cloudsecure_” has been set and status is “on”. If not set, then most likely the Agent is unable to execute the commands in the SVM. Please ensure all the prerequisites as described in the beginning of the page have been followed.
 **** 
 
-****
-*Problem:* SVM Data Collector is in error state and Errror message is “Agent failed to connect to the collector”
-*Try this:*
-
-**** 
 
 ****
 *Problem:* SVM Data Collector is in error state and Error message is “Agent failed to connect to the collector”
