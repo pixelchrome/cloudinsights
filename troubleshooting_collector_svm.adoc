@@ -44,6 +44,8 @@ If the Agent was installed in the Agent box prior to 4 March 2021, run the follo
 Restart the collector from the UI after resizing.
 ****
 
+****
+
 
 ****
 *Problem:* Collector reports Error Message: “No local IP address found on the connector that can reach the data interfaces of the SVM”.
@@ -85,11 +87,17 @@ If yes, create an SVM Mgmt Only Lif and try connecting via this SVM management o
 **** 
 
 **** 
+
+
+**** 
 *Problem:* Message: "Failed to determine ONTAP type for [hostname: <IP Address>. Reason: Connection error to Storage System <IP Address>: Host is unreachable (Host unreachable)"
 *Try this:* 
 
+
 . Verify that the correct SVM IP Management address or Cluster Management IP has been provided.
 . SSH to the SVM or the Cluster to which you are intending to connect. Once you are connected ensure that the SVM or the Cluster name is correct.
+****
+
 ****
 
 ****
@@ -126,7 +134,6 @@ Basically, in a tenant, 1 SVM should be added only once, via 1 data collector. 1
 . In instances where the same SVM was added in two different Workload Security environments (tenants), the last one will always succeed. The second collector will configure fpolicy with its own IP address and kick out the first one. So the collector in the first one will stop receiving events and its "audit" service will enter into error state.
 To prevent this, configure each SVM on a single environment.
 
-
 . This error may also occur if service policies are not configured correctly. With ONTAP 9.8 or later, in order to connect to the Data Source Collector, the data-fpolicy-client service is required along with the data service data-nfs, and/or data-cifs. Additionally, the data-fpolicy-client service must be associated with the data lif(s) for the monitored SVM.
 
 ****
@@ -153,6 +160,12 @@ Check if the fpolicy policy named with prefix “cloudsecure_” has been set an
 *Problem:* SVM Data Collector is in error state and Errror message is “Agent failed to connect to the collector”
 *Try this:*
 
+**** 
+
+****
+*Problem:* SVM Data Collector is in error state and Error message is “Agent failed to connect to the collector”
+*Try this:*
+
 . Most likely the Agent is overloaded and is unable to connect to the Data Source collectors.
 . Check how many Data Source collectors are connected to the Agent.
 . Also check the data flow rate in the “All Activity” page in the UI.
@@ -169,11 +182,14 @@ CLIs in ONTAP which can be used to get more information are:
  event log show -source fpolicy -fields event,action,description which shows more details.
 
 link:https://docs.netapp.com/ontap-9/index.jsp?topic=%2Fcom.netapp.doc.dot-cm-nmg%2FGUID-969851BB-4302-4645-8DAC-1B059D81C5B2.html[Check firewall commands] on the ONTAP side.
+
 ****
+
 
 ****
 *Problem:* Error Message: “Connector is in error state. Service name:audit. Reason for failure: No valid data interface (role: data,data protocols: NFS or CIFS or both, status: up) found on the SVM.”
 *Try this:* Ensure there is an operational interface (having role as data and data protocol as CIFS/NFS.
+
 ****
 
 ****
@@ -184,6 +200,7 @@ link:https://docs.netapp.com/ontap-9/index.jsp?topic=%2Fcom.netapp.doc.dot-cm-nm
 . The data collectors which show this kind of behavior will have 1 SVM added to these data collectors. Meaning 2 or more data collectors are connected to 1 SVM.
 . Ensure 1 data collector connects to only 1 SVM.
 . Delete the other data collectors which are connected to the same SVM.
+
 ****
 
 ****
@@ -191,7 +208,9 @@ link:https://docs.netapp.com/ontap-9/index.jsp?topic=%2Fcom.netapp.doc.dot-cm-nm
 *Try this:* *The share names need to be given without any quotes. Edit the ONTAP SVM DSC configuration to correct the share names.
 
 _Include and exclude shares_ is not intended for a long list of share names. Use filtering by volume instead if you have a large number of shares to include or exclude.
+
 ****
+
 
 ****
 *Problem:* There are existing fpolicies in the Cluster which are unused. What should be done with those prior to installation of Workload Security?
@@ -211,7 +230,9 @@ Steps to delete fpolicy configurations:
 
 |After enabling Workload Security, ONTAP performance is impacted: Latency becomes sporadically high, IOPs become sporadically low.
 |While using ONTAP with Workload Security sometimes latency issues can be seen in ONTAP. There are a number of possible reasons for this as noted in the following: link:https://mysupport.netapp.com/site/bugs-online/product/ONTAP/BURT/1372994[1372994], https://mysupport.netapp.com/site/bugs-online/product/ONTAP/BURT/1415152[1415152], https://mysupport.netapp.com/site/bugs-online/product/ONTAP/BURT/1438207[1438207], https://mysupport.netapp.com/site/bugs-online/product/ONTAP/BURT/1479704[1479704], https://mysupport.netapp.com/site/bugs-online/product/ONTAP/BURT/1354659[1354659]. All of these issues are fixed in ONTAP 9.13.1 and later; it is strongly recommended to use one of these later versions.
+
 ****
+
 
 ****
 *Problem:* Data collector is in error, shows this error message.
@@ -247,6 +268,7 @@ Look into the sizing guide on link:concept_cs_event_rate_checker.html[this page]
 ****
 *Problem:* The Data Collector is erroring out when SVM mode is selected.
 *Try this:* While connecting in SVM mode, If cluster management IP is used to connect instead of SVM management IP, then the connection will error out. Make sure that the correct SVM IP is used.
+
 ****
 
 ****
@@ -255,6 +277,7 @@ Look into the sizing guide on link:concept_cs_event_rate_checker.html[this page]
 *Try this:* The user might be missing the REST permissions needed for the Access Denied feature. Please follow the instructions on link:concept_ws_integration_with_ontap_access_denied.html[this page] to set the permissions.
  
 Restart the collector once the permissions are set.
+
 ****
 
 
