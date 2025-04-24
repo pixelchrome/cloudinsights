@@ -89,9 +89,9 @@ image:NoteWidget.png[Note Widget]
 
 For more detailed explanations of these and other Dashboard Features, link:concept_dashboard_features.html[click here].
 
-* Time Bar Chart*: Displays log or metric data over time.
+* *Time Bar Chart*: Displays log or metric data over time.
 
-image:time_bar_chart.png[time bar chart example showing log data, width=300]
+image:time_bar_chart.png[time bar chart example showing log data, width=200]
 
 
 
