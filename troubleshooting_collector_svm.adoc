@@ -45,7 +45,6 @@ Restart the collector from the UI after resizing.
 
 ****
 
-
 ****
 *Problem:* Collector reports Error Message: “No local IP address found on the connector that can reach the data interfaces of the SVM”.
 *Try This:* This is most likely due to a networking issue on the ONTAP side. Please follow these steps:
@@ -56,7 +55,7 @@ Restart the collector from the UI after resizing.
 +
 You can also try logging in to the cluster via ssh using the cluster management IP, and ping the Agent IP. Make sure that the agent IP is pingable:
 +
-_network ping -vserver <vserver name> -destination <Agent IP> -lif <Lif Name> -show-detail_
+ network ping -vserver <vserver name> -destination <Agent IP> -lif <Lif Name> -show-detail
 +
 If not pingable, make sure the network settings in ONTAP are correct, so that the Agent machine is pingable.
 
@@ -74,7 +73,7 @@ If yes, create an SVM Mgmt Only Lif and try connecting via this SVM management o
 ..	Wait till the error appears. Stop the packet trace in ONTAP.
 ..	Open the packet trace from ONTAP. It is available at this location
 +
- \https://<cluster_mgmt_ip>/spi/<clustername>/etc/log/packet_traces/
+ https://<cluster_mgmt_ip>/spi/<clustername>/etc/log/packet_traces/
 +
 ..	Make sure there is a SYN from ONTAP to the Agent box.
 ..	If there is no SYN from ONTAP then it is an issue with firewall in ONTAP.
@@ -91,7 +90,6 @@ If yes, create an SVM Mgmt Only Lif and try connecting via this SVM management o
 *Problem:* Message: "Failed to determine ONTAP type for [hostname: <IP Address>. Reason: Connection error to Storage System <IP Address>: Host is unreachable (Host unreachable)"
 *Try this:* 
 
-
 . Verify that the correct SVM IP Management address or Cluster Management IP has been provided.
 . SSH to the SVM or the Cluster to which you are intending to connect. Once you are connected ensure that the SVM or the Cluster name is correct.
 
@@ -106,7 +104,7 @@ If yes, create an SVM Mgmt Only Lif and try connecting via this SVM management o
 
 . Type the following command in the Agent box and ensure that the port range is open.
 +
- sudo iptables-save \| grep 3500*
+ sudo iptables-save | grep 3500*
 +
 Sample output should look like:
 +
@@ -121,7 +119,7 @@ link:https://docs.netapp.com/ontap-9/index.jsp?topic=%2Fcom.netapp.doc.dot-cm-nm
 
 . SSH to the SVM/Cluster which you want to monitor. Ping the Agent box from the SVM data lif (with CIFS, NFS protocols support) and ensure that ping is working:
 +
- _network ping -vserver <vserver name> -destination <Agent IP> -lif <Lif Name> -show-detail_
+ network ping -vserver <vserver name> -destination <Agent IP> -lif <Lif Name> -show-detail
 +
 If not pingable, make sure the network settings in ONTAP are correct, so that the Agent machine is pingable.
 
@@ -144,7 +142,9 @@ To prevent this, configure each SVM on a single environment.
 . Check if ONTAP collector is in “RUNNING” state. If yes, then ensure that some cifs events are being generated on the cifs client VMs by opening some files.
 
 . If no activities are seen, please login to the SVM and enter the following command.
-_<SVM>event log show -source fpolicy_
++
+ <SVM>event log show -source fpolicy
++
 Please ensure that there are no errors related to fpolicy.
 
 . If no activities are seen, please login to the SVM. Enter the following command:
@@ -153,7 +153,6 @@ Please ensure that there are no errors related to fpolicy.
 +
 Check if the fpolicy policy named with prefix “cloudsecure_” has been set and status is “on”. If not set, then most likely the Agent is unable to execute the commands in the SVM. Please ensure all the prerequisites as described in the beginning of the page have been followed.
 **** 
-
 
 ****
 *Problem:* SVM Data Collector is in error state and Error message is “Agent failed to connect to the collector”
@@ -243,7 +242,7 @@ Steps to delete fpolicy configurations:
 ****
 *Problem:* Data Collector shows the error message:
 “Error: Failed to determine the health of the collector within 2 retries, try restarting the collector again (Error Code: AGENT008)”.
-*Try thi:* 
+*Try this:* 
 
 . On the Data Collectors page, scroll to the right of the data collector giving the error and click on the 3 dots menu. Select _Edit_.
 Enter the password of the data collector again.
