@@ -94,7 +94,7 @@ Here you will find suggestions for troubleshooting problems with Reporting.
 |In order to avoid this, the report or report-view must be saved to the “Team Content > Custom Reports - xxxxxx" folder, and the schedule created from that saved version. The "Custom Reports - xxxxxx" folder is visible to all users on the tenant.
 
 |when saving a Job, the folder may show “Team Content” with the list of content from “Custom Reports - xxxxxx”, however you can not save the Job here because Cognos thinks this is the “Team Content” folder where you don't have access to write.
-|The work around is to create a new folder “qqqqqq” and save there, or to save to “My Content” and then copy/move to “Custom Reports - xxxxxx”.
+|The work around is to create a new folder with a unique name (i.e. “NewFolder”) and save there, or to save to “My Content” and then copy/move to “Custom Reports - xxxxxx”.
 
 
 |===
