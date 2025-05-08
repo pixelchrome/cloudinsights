@@ -301,8 +301,9 @@ sidebar:
         - title: Email Notifications
           url: /cs_notifications_email.html
         - title: Webhook Notifications
-          url: /ws_create_webhook.html
           entries:
+            - title: Creating Webhooks
+              url: /ws_create_webhook.html
             -title: Webhook Example - Discord
               url: /ws_webhook_example_discord.html
             -title: Webhook Example - PagerDuty
