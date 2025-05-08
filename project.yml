@@ -304,7 +304,7 @@ sidebar:
         - title: Webhooks
           entries:
             - title: Creating Webhooks
-              url: /ws_create_webhook.html
+              url: /ws_notifications_using_webhooks.html
 
 
 
