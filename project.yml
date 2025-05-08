@@ -121,6 +121,16 @@ sidebar:
             url: /task_system_monitors.html
           - title: Webhook Notification
             url: /task_create_webhook.html
+            entries:
+              -title: Webhook Example: Discord
+                url: /task_webhook_example_discord.html
+              -title: Webhook Example: PagerDuty
+                url: /task_webhook_example_pagerduty.html
+              -title: Webhook Example: Slack
+                url: /task_webhook_example_slack.html
+              -title: Webhook Example: Teams
+                url: /task_webhook_example_teams.html
+              
 
       - title: Working with Annotations
         entries:
@@ -294,6 +304,18 @@ sidebar:
           url: /concept_cs_api.html
         - title: Troubleshooting the SVM Collector
           url: /troubleshooting_collector_svm.html
+        
+        - title: Webhook Notifications
+            url: /ws_create_webhook.html
+            entries:
+              -title: Webhook Example: Discord
+                url: /ws_webhook_example_discord.html
+              -title: Webhook Example: PagerDuty
+                url: /ws_webhook_example_pagerduty.html
+              -title: Webhook Example: Slack
+                url: /ws_webhook_example_slack.html
+              -title: Webhook Example: Teams
+                url: /ws_webhook_example_teams.html
    
     - title: Troubleshooting
       entries:
