@@ -29,9 +29,9 @@ When an alert is triggered against the specified devices (or all devices, if sel
 
 See the link:cs_restrict_user_access.html[Restrict User Access] page for more details on restricting user access by IP.
 
-You can attach one or more webhooks to a policy to get notified when an alert is created and action is taken. It is recommended to add no more than 10 webhooks to a policy. If a policy is paused, webhook notifications will not be triggered. 
+You can attach one or more webhooks to a policy to get notified when an alert is created and action is taken. It is recommended to add no more than 10 webhooks to a policy.Keep in mind that if a policy is paused, webhook notifications will not be triggered. 
 
-You can modify or pause an Automated Response Policy by choosing the option in the policy's drop-down menu.
+You can modify or pause an Automated Response Policy by choosing the option in the policy's drop-down menu. 
 
 Workload Security will automatically delete snapshots once per day based on the Snapshot Purge settings. 
 
