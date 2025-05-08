@@ -37,7 +37,7 @@ To create a Workload Security Webhook, go to Admin > Notifications and select â€
 
 Note: User must be a Workload Security _Admin_ in order to create and manage Workload Security Webhooks.
 
-image:ws_webhook_slack_example.png[webhook slack example for Workload Security]
+image:ws_webhook_slack_example.png[webhook slack example for Workload Security, width=500]
 
 * Enter appropriate information for each of the fields, and click "Save".
 * You can also click the "Test Webhook" button to test the connection. Note that this will send the "Message Body" (without substitutions) to the defined URL according to the selected Method.
@@ -55,7 +55,7 @@ In this section you can add any custom parameters and/or secrets you wish. A cus
 
 The following sample image shows how custom parameters are used in webhook creation.
 
-image:ws_webhook_parameters_example.png[workload security webhook with parameters]
+image:ws_webhook_parameters_example.png[workload security webhook with parameters, width=800]
 
 == Workload Security Webhooks List Page
 
@@ -84,7 +84,7 @@ From the webhooks listing page users can also Edit/Duplicate/Delete webhooks.
 
 To add a webhook notification to an alert policy, go to -Workload Security > Policies- and select an existing policy or add a new policy. In the _Actions_ section > _Webhook Notifications_ dropdown, select the required webhooks.
 
-image:ws_edit_attack_policy.png[Edit Attack Policy dialog showing webhook dropdown]
+image:ws_edit_attack_policy.png[Edit Attack Policy dialog showing webhook dropdown, width=500]
 
 Webhook notifications are tied to policies. When the attack (RW/DD/WARN) happens, the action configured (Take snapshot / user blocking) will be taken and then the associated webhook notification will be triggered.
 
@@ -98,9 +98,9 @@ Note: Email notifications are independent of policies, they will be triggered as
 === Workload Security Webhook Examples  
 
 Webhooks for link:ws_webhook_example_slack.html[Slack]
-Webhooks for link:[PagerDuty]
-Webhooks for link:[Teams]
-Webhooks for link:[Discord] 
+Webhooks for link:ws_webhook_example_pagerduty.html[PagerDuty]
+Webhooks for link:ws_webhook_example_teams.html[Teams]
+Webhooks for link:ws_webhook_example_discord.html[Discord] 
 
 
 
