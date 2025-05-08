@@ -301,26 +301,18 @@ sidebar:
         - title: Email Notifications
           url: /cs_notifications_email.html
 
-        - title: Webhooks
+        - title: Webhook Notifications
           entries:
             - title: Creating Webhooks
               url: /ws_notifications_using_webhooks.html
-
-
-
-
- #       - title: Webhook Notifications
- #         entries:
- #           - title: Creating Webhooks
- #             url: /ws_create_webhook.html
- #           -title: Webhook Example - Discord
- #             url: /ws_webhook_example_discord.html
- #           -title: Webhook Example - PagerDuty
- #             url: /ws_webhook_example_pagerduty.html
- #           -title: Webhook Example - Slack
- #             url: /ws_webhook_example_slack.html
- #           -title: Webhook Example - Teams
- #             url: /ws_webhook_example_teams.html
+            -title: Webhook Example - Discord
+              url: /ws_webhook_example_discord.html
+            -title: Webhook Example - PagerDuty
+              url: /ws_webhook_example_pagerduty.html
+            -title: Webhook Example - Slack
+              url: /ws_webhook_example_slack.html
+            -title: Webhook Example - Teams
+              url: /ws_webhook_example_teams.html
 
 
         - title: Workload Security API
