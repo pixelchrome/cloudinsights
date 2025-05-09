@@ -307,12 +307,12 @@ sidebar:
               url: /ws_notifications_using_webhooks.html
             -title: Discord Webhook Example
               url: /ws_webhook_example_discord.html
-#            -title: Webhook Example - PagerDuty
-#              url: /ws_webhook_example_pagerduty.html
-#            -title: Webhook Example - Slack
-#              url: /ws_webhook_example_slack.html
-#            -title: Webhook Example - Teams
-#              url: /ws_webhook_example_teams.html
+            -title: PagerDuty Webhook Example
+              url: /ws_webhook_example_pagerduty.html
+            -title: Slack Webhook Example
+              url: /ws_webhook_example_slack.html
+            -title: Team Webhook Example
+              url: /ws_webhook_example_teams.html
 
         - title: Workload Security API
           url: /concept_cs_api.html
