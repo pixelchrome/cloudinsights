@@ -305,8 +305,8 @@ sidebar:
           entries:
             - title: Creating Webhooks
               url: /ws_notifications_using_webhooks.html
-#            -title: Webhook Example - Discord
-#              url: /ws_webhook_example_discord.html
+            -title: Webhook Example - Discord
+              url: /ws_webhook_example_discord.html
 #            -title: Webhook Example - PagerDuty
 #              url: /ws_webhook_example_pagerduty.html
 #            -title: Webhook Example - Slack
