@@ -115,21 +115,23 @@ sidebar:
             url: /task_create_monitor.html
           - title: Viewing and Managing Alerts
             url: /task_view_and_manage_alerts.html
-          - title: Configuring Notification Recipients
-            url: /concept_notifications_email.html 
           - title: System-Defined Monitors
             url: /task_system_monitors.html
-          - title: Webhook Notification
-            url: /task_create_webhook.html
-#            entries:
-#              -title: Webhook Example - Discord
-#                url: /task_webhook_example_discord.html
-#              -title: Webhook Example - PagerDuty
-#                url: /task_webhook_example_pagerduty.html
-#              -title: Webhook Example - Slack
-#                url: /task_webhook_example_slack.html
-#              -title: Webhook Example - Teams
-#                url: /task_webhook_example_teams.html
+          - title: Configuring Notification Recipients
+            url: /concept_notifications_email.html 
+
+          - title: Webhook Notifications
+            entries:
+              - title: Configuring Webhooks
+                url: /task_create_webhook.html
+              - title: Webhook Example - Discord
+                url: /task_webhook_example_discord.html
+              - title: Webhook Example - PagerDuty
+                url: /task_webhook_example_pagerduty.html
+              - title: Webhook Example - Slack
+                url: /task_webhook_example_slack.html
+              - title: Webhook Example - Teams
+                url: /task_webhook_example_teams.html
               
 
       - title: Working with Annotations
