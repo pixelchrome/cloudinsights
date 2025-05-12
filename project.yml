@@ -305,13 +305,13 @@ sidebar:
           entries:
             - title: Creating Webhooks
               url: /ws_notifications_using_webhooks.html
-            -title: Discord Webhook Example
+            - title: Discord Webhook Example
               url: /ws_webhook_example_discord.html
-            -title: PagerDuty Webhook Example
+            - title: PagerDuty Webhook Example
               url: /ws_webhook_example_pagerduty.html
-            -title: Slack Webhook Example
+            - title: Slack Webhook Example
               url: /ws_webhook_example_slack.html
-            -title: Team Webhook Example
+            - title: Team Webhook Example
               url: /ws_webhook_example_teams.html
 
         - title: Workload Security API
