@@ -115,12 +115,24 @@ sidebar:
             url: /task_create_monitor.html
           - title: Viewing and Managing Alerts
             url: /task_view_and_manage_alerts.html
-          - title: Configuring Notification Recipients
-            url: /concept_notifications_email.html 
           - title: System-Defined Monitors
             url: /task_system_monitors.html
-          - title: Webhook Notification
-            url: /task_create_webhook.html
+          - title: Configuring Notification Recipients
+            url: /concept_notifications_email.html 
+
+          - title: Webhook Notifications
+            entries:
+              - title: Configuring Webhooks
+                url: /task_create_webhook.html
+              - title: Webhook Example - Discord
+                url: /task_webhook_example_discord.html
+              - title: Webhook Example - PagerDuty
+                url: /task_webhook_example_pagerduty.html
+              - title: Webhook Example - Slack
+                url: /task_webhook_example_slack.html
+              - title: Webhook Example - Teams
+                url: /task_webhook_example_teams.html
+              
 
       - title: Working with Annotations
         entries:
@@ -288,12 +300,27 @@ sidebar:
           url: /cs_restrict_user_access.html
         - title: Simulating a Ransomware Attack
           url: /concept_cs_attack_simulator.html
-        - title: Notifications
+        - title: Email Notifications
           url: /cs_notifications_email.html
+
+        - title: Webhook Notifications
+          entries:
+            - title: Creating Webhooks
+              url: /ws_notifications_using_webhooks.html
+            - title: Discord Webhook Example
+              url: /ws_webhook_example_discord.html
+            - title: PagerDuty Webhook Example
+              url: /ws_webhook_example_pagerduty.html
+            - title: Slack Webhook Example
+              url: /ws_webhook_example_slack.html
+            - title: Team Webhook Example
+              url: /ws_webhook_example_teams.html
+
         - title: Workload Security API
           url: /concept_cs_api.html
         - title: Troubleshooting the SVM Collector
           url: /troubleshooting_collector_svm.html
+
    
     - title: Troubleshooting
       entries:
