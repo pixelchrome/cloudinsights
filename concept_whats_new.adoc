@@ -35,7 +35,7 @@ image:ws_webhook_slack_example.png[Webhook Slack Example for Workload Security, 
 You can easily migrate a Workload Security collector from one agent to another, allowing for efficient load balancing of collectors across agents.
 Migrating is as easy as editing the collector and selecting the destination agent from the list. 
 
-image:ws_migrate_collector_to_another_agent.png[migrate collector, width=400]
+image:ws_migrate_collector_to_another_agent.png[migrate collector, width=500]
 
 ''''
 
