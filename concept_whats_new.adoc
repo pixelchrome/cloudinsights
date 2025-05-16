@@ -17,6 +17,28 @@ keywords: features
 [.lead]
 NetApp is continually improving and enhancing its products and services. Here are some of the latest features and functionalities available in Data Infrastructure Insights (formerly Cloud Insights).
 
+
+== May 2025
+
+
+
+=== Webhooks now available for Workload Security alerts
+
+Workload Security now supports out-of-the-box webhook notifications to tools like Slack, PagerDuty, Teams, and more.
+Route critical alerts directly into your existing security workflows, so your team can investigate and respond faster—no custom setup required.
+
+image:ws_webhook_slack_example.png[Webhook Slack Example for Workload Security, width=400]
+
+
+=== Migrate Workload Security collectors across agents
+
+You can easily migrate a Workload Security collector from one agent to another, allowing for efficient load balancing of collectors across agents.
+Migrating is as easy as editing the collector and selecting the destination agent from the list. 
+
+image:ws_migrate_collector_to_another_agent.png[migrate collector, width=500]
+
+''''
+
 == April 2025
 
 === ML-Powered Anomaly Bounds in Line Widgets for Proactive Issue Resolution
@@ -53,9 +75,8 @@ Exporting forensics data can take anywhere from a few seconds to a number of hou
 If you have configured notifications on data collectors, starting April 15 those notifications will be handled in Notification Rules, with a single rule for collectors that have identical recipients. Collectors with different recipients will have separate rules. Existing collector notifications are migrated to notification rules.
 
 
-
-
 '''
+
 
 == April 2025
 
@@ -135,6 +156,7 @@ image:ws_test_connection_button.png[workload security test connection button]
 image:ws_test_connection_success_example.png[Workload Security 'Test Connection' success message]
 
 
+
 === Operating System support
 
 The following operating systems are now supported with Data Infrastructure Insights Acquisition Units, in addition to those link:https://docs.netapp.com/us-en/cloudinsights/concept_acquisition_unit_requirements.html[already supported]:
@@ -153,13 +175,6 @@ The following operating systems are now supported with Data Infrastructure Insig
 
 == February 2025
 
-=== ONTAP Essentials for the latest generation of ASA systems 
- 
-ONTAP essentials now includes out-of-the-box manageability for the latest generation of link:task_dc_na_ontap_all_san_array.html[ASA] devices. This includes SAN Analyzer for VM-to-LUN topologies of workloads running on ONTAP, now also available with NetApp support as part of Data Infrastructure Insights Basic Edition.
-
-image:ontap_essentials_asa_views.png[ONTAP Essentials drop-down showing ASA as distinct from Unified]
-
-=== ONTAP Essentials for the latest generation of ASA systems 
  
 ONTAP essentials now includes out-of-the-box manageability for the latest generation of link:task_dc_na_ontap_all_san_array.html[ASA] devices. This includes SAN Analyzer for VM-to-LUN topologies of workloads running on ONTAP, now also available with NetApp support as part of Data Infrastructure Insights Basic Edition.
 
@@ -169,15 +184,12 @@ image:ontap_essentials_asa_views.png[ONTAP Essentials drop-down showing ASA as d
 === DII API Usage Tracking: Enhance Security and Efficiency
 
 Strengthen your security posture and streamline resource management with enhanced REST API Usage tracking, available for Admin users. With API usage tracking you can see which API tokens are being used, from which IP addresses, and the volume of traffic they generate.  By linking tokens to specific IP addresses and usage levels, you'll gain powerful insights into system access and usage trends, giving you the control you need to maintain a safe, efficient environment and keep operations running smoothly.
-Strengthen your security posture and streamline resource management with enhanced REST API Usage tracking, available for Admin users. With API usage tracking you can see which API tokens are being used, from which IP addresses, and the volume of traffic they generate.  By linking tokens to specific IP addresses and usage levels, you'll gain powerful insights into system access and usage trends, giving you the control you need to maintain a safe, efficient environment and keep operations running smoothly.
 
-To view API Usage, navigate to *Observability > Admin > API Access* and select _View API Usage_. Note that this API is available for DII Observability APIs only; it does not apply to Workload Security.
 To view API Usage, navigate to *Observability > Admin > API Access* and select _View API Usage_. Note that this API is available for DII Observability APIs only; it does not apply to Workload Security.
 
 image:api_usage_analytics_screenshot.png[API usage analytics example]
 
 
-=== Workload Security API to restrict users 
 === Workload Security API to restrict users 
 
 A new API has been added to manage user restriction in Workload Security. With the API you can block or unblock a user, or change the duration of their restricted access. See the Admin > API Access > API Documentation page for the _cloudsecure_actions.block_ API.
