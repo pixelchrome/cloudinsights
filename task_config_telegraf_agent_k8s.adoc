@@ -186,7 +186,7 @@ If a Security Context Constraint was previously-created:
  kubectl delete scc telegraf-hostaccess
  
  
-
+////
 == About Kube-state-metrics
 
 The NetApp Kubernetes Monitoring Operator installs its own kube-state-metrics to avoid conflict with any other instances.
