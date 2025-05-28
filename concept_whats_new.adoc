@@ -25,7 +25,7 @@ The redesigned Landing Pages surface everything you need--summary data, performa
 
 Now you can troubleshoot faster and stay in flow, without jumping between tabs or losing context.
 
-image:lp_new_design.png[new landing page design showing placement of summary, performance, and additional resources sections]
+image:lp_new_design.png[new landing page design showing placement of summary and performance and additional resources sections]
 
 
 === Workload Security Improvements
