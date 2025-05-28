@@ -412,6 +412,8 @@ sidebar:
               url: /task_dc_fujitsu_eternus.html
             - title: Google
               url: /task_dc_google_cloud.html
+            - title: Google Cloud NetApp Volumes
+              url: /task_dc_google_cloud_netapp_volumes.html
             - title: HP Enterprise
               entries:
                 - title: HP Alletra 9000 and Primera
