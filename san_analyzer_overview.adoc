@@ -5,9 +5,8 @@ summary: SAN Analyzer provides topology for assets on your tenant
 keywords: topology, analyze, analysis, map
 ---
 
-= San Analyzer Overview
+= SAN Analyzer Overview
 :hardbreaks:
-
 :nofooter:
 :icons: font
 :linkattrs:
