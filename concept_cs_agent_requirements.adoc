@@ -126,11 +126,12 @@ agentlogin.cs01-ap-1.cloudinsights.netapp.com
 
 NOTE that you do not need to reserve *all* of these ports, but the ports you reserve for this must be within this range. It is recommended to start by reserving ~100 ports, and increasing if necessary.
 
-|SSH |22|Workload Security Agent| Cluster management |Needed for CIFS/SMB user blocking.
 |TCP|35000-55000|Cluster Management IP|Workload Security Agent
 |Communication from ONTAP Cluster Management IP to the Workload Security Agent for *EMS events*. These ports must be opened towards the Workload Security Agent in order for ONTAP to send *EMS events* to it, including any firewall on the Workload Security Agent itself (if present).
 
 NOTE that you do not need to reserve *all* of these ports, but the ports you reserve for this must be within this range. It is recommended to start by reserving ~100 ports, and increasing if necessary.
+
+|SSH |22|Workload Security Agent| Cluster management |Needed for CIFS/SMB user blocking.
 
 |===
 
