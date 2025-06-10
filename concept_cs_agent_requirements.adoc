@@ -81,8 +81,7 @@ For *US-based* Workload Security environments:
 |TCP|443|Workload Security Agent|<site_name>.cs01.cloudinsights.netapp.com 
 <site_name>.c01.cloudinsights.netapp.com 
 <site_name>.c02.cloudinsights.netapp.com|Access to Data Infrastructure Insights
-|TCP|443|Workload Security Agent|gateway.c01.cloudinsights.netapp.com
-agentlogin.cs01.cloudinsights.netapp.com|Access to authentication services
+|TCP|443|Workload Security Agent|agentlogin.cs01.cloudinsights.netapp.com|Access to authentication services
 |===
 
 For *Europe-based* Workload Security environments:
@@ -94,8 +93,7 @@ For *Europe-based* Workload Security environments:
 <site_name>.c01-eu-1.cloudinsights.netapp.com
 <site_name>.c02-eu-1.cloudinsights.netapp.com
 |Access to Data Infrastructure Insights
-|TCP|443|Workload Security Agent|gateway.c01.cloudinsights.netapp.com
-agentlogin.cs01-eu-1.cloudinsights.netapp.com
+|TCP|443|Workload Security Agent|agentlogin.cs01-eu-1.cloudinsights.netapp.com
 |Access to authentication services
 |===
 
@@ -108,8 +106,7 @@ For *APAC-based* Workload Security environments:
 <site_name>.c01-ap-1.cloudinsights.netapp.com
 <site_name>.c02-ap-1.cloudinsights.netapp.com
 |Access to Data Infrastructure Insights
-|TCP|443|Workload Security Agent|gateway.c01.cloudinsights.netapp.com
-agentlogin.cs01-ap-1.cloudinsights.netapp.com
+|TCP|443|Workload Security Agent|agentlogin.cs01-ap-1.cloudinsights.netapp.com
 |Access to authentication services
 |===
 
