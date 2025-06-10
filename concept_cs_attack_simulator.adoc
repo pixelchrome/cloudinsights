@@ -17,9 +17,9 @@ You can use the instructions on this page to simulate an attack for testing or d
 
 == Things to note before you begin
 
-* The ransomware simulation script works on Linux only. The simulation script should also generate High Confidence Alert in case the user has integrated ONTAP ARP with Workload Security.
+* The ransomware simulation script works on Linux only. The simulation script should also generate High Confidence Alerts in then event that the user has integrated ONTAP ARP with Workload Security.
 
-* Workload Security will detect events and alerts generated with NFS 4.1 only if ONTAP version is 9.15 and above. 
+* Workload Security will detect events and alerts generated with NFS 4.1 only if ONTAP version is 9.15 or higher. 
 
 * The script is provided with the Workload Security agent installation files. It is available on any machine that has a Workload Security agent installed.
 
@@ -27,19 +27,19 @@ You can use the instructions on this page to simulate an attack for testing or d
 
 * Users can opt for either the Python or shell script based on their preferences and system requirements.
 
-* Python script needs pre-requisite installations. If you don't want to use python, shell script would be helpful as well. 
+* The Python script has pre-requisite installations. If you don't want to use python, use the shell script. 
 
 == Guidelines:
+
 This script should be executed on an SVM containing a folder with a substantial number of files for encryption, ideally 100 or more, including files in sub-folders. Ensure that the files are not empty. 
 
 To generate the alert, temporarily pause the collector before test data creation. Once the sample files are generated, resume the collector and initiate the encryption process.
 
 == Steps:
 
-
 === Prepare the system:
 
-First, mount the target volume to machine. You can mount either an NFS mount or CIFs export.
+First, mount the target volume to the machine. You can mount either an NFS or CIFS export.
 
 ==== To mount NFS export in Linux:
 
@@ -58,22 +58,23 @@ mount -t cifs //10.193.77.91/sharedfolderincluster /root/destinationfolder/ -o u
 
 ==== Enable ONTAP Autonomous ransomware protection (Optional):
 
-If your ONTAP cluster version is 9.11.1 or higher you may enable the ONTAP Ransomware protection service by executing following command on the ontap command console.
+If your ONTAP cluster version is 9.11.1 or higher you may enable the ONTAP Ransomware Protection service by executing the following command on the ONTAP command console.
 
  security anti-ransomware volume enable -volume [volume_name] -vserver [svm_name]
 
 Next, set up a Data Collector:
 
 . Configure the Workload Security agent if not already done.
-. Configure SVM data collector if not already done.
+. Configure an SVM data collector if not already done.
 . Make sure the mount protocol is selected while configuring the data collector.
 
 == Generate the sample files programmatically:
+
 Before creating the files, you must first stop or link:task_add_collector_svm.html#play-pause-data-collector[pause the data collector] processing.
 
-Before running the simulation, you must first add files to be encrypted. You can either manually copy the files to be encrypted into the target folder, or use one of the attached scripts to programmatically create the files. Whichever method you use, make sure at least 100 files are present to encrypt.
+Before running the simulation, you must first add files to be encrypted. You can either manually copy the files to be encrypted into the target folder, or use one of the included scripts to programmatically create the files. Whichever method you use, make sure at least 100 files are present to encrypt.
 
-If you choose to programmatically create the files, select any of the following :
+If you choose to programmatically create the files, you can use the Shell or Python:
 
 === Shell:
 
@@ -81,13 +82,13 @@ If you choose to programmatically create the files, select any of the following 
 
 . Mount an NFS or CIFS share from the SVM of the filer to the Agent machine. Cd to that folder.
 
-. Copy the script from Agent installation directory (%AGENT_INSTALL_DIR/ agent/install/ransomware_simulation/shell/create_dataset.sh ) to the target mount location.
+. Copy the script from Agent installation directory (%AGENT_INSTALL_DIR/ agent/install/ransomware_simulation/shell/create_dataset.sh) to the target mount location.
 
-. Execute the following command using the scripts within the mounted directory (for e.g. /root/demo) to create  test dataset:
+. Execute the following command using the scripts within the mounted directory (e.g. /root/demo) to create the test dataset folder and files:
 
  './create_dataset.sh'
 
-. This will 100 non empty files with multiple extension inside the mount folder under a directory called "test_dataset"
+. This will create 100 non empty files with various extensions inside the mount folder under a directory called "test_dataset".
 
 
 === Python: 
@@ -110,53 +111,56 @@ If you choose to programmatically create the files, select any of the following 
 ** Confirm PyCryptodome installation by running `pip show pycryptodome`.
 
 ==== Python create file script:
+
 . Log into the Agent box.
 
 . Mount an NFS or CIFS share from the SVM of the filer to the Agent machine. Cd to that folder.
 
-. Copy the script from Agent installation directory (%AGENT_INSTALL_DIR/agent/install/ransomware_simulation/python/create_dataset.py ) to the target mount location.
+. Copy the script from Agent installation directory (%AGENT_INSTALL_DIR/agent/install/ransomware_simulation/python/create_dataset.py) to the target mount location.
 
-. Execute the following command using the scripts within the mounted directory (for e.g. /root/demo) to create  test dataset:
+. Execute the following command using the scripts within the mounted directory (for e.g. /root/demo) to create the test dataset folder and files:
 
  'python create_dataset.py'
 
-. This will create 100 non empty files with multiple extension inside the mount folder under a directory called “test_dataset"
+. This will create 100 non empty files with various extensions inside the mount folder under a directory called “test_dataset"
 
 == Resume the collector
 
-If you paused the collector before following these steps, please be sure to resume the collector once the sample files are created using the scripts.
+If you paused the collector before following these steps, please be sure to resume the collector once the sample files are created.
 
 
 == Run the Ransomware Simulator script
 
-To generate a Ransomware alert, you can execute the attached script which will simulate a ransomware alert on the Workload Security
+To generate a Ransomware alert, you can execute the included script which will simulate a ransomware alert in Workload Security.
 
 === Shell:
-. Copy the script from Agent installation directory (%AGENT_INSTALL_DIR/agent/install/ransomware_simulation/shell/simulate_attack.sh ) to the target mount location.
 
-. Execute the following command using the scripts within the mounted directory (for e.g. /root/demo) to encrypt test dataset:
+. Copy the script from Agent installation directory (%AGENT_INSTALL_DIR/agent/install/ransomware_simulation/shell/simulate_attack.sh) to the target mount location.
+
+. Execute the following command using the scripts within the mounted directory (for e.g. /root/demo) to encrypt the test dataset:
 
  './simulate_attack.sh'
 
-. This will encrypt the sample files created under “test_dataset" directory
+. This will encrypt the sample files created under the "test_dataset" directory.
 
 === Python: 
 
-. Copy the script from Agent installation directory (%AGENT_INSTALL_DIR/agent/install/ransomware_simulation/python/simulate_attack.py ) to the target mount location.
+. Copy the script from Agent installation directory (%AGENT_INSTALL_DIR/agent/install/ransomware_simulation/python/simulate_attack.py) to the target mount location.
 
 . Please note that python prerequisites are installed as per Python script Prerequisite section
 
-. Execute the following command using the scripts within the mounted directory (for e.g. /root/demo) to create  test dataset:
+. Execute the following command using the scripts within the mounted directory (for e.g. /root/demo) to encrypt the test dataset:
 
  'python simulate_attack.py'
  
-. This will encrypt the sample files created under “test_dataset" directory
+. This will encrypt the sample files created under the "test_dataset" directory.
 
-== Alert in Workload Security UI
 
-Once the simulator script execution has finished, an alert will be seen on the Web UI in few minutes.
+== Generate an Alert in Workload Security
 
-Note: In the event that the following conditions are met, a High Confidence Alert will be generated.
+Once the simulator script execution has finished, an alert will be seen on the Web UI within a few minutes.
+
+Note: In the event that all of the following conditions are met, a High Confidence Alert will be generated.
 
 . Monitored SVM's ONTAP version higher than 9.11.1
 . ONTAP Autonomous Ransomware Protection configured

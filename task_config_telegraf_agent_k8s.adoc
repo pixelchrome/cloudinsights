@@ -7,7 +7,7 @@ summary: The Kubernetes Monitoring Operator collects Kubernetes data for use in 
 = Kubernetes Monitoring Operator Installation and Configuration
 :hardbreaks:
 :nofooter:
-:toclevels: 2
+
 :icons: font
 :linkattrs:
 :imagesdir: ./media/
@@ -78,6 +78,27 @@ image:KubernetesModifyDeploymentScreen.png[Modify deployment options,  width=700
 == Upgrading to the latest Kubernetes Monitoring Operator
 
 
+=== DII Push-Button upgrades
+
+You can upgrade the Kubernetes Monitoring Operator through the DII Kubernetes Collectors page. Click on the menu next to the cluster you would like to upgrade and select _Upgrade_. The operator will verify the image signatures, perform a snapshot of your current installation and perform the upgrade. Within a few minutes you should see the operator Status progress through Upgrade In Progress to Latest. If you encounter an error you can select the Error status for more details and refer to the Push-Button Upgrades Troubleshooting table below.
+
+==== Push-Button upgrades with private repositories
+
+If your operator is configured to use a private repository please ensure all images required to run the operator and their signatures are available in your repository. If you encounter an error during the upgrade process for missing images simply add them to your repository and retry the upgrade. To upload the image signatures to your repository please use the cosign tool as follows, making sure to upload signatures for all images specified under 3 Optional: Upload the operator images to your private repository > Image Pull Snippet
+
+----
+cosign copy example.com/src:v1 example.com/dest:v1
+#Example
+cosign copy <DII container registry>/netapp-monitoring:<image version> <private repository>/netapp-monitoring:<image version>
+----
+
+
+==== Rolling back to a previously running version
+
+If you upgraded using the push-button upgrades feature and encounter any difficulties with the current version of the operator within seven days of the upgrade, you can downgrade to the previously running version using the snapshot created during the upgrade process. Click the menu next to the cluster you would like to roll back and select _Roll back_. 
+
+=== Manual Upgrades
+
 Determine whether an AgentConfiguration exists with the existing Operator (if your namespace is not the default _netapp-monitoring_, substitute the appropriate namespace):
 
  kubectl -n netapp-monitoring get agentconfiguration netapp-monitoring-configuration
@@ -138,9 +159,19 @@ If the monitoring operator was deployed in its own dedicated namespace, delete t
 
  kubectl delete ns <NAMESPACE> 
 
-If the first command returns “No resources found”, use the following instructions to uninstall older versions of the monitoring operator.
+Note: If the first command returns “No resources found”, use the following instructions to uninstall older versions of the monitoring operator.
 
-Execute each of the following commands in order. Depending on your current installation, some of these commands may return ‘object not found’ messages. These messages may be safely ignored.
+Execute each of the following commands in order. Depending on your current installation, some of these commands may return 'object not found' messages. These messages may be safely ignored.
+
+////
+ kubectl -n <NAMESPACE> delete agent netapp-ci-agent-monitoring-netapp 
+ kubectl delete crd agents.monitoring.netapp.com 
+ kubectl -n <NAMESPACE> delete role netapp-ci-agent-manager netapp-ci-kube-state-metrics
+ kubectl delete clusterrole netapp-ci-<NAMESPACE>-additional-permissions netapp-ci-<NAMESPACE>-agent-manager netapp-ci-<NAMESPACE>-agent-secret netapp-ci-<NAMESPACE>-agent-view-plus netapp-ci-<NAMESPACE>-change-observer-view-plkubectl get us netapp-ci-<NAMESPACE>-kube-state-metrics netapp-ci-<NAMESPACE>-net-observerkubectl 
+ kubectl delete clusterrolebinding netapp-ci-<NAMESPACE>-additional-permissions netapp-ci-<NAMESPACE>-agent-manager netapp-ci-<NAMESPACE>-agent-secret netapp-ci-<NAMESPACE>-agent-view netapp-ci-<NAMESPACE>-agent-view-plus netapp-ci-<NAMESPACE>-change-observer-additional-permissions netapp-ci-<NAMESPACE>-change-observer-secret netapp-ci-<NAMESPACE>-change-observer-view netapp-ci-<NAMESPACE>-change-observer-view-plus netapp-ci-<NAMESPACE>-event-exporter netapp-ci-<NAMESPACE>-kube-state-metrics netapp-ci-<NAMESPACE>-net-observer
+ kubectl delete netapp-ci-<NAMESPACE>-psp-nkmo 
+ kubectl delete ns <NAMESPACE> 
+////
 
   kubectl -n <NAMESPACE> delete agent agent-monitoring-netapp
   kubectl delete crd agents.monitoring.netapp.com
@@ -150,13 +181,11 @@ Execute each of the following commands in order. Depending on your current insta
   kubectl delete <NAMESPACE>-psp-nkmo
   kubectl delete ns <NAMESPACE>
 
-
 If a Security Context Constraint was previously-created:
 
  kubectl delete scc telegraf-hostaccess
  
  
-
 == About Kube-state-metrics
 
 The NetApp Kubernetes Monitoring Operator installs its own kube-state-metrics to avoid conflict with any other instances.
