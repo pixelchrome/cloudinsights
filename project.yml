@@ -121,6 +121,16 @@ sidebar:
             url: /task_system_monitors.html
           - title: Webhook Notification
             url: /task_create_webhook.html
+#            entries:
+#              -title: Webhook Example - Discord
+#                url: /task_webhook_example_discord.html
+#              -title: Webhook Example - PagerDuty
+#                url: /task_webhook_example_pagerduty.html
+#              -title: Webhook Example - Slack
+#                url: /task_webhook_example_slack.html
+#              -title: Webhook Example - Teams
+#                url: /task_webhook_example_teams.html
+              
 
       - title: Working with Annotations
         entries:
@@ -161,14 +171,6 @@ sidebar:
             url: /concept_asset_page_overview.html
           - title: In-Context Filtering for Objects 
             url: /concept_in_context_filters.html
-          - title: Summary & Topology Sections
-            url: /concept_asset_summary_section.html
-          - title: Expert View Section
-            url: /concept_asset_expert_view_section.html
-          - title: User Data Section
-            url: /concept_asset_user_data_section.html
-          - title: Related Alerts Section
-            url: /concept_asset_alerts_section.html
           - title: Storage Virtualization
             url: /concept_storage_virtualization.html
           - title: Hints and Tips to Search for Assets
@@ -258,6 +260,8 @@ sidebar:
               url: /task_config_user_dir_connect_ldap.html
             - title: Configuring the ONTAP SVM Data Collector
               url: /task_add_collector_svm.html
+            - title: Troubleshooting the SVM Collector
+              url: /troubleshooting_collector_svm.html
             - title: Configuring the Cloud ONTAP Data Collector
               url: /task_config_cs_incloud.html
             - title: Workload Security User Management
@@ -286,12 +290,47 @@ sidebar:
           url: /cs_restrict_user_access.html
         - title: Simulating a Ransomware Attack
           url: /concept_cs_attack_simulator.html
-        - title: Notifications
+        - title: Email Notifications
           url: /cs_notifications_email.html
+
+        - title: Webhooks
+          entries:
+            - title: Creating Webhooks
+              url: /ws_create_webhook.html
+
+
+
+
+ #       - title: Webhook Notifications
+ #         entries:
+ #           - title: Creating Webhooks
+ #             url: /ws_create_webhook.html
+ #           -title: Webhook Example - Discord
+ #             url: /ws_webhook_example_discord.html
+ #           -title: Webhook Example - PagerDuty
+ #             url: /ws_webhook_example_pagerduty.html
+ #           -title: Webhook Example - Slack
+ #             url: /ws_webhook_example_slack.html
+ #           -title: Webhook Example - Teams
+ #             url: /ws_webhook_example_teams.html
+
+
         - title: Workload Security API
           url: /concept_cs_api.html
         - title: Troubleshooting the SVM Collector
           url: /troubleshooting_collector_svm.html
+        
+#        - title: Webhook Notifications
+#            url: /ws_create_webhook.html
+#            entries:
+#              -title: Webhook Example - Discord
+#                url: /ws_webhook_example_discord.html
+#              -title: Webhook Example - PagerDuty
+#                url: /ws_webhook_example_pagerduty.html
+#              -title: Webhook Example - Slack
+#                url: /ws_webhook_example_slack.html
+#              -title: Webhook Example - Teams
+#                url: /ws_webhook_example_teams.html
    
     - title: Troubleshooting
       entries:
@@ -373,6 +412,8 @@ sidebar:
               url: /task_dc_fujitsu_eternus.html
             - title: Google
               url: /task_dc_google_cloud.html
+            - title: Google Cloud NetApp Volumes
+              url: /task_dc_google_cloud_netapp_volumes.html
             - title: HP Enterprise
               entries:
                 - title: HP Alletra 9000 and Primera
@@ -441,8 +482,6 @@ sidebar:
                   url: /task_dc_na_storagegrid.html
             - title: Nutanix
               url: /task_dc_nutanix.html
-            - title: OpenStack
-              url: /task_dc_openstack.html
             - title: Oracle
               url: /task_dc_oracle_zfs.html
             - title: Pure
