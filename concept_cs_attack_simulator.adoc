@@ -50,7 +50,7 @@ mount -t nfs -o vers=4.0 Vserver data IP>:/nfsvol /destinationlinuxfolder
 
 Do not mount NFS version 4.1; it is not supported by Fpolicy.
 
-==== To mount CIFs in Linux:
+==== To mount CIFS in Linux:
 
 ----
 mount -t cifs //10.193.77.91/sharedfolderincluster /root/destinationfolder/ -o username=raisa
