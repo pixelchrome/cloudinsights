@@ -121,16 +121,7 @@ sidebar:
             url: /task_system_monitors.html
           - title: Webhook Notification
             url: /task_create_webhook.html
-#            entries:
-#              -title: Webhook Example - Discord
-#                url: /task_webhook_example_discord.html
-#              -title: Webhook Example - PagerDuty
-#                url: /task_webhook_example_pagerduty.html
-#              -title: Webhook Example - Slack
-#                url: /task_webhook_example_slack.html
-#              -title: Webhook Example - Teams
-#                url: /task_webhook_example_teams.html
-              
+          
 
       - title: Working with Annotations
         entries:
@@ -184,6 +175,12 @@ sidebar:
           - title: Hints and Tips to Search for Assets
             url: /concept_searching_assets.html
 
+      - title: Analyzing Data
+        entries:
+          - title: SAN Analyzer
+            url: /san_analyzer_overview.html
+          - title: VM Analyzer
+            url: /vm_analyzer_overview.html
  
       - title: Reporting
         entries:
