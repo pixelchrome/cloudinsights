@@ -14,11 +14,11 @@ keywords: topology, analyze, analysis, map, virtual, vm, vmware
 
 
 [.lead]
-With DII's *VM Analyzer*, managing SAyour virtual assets becomes simpler and more efficient. This powerful tool offers end-to-end visibility, mapping dependencies from VMDK/VM to Host to Datastore to Internal Volume/Volume to Storage.
+With DII's *VM Analyzer*, managing your virtual assets becomes simpler and more efficient. This powerful tool offers end-to-end visibility, mapping dependencies from VMDK/VM to Host to Datastore to Internal Volume/Volume to Storage.
 
 By providing an interactive topology map, VM Analyzer enables you to pinpoint issues, understand changes, and enhance comprehension of data flow. Streamline VM management and increase your visibility into virtual workloads. 
 
-image:vm_analyzer_example_with_panel.png[VM Analyzer topology map of a storage system]
+image:vm_analyzer_example_with_panel_a.png[VM Analyzer topology map of a storage system]
 
 == Explore connections among your assets
 
