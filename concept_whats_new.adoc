@@ -7,7 +7,6 @@ keywords: features
 
 = What\'s New with Data Infrastructure Insights
 :hardbreaks:
-
 :nofooter:
 :icons: font
 :linkattrs:
