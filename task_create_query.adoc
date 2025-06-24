@@ -41,6 +41,10 @@ The query results list shows a number of default columns, depending on the objec
 
 image:QuerySelectColumns.png[Select Columns]
 
+== See it in Action
+
+link:https://media.netapp.com/video-detail/d0530e0b-a222-52e7-92b1-dbeeee41b712/explore-and-analyze-with-queries-in-data-infrastructure-insights[Explore and analyze with queries in Data Infrastructure Insights (Video)]
+
 
 == Choosing Aggregation, Units, Conditional Formatting
 
