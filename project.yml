@@ -115,6 +115,7 @@ sidebar:
             url: /task_create_monitor.html
           - title: Viewing and Managing Alerts
             url: /task_view_and_manage_alerts.html
+
           - title: System-Defined Monitors
             url: /task_system_monitors.html
 
@@ -179,6 +180,12 @@ sidebar:
           - title: Hints and Tips to Search for Assets
             url: /concept_searching_assets.html
 
+      - title: Analyzing Data
+        entries:
+          - title: SAN Analyzer
+            url: /san_analyzer_overview.html
+          - title: VM Analyzer
+            url: /vm_analyzer_overview.html
  
       - title: Reporting
         entries:
