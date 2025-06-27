@@ -25,12 +25,12 @@ Getting started with Data Infrastructure Insights is as easy as three simple ste
 
 . *Subscribe* to Data Infrastructure Insights for on-going, uninterrupted access to your data though a variety of flexible subscription options:
 
-** link:https://www.netapp.com/us/forms/sales-inquiry/cloud-insights-sales-inquiries.aspx[NetApp Sales direct]
+** link:https://bluexp.netapp.com/contact-cds[NetApp Sales direct]
 ** AWS Marketplace:
-*** link:[Fixed term subscription]
-*** link:[Pay-as-you-go subscription]
-*** link:[Fixed base + Pay-as-you-go overages subscription]
-** link:[Azure Marketplace] (all subscription options)
+*** link:https://aws.amazon.com/marketplace/pp/prodview-axhuy7muvzfx2[Fixed term subscription]
+*** link:https://aws.amazon.com/marketplace/pp/prodview-rn4qwencpjpge[Pay-as-you-go subscription]
+*** link:https://aws.amazon.com/marketplace/pp/prodview-nku57vjsqdwzu[Fixed base + Pay-as-you-go overages subscription]
+** link:https://azuremarketplace.microsoft.com/en-us/marketplace/apps/netapp.dii_premium[Azure Marketplace] (all subscription options)
 
 
 During the registration process, you can choose the global region to host your Data Infrastructure Insights environment. For more information, read about Data Infrastructure Insights link:security_information_and_region.html[Information and Region].
