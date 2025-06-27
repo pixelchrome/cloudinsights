@@ -6,9 +6,8 @@ keywords: query, queries
 ---
 
 = Creating Queries
-:toc: macro
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:
@@ -41,6 +40,10 @@ image:QueryFilterExample.png[Query Filtering and Grouping]
 The query results list shows a number of default columns, depending on the object type searched for. To add, remove, or change the columns, click the gear icon on the right of the table. The available columns variy based on the asset/metric type.
 
 image:QuerySelectColumns.png[Select Columns]
+
+== See it in Action
+
+link:https://media.netapp.com/video-detail/d0530e0b-a222-52e7-92b1-dbeeee41b712/explore-and-analyze-with-queries-in-data-infrastructure-insights[Explore and analyze with queries in Data Infrastructure Insights (Video)]
 
 
 == Choosing Aggregation, Units, Conditional Formatting
