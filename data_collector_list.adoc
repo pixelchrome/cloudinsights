@@ -7,11 +7,11 @@ keywords: data collector, vendor, infrastructure, integration, service
 
 = Data Infrastructure Insights Data Collector List
 :hardbreaks:
-:toclevels: 1
+
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ./media/The alerting page redesign will also be ready by the of the month. Need to add it to what’s new as wellopens
 
 [.lead]
 Data Infrastructure Insights supports a variety of Data Collectors from many vendors and services. 
@@ -64,6 +64,7 @@ Alphabetical list of Data Collectors supported by Data Infrastructure Insights:
 | link:task_config_telegraf_flink.html[Flink ] |Service 
 | link:task_dc_fujitsu_eternus.html[Fujitsu ETERNUS DX ] |Infrastructure 
 | link:task_dc_google_cloud.html[Google Compute and Storage ] |Infrastructure 
+| link:task_dc_google_cloud_netapp_volumes.html[Google Cloud NetApp Volumes] |Infrastructure
 | link:task_config_telegraf_hadoop.html[Hadoop ] |Service 
 | link:task_config_telegraf_haproxy.html[HAProxy ] |Service 
 | link:task_dc_hds_hcp.html[Hitachi Content Platform (HCP)] |Infrastructure
@@ -110,7 +111,6 @@ Alphabetical list of Data Collectors supported by Data Infrastructure Insights:
 | link:task_config_telegraf_nginx.html[Nginx ] |Service 
 | link:task_config_telegraf_node.html[Node ] |Service 
 | link:task_dc_nutanix.html[Nutanix NX Series ] |Infrastructure 
-| link:task_dc_openstack.html[OpenStack ] |Infrastructure 
 | link:task_config_telegraf_openzfs.html[OpenZFS ] |Service 
 | link:task_dc_oracle_zfs.html[Oracle ZFS Storage Appliance ] |Infrastructure 
 | link:task_config_telegraf_postgresql.html[PostgreSQL ] |Service 
