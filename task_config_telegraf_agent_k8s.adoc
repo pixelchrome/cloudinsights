@@ -47,7 +47,7 @@ image:NKMO-Instructions-2.png[Monitoring Operator Instructions]
 
 
 
-If you are using a proxy, read about <<configuring-proxy-support, configuring proxy>>.
+//If you are using a proxy, read about <<configuring-proxy-support, configuring proxy>>.
 
 If you are have a custom repository, read about <<using-a-custom-or-private-docker-repository, using a custom/private docker repository>>.
 
@@ -194,10 +194,10 @@ The NetApp Kubernetes Monitoring Operator installs its own kube-state-metrics to
 
 For information about Kube-State-Metrics, see link:task_config_telegraf_kubernetes.html[this page].
 
-
 ////
-=== kube-state-metrics Counters
+=== Kube-state-metrics Counters
 
+Refer to the link:https://github.com/kubernetes/kube-state-metrics/tree/main/docs[Kube-state-metrics documentation] for more information on the metric counters.
 
 Use the following links to access information for these kube state metrics counters:
 
@@ -471,7 +471,7 @@ Oct 11 14:23:41 ip-172-31-39-47 telegraf[1827]: 2021-10-11T14:23:41Z I! Starting
 
 |On Kubernetes, my Telegraf pod(s) are reporting the following error:
 "Error in processing mountstats info: failed to open mountstats file: /hostfs/proc/1/mountstats, error: open /hostfs/proc/1/mountstats: permission denied"
-|If SELinux is enabled and enforcing, it is likely preventing the Telegraf pod(s) from accessing the /proc/1/mountstats file on the Kubernetes node. To overcome this restriction, edit the agentconfiguration, and enable the runPrivileged setting. For more details, refer to the link:task_config_telegraf_agent_k8s.html#openshift-instructions[OpenShift Instructions].
+|If SELinux is enabled and enforcing, it is likely preventing the Telegraf pod(s) from accessing the /proc/1/mountstats file on the Kubernetes node. To overcome this restriction, edit the agentconfiguration, and enable the runPrivileged setting. For more details, refer to the OpenShift Instructions.
 
 
 |On Kubernetes, my Telegraf ReplicaSet pod is reporting the following error:
