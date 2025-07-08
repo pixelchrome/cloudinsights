@@ -197,13 +197,7 @@ For information about Kube-State-Metrics, see link:task_config_telegraf_kubernet
 ////
 === Kube-state-metrics Counters
 
-<<<<<<< HEAD
 Refer to the link:https://github.com/kubernetes/kube-state-metrics/tree/main/docs[Kube-state-metrics documentation] for more information on the metric counters.
-=======
-////
-=== kube-state-metrics Counters
-
->>>>>>> 289e4e58cdd4d0affed5cf7fa0f0459ee8295653
 
 Use the following links to access information for these kube state metrics counters:
 
