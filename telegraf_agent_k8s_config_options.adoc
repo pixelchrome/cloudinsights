@@ -90,7 +90,7 @@ persistentvolumes,pods,replicasets,resourcequotas,services,statefulsets
 ||tolerations	|kube-state-metrics additional tolerations.
 
 
-||labels|a comma separated list of resources that kube-state-metrics should capture
+||labels|a comma separated list of resources for which kube-state-metrics should capture labels
 
 +++
 example: cronjobs=[*],daemonsets=[*],deployments=[*],ingresses=[*],jobs=[*],namespaces=[*],nodes=[*],
