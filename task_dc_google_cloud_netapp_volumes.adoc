@@ -5,7 +5,7 @@ summary: Configure Google Cloud NetApp Volumes data collector
 keywords: data collector, queries, create, google, cloud, volumes,
 ---
 
-= NetApp Google Cloud NetApp Volumes data collector
+= Google Cloud NetApp Volumes data collector
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,7 +13,7 @@ keywords: data collector, queries, create, google, cloud, volumes,
 :imagesdir: ./media/
 
 [.lead]
-This data collector supports inventory and performance collection from Google NetApp Cloud Volumes cloud platform configurations. This collector will seek to discover all the compute resources within all the Projects within one Google organization. If you have multiple Google organizations you want to discover with Data Infrastructure Insights, you will want to deploy one Data Infrastructure Insights collector per organization. 
+This data collector supports inventory and performance collection from Google Cloud NetApp Volumes cloud platform configurations. This collector will seek to discover all the compute resources within all the Projects within one Google organization. If you have multiple Google organizations you want to discover with Data Infrastructure Insights, you will want to deploy one Data Infrastructure Insights collector per organization. 
 
 == Service Account Requirements
 

@@ -126,7 +126,7 @@ persistentvolumeclaims=[*],persistentvolumes=[*],pods=[*],replicasets=[*],resour
 ||cpuRequest|CPU request for change-observer-watch-rs 
 ||memRequest|mem request for change-observer-watch-rs 
 
-||failureDeclarationIntervalMins|Interval in minutes after which a non-successful deployment of a workload will be marked as failed
+||workloadFailureDeclarationIntervalSeconds|Interval after which a non-successful deployment of a workload will be marked as failed, in seconds
 ||deployAggrIntervalSeconds|Frequency at which workload deployment in-progress events are sent
 ||nonWorkloadAggrIntervalSeconds|Frequency at which non-workload deployments are combined and sent
 ||termsToRedact|A set of regular expressions used in env names and data maps whose value will be redacted
@@ -367,8 +367,8 @@ spec:
     # cpuRequest: '500m'
     # memRequest: '500Mi'
 
-    # # Interval in minutes after which a non-successful deployment of a workload will be marked as failed
-    # failureDeclarationIntervalMins: '30'
+    # # Interval after which a non-successful deployment of a workload will be marked as failed, in seconds
+    # workloadFailureDeclarationIntervalSeconds: '30'
 
     # # Frequency at which workload deployment in-progress events are sent
     # deployAggrIntervalSeconds: '300'
