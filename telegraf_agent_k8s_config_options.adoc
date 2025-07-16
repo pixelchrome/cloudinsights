@@ -2,19 +2,18 @@
 sidebar: sidebar
 permalink: telegraf_agent_k8s_config_options.html
 keywords: telegraf, installation, install, agent, telegraf agent, kubernetes, eks, operator, k8s, options, configuration
-summary: The NetApp Kubernetes Monitoring Operator has a number of configurable options.  
+summary: Configure the NetApp Kubernetes Monitoring Operator using AgentConfiguration options.
 ---
 
 = Kubernetes Monitoring Operator Configuration Options
 :hardbreaks:
 :nofooter:
-
 :icons: font
 :linkattrs:
 :imagesdir: ./media/
 
 [.lead]
-The link:task_config_telegraf_agent_k8s.html#configuringcustomizing-the-operator[Kubernetes Monitoring Operator] configuration can be customized. 
+The link:task_config_telegraf_agent_k8s.html#configuringcustomizing-the-operator[Kubernetes Monitoring Operator] provides extensive customization options through the AgentConfiguration file. Configure resource limits, collection intervals, proxy settings, tolerations, and component-specific settings for telegraf, kube-state-metrics, logs collection, workload mapping, change management, and more to optimize monitoring for your Kubernetes environment.
 
 The table below lists the possible options for the _AgentConfiguration_ file:
 
