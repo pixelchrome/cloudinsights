@@ -2,19 +2,18 @@
 sidebar: sidebar
 permalink: telegraf_agent_k8s_config_options.html
 keywords: telegraf, installation, install, agent, telegraf agent, kubernetes, eks, operator, k8s, options, configuration
-summary: The NetApp Kubernetes Monitoring Operator has a number of configurable options.  
+summary: Configure the NetApp Kubernetes Monitoring Operator using AgentConfiguration options.
 ---
 
 = Kubernetes Monitoring Operator Configuration Options
 :hardbreaks:
 :nofooter:
-
 :icons: font
 :linkattrs:
 :imagesdir: ./media/
 
 [.lead]
-The link:task_config_telegraf_agent_k8s.html#configuringcustomizing-the-operator[Kubernetes Monitoring Operator] configuration can be customized. 
+The link:task_config_telegraf_agent_k8s.html#configuringcustomizing-the-operator[Kubernetes Monitoring Operator] provides extensive customization options through the AgentConfiguration file. Configure resource limits, collection intervals, proxy settings, tolerations, and component-specific settings for telegraf, kube-state-metrics, logs collection, workload mapping, change management, and more to optimize monitoring for your Kubernetes environment.
 
 The table below lists the possible options for the _AgentConfiguration_ file:
 
@@ -90,7 +89,7 @@ persistentvolumes,pods,replicasets,resourcequotas,services,statefulsets
 ||tolerations	|kube-state-metrics additional tolerations.
 
 
-||labels|a comma separated list of resources that kube-state-metrics should capture
+||labels|a comma separated list of resources for which kube-state-metrics should capture labels
 
 +++
 example: cronjobs=[*],daemonsets=[*],deployments=[*],ingresses=[*],jobs=[*],namespaces=[*],nodes=[*],
@@ -126,7 +125,7 @@ persistentvolumeclaims=[*],persistentvolumes=[*],pods=[*],replicasets=[*],resour
 ||cpuRequest|CPU request for change-observer-watch-rs 
 ||memRequest|mem request for change-observer-watch-rs 
 
-||failureDeclarationIntervalMins|Interval in minutes after which a non-successful deployment of a workload will be marked as failed
+||workloadFailureDeclarationIntervalSeconds|Interval after which a non-successful deployment of a workload will be marked as failed, in seconds
 ||deployAggrIntervalSeconds|Frequency at which workload deployment in-progress events are sent
 ||nonWorkloadAggrIntervalSeconds|Frequency at which non-workload deployments are combined and sent
 ||termsToRedact|A set of regular expressions used in env names and data maps whose value will be redacted
@@ -367,8 +366,8 @@ spec:
     # cpuRequest: '500m'
     # memRequest: '500Mi'
 
-    # # Interval in minutes after which a non-successful deployment of a workload will be marked as failed
-    # failureDeclarationIntervalMins: '30'
+    # # Interval after which a non-successful deployment of a workload will be marked as failed, in seconds
+    # workloadFailureDeclarationIntervalSeconds: '30'
 
     # # Frequency at which workload deployment in-progress events are sent
     # deployAggrIntervalSeconds: '300'
