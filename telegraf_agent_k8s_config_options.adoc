@@ -103,6 +103,7 @@ persistentvolumeclaims=[*],persistentvolumes=[*],pods=[*],replicasets=[*],resour
 ||fluent-bit-tolerations|fluent-bit-ds additional tolerations.
 ||event-exporter-tolerations|event-exporter additional tolerations.
 ||event-exporter-maxEventAgeSeconds|event-exporter max event age.  See https://github.com/jkroepke/resmoio-kubernetes-event-exporter
+||fluent-bit-containerLogPath|By default, the Fluentbit DaemonSet will mount the /var/log and /var/lib/docker/containers host paths to access/read the Kubernetes container logs. If Kubernetes has been configured to place container logs in a non-default location, use this option to modify the Fluentbit DaemonSet to mount the non-default path.
 
 |workload-map||Configuration options that can customize the workload map collection and installation of the Operator.
 ||cpuLimit|CPU limit for net observer ds
@@ -330,6 +331,11 @@ spec:
     # fluent-bit-memLimit: '1Gi'
     # fluent-bit-cpuRequest: '50m'
     # fluent-bit-memRequest: '100Mi'
+
+    # By default, the Fluentbit DaemonSet will mount the /var/log and /var/lib/docker/containers host paths to access/read the 
+    # Kubernetes container logs.  If Kubernetes has been configured to place container logs in a non-default location, use 
+    # this option to modify the Fluentbit DaemonSet to mount the non-default path.
+    # fluent-bit-containerLogPath
 
   # # Settings for the Network Performance and Map feature.
   # workload-map:
