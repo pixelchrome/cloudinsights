@@ -845,3 +845,4 @@ Additionally, you may choose to show either _Hourly_ or _Daily_ seasonality, as 
 image:expected_bounds_settings.png[settings for Anomaly bounds, including the detection algorithm, seasonality, and sensitivity]
 
 Keep in mind that you may only view expected bounds when the chart is set to display a single line. If your Group By settings or filters show multiple lines, or if you have set multiple queries for the widget, the option to show expected bounds will be disabled.
+
