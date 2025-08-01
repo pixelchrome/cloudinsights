@@ -4,7 +4,6 @@ permalink: monitor_infrastructure_health.html
 keywords: infra, infrastructure, health, monitor
 summary: Data Infrastructure Insights tracks changes in infrastructure for ease of analysis and troubleshooting.
 
-
 = Monitor Infrastructure Health
 :hardbreaks:
 :nofooter:
@@ -13,7 +12,6 @@ summary: Data Infrastructure Insights tracks changes in infrastructure for ease 
 :imagesdir: ./media/
 
 [.lead]
-
 Easily keep tabs on the health of your infrastructure with Data Infrastructure Insights' health monitoring.
 
 == Configure Monitors to watch infrastructure health
