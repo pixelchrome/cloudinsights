@@ -16,17 +16,25 @@ keywords: subscribe, trial, subscription, contract, raw capacity, region, data r
 [.lead]
 Getting started with Data Infrastructure Insights is as easy as three simple steps:
 
-* Sign up for an account on link:https://bluexp.netapp.com//[*NetApp BlueXP*] to get access to all of NetApp's Cloud offerings.
-* Register for a free trial of Data Infrastructure Insights to explore the features available. To register for a free trial:
+. Sign up for an account on link:https://bluexp.netapp.com//[*NetApp BlueXP*] to get access to all of NetApp's Cloud offerings.
+. Register for a free trial of Data Infrastructure Insights to explore the features available. To register for a free trial:
 ** Go to https://netapp.com
 ** Select *How to Buy* at the top of the page.
 ** Select *Request trial*. If you are not already registered with BlueXP, Enter your details and sign up. Otherwise, sign in.
 ** Schedule a meeting or wait for a representative to contact you about your trial.
 
-* *Subscribe* to Data Infrastructure Insights for on-going, uninterrupted access to your data via link:https://bluexp.netapp.com/contact-cds[NetApp Sales] direct or link:https://aws.amazon.com/marketplace/pp/prodview-pbc3h2mkgaqxe[AWS Marketplace].
 
-During the registration process, you can choose the global region to host your Data Infrastructure Insights environment. 
-For more information, read about Data Infrastructure Insights link:security_information_and_region.html[Information and Region].
+. *Subscribe* to Data Infrastructure Insights for on-going, uninterrupted access to your data though a variety of flexible subscription options:
+
+** link:https://bluexp.netapp.com/contact-cds[NetApp Sales direct]
+** AWS Marketplace:
+*** link:https://aws.amazon.com/marketplace/pp/prodview-axhuy7muvzfx2[Fixed term subscription]
+*** link:https://aws.amazon.com/marketplace/pp/prodview-rn4qwencpjpge[Pay-as-you-go subscription]
+*** link:https://aws.amazon.com/marketplace/pp/prodview-nku57vjsqdwzu[Fixed base + Pay-as-you-go overages subscription]
+** link:https://azuremarketplace.microsoft.com/en-us/marketplace/apps/netapp.dii_premium[Azure Marketplace] (all subscription options)
+
+
+During the registration process, you can choose the global region to host your Data Infrastructure Insights environment. For more information, read about Data Infrastructure Insights link:security_information_and_region.html[Information and Region].
 
 
 For a full comparison of the features available in Data Infrastructure Insights Basic and Premium Editions, see the link:https://www.netapp.com/cloud-services/cloud-insights/editions-pricing[Data Infrastructure Insights Editions] page.
@@ -54,12 +62,10 @@ NOTE: If you need additional time to evaluate Data Infrastructure Insights and y
 
 
 
-
 === Trial through AWS Marketplace
 
-You may also sign up for a free trial through the AWS Marketplace. The AWS Marketplace free trial gives you access to Data Infrastructure Insights for a trial period of 33 days, and allows up to 499 <<observability-metering, Managed Units>> (MUs). 
+You may also sign up for a free trial through the AWS Marketplace. The AWS Marketplace free trial gives you access to Data Infrastructure Insights for a trial period of 33 days. 
 
-//Note: If you configure more than 499 MUs, you will enter "breached" state. While your trial is in breached state, you will lose access to some Data Infrastructure Insights functionality until the breach is resolved, either by reducing the number of MUs configured, or by subscribing to Data Infrastructure Insights.
 
 The AWS Marketplace free trial cannot be extended. At any time during your trial, you can downgrade to a Data Infrastructure Insights Basic Edition subscription or change to a paid Data Infrastructure Insights subscription by visiting the *Admin -> Subscription* page.
 
