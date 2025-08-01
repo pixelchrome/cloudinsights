@@ -1,0 +1,41 @@
+---
+sidebar: sidebar
+permalink: monitor_infrastructure_health.html
+keywords: infra, infrastructure, health, monitor
+summary: Cloud Insights tracks changes in infrastructure for ease of analysis and troubleshooting..
+---
+
+= Monitor Infrastructure Health
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Easily keep tabs on the health of your infrastructure with Data Infrastructure Insights' health monitoring.
+
+== Step 1: Configure Monitors to watch system health
+
+When creating a monitor for an infrastructure object, you choose whether to include the monitor in the 
+
+== Step 2: Monitor your Infrastructure Health
+
+Navigate to Observability > Analyze and select Infrastructure Health for an overview of your system health. Set  filters at the top to narrow down the focus of your investigation.
+
+image:infra_health_main_screen.png[infrastructure health overview]
+
+By default, health scores are grouped by data center; feel free to select the grouping that works for your session.
+
+Scores are based on a maximum of 100. Monitored infrastructure objects currently or recently experiencing issues will lower this score according to the following weighted averages:
+
+Components, Performance, or Capacity: 30%
+Configuration: 10%
+
+Critical alerts will drop the health score by the full category weight. Warning alerts drop the health score by half the category weight.
+
+If any categories are not reporting, the weighted average will adjust accordingly. 
+
+
+
+
