@@ -17,7 +17,7 @@ Easily keep tabs on the health of your infrastructure with Data Infrastructure I
 
 == Configure Monitors to watch infrastructure health
 
-When creating a monitor for an infrastructure object, you can choose whether to include the monitor in the infrastructure health calculations. 
+When creating a monitor for an infrastructure object, you can choose whether to include alerts from the monitor in the infrastructure health calculations. At the bottom of the screen, expand the Advanced Configuration and select to _Include in Infrastructure Health Calculation_.
 
 == Monitor your infrastructure health
 
