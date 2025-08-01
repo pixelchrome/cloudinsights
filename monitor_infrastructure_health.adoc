@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: monitor_infrastructure_health.html
 keywords: infra, infrastructure, health, monitor
-summary: Cloud Insights tracks changes in infrastructure for ease of analysis and troubleshooting..
+summary: Data Infrastructure Insights tracks changes in infrastructure for ease of analysis and troubleshooting.
 ---
 
 = Monitor Infrastructure Health
@@ -15,26 +15,33 @@ summary: Cloud Insights tracks changes in infrastructure for ease of analysis an
 [.lead]
 Easily keep tabs on the health of your infrastructure with Data Infrastructure Insights' health monitoring.
 
-== Step 1: Configure Monitors to watch system health
+== Configure Monitors to watch infrastructure health
 
-When creating a monitor for an infrastructure object, you choose whether to include the monitor in the 
+When creating a monitor for an infrastructure object, you can choose whether to include the monitor in the infrastructure health calculations. 
 
-== Step 2: Monitor your Infrastructure Health
+== Monitor your infrastructure health
 
 Navigate to Observability > Analyze and select Infrastructure Health for an overview of your system health. Set  filters at the top to narrow down the focus of your investigation.
 
 image:infra_health_main_screen.png[infrastructure health overview]
 
-By default, health scores are grouped by data center; feel free to select the grouping that works for your session.
+By default, health scores are grouped by data center; you can select the grouping that works best for your session.
 
-Scores are based on a maximum of 100. Monitored infrastructure objects currently or recently experiencing issues will lower this score according to the following weighted averages:
+== Health scores explained
 
-Components, Performance, or Capacity: 30%
+Scores are presented on a scale of 0 to 100, with 100 being at full health. Monitored infrastructure objects currently or recently experiencing issues will lower this score according to the following weighted averages:
+
+Components, Performance, or Capacity: 30% each
 Configuration: 10%
 
-Critical alerts will drop the health score by the full category weight. Warning alerts drop the health score by half the category weight.
+Alerts impact scores, such that Critical alerts drop the health score by the full category weight, and warning alerts drop the score by half the category weight.
 
 If any categories are not reporting, the weighted average will adjust accordingly. 
+
+For example, 1 critical alert on Components (-30) and 1 warning alert on Performance (50% of 30 = -15) yield a health score of 55 (100 minus 45). 
+
+When alerts are resolved, these health score reductions gradually fade, and the score fully recovers within 2 hours.
+
 
 
 
