@@ -115,6 +115,10 @@ sidebar:
             url: /task_create_monitor.html
           - title: Viewing and Managing Alerts
             url: /task_view_and_manage_alerts.html
+          - title: Configuring Notification Recipients
+            url: /concept_notifications_email.html 
+          - title: Anomaly Detection Monitors
+            url: /concept_anomaly_detection.html
           - title: System-Defined Monitors
             url: /task_system_monitors.html
 
@@ -174,19 +178,17 @@ sidebar:
             url: /concept_asset_page_overview.html
           - title: In-Context Filtering for Objects 
             url: /concept_in_context_filters.html
-          - title: Summary & Topology Sections
-            url: /concept_asset_summary_section.html
-          - title: Expert View Section
-            url: /concept_asset_expert_view_section.html
-          - title: User Data Section
-            url: /concept_asset_user_data_section.html
-          - title: Related Alerts Section
-            url: /concept_asset_alerts_section.html
           - title: Storage Virtualization
             url: /concept_storage_virtualization.html
           - title: Hints and Tips to Search for Assets
             url: /concept_searching_assets.html
 
+      - title: Analyzing Data
+        entries:
+          - title: SAN Analyzer
+            url: /san_analyzer_overview.html
+          - title: VM Analyzer
+            url: /vm_analyzer_overview.html
  
       - title: Reporting
         entries:
