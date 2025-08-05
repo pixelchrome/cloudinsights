@@ -4,7 +4,6 @@ permalink: monitor_infrastructure_health.html
 keywords: infra, infrastructure, health, monitor
 summary: Data Infrastructure Insights tracks changes in infrastructure for ease of analysis and troubleshooting.
 
-
 = Monitor Infrastructure Health
 :hardbreaks:
 :nofooter:
