@@ -1,11 +1,19 @@
 ---
 sidebar: sidebar
 permalink: monitor_infrastructure_health.html
+<<<<<<< HEAD
 keywords:  health, monitor, infrastructure
 summary: Monitor infrastructure health
 ---
 
 = Monitor infrastructure health
+=======
+keywords: health, infra, infrastructure, monitoring
+summary: monitor infrastructure health
+---
+
+= Monitor Infrastructure Health
+>>>>>>> e731c6358f8d20fab4902b22958f207637d554d5
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,4 +21,8 @@ summary: Monitor infrastructure health
 :imagesdir: ./media/
 
 [.lead]
+<<<<<<< HEAD
 Monitor infrastructure health
+=======
+Monitor Infrastructure Health
+>>>>>>> e731c6358f8d20fab4902b22958f207637d554d5
