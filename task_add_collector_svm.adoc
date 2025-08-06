@@ -21,7 +21,7 @@ The ONTAP SVM Data Collector enables Workload Security to monitor file and user 
 ** Data ONTAP 9.2 and later versions. For best performance, use a Data ONTAP version greater than 9.13.1.
 ** SMB protocol version 3.1 and earlier.
 
-** NFS versions up to and including NFS 4.1 with ONTAP 9.15.1 or later.
+** NFS versions up to and including NFS 4.1 (Note that NFS 4.1 is supported with  ONTAP 9.15 or later).
 
 ** Flexgroup is supported from ONTAP 9.4 and later versions
 ** ONTAP Select is supported
@@ -114,15 +114,8 @@ Cluster level credentials are needed for this feature to work.
 
 If you are using cluster administration credentials, no new permissions are needed.
 
-If you are using a custom user (for example, _csuser_) with permissions given to the user, then follow the steps below to give permissions to Workload Security to block user.
 
-For csuser with cluster credentials, do the following from the ONTAP command line:
-
- security login role create -role csrole -cmddirname "vserver export-policy rule" -access all
- security login role create -role csrole -cmddirname set -access all
- security login role create -role csrole -cmddirname "vserver cifs session" -access all
- security login role create -role csrole -cmddirname "vserver services access-check authentication translate" -access all
- security login role create -role csrole -cmddirname "vserver name-mapping" -access all
+If you are using a custom user (for example, _csuser_) with permissions given to the user, then follow the steps in link:cs_restrict_user_access.html[User Access Blocking] to give permissions to Workload Security to block user.
 
 
 == A Note About Permissions
@@ -130,6 +123,14 @@ For csuser with cluster credentials, do the following from the ONTAP command lin
 === Permissions when adding via *Cluster Management IP*:
 
 If you cannot use the Cluster management administrator user to allow Workload Security to access the ONTAP SVM data collector, you can create a new user named “csuser” with the roles as shown in the commands below. Use the username “csuser” and password for “csuser” when configuring the Workload Security data collector to use Cluster Management IP.
+
+Note: You can create a single role to use for all feature permissions for a custom user. If there is an existing user then first delete the existing user and role using these commands:
+
+ security login delete -user-or-group-name csuser -application *
+ security login role delete -role csrole -cmddirname *
+ security login rest-role delete -role csrestrole -api *  
+ security login rest-role delete -role arwrole -api *
+
 
 To create the new user, log in to ONTAP with the Cluster management Administrator username/password, and execute the following commands on the ONTAP server:
 
@@ -142,7 +143,7 @@ To create the new user, log in to ONTAP with the Cluster management Administrato
  security login role create -role csrole -cmddirname "event notification destination" -access all
  security login role create -role csrole -cmddirname "event notification" -access all
  security login role create -role csrole -cmddirname "security certificate" -access all
-
+ security login role create -role csrole -cmddirname "cluster application-record" -access all
  security login create -user-or-group-name csuser -application ontapi -authmethod password -role csrole
  security login create -user-or-group-name csuser -application ssh -authmethod password -role csrole
  security login create -user-or-group-name csuser -application http -authmethod password -role csrole
@@ -151,6 +152,14 @@ To create the new user, log in to ONTAP with the Cluster management Administrato
 === Permissions when adding via *Vserver Management IP*:
 
 If you cannot use the Cluster management administrator user to allow Workload Security to access the ONTAP SVM data collector, you can create a new user named “csuser” with the roles as shown in the commands below. Use the username “csuser” and password for “csuser” when configuring the Workload Security data collector to use Vserver Management IP.
+
+
+Note: You can create a single role to use for all feature permissions for a custom user. If there is an existing user then first  delete the existing user and role using these commands:
+
+ security login delete -user-or-group-name csuser -application * -vserver <vservername> 
+ security login role delete -role csrole -cmddirname * -vserver <vservername>
+ security login rest-role delete -role csrestrole -api * -vserver <vservername>
+
 
 
 To create the new user, log in to ONTAP with the Cluster management Administrator username/password, and execute the following commands on the ONTAP server. For ease, copy these commands to a text editor and replace the <vservername> with your Vserver name before and executing these commands on ONTAP:
@@ -178,15 +187,12 @@ More details on this feature can be found in the link:https://docs.netapp.com/us
 Specific permissions are required for protobuf (some or all of these may already exist):
 
 Cluster mode:
- 
- security login rest-role create -role csrestrole -api /api/protocols/fpolicy -access all -vserver <cluster_name>
- security login create -user-or-group-name csuser -application http -authmethod password -role csrestrole
+
+ security login role create -role csrole -cmddirname "vserver fpolicy" -access all
  
 Vserver mode:
- 
- security login rest-role create -role csrestrole -api /api/protocols/fpolicy -access all -vserver <svm_name>
- security login create -user-or-group-name csuser -application http -authmethod password -role csrestrole -vserver <svm_name>
 
+ security login role create -vserver <vservername> -role csrole -cmddirname "vserver fpolicy" -access all
 
 
 === Permissions for ONTAP Autonomous Ransomware Protection and ONTAP Access Denied
@@ -309,14 +315,14 @@ Specific permissions are required for Persistent Store (some or all of these may
 
 Cluster mode:
 
- security login rest-role create -role csrestrole -api /api/protocols/fpolicy -access all -vserver <cluster-name>
- security login rest-role create -role csrestrole -api /api/cluster/jobs/ -access readonly -vserver <cluster-name>
+ security login role create -role csrole -cmddirname "vserver fpolicy" -access all
+ security login role create -role csrole -cmddirname "job show" -access readonly
+
 
 Vserver mode:
 
- security login rest-role create -role csrestrole -api /api/protocols/fpolicy -access all -vserver <vserver-name>
- security login rest-role create -role csrestrole -api /api/cluster/jobs/ -access readonly -vserver <vserver-name>
-
+ security login role create -vserver <vservername> -role csrole -cmddirname "vserver fpolicy" -access all
+ security login role create -vserver <vservername> -role csrole -cmddirname "job show" -access readonly
 
 
 
