@@ -349,19 +349,6 @@ Note: Any configuration changes previously made on the "Edit Collector" page wil
 image:ws_migrate_collector_to_another_agent.png[migrate a collector by choosing another agent]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 == Troubleshooting
 
 See the link:troubleshooting_collector_svm.html[Troubleshooting the SVM Collector] page for troubleshooting tips.
