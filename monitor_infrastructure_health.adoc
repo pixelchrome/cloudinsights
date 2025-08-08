@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: monitor_infrastructure_health.html
-keywords: health, infra, infrastructure, monitoring
-summary: monitor infrastructure health
+keywords:  health, monitor, infrastructure
+summary: Monitor infrastructure health
 ---
 
-= Monitor Infrastructure Health
+= Monitor infrastructure health
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,4 +13,4 @@ summary: monitor infrastructure health
 :imagesdir: ./media/
 
 [.lead]
-Monitor Infrastructure Health
+Monitor infrastructure health
