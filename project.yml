@@ -189,6 +189,8 @@ sidebar:
             url: /san_analyzer_overview.html
           - title: VM Analyzer
             url: /vm_analyzer_overview.html
+          - title: Monitor Infrastructure Health
+            url: /monitor_infrastructure_health.html
  
       - title: Reporting
         entries:
