@@ -7,13 +7,11 @@ summary: The Kubernetes Monitoring Operator collects Kubernetes data for use in 
 = Kubernetes Monitoring Operator Installation and Configuration
 :hardbreaks:
 :nofooter:
-
 :icons: font
 :linkattrs:
 :imagesdir: ./media/
 
 [.lead]
-
 Data Infrastructure Insights offers the *Kubernetes Monitoring Operator* for Kubernetes collection. Navigate to *Kubernetes > Collectors > +Kubernetes Collector* to deploy a new operator.
 
 
