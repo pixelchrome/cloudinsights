@@ -12,7 +12,7 @@ summary: Data Infrastructure Insights can report on the health of your infrastru
 :imagesdir: ./media/
 
 [.lead]
-Easily keep tabs on the health of your infrastructure with Data Infrastructure Insights' health monitoring.
+Data Infrastructure Insights provides comprehensive infrastructure health monitoring that tracks the performance, capacity, configuration, and component status of your storage environment. Health scores are calculated based on monitor alerts across these categories, giving you a unified view of system health and enabling proactive issue resolution.
 
 == The Infrastructure Health dashboard
 
