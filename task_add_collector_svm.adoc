@@ -260,24 +260,11 @@ When adding via SVM IP the options are:
 
 The following is recommended for MetroCluster:
 
-<<<<<<< HEAD
 1. Connect two data collectors, one to the source SVM and another to the destination SVM.
 2. The data collectors should be connected by _Cluster IP_.
 3. At any moment in time, the current 'running' SVM's data collector will show as _Running_. The current 'stopped' SVM's data collector will show as _Stopped_.
 4. Whenever there is a switchover, the state of the data collector will change from _Running_ to _Stopped_ and vice versa.
 5. It will take up to two minutes for the data collector to move from _Stopped_ state to _Running_ state.
-=======
-1.	Connect two data collectors, one to the source SVM and another to the destination SVM.
-2.	The data collectors should be connected by _Cluster IP_.
-3.	At any moment of time, one data collector should be in running, another will be shown as _Stopped_.
-+
-The current 'running' SVM's data collector will show as _Running_. The current 'stopped' SVM's data collector will show as _Stopped_.
-
-4.	Whenever there is a switchover, the state of the data collector will change from 'running' to 'stopped' and vice versa.
-5.	It will take up to two minutes for the data collector to move from _Stopped_ state to _Running_ state.
->>>>>>> e731c6358f8d20fab4902b22958f207637d554d5
-
-
 
 == Service Policy
 
