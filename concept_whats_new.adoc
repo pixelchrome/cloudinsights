@@ -17,6 +17,63 @@ keywords: features
 NetApp is continually improving and enhancing its products and services. Here are some of the latest features and functionalities available in Data Infrastructure Insights (formerly Cloud Insights).
 
 
+== August 2025
+
+=== Focused Widget Data at Your Fingertips
+
+The new *Analyze* feature in most widgets allows you to take a closer look at the data in one widget at a time. Simply click the "Analyze" button on a widget to open a detailed view, where you can interactively explore the underlying data and zoom in for deeper insights—without leaving your dashboard context.
+
+image:widget_analyze_feature.png[Analyze button on a widget, width=400]
+
+image:widget_analyze_panel.png[Analyze panel for a line widget, width=500]
+
+
+=== Export and Import Dashboards
+If you manage multiple tenants and have developed a useful dashboard, you can export the dashboard and import it to another tenant. 
+
+image:dashboard_import_from_file.png[image showing import]
+image:dashboard_export_from_menu.png[image showing export]
+
+
+=== Enhanced Cloud Integration: GCNV Data Collector Support  
+
+*Google Cloud NetApp Volumes* (GCNV) is now fully supported as a data collector in DII, completing our ecosystem for hybrid cloud monitoring. Gain visibility into critical storage objects like organizations, pools, and volumes across the infrastructure. Now you can track all your storage environments--on-prem or in the cloud--from a single platform.  
+
+
+=== Intelligent Monitoring: StorageGrid Enhancements  
+
+Expanded StorageGrid monitoring with over 50 default alerts, real-time event tracking, and new dashboards to simplify complex storage grid operations keeps you ahead of issues by giving you deeper insights into traffic policies and bucket performance.  
+
+
+
+=== Smarter Storage Insights: Volume Object Enhancements
+
+Volumes now include host path redundancy checks and fiber channel hop count metrics, making it easier to avoid downtime. New monitors proactively flag risks, ensuring your storage infrastructure remains resilient.
+
+
+=== Proactive Fabric Management: New Fabric Monitors
+
+New fabric monitors detect physical errors, congestion, and switch failures—ensuring your network infrastructure stays robust and efficient.  
+
+
+=== Collector Updates
+TBD
+
+=== Operating System support
+
+The following operating systems are now supported with Data Infrastructure Insights Acquisition Units, in addition to those link:concept_acquisition_unit_requirements.html[already supported]:
+
+* AlmaLinux (64-bit) 10
+* Red Hat (64-bit) 10
+* Rocky (64-bit) 9.6
+
+////
+update "AlmaLinux", "9.3 thru 9.5, including SELinux" to "AlmaLinux", "9.3 thru 9.5, 10, including SELinux"
+update ""RedHat", "7.2 thru 7.9, 8.1 thru 8.10, 9.1 thru 9.6 (64bit), including SELinux"" to "RedHat", "7.2 thru 7.9, 8.1 thru 8.10, 9.1 thru 9.6, 10 (64bit), including SELinux"
+update "Rocky", "9.0 thru 9.5, including SELinux" to "Rocky", "9.0 thru 9.6, including SELinux"
+////
+
+
 == June 2025
 
 
