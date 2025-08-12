@@ -23,7 +23,7 @@ NetApp is continually improving and enhancing its products and services. Here ar
 
 The new *Analyze* feature in most widgets allows you to take a closer look at the data in one widget at a time. Simply click the "Analyze" button on a widget to open a detailed view, where you can interactively explore the underlying data and zoom in for deeper insights—without leaving your dashboard context.
 
-image:widget_analyze_feature.png[Analyze button on a widget, width=400]
+//image:widget_analyze_feature.png[Analyze button on a widget, width=400]
 
 image:widget_analyze_panel.png[Analyze panel for a line widget, width=500]
 
