@@ -25,7 +25,7 @@ The new *Analyze* feature in most widgets allows you to take a closer look at th
 
 //image:widget_analyze_feature.png[Analyze button on a widget, width=400]
 
-image:widget_analyze_panel.png[Analyze panel for a line widget, width=500]
+image:widget_analyze_panel.png[Analyze panel for a line widget, width=900]
 
 
 === Export and Import Dashboards
@@ -40,16 +40,6 @@ image:dashboard_export_from_menu.png[image showing export]
 *Google Cloud NetApp Volumes* (GCNV) is now fully supported as a data collector in DII, completing our ecosystem for hybrid cloud monitoring. Gain visibility into critical storage objects like organizations, pools, and volumes across the infrastructure. Now you can track all your storage environments--on-prem or in the cloud--from a single platform.  
 
 
-=== Intelligent Monitoring: StorageGrid Enhancements  
-
-Expanded StorageGrid monitoring with over 50 default alerts, real-time event tracking, and new dashboards to simplify complex storage grid operations keeps you ahead of issues by giving you deeper insights into traffic policies and bucket performance.  
-
-
-
-=== Smarter Storage Insights: Volume Object Enhancements
-
-Volumes now include host path redundancy checks and fiber channel hop count metrics, making it easier to avoid downtime. New monitors proactively flag risks, ensuring your storage infrastructure remains resilient.
-
 
 === Proactive Fabric Management: New Fabric Monitors
 
@@ -57,7 +47,8 @@ New fabric monitors detect physical errors, congestion, and switch failures—en
 
 
 === Collector Updates
-TBD
+* StorageGRID: Log collection is enabled by default, providing event tracking data to new dashboards and monitors.
+
 
 === Operating System support
 
@@ -67,11 +58,6 @@ The following operating systems are now supported with Data Infrastructure Insig
 * Red Hat (64-bit) 10
 * Rocky (64-bit) 9.6
 
-////
-update "AlmaLinux", "9.3 thru 9.5, including SELinux" to "AlmaLinux", "9.3 thru 9.5, 10, including SELinux"
-update ""RedHat", "7.2 thru 7.9, 8.1 thru 8.10, 9.1 thru 9.6 (64bit), including SELinux"" to "RedHat", "7.2 thru 7.9, 8.1 thru 8.10, 9.1 thru 9.6, 10 (64bit), including SELinux"
-update "Rocky", "9.0 thru 9.5, including SELinux" to "Rocky", "9.0 thru 9.6, including SELinux"
-////
 
 
 == June 2025
