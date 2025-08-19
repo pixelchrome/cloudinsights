@@ -58,6 +58,12 @@ When alerts are resolved, these health score reductions gradually fade, and the 
 
 
 
+== Fabric?
 
+TBD
+
+== Corrective Actions?
+
+TBD
 
 
