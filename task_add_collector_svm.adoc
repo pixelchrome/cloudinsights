@@ -114,6 +114,7 @@ Cluster level credentials are needed for this feature to work.
 
 If you are using cluster administration credentials, no new permissions are needed.
 
+
 If you are using a custom user (for example, _csuser_) with permissions given to the user, then follow the steps in link:cs_restrict_user_access.html[User Access Blocking] to give permissions to Workload Security to block user.
 
 
