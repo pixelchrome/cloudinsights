@@ -47,7 +47,7 @@ New fabric monitors detect physical errors, congestion, and switch failures—en
 
 
 === Collector Updates
-* StorageGRID: Log collection is enabled by default, providing event tracking data to new dashboards and monitors.
+* StorageGRID: Log collection is enabled by default, providing event tracking data to DII.
 
 
 === Operating System support
