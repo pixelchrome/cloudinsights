@@ -2,7 +2,8 @@
 sidebar: sidebar
 permalink: monitor_infrastructure_health.html
 keywords: infra, infrastructure, health, monitor
-summary: Data Infrastructure Insights can report on the health of your infrastructure for ease of troubleshooting.
+summary: "Data Infrastructure Insights can report on the health of your infrastructure for ease of troubleshooting."
+---
 
 = Monitor Infrastructure Health
 :hardbreaks:
