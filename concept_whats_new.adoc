@@ -35,19 +35,15 @@ image:dashboard_import_from_file.png[image showing import]
 image:dashboard_export_from_menu.png[image showing export]
 
 
-=== Enhanced Cloud Integration: GCNV Data Collector Support  
+=== Enhanced Cloud Integration: Google Cloud NetApp Volumes (GCNV) support
 
 *Google Cloud NetApp Volumes* (GCNV) is now fully supported as a data collector in DII, completing our ecosystem for hybrid cloud monitoring. Gain visibility into critical storage objects like organizations, pools, and volumes across the infrastructure. Now you can track all your storage environments--on-prem or in the cloud--from a single platform.  
 
 
 
-=== Proactive Fabric Management: New Fabric Monitors
+=== Enhanced StorageGRID Monitoring
 
-New fabric monitors detect physical errors, congestion, and switch failures—ensuring your network infrastructure stays robust and efficient.  
-
-
-=== Collector Updates
-* StorageGRID: Log collection is enabled by default, providing event tracking data to DII.
+StorageGRID Log collection is now enabled by default, providing event tracking data to DII, and we've expanded StorageGrid monitoring with over 50 default alerts, real-time event tracking, and new dashboards to simplify complex storage grid operations. Stay ahead of issues with deeper insights into traffic policies and bucket performance.  
 
 
 === Operating System support
