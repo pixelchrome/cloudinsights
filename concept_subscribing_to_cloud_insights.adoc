@@ -7,7 +7,7 @@ keywords: subscribe, trial, subscription, contract, raw capacity, region, data r
 
 = Subscribing to Data Infrastructure Insights
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:
@@ -16,17 +16,25 @@ keywords: subscribe, trial, subscription, contract, raw capacity, region, data r
 [.lead]
 Getting started with Data Infrastructure Insights is as easy as three simple steps:
 
-* Sign up for an account on link:https://bluexp.netapp.com//[*NetApp BlueXP*] to get access to all of NetApp's Cloud offerings.
-* Register for a free trial of Data Infrastructure Insights to explore the features available. To register for a free trial:
+. Sign up for an account on link:https://bluexp.netapp.com//[*NetApp BlueXP*] to get access to all of NetApp's Cloud offerings.
+. Register for a free trial of Data Infrastructure Insights to explore the features available. To register for a free trial:
 ** Go to https://netapp.com
 ** Select *How to Buy* at the top of the page.
 ** Select *Request trial*. If you are not already registered with BlueXP, Enter your details and sign up. Otherwise, sign in.
 ** Schedule a meeting or wait for a representative to contact you about your trial.
 
-* *Subscribe* to Data Infrastructure Insights for on-going, uninterrupted access to your data via link:https://bluexp.netapp.com/contact-cds[NetApp Sales] direct or link:https://aws.amazon.com/marketplace/pp/prodview-pbc3h2mkgaqxe[AWS Marketplace].
 
-During the registration process, you can choose the global region to host your Data Infrastructure Insights environment. 
-For more information, read about Data Infrastructure Insights link:security_information_and_region.html[Information and Region].
+. *Subscribe* to Data Infrastructure Insights for on-going, uninterrupted access to your data though a variety of flexible subscription options:
+
+** link:https://bluexp.netapp.com/contact-cds[NetApp Sales direct]
+** AWS Marketplace:
+*** link:https://aws.amazon.com/marketplace/pp/prodview-axhuy7muvzfx2[Fixed term subscription]
+*** link:https://aws.amazon.com/marketplace/pp/prodview-rn4qwencpjpge[Pay-as-you-go subscription]
+*** link:https://aws.amazon.com/marketplace/pp/prodview-nku57vjsqdwzu[Fixed base + Pay-as-you-go overages subscription]
+** link:https://azuremarketplace.microsoft.com/en-us/marketplace/apps/netapp.dii_premium[Azure Marketplace] (all subscription options)
+
+
+During the registration process, you can choose the global region to host your Data Infrastructure Insights environment. For more information, read about Data Infrastructure Insights link:security_information_and_region.html[Information and Region].
 
 
 For a full comparison of the features available in Data Infrastructure Insights Basic and Premium Editions, see the link:https://www.netapp.com/cloud-services/cloud-insights/editions-pricing[Data Infrastructure Insights Editions] page.
@@ -54,15 +62,12 @@ NOTE: If you need additional time to evaluate Data Infrastructure Insights and y
 
 
 
-
 === Trial through AWS Marketplace
 
-You may also sign up for a free trial through the AWS Marketplace. The AWS Marketplace free trial gives you access to Data Infrastructure Insights for a trial period of 33 days, and allows up to 499 <<observability-metering, Managed Units>> (MUs). 
+You may also sign up for a free trial through the AWS Marketplace. The AWS Marketplace free trial gives you access to Data Infrastructure Insights for a trial period of 33 days. 
 
-//Note: If you configure more than 499 MUs, you will enter "breached" state. While your trial is in breached state, you will lose access to some Data Infrastructure Insights functionality until the breach is resolved, either by reducing the number of MUs configured, or by subscribing to Data Infrastructure Insights.
 
-The AWS Marketplace free trial cannot be extended. At any time during your trial, you can downgrade to a Data Infrastructure Insights Basic Edition subscription or change to a paid Data Infrastructure Insights subscription by visiting the *Admin -> Subscription* page.
-
+The AWS Marketplace free trial cannot be extended. 
 
 
 === What if My Trial has Expired?
@@ -133,6 +138,7 @@ Your subscription will be metered by one of these methods, depending on whether 
 
 ==== Capacity Metering
 [#effective-entitlement]
+[#weighted-capacity]
 
 Data Infrastructure Insights Observability meters usage according to the tier of storages on your tenant. You may have storages that fall into one or more of these categories:
 
@@ -140,14 +146,11 @@ Data Infrastructure Insights Observability meters usage according to the tier of
 * Object Raw
 * Cloud Consumed
 
-Each tier is metered at a different rate, with the whole calculated together to give you an _effective entitlement_. The formula for calculating effective usage is as follows:
+Each tier is metered at a different rate, with the whole calculated together to give you a weighted entitlement. The formula for calculating weighted usage is as follows:
 
- Effective usage = Raw TiB + (0.1 x Object Tier Raw TiB) + (0.25 x Cloud Tier Provisioning TiB)
+ Weighted usage = Raw TiB + (0.1 x Object Tier Raw TiB) + (0.25 x Cloud Tier Provisioning TiB)
 
-NOTE: The sum of Managed Units may differ slightly from the Data Collectors count in the summary section. This is because Managed Unit counts are rounded up to the nearest Managed Unit. The sum of these numbers in the Data Collectors list may be slightly higher than the total Managed Units in the status section. The summary section reflects your actual Managed Unit count for your subscription.
-To facilitate this, DII calculates a single *effective entitlement* number based on _subscribed_ quantities; it then calculates that same number based on _discovered_ storage. This gives you flexibility to monitor quantities that vary from the subscribed amounts for each tier, which DII allows as long as total discovered storage is within the subscribed effective entitlement. 
-
-//image:TBD[Table showing discovered capacity and effective entitlement]
+To facilitate this, DII calculates a single *weighted entitlement* number based on _subscribed_ quantities; it then calculates that same number based on _discovered_ storage and only declares breach if the discovered capacity is greater than the weighted entitlement. This gives you flexibility to monitor quantities that vary from the subscribed amounts for each tier, which DII allows as long as total discovered storage is within the subscribed weighted entitlement. 
 
 
 ==== Managed Unit Metering (Legacy)
@@ -167,7 +170,7 @@ Workload Security is metered by Cluster using the same approach as Observability
 
 You can view your Workload Security usage in the *Admin > Subscription* page on the *Workload Security* tab.
 
-image:ws_metering_example_page.png['Admin > Subscription > Workload Security tab showing high-end, mid-range, and entry-level node counts']
+image:ws_metering_example_page.png["Admin > Subscription > Workload Security tab showing high-end, mid-range, and entry-level node counts"]
 
 NOTE: Existing Workload Security subscriptions have their MU usage adjusted so that node usage does not consume managed units. Data Infrastructure Insights meters usage to ensure compliance with licensed usage.
 
