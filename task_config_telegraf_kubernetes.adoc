@@ -41,4 +41,7 @@ The NetApp Kubernetes Monitoring Operator extracts the kube-state-metrics counte
 . ReplicaSet metrics
 . Service metrics
 . StatefulSet metrics
-
+. Horizontal Pod AutoScaler Metrics
+. Cronjob Metrics
+. Job Metrics
+. Resource Quota Metrics
