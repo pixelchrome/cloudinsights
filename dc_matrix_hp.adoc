@@ -1,9 +1,8 @@
-
 ---
 sidebar: sidebar
 permalink: dc_matrix_hp.html
 summary: The Data Collector Support Matrix contains detailed information on supported data collectors. 
-keywords: support matrix, vendor, NetApp, HP
+keywords: support matrix, vendor, NetApp, HP, HPE, 3PAR, Alletra, Primera, StoreServ, data collector, firmware, models
 ---
 
 = Data Collector Support Matrix - HP
