@@ -10,7 +10,7 @@ keywords: support matrix, vendor, NetApp, HP, HPE, 3PAR, Alletra, Primera, Store
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ./media/dc
 
 [.lead]
 The Data Collector Support Matrix provides reference for HP Data Collectors supported by Data Infrastructure Insights, including vendor and model information.
@@ -92,6 +92,7 @@ The following are supported by this data collector:
 
 ==== Device Group
 
+[cols="20,20,20,40", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information 
 
@@ -102,6 +103,7 @@ The following are supported by this data collector:
 
 ==== Disk
 
+[cols="20,20,20,40", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
@@ -122,6 +124,7 @@ The following are supported by this data collector:
 |===
 
 ==== ISCSI Network Portal
+[cols="20,20,20,40", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
@@ -132,6 +135,7 @@ The following are supported by this data collector:
 |===
 
 ==== ISCSI Network Portal Group
+[cols="20,20,20,40", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
@@ -141,6 +145,7 @@ The following are supported by this data collector:
 |===
 
 ==== ISCSI Node
+[cols="20,20,20,40", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
@@ -150,6 +155,7 @@ The following are supported by this data collector:
 |===
 
 ==== ISCSI Session
+[cols="20,20,20,40", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
@@ -164,6 +170,7 @@ The following are supported by this data collector:
 |===
 
 ==== Info
+[cols="20,20,20,40", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
@@ -175,6 +182,7 @@ google|DataSource Name|Implemented|SSH|Info
 |===
 
 ==== Storage
+[cols="20,20,20,40", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
@@ -194,6 +202,7 @@ google|DataSource Name|Implemented|SSH|Info
 |===
 
 ==== Storage Node
+[cols="20,20,20,40", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
@@ -208,6 +217,7 @@ google|DataSource Name|Implemented|SSH|Info
 |===
 
 ==== Storage Pool
+[cols="20,20,20,40", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
@@ -251,6 +261,7 @@ google|DataSource Name|Implemented|SSH|Info
 |===
 
 ==== Volume
+[cols="20,20,20,40", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
@@ -270,6 +281,7 @@ google|DataSource Name|Implemented|SSH|Info
 |===
 
 ==== Volume Map
+[cols="20,20,20,40", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
@@ -280,6 +292,7 @@ google|DataSource Name|Implemented|SSH|Info
 |===
 
 ==== Volume Mask
+[cols="20,20,20,40", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
@@ -290,6 +303,7 @@ google|DataSource Name|Implemented|SSH|Info
 |===
 
 ==== Volume Ref
+[cols="20,20,20,40", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
@@ -298,6 +312,7 @@ google|DataSource Name|Implemented|SSH|Info
 |===
 
 ==== WWN Alias
+[cols="20,20,20,40", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
@@ -310,6 +325,7 @@ google|DataSource Name|Implemented|SSH|Info
 === Performance 
 
 ==== Disk
+[cols="20,20,20,40", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
@@ -324,6 +340,7 @@ google|DataSource Name|Implemented|SSH|Info
 |===
 
 ==== Storage
+[cols="20,20,20,40", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
@@ -349,6 +366,7 @@ google|DataSource Name|Implemented|SSH|Info
 |===
 
 ==== Storage Node
+[cols="20,20,20,40", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
@@ -366,6 +384,7 @@ google|DataSource Name|Implemented|SSH|Info
 |===
 
 ==== Storage Pool
+[cols="20,20,20,40", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
@@ -387,6 +406,7 @@ google|DataSource Name|Implemented|SSH|Info
 |===
 
 ==== StoragePool Disk
+[cols="20,20,20,40", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
@@ -412,6 +432,7 @@ google|DataSource Name|Implemented|SSH|Info
 |===
 
 ==== Volume
+[cols="20,20,20,40", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
@@ -433,10 +454,10 @@ google|DataSource Name|Implemented|SSH|Info
 |Throughput Read|Implemented|SMI-S|
 |Throughput Total|Implemented|SMI-S|Average disk total rate (read and write across all disks) in MB/s
 |Throughput Write|Implemented|SMI-S|
-|Write Pending|Implemented|SMI-S|total write pending
 |===
 
 ==== Volume
+[cols="20,20,20,40", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
