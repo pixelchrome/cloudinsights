@@ -24,6 +24,8 @@ Workload Security (formerly Cloud Secure) collects user activity data using one 
 * While installing the agent, a local user _cssys_ and a local group _cssys_ are created on the machine. If permission settings do not allow creation of a local user, and instead require Active Directory, a user with the username _cssys_ must be created in the Active Directory server.
 * You can read about Data Infrastructure Insights security link:security_overview.html[here].
 
+NOTE: Global changes may have a potential impact on your ONTAP systems. It is strongly recommended to make changes that affect a large number of data collectors during off-peak hours.
+
 
 == Steps to Install Agent 
 

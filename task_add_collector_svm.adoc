@@ -21,6 +21,8 @@ Workload Security uses data collectors to collect file and user access data from
 ** Data ONTAP 9.2 and later versions. For best performance, use a Data ONTAP version greater than 9.13.1.
 ** SMB protocol version 3.1 and earlier.
 
+NOTE: Global changes may have a potential impact on your ONTAP systems. It is strongly recommended to make changes that affect a large number of data collectors during off-peak hours.
+
 ** NFS versions up to and including NFS 4.1 (Note that NFS 4.1 is supported with  ONTAP 9.15 or later).
 
 ** Flexgroup is supported from ONTAP 9.4 and later versions
