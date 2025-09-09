@@ -17,15 +17,17 @@ You can use the instructions on this page to simulate an attack for testing or d
 
 == Things to note before you begin
 
-* The ransomware simulation script works on Linux only. The simulation script should also generate High Confidence Alerts in then event that the user has integrated ONTAP ARP with Workload Security.
+* The ransomware simulation script works on Linux only. The simulation script should also generate High Confidence Alerts in the event that the user has integrated ONTAP ARP with Workload Security.
 
 * Workload Security will detect events and alerts generated with NFS 4.1 only if ONTAP version is 9.15 or higher. 
+
 
 * The script is provided with the Workload Security agent installation files. It is available on any machine that has a Workload Security agent installed.
 
 * You can run the script on the Workload Security agent machine itself; there is no need to prepare another Linux machine. However, if you prefer to run the script on another system, simply copy the script and run it there.
 
 * Users can opt for either the Python or shell script based on their preferences and system requirements.
+
 
 * The Python script has pre-requisite installations. If you don't want to use python, use the shell script. 
 
@@ -34,6 +36,7 @@ You can use the instructions on this page to simulate an attack for testing or d
 This script should be executed on an SVM containing a folder with a substantial number of files for encryption, ideally 100 or more, including files in sub-folders. Ensure that the files are not empty. 
 
 To generate the alert, temporarily pause the collector before test data creation. Once the sample files are generated, resume the collector and initiate the encryption process.
+
 
 == Steps:
 
@@ -65,6 +68,7 @@ If your ONTAP cluster version is 9.11.1 or higher you may enable the ONTAP Ranso
 Next, set up a Data Collector:
 
 . Configure the Workload Security agent if not already done.
+
 . Configure an SVM data collector if not already done.
 . Make sure the mount protocol is selected while configuring the data collector.
 
@@ -129,7 +133,9 @@ If you choose to programmatically create the files, you can use the Shell or Pyt
 If you paused the collector before following these steps, please be sure to resume the collector once the sample files are created.
 
 
-== Run the Ransomware Simulator script
+
+== Generate the sample files programmatically:
+Before creating the files, you must first stop or link:task_add_collector_svm.html#play-pause-data-collector[pause the data collector] processing.
 
 To generate a Ransomware alert, you can execute the included script which will simulate a ransomware alert in Workload Security.
 
@@ -175,6 +181,7 @@ Example of High Confidence Alert on the Alerts list page:
 image:ws_high_confidence_alert.png[High Confidence Alert example, list page]
 
 Example of High Confidence Alert detail:
+
 
 image:ws_high_confidence_alert_detail.png[High Confidence Alert example, detail page]
 
