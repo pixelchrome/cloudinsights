@@ -31,6 +31,13 @@ NOTE: Most VM Analyzer filters (including those you may add) are contextual; whe
 Clicking on an object or group opens a slideout panel providing additional details about the object and its connections. The slideout panel displays a summary, which provides details about the selected object (for example, throughput or utilization, depending on the type of object), and charts showing metrics for the object such as latency or IOPS. Additional tabs allow you to explore related additional resources or changes and alerts. You can select to display metrics for Top Correlated or contending objects on the charts as well, if desired. 
 
 
+== See it in Action
+
+link:https://media.netapp.com/video-detail/0e62b784-8456-5ef7-8879-f0352135a0f1/simplified-troubleshooting-with-vm-analyzer[Simplified troubleshooting with VM Analyzer (Video)]
+
+
+
+
 
 
 
