@@ -28,6 +28,10 @@ For example, if an asset is being leased and the lease expires within two months
 * Creating rules to automatically apply annotations to multiple assets of the same type.
 * Filter assets by their annotations.
 
+== See it in Action
+
+link:https://media.netapp.com/video-detail/248621bd-6619-5dc8-9718-5d78d0fd21da/turn-raw-data-into-actionable-insights[Annotations and Annotation Rules (Video)]
+
 == Default annotation types
 
 Data Infrastructure Insights provides some default annotation types. These annotations can be used to filter or group data. 
