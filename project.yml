@@ -30,7 +30,7 @@ sidebar:
     - title: Getting Started
       entries:
        - title: Collecting Data
-          entries:
+         entries:
             - title: Overview
               url: /task_getting_started_with_cloud_insights.html
             - title: Acquisition Unit Requirements
