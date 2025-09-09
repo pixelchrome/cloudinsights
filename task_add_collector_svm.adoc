@@ -13,15 +13,15 @@ summary: Adding Workload Security data collectors
 :imagesdir: ./media/
 
 [.lead]
-Workload Security uses data collectors to collect file and user access data from devices.
+The ONTAP SVM Data Collector enables Workload Security to monitor file and user access activities on NetApp ONTAP storage virtual machines (SVMs). This guide walks you through the configuration and management of the SVM data collector to provide comprehensive security monitoring of your ONTAP environment.
+
+NOTE: Global changes may have a potential impact on your ONTAP systems. It is strongly recommended to make changes that affect a large number of data collectors during off-peak hours.
 
 == Before you begin
 
 * This data collector is supported with the following:
 ** Data ONTAP 9.2 and later versions. For best performance, use a Data ONTAP version greater than 9.13.1.
 ** SMB protocol version 3.1 and earlier.
-
-NOTE: Global changes may have a potential impact on your ONTAP systems. It is strongly recommended to make changes that affect a large number of data collectors during off-peak hours.
 
 ** NFS versions up to and including NFS 4.1 (Note that NFS 4.1 is supported with  ONTAP 9.15 or later).
 
