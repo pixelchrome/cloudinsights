@@ -1,24 +1,23 @@
 ---
 sidebar: sidebar
 permalink: dc_matrix_hp.html
-summary: The Data Collector Support Matrix contains detailed information on supported data collectors. 
-keywords: support matrix, vendor, NetApp, HP, HPE, 3PAR, Alletra, Primera, StoreServ, data collector, firmware, models
+summary: The Data Collector Support Matrix contains detailed information on supported Hp data collectors.
+keywords: support matrix, {vendor}
 ---
 
-= Data Collector Support Matrix - HP
+= Data Collector Support Matrix - Hp
 :hardbreaks:
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/dc
+:imagesdir: ./media/
 
 [.lead]
 The Data Collector Support Matrix provides reference for HP Data Collectors supported by Data Infrastructure Insights, including vendor and model information.
 
-== HP Enterprise 3PAR / Alletra 9000 / Primera StoreServ Storage
+== Hp Enterprise 3par / Alletra 9000 / Primera Storeserv Storage
 
-=== Supported Models:
-
+=== Models
 * HPE Alletra 9080
 * HPE_3PAR 20450
 * HPE_3PAR 20800
@@ -54,8 +53,7 @@ The Data Collector Support Matrix provides reference for HP Data Collectors supp
 * InServ V400
 * InServ V800
 
-=== Supported Firmware:
-
+=== Firmware Versions
 * 3.1.1 (MU1)
 * 3.1.2 (MU3)
 * 3.1.3 (MU1)
@@ -85,16 +83,12 @@ The Data Collector Support Matrix provides reference for HP Data Collectors supp
 * 9.6.1 Release Type: Extended Support Release
 
 
-
-The following are supported by this data collector:
-
 === Foundation
 
 ==== Device Group
-
-[cols="20,20,20,40", options="header"]
+[cols="25,25,25,25", options="header"]
 |===
-^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information 
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
 |Name|Implemented|SSH|
 |Storage Management Id|Implemented|SSH|
@@ -102,12 +96,11 @@ The following are supported by this data collector:
 |===
 
 ==== Disk
-
-[cols="20,20,20,40", options="header"]
+[cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
-| Capacity (GB)|Implemented|SSH|Used capacity
+|Capacity (GB)|Implemented|SSH|Used capacity
 |Disk Id|Implemented|SSH|Uniquely identifies this disk in the array
 |Location|Gap|SSH|Where this disk is physically located in the array
 |Model|Implemented|SSH|
@@ -123,43 +116,43 @@ The following are supported by this data collector:
 |Vendor Id|Implemented|SSH|
 |===
 
-==== ISCSI Network Portal
-[cols="20,20,20,40", options="header"]
+==== Iscsi Network Portal
+[cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
-| IP|Implemented|SSH|
+|IP|Implemented|SSH|
 |Listening Port|Implemented|SSH|
 |Nic|Implemented|SSH|
 |OID|Implemented|SSH|
 |===
 
-==== ISCSI Network Portal Group
-[cols="20,20,20,40", options="header"]
+==== Iscsi Network Portal Group
+[cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
-| OID|Implemented|SSH|
+|OID|Implemented|SSH|
 |Portal Group Name|Implemented|SSH|
 |Portal Group Tag|Implemented|SSH|
 |===
 
-==== ISCSI Node
-[cols="20,20,20,40", options="header"]
+==== Iscsi Node
+[cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
-| Node Name|Implemented|SSH|
+|Node Name|Implemented|SSH|
 |OID|Implemented|SSH|
 |Type|Gap|SSH|
 |===
 
-==== ISCSI Session
-[cols="20,20,20,40", options="header"]
+==== Iscsi Session
+[cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
-| OID|Implemented|SSH|
+|OID|Implemented|SSH|
 |Initiator OID|Implemented|SSH|
 |Portal Group OID|Implemented|SSH|
 |Target Session Id|Implemented|SSH|
@@ -170,23 +163,22 @@ The following are supported by this data collector:
 |===
 
 ==== Info
-[cols="20,20,20,40", options="header"]
+[cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
-| Api Name|Implemented|SSH|
+|Api Name|Implemented|SSH|
 |Api Version|Implemented|SSH|
-google|DataSource Name|Implemented|SSH|Info
 |Date|Implemented|SSH|
 |Originator ID|Implemented|SSH|
 |===
 
 ==== Storage
-[cols="20,20,20,40", options="header"]
+[cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
-| Display IP|Implemented|SSH|
+|Display IP|Implemented|SSH|
 |Failed Raw Capacity|Implemented|SSH|Raw capacity of failed disks (sum of all disks that are failed)
 |Family|Implemented|SSH|The storage Family could be Clariion, Symmetrix, et al
 |IP|Implemented|SSH|
@@ -202,26 +194,26 @@ google|DataSource Name|Implemented|SSH|Info
 |===
 
 ==== Storage Node
-[cols="20,20,20,40", options="header"]
+[cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
-| Memory Size|Gap|SSH|device memory in MB
+|Memory Size|Gap|SSH|device memory in MB
 |Model|Implemented|SSH|
 |Name|Implemented|SSH|
 |Processors Count|Implemented|SSH|device CPU
-|State|Implemented|SSH|free text describing the device state 
+|State|Implemented|SSH|free text describing the device state
 |UUID|Implemented|SSH|
 |Up Time|Implemented|SSH|time in milliseconds
 |Version|Implemented|SSH|software version
 |===
 
 ==== Storage Pool
-[cols="20,20,20,40", options="header"]
+[cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
-| Auto Tiering|Implemented|SSH|indicates if this storagepool is participating in auto tiering with other pools
+|Auto Tiering|Implemented|SSH|indicates if this storagepool is participating in auto tiering with other pools
 |Compression Enabled|Implemented|SSH|Is compression enabled on the storage pool
 |Compression Savings|Implemented|SSH|ratio of compression savings in percentage
 |Data Allocated Capacity|Gap|SSH|capacity allocated for data
@@ -248,24 +240,25 @@ google|DataSource Name|Implemented|SSH|Info
 |===
 
 ==== Storage Synchronization
+[cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
-| Mode|Implemented|SSH|
+|Mode|Implemented|SSH|
 |Mode Enum|Implemented|SSH|
 |Source Volume|Implemented|SSH|
-|State|Implemented|SSH|free text describing the device state 
+|State|Implemented|SSH|free text describing the device state
 |State Enum|Implemented|SSH|
 |Target Volume|Implemented|SSH|
 |Technology|Implemented|SSH|technology which causes storage efficiency changed
 |===
 
 ==== Volume
-[cols="20,20,20,40", options="header"]
+[cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
-| AutoTier Policy Identifier|Implemented|SSH|Dynamic Tier Policy identifier
+|AutoTier Policy Identifier|Implemented|SSH|Dynamic Tier Policy identifier
 |Auto Tiering|Implemented|SSH|indicates if this storagepool is participating in auto tiering with other pools
 |Capacity|Implemented|SSH|Snapshot Used capacity in MB
 |Name|Implemented|SSH|
@@ -281,55 +274,61 @@ google|DataSource Name|Implemented|SSH|Info
 |===
 
 ==== Volume Map
-[cols="20,20,20,40", options="header"]
+[cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
-| LUN|Implemented|SSH|Name of the backend lun
+|LUN|Implemented|SSH|Name of the backend lun
 |Protocol Controller|Implemented|SSH|
 |Storage Port|Implemented|SSH|
 |Type|Gap|SSH|
 |===
 
 ==== Volume Mask
-[cols="20,20,20,40", options="header"]
+[cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
-| Initiator|Implemented|SSH|
+|Initiator|Implemented|SSH|
 |Protocol Controller|Implemented|SSH|
 |Storage Port|Implemented|SSH|
 |Type|Gap|SSH|
 |===
 
 ==== Volume Ref
-[cols="20,20,20,40", options="header"]
+[cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
-| Name|Implemented|SSH|
+|Name|Implemented|SSH|
 |Storage Ip|Implemented|SSH|
 |===
 
-==== WWN Alias
-[cols="20,20,20,40", options="header"]
+==== Wwn Alias
+[cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
-| Host Aliases|Implemented|SSH|
+|Host Aliases|Implemented|SSH|
 |Object Type|Implemented|SSH|
 |Source|Implemented|SSH|
 |WWN|Implemented|SSH|
 |===
 
-=== Performance 
+=== Performance
 
 ==== Disk
-[cols="20,20,20,40", options="header"]
+[cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
-| IOPs Read|Implemented|SMI-S|Number of read IOPs on the disk
+|IOPs Read|Implemented|SMI-S|Number of read IOPs on the disk
+|IOPs Total|Implemented|SMI-S|
+|IOPs Write|Implemented|SMI-S|
+|Throughput Read|Implemented|SMI-S|
+|Throughput Total|Implemented|SMI-S|Average disk total rate (read and write across all disks) in MB/s
+|Throughput Write|Implemented|SMI-S|
+|IOPs Read|Implemented|SMI-S|Number of read IOPs on the disk
 |IOPs Total|Implemented|SMI-S|
 |IOPs Write|Implemented|SMI-S|
 |Key|Implemented|SMI-S|
@@ -340,11 +339,11 @@ google|DataSource Name|Implemented|SSH|Info
 |===
 
 ==== Storage
-[cols="20,20,20,40", options="header"]
+[cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
-| Cache Hit Ratio Read|Implemented|SMI-S|
+|Cache Hit Ratio Read|Implemented|SMI-S|
 |Cache Hit Ratio Total|Implemented|SMI-S|
 |Cache Hit Ratio Write|Implemented|SMI-S|
 |Failed Raw Capacity|Implemented|SMI-S|
@@ -366,11 +365,11 @@ google|DataSource Name|Implemented|SSH|Info
 |===
 
 ==== Storage Node
-[cols="20,20,20,40", options="header"]
+[cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
-| Cache Hit Ratio Total|Implemented|SMI-S|
+|Cache Hit Ratio Total|Implemented|SMI-S|
 |IOPs Read|Implemented|SMI-S|Number of read IOPs on the disk
 |IOPs Total|Implemented|SMI-S|
 |IOPs Write|Implemented|SMI-S|
@@ -384,11 +383,11 @@ google|DataSource Name|Implemented|SSH|Info
 |===
 
 ==== Storage Pool
-[cols="20,20,20,40", options="header"]
+[cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
-| Capacity Provisioned|Implemented|SMI-S|
+|Capacity Provisioned|Implemented|SMI-S|
 |Raw Capacity|Implemented|SMI-S|
 |Total Capacity|Implemented|SMI-S|
 |Used Capacity|Implemented|SMI-S|
@@ -402,15 +401,15 @@ google|DataSource Name|Implemented|SSH|Info
 |Server ID|Implemented|SMI-S|
 |Snapshot Reserved Capacity|Implemented|SMI-S|
 |Snapshot Used Capacity|Implemented|SMI-S|
-|Snapshot Used Capacity Ratio|Implemented|SMI-S| Reported as a time series
+|Snapshot Used Capacity Ratio|Implemented|SMI-S|Reported as a time series
 |===
 
-==== StoragePool Disk
-[cols="20,20,20,40", options="header"]
+==== Storagepool Disk
+[cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
-| Capacity Provisioned|Implemented|SMI-S|
+|Capacity Provisioned|Implemented|SMI-S|
 |Raw Capacity|Implemented|SMI-S|
 |Total Capacity|Implemented|SMI-S|
 |Used Capacity|Implemented|SMI-S|
@@ -425,18 +424,18 @@ google|DataSource Name|Implemented|SSH|Info
 |Other Used Capacity|Implemented|SMI-S|
 |Snapshot Reserved Capacity|Implemented|SMI-S|
 |Snapshot Used Capacity|Implemented|SMI-S|
-|Snapshot Used Capacity Ratio|Implemented|SMI-S| Reported as a time series
+|Snapshot Used Capacity Ratio|Implemented|SMI-S|Reported as a time series
 |Throughput Read|Implemented|SMI-S|
 |Throughput Total|Implemented|SMI-S|Average disk total rate (read and write across all disks) in MB/s
 |Throughput Write|Implemented|SMI-S|
 |===
 
 ==== Volume
-[cols="20,20,20,40", options="header"]
+[cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
-| Cache Hit Ratio Read|Implemented|SMI-S|
+|Cache Hit Ratio Read|Implemented|SMI-S|
 |Cache Hit Ratio Total|Implemented|SMI-S|
 |Cache Hit Ratio Write|Implemented|SMI-S|
 |Raw Capacity|Implemented|SMI-S|
@@ -454,14 +453,8 @@ google|DataSource Name|Implemented|SSH|Info
 |Throughput Read|Implemented|SMI-S|
 |Throughput Total|Implemented|SMI-S|Average disk total rate (read and write across all disks) in MB/s
 |Throughput Write|Implemented|SMI-S|
-|===
-
-==== Volume
-[cols="20,20,20,40", options="header"]
-|===
-^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
-
-| Cache Hit Ratio Read|Implemented|SMI-S|
+|Write Pending|Implemented|SMI-S|total write pending
+|Cache Hit Ratio Read|Implemented|SMI-S|
 |Cache Hit Ratio Total|Implemented|SMI-S|
 |Cache Hit Ratio Write|Implemented|SMI-S|
 |Raw Capacity|Implemented|SMI-S|
@@ -484,7 +477,6 @@ google|DataSource Name|Implemented|SSH|Info
 |Throughput Total|Implemented|SMI-S|Average disk total rate (read and write across all disks) in MB/s
 |Throughput Write|Implemented|SMI-S|
 |Write Pending|Implemented|SMI-S|total write pending
-
 |===
 
 Management APIs used by this data collector:
