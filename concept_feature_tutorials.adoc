@@ -31,3 +31,5 @@ NOTE: You can view the tutorials in any order you like, as many times as you lik
 === Dismissing the Checklist
 
 The Startup Checklist is displayed until you click the _Don't Show This Again_ link at the bottom of the checklist. Even after dismissing the checklist, the tutorials are still available on each appropriate Data Infrastructure Insights page until you dismiss each one from the message header bar. 
+
+
