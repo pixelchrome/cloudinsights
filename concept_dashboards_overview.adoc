@@ -30,7 +30,7 @@ You create a new dashboard in one of two places:
 
 == See it in Action
 
-link:https://media.netapp.com/video-detail/5a293f3c-c655-5879-9133-1a32aaa140e8[Create Powerful Dashboards with NetApp (Video)]
+link:https://media.netapp.com/video-detail/5a293f3c-c655-5879-9133-1a32aaa140e8[Create Powerful Dashboards with NetApp (Video),window=read-later]
 
 == Dashboard Controls
 
