@@ -7,7 +7,6 @@ summary: Track data using annotations.
 
 = Defining annotations
 :hardbreaks:
-
 :nofooter:
 :icons: font
 :linkattrs:
@@ -29,7 +28,7 @@ For example, if an asset is being leased and the lease expires within two months
 * Filter assets by their annotations.
 
 == See it in Action
-link:https://media.netapp.com/video-detail/248621bd-6619-5dc8-9718-5d78d0fd21da[Annotations and Annotation Rules (Video)]
+link:https://media.netapp.com/video-detail/248621bd-6619-5dc8-9718-5d78d0fd21da[Annotations and Annotation Rules (Video),window=read-later]
 
 == Default annotation types
 
