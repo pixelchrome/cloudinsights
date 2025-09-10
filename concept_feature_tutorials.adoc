@@ -14,15 +14,6 @@ keywords: onboarding, getting started, video, tutorial, resolution, dashboard, q
 [.lead]
 Data Infrastructure Insights is loaded with useful features that enable you to quickly and easily troubleshoot issues, and provide insights into your corporate environment. Find data easily with powerful queries, visualize data in dashboards, and send email alerts for data thresholds you set. 
 
-== Sample Video: VM Analyzer
-
-
-link:https://media.netapp.com/video-detail/0e62b784-8456-5ef7-8879-f0352135a0f1/simplified-troubleshooting-with-vm-analyzer[video direct URL link]
-
-URL:
-
-https://media.netapp.com/video-detail/0e62b784-8456-5ef7-8879-f0352135a0f1/simplified-troubleshooting-with-vm-analyzer
-
 == Checklist and Video Tutorials
 
 The *Startup Checklist* displayed on your Data Infrastructure Insights tenant contains a list of several useful tasks and concepts. Selecting an item in the checklist takes you to the appropriate Data Infrastructure Insights page for that concept. For example, clicking on the _Create a Dashboard_ item opens the Data Infrastructure Insights *Dashboards* page.
