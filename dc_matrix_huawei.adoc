@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: dc_matrix_huawei.html
-summary: The Data Collector Support Matrix contains detailed information on supported Huawei data collectors.
-keywords: support matrix, {vendor}
+summary: The Data Collector Support Matrix contains detailed information on Huawei data collectors.
+keywords: support matrix, huawei, collector, matrix
 ---
 
-= Data Collector Support Matrix - Huawei
+= Data Collector Support Matrix for Huawei
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,11 +13,15 @@ keywords: support matrix, {vendor}
 :imagesdir: ./media/
 
 [.lead]
-The Data Collector Support Matrix provides reference for HUAWEI Data Collectors supported by Data Infrastructure Insights, including vendor and model information.
+The Data Collector Support Matrix provides reference for Huawei Data Collectors.
 
-== Huawei Oceanstor (rest/https)
+== Huawei OceanStor (REST/HTTPS)
+
+Models and versions supported by this data collector:
+
 
 === Models
+
 * 18800 V5
 * 2600 V3
 * 5310 V5
@@ -31,7 +35,9 @@ The Data Collector Support Matrix provides reference for HUAWEI Data Collectors 
 * Dorado 6000 V3
 * Dorado 6000 V6 NVMe
 
+
 === Firmware Versions
+
 * V300R001C01
 * V300R002C10
 * V300R006C10
@@ -48,9 +54,9 @@ The Data Collector Support Matrix provides reference for HUAWEI Data Collectors 
 * V600R005C27
 
 
-=== Foundation
+== Foundation
 
-==== Disk
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -71,7 +77,8 @@ The Data Collector Support Matrix provides reference for HUAWEI Data Collectors 
 |Vendor|Implemented|HTTPS|
 |===
 
-==== File Share
+
+=== File Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -83,7 +90,8 @@ The Data Collector Support Matrix provides reference for HUAWEI Data Collectors 
 |Is Shared|Implemented|HTTPS|whether this fileShare has any shares associated with it
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -94,7 +102,8 @@ The Data Collector Support Matrix provides reference for HUAWEI Data Collectors 
 |Originator Key|Implemented|HTTPS|
 |===
 
-==== Internal Volume
+
+=== Internal Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -114,7 +123,8 @@ The Data Collector Support Matrix provides reference for HUAWEI Data Collectors 
 |Raw to Usable Ratio|Implemented|HTTPS|ratio to convert from usable capacity to raw capacity
 |===
 
-==== Qtree
+
+=== QTree
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -128,7 +138,8 @@ The Data Collector Support Matrix provides reference for HUAWEI Data Collectors 
 |Quota UsedCapacity|Implemented|HTTPS|Space in MB currently used
 |===
 
-==== Quota
+
+=== Quota
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -146,7 +157,8 @@ The Data Collector Support Matrix provides reference for HUAWEI Data Collectors 
 |User/Group Target|Implemented|HTTPS|user/group target this quota refers to
 |===
 
-==== Share
+
+=== Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -157,7 +169,8 @@ The Data Collector Support Matrix provides reference for HUAWEI Data Collectors 
 |IP Interfaces|Implemented|HTTPS|comma separated list of IP addresses on which this share is exposed
 |===
 
-==== Share Initiator
+
+=== Share Initiator
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -166,7 +179,8 @@ The Data Collector Support Matrix provides reference for HUAWEI Data Collectors 
 |Permission|Implemented|HTTPS|Permissions for this particular share
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -187,7 +201,8 @@ The Data Collector Support Matrix provides reference for HUAWEI Data Collectors 
 |Virtual|Implemented|HTTPS|Is this a storage virtualization device?
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -197,7 +212,8 @@ The Data Collector Support Matrix provides reference for HUAWEI Data Collectors 
 |Version|Implemented|HTTPS|software version
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -216,7 +232,8 @@ The Data Collector Support Matrix provides reference for HUAWEI Data Collectors 
 |Virtual|Implemented|HTTPS|Is this a storage virtualization device?
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -233,7 +250,8 @@ The Data Collector Support Matrix provides reference for HUAWEI Data Collectors 
 |Virtual|Implemented|HTTPS|Is this a storage virtualization device?
 |===
 
-==== Volume Map
+
+=== Volume Map
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -244,7 +262,8 @@ The Data Collector Support Matrix provides reference for HUAWEI Data Collectors 
 |Type|Gap|HTTPS|
 |===
 
-==== Volume Mask
+
+=== Volume Mask
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -255,9 +274,10 @@ The Data Collector Support Matrix provides reference for HUAWEI Data Collectors 
 |Type|Gap|HTTPS|
 |===
 
-=== Performance
 
-==== Disk
+== Performance
+
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -269,6 +289,14 @@ The Data Collector Support Matrix provides reference for HUAWEI Data Collectors 
 |Throughput Total|Implemented|HTTPS|Average disk total rate (read and write across all disks) in MB/s
 |Throughput Write|Implemented|HTTPS|
 |Utilization Total|Implemented|HTTPS|
+|===
+
+
+=== Disk
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |IOPs Read|Implemented|HTTPS|Number of read IOPs on the disk
 |IOPs Total|Implemented|HTTPS|
 |IOPs Write|Implemented|HTTPS|
@@ -280,7 +308,8 @@ The Data Collector Support Matrix provides reference for HUAWEI Data Collectors 
 |Utilization Total|Implemented|HTTPS|
 |===
 
-==== Internal Volume
+
+=== Internal Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -295,12 +324,13 @@ The Data Collector Support Matrix provides reference for HUAWEI Data Collectors 
 |IOPs Total|Implemented|HTTPS|
 |Latency Write|Implemented|HTTPS|
 |Total Capacity|Implemented|HTTPS|
-|Snapshot Used Capacity Ratio|Implemented|HTTPS|Reported as a time series
+|Snapshot Used Capacity Ratio|Implemented|HTTPS| Reported as a time series
 |Data Used Capacity|Implemented|HTTPS|
 |Snapshot Used Capacity|Implemented|HTTPS|
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -321,7 +351,8 @@ The Data Collector Support Matrix provides reference for HUAWEI Data Collectors 
 |Throughput Write|Implemented|HTTPS|
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -338,7 +369,8 @@ The Data Collector Support Matrix provides reference for HUAWEI Data Collectors 
 |Utilization Total|Implemented|HTTPS|
 |===
 
-==== Storage Node Data
+
+=== Storage Node Data
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -357,7 +389,8 @@ The Data Collector Support Matrix provides reference for HUAWEI Data Collectors 
 |Utilization Total|Implemented|HTTPS|
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -378,7 +411,8 @@ The Data Collector Support Matrix provides reference for HUAWEI Data Collectors 
 |Throughput Write|Implemented|HTTPS|
 |===
 
-==== Storagepool Disk
+
+=== StoragePool Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -397,7 +431,8 @@ The Data Collector Support Matrix provides reference for HUAWEI Data Collectors 
 |Throughput Write|Implemented|HTTPS|
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -418,6 +453,14 @@ The Data Collector Support Matrix provides reference for HUAWEI Data Collectors 
 |Throughput Read|Implemented|HTTPS|
 |Throughput Total|Implemented|HTTPS|Average disk total rate (read and write across all disks) in MB/s
 |Throughput Write|Implemented|HTTPS|
+|===
+
+
+=== Volume
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |Cache Hit Ratio Read|Implemented|HTTPS|
 |Cache Hit Ratio Total|Implemented|HTTPS|
 |Cache Hit Ratio Write|Implemented|HTTPS|
@@ -438,7 +481,9 @@ The Data Collector Support Matrix provides reference for HUAWEI Data Collectors 
 |Throughput Write|Implemented|HTTPS|
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -462,4 +507,3 @@ Management APIs used by this data collector:
 |true
 |true
 
-|===

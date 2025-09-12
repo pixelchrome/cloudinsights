@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: dc_matrix_google.html
-summary: The Data Collector Support Matrix contains detailed information on supported Google data collectors.
-keywords: support matrix, {vendor}
+summary: The Data Collector Support Matrix contains detailed information on Google data collectors.
+keywords: support matrix, google, collector, matrix
 ---
 
-= Data Collector Support Matrix - Google
+= Data Collector Support Matrix for Google
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,17 +13,19 @@ keywords: support matrix, {vendor}
 :imagesdir: ./media/
 
 [.lead]
-The Data Collector Support Matrix provides reference for GOOGLE Data Collectors supported by Data Infrastructure Insights, including vendor and model information.
-
+The Data Collector Support Matrix provides reference for Google Data Collectors.
 
 == Google Cloud Compute
 
-=== API Versions
+Models and versions supported by this data collector:
+API versions: 
+
 * v1
 
-=== Foundation
 
-==== Data Store
+== Foundation
+
+=== Data Store
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -37,7 +39,8 @@ The Data Collector Support Matrix provides reference for GOOGLE Data Collectors 
 |subscription Id|Implemented|HTTPS|
 |===
 
-==== Server
+
+=== Server
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -48,7 +51,8 @@ The Data Collector Support Matrix provides reference for GOOGLE Data Collectors 
 |Virtual Center Ip|Implemented|HTTPS|
 |===
 
-==== Virtual Disk
+
+=== Virtual Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -60,7 +64,8 @@ The Data Collector Support Matrix provides reference for GOOGLE Data Collectors 
 |subscription Id|Implemented|HTTPS|
 |===
 
-==== Virtualmachine
+
+=== VirtualMachine
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -84,7 +89,8 @@ The Data Collector Support Matrix provides reference for GOOGLE Data Collectors 
 |subscription Id|Implemented|HTTPS|
 |===
 
-==== Virtualmachine Disk
+
+=== VirtualMachine Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -94,7 +100,8 @@ The Data Collector Support Matrix provides reference for GOOGLE Data Collectors 
 |VirtualMachine OID|Implemented|HTTPS|
 |===
 
-==== Host
+
+=== Host
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -106,7 +113,8 @@ The Data Collector Support Matrix provides reference for GOOGLE Data Collectors 
 |OID|Implemented|HTTPS|
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -120,9 +128,10 @@ The Data Collector Support Matrix provides reference for GOOGLE Data Collectors 
 |Originator Key|Implemented|HTTPS|
 |===
 
-=== Performance
 
-==== VM
+== Performance
+
+=== vm
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -147,7 +156,8 @@ The Data Collector Support Matrix provides reference for GOOGLE Data Collectors 
 |Schedule wait time|Implemented|HTTPS|Waiting to be scheduled time in percent
 |===
 
-==== VM
+
+=== VM
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -158,7 +168,9 @@ The Data Collector Support Matrix provides reference for GOOGLE Data Collectors 
 |Server ID|Implemented|HTTPS|
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -172,16 +184,16 @@ Management APIs used by this data collector:
 |true
 |true
 
-|===
 
-'''
+
+|===
 
 == Google Cloud Netapp Volumes
 
 
-=== Foundation
+== Foundation
 
-==== File Share
+=== File Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -195,7 +207,8 @@ Management APIs used by this data collector:
 |Security Type|Implemented|HTTPS|
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -205,7 +218,8 @@ Management APIs used by this data collector:
 |Date|Implemented|HTTPS|
 |===
 
-==== Internal Volume
+
+=== Internal Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -236,7 +250,8 @@ Management APIs used by this data collector:
 |Qos Limit Raw|Implemented|HTTPS|
 |===
 
-==== Qtree
+
+=== QTree
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -248,7 +263,8 @@ Management APIs used by this data collector:
 |Type|Gap|HTTPS|
 |===
 
-==== Share
+
+=== Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -258,7 +274,8 @@ Management APIs used by this data collector:
 |IP Interfaces|Implemented|HTTPS|comma separated list of IP addresses on which this share is exposed
 |===
 
-==== Share Initiator
+
+=== Share Initiator
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -267,7 +284,8 @@ Management APIs used by this data collector:
 |Permission|Implemented|HTTPS|Permissions for this particular share
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -284,7 +302,8 @@ Management APIs used by this data collector:
 |Failed Raw Capacity|Implemented|HTTPS|Raw capacity of failed disks (sum of all disks that are failed)
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -308,9 +327,10 @@ Management APIs used by this data collector:
 ||Implemented|HTTPS|
 |===
 
-=== Performance
 
-==== Internal Volume
+== Performance
+
+=== Internal Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -325,7 +345,7 @@ Management APIs used by this data collector:
 |Throughput Read|Implemented|HTTPS|
 |Server ID|Implemented|HTTPS|
 |IOPs Total|Implemented|HTTPS|
-|Snapshot Used Capacity Ratio|Implemented|HTTPS|Reported as a time series
+|Snapshot Used Capacity Ratio|Implemented|HTTPS| Reported as a time series
 |Latency Write|Implemented|HTTPS|
 |IOPs Read|Implemented|HTTPS|Number of read IOPs on the disk
 |Capacity Used Ratio|Implemented|HTTPS|
@@ -338,7 +358,8 @@ Management APIs used by this data collector:
 |Snapshot Reserved Capacity|Implemented|HTTPS|
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -361,7 +382,8 @@ Management APIs used by this data collector:
 |Key|Implemented|HTTPS|
 |===
 
-==== Storagepool Disk
+
+=== StoragePool Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -383,7 +405,9 @@ Management APIs used by this data collector:
 |Over Commit Capacity Ratio|Implemented|HTTPS|Reported as a time series
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -397,4 +421,3 @@ Management APIs used by this data collector:
 |true
 |true
 
-|===

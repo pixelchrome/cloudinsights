@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: dc_matrix_hp.html
-summary: The Data Collector Support Matrix contains detailed information on supported Hp data collectors.
-keywords: support matrix, {vendor}
+summary: The Data Collector Support Matrix contains detailed information on Hp data collectors.
+keywords: support matrix, hp, collector, matrix
 ---
 
-= Data Collector Support Matrix - Hp
+= Data Collector Support Matrix for Hp
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,11 +13,15 @@ keywords: support matrix, {vendor}
 :imagesdir: ./media/
 
 [.lead]
-The Data Collector Support Matrix provides reference for HP Data Collectors supported by Data Infrastructure Insights, including vendor and model information.
+The Data Collector Support Matrix provides reference for Hp Data Collectors.
 
-== Hp Enterprise 3par / Alletra 9000 / Primera Storeserv Storage
+== HP Enterprise 3PAR / Alletra 9000 / Primera StoreServ Storage
+
+Models and versions supported by this data collector:
+
 
 === Models
+
 * HPE Alletra 9080
 * HPE_3PAR 20450
 * HPE_3PAR 20800
@@ -53,7 +57,9 @@ The Data Collector Support Matrix provides reference for HP Data Collectors supp
 * InServ V400
 * InServ V800
 
+
 === Firmware Versions
+
 * 3.1.1 (MU1)
 * 3.1.2 (MU3)
 * 3.1.3 (MU1)
@@ -83,9 +89,9 @@ The Data Collector Support Matrix provides reference for HP Data Collectors supp
 * 9.6.1 Release Type: Extended Support Release
 
 
-=== Foundation
+== Foundation
 
-==== Device Group
+=== Device Group
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -95,7 +101,8 @@ The Data Collector Support Matrix provides reference for HP Data Collectors supp
 |Type|Gap|SSH|
 |===
 
-==== Disk
+
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -116,7 +123,8 @@ The Data Collector Support Matrix provides reference for HP Data Collectors supp
 |Vendor Id|Implemented|SSH|
 |===
 
-==== Iscsi Network Portal
+
+=== ISCSI Network Portal
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -127,7 +135,8 @@ The Data Collector Support Matrix provides reference for HP Data Collectors supp
 |OID|Implemented|SSH|
 |===
 
-==== Iscsi Network Portal Group
+
+=== ISCSI Network Portal Group
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -137,7 +146,8 @@ The Data Collector Support Matrix provides reference for HP Data Collectors supp
 |Portal Group Tag|Implemented|SSH|
 |===
 
-==== Iscsi Node
+
+=== ISCSI Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -147,7 +157,8 @@ The Data Collector Support Matrix provides reference for HP Data Collectors supp
 |Type|Gap|SSH|
 |===
 
-==== Iscsi Session
+
+=== ISCSI Session
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -162,7 +173,8 @@ The Data Collector Support Matrix provides reference for HP Data Collectors supp
 |Security|Implemented|SSH|
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -173,7 +185,8 @@ The Data Collector Support Matrix provides reference for HP Data Collectors supp
 |Originator ID|Implemented|SSH|
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -193,7 +206,8 @@ The Data Collector Support Matrix provides reference for HP Data Collectors supp
 |Virtual|Implemented|SSH|Is this a storage virtualization device?
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -208,7 +222,8 @@ The Data Collector Support Matrix provides reference for HP Data Collectors supp
 |Version|Implemented|SSH|software version
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -239,7 +254,8 @@ The Data Collector Support Matrix provides reference for HP Data Collectors supp
 |Virtual|Implemented|SSH|Is this a storage virtualization device?
 |===
 
-==== Storage Synchronization
+
+=== Storage Synchronization
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -253,7 +269,8 @@ The Data Collector Support Matrix provides reference for HP Data Collectors supp
 |Technology|Implemented|SSH|technology which causes storage efficiency changed
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -273,7 +290,8 @@ The Data Collector Support Matrix provides reference for HP Data Collectors supp
 |Written Capacity|Implemented|SSH|Total capacity written to this volume by a Host in MB
 |===
 
-==== Volume Map
+
+=== Volume Map
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -284,7 +302,8 @@ The Data Collector Support Matrix provides reference for HP Data Collectors supp
 |Type|Gap|SSH|
 |===
 
-==== Volume Mask
+
+=== Volume Mask
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -295,7 +314,8 @@ The Data Collector Support Matrix provides reference for HP Data Collectors supp
 |Type|Gap|SSH|
 |===
 
-==== Volume Ref
+
+=== Volume Ref
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -304,7 +324,8 @@ The Data Collector Support Matrix provides reference for HP Data Collectors supp
 |Storage Ip|Implemented|SSH|
 |===
 
-==== Wwn Alias
+
+=== WWN Alias
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -315,9 +336,10 @@ The Data Collector Support Matrix provides reference for HP Data Collectors supp
 |WWN|Implemented|SSH|
 |===
 
-=== Performance
 
-==== Disk
+== Performance
+
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -328,6 +350,14 @@ The Data Collector Support Matrix provides reference for HP Data Collectors supp
 |Throughput Read|Implemented|SMI-S|
 |Throughput Total|Implemented|SMI-S|Average disk total rate (read and write across all disks) in MB/s
 |Throughput Write|Implemented|SMI-S|
+|===
+
+
+=== Disk
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |IOPs Read|Implemented|SMI-S|Number of read IOPs on the disk
 |IOPs Total|Implemented|SMI-S|
 |IOPs Write|Implemented|SMI-S|
@@ -338,7 +368,8 @@ The Data Collector Support Matrix provides reference for HP Data Collectors supp
 |Throughput Write|Implemented|SMI-S|
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -364,7 +395,8 @@ The Data Collector Support Matrix provides reference for HP Data Collectors supp
 |Write Pending|Implemented|SMI-S|total write pending
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -382,7 +414,8 @@ The Data Collector Support Matrix provides reference for HP Data Collectors supp
 |Utilization Total|Implemented|SMI-S|
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -401,10 +434,11 @@ The Data Collector Support Matrix provides reference for HP Data Collectors supp
 |Server ID|Implemented|SMI-S|
 |Snapshot Reserved Capacity|Implemented|SMI-S|
 |Snapshot Used Capacity|Implemented|SMI-S|
-|Snapshot Used Capacity Ratio|Implemented|SMI-S|Reported as a time series
+|Snapshot Used Capacity Ratio|Implemented|SMI-S| Reported as a time series
 |===
 
-==== Storagepool Disk
+
+=== StoragePool Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -424,13 +458,14 @@ The Data Collector Support Matrix provides reference for HP Data Collectors supp
 |Other Used Capacity|Implemented|SMI-S|
 |Snapshot Reserved Capacity|Implemented|SMI-S|
 |Snapshot Used Capacity|Implemented|SMI-S|
-|Snapshot Used Capacity Ratio|Implemented|SMI-S|Reported as a time series
+|Snapshot Used Capacity Ratio|Implemented|SMI-S| Reported as a time series
 |Throughput Read|Implemented|SMI-S|
 |Throughput Total|Implemented|SMI-S|Average disk total rate (read and write across all disks) in MB/s
 |Throughput Write|Implemented|SMI-S|
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -454,6 +489,14 @@ The Data Collector Support Matrix provides reference for HP Data Collectors supp
 |Throughput Total|Implemented|SMI-S|Average disk total rate (read and write across all disks) in MB/s
 |Throughput Write|Implemented|SMI-S|
 |Write Pending|Implemented|SMI-S|total write pending
+|===
+
+
+=== Volume
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |Cache Hit Ratio Read|Implemented|SMI-S|
 |Cache Hit Ratio Total|Implemented|SMI-S|
 |Cache Hit Ratio Write|Implemented|SMI-S|
@@ -479,7 +522,9 @@ The Data Collector Support Matrix provides reference for HP Data Collectors supp
 |Write Pending|Implemented|SMI-S|total write pending
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -503,4 +548,3 @@ Management APIs used by this data collector:
 |true
 |true
 
-|===

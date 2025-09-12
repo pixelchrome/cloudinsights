@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: dc_matrix_microsoft.html
-summary: The Data Collector Support Matrix contains detailed information on supported Microsoft data collectors.
-keywords: support matrix, {vendor}
+summary: The Data Collector Support Matrix contains detailed information on Microsoft data collectors.
+keywords: support matrix, microsoft, collector, matrix
 ---
 
-= Data Collector Support Matrix - Microsoft
+= Data Collector Support Matrix for Microsoft
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,21 +13,27 @@ keywords: support matrix, {vendor}
 :imagesdir: ./media/
 
 [.lead]
-The Data Collector Support Matrix provides reference for MICROSOFT Data Collectors supported by Data Infrastructure Insights, including vendor and model information.
+The Data Collector Support Matrix provides reference for Microsoft Data Collectors.
+
+== Microsoft Azure NetApp Files
+
+Models and versions supported by this data collector:
 
 
-== Microsoft Azure Netapp Files
+=== API Versions
+
+* 2019-06-01
+* 2024-07-01
+
 
 === Models
-* |===
-* <.<|API versions <.<|Models
-* |2019-06-01
-* 2024-07-01
-* |Azure NetApp Files
 
-=== Foundation
+* Azure NetApp Files
 
-==== File Share
+
+== Foundation
+
+=== File Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -39,7 +45,8 @@ The Data Collector Support Matrix provides reference for MICROSOFT Data Collecto
 |Qtree Id|Implemented|HTTPS|unique id of the qtree
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -50,7 +57,8 @@ The Data Collector Support Matrix provides reference for MICROSOFT Data Collecto
 |Originator ID|Implemented|HTTPS|
 |===
 
-==== Internal Volume
+
+=== Internal Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -78,7 +86,8 @@ The Data Collector Support Matrix provides reference for MICROSOFT Data Collecto
 |QoS - Policy|Implemented|HTTPS|
 |===
 
-==== Storage Synchronization
+
+=== Storage Synchronization
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -88,7 +97,8 @@ The Data Collector Support Matrix provides reference for MICROSOFT Data Collecto
 |Technology|Implemented|HTTPS|technology which causes storage efficiency changed
 |===
 
-==== Qtree
+
+=== QTree
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -101,7 +111,8 @@ The Data Collector Support Matrix provides reference for MICROSOFT Data Collecto
 |Type|Gap|HTTPS|
 |===
 
-==== Quota
+
+=== Quota
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -114,7 +125,8 @@ The Data Collector Support Matrix provides reference for MICROSOFT Data Collecto
 |Used Capacity|Implemented|HTTPS|
 |===
 
-==== Share
+
+=== Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -124,7 +136,8 @@ The Data Collector Support Matrix provides reference for MICROSOFT Data Collecto
 |Protocol|Implemented|HTTPS|enum for share protocol
 |===
 
-==== Share Initiator
+
+=== Share Initiator
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -133,7 +146,8 @@ The Data Collector Support Matrix provides reference for MICROSOFT Data Collecto
 |Permission|Implemented|HTTPS|Permissions for this particular share
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -151,7 +165,8 @@ The Data Collector Support Matrix provides reference for MICROSOFT Data Collecto
 |Virtual|Implemented|HTTPS|Is this a storage virtualization device?
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -173,9 +188,10 @@ The Data Collector Support Matrix provides reference for MICROSOFT Data Collecto
 |Comment|Gap|HTTPS|state: free text comment describing the svm
 |===
 
-=== Performance
 
-==== Internal Volume
+== Performance
+
+=== Internal Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -193,13 +209,14 @@ The Data Collector Support Matrix provides reference for MICROSOFT Data Collecto
 |Latency Total|Implemented||
 |Latency Write|Implemented||
 |Snapshot Used Capacity|Implemented||
-|Snapshot Used Capacity Ratio|Implemented||Reported as a time series
+|Snapshot Used Capacity Ratio|Implemented|| Reported as a time series
 |Throughput Read|Implemented||
 |Throughput Total|Implemented||Average disk total rate (read and write across all disks) in MB/s
 |Throughput Write|Implemented||
 |===
 
-==== Storagepool Disk
+
+=== StoragePool Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -212,7 +229,9 @@ The Data Collector Support Matrix provides reference for MICROSOFT Data Collecto
 |IOPs Total|Implemented||
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -226,18 +245,21 @@ Management APIs used by this data collector:
 |true
 |true
 
-|===
 
-'''
+
+|===
 
 == Microsoft Azure Compute
 
-=== API Versions
+Models and versions supported by this data collector:
+API versions: 
+
 * 2018-06-01
 
-=== Foundation
 
-==== Data Store
+== Foundation
+
+=== Data Store
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -251,7 +273,8 @@ Management APIs used by this data collector:
 |subscription Id|Implemented|HTTPS|
 |===
 
-==== Server
+
+=== Server
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -264,7 +287,8 @@ Management APIs used by this data collector:
 |Virtual Center Ip|Implemented|HTTPS|
 |===
 
-==== Virtual Disk
+
+=== Virtual Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -279,7 +303,8 @@ Management APIs used by this data collector:
 |subscription Id|Implemented|HTTPS|
 |===
 
-==== Virtualmachine
+
+=== VirtualMachine
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -304,7 +329,8 @@ Management APIs used by this data collector:
 |subscription Id|Implemented|HTTPS|
 |===
 
-==== Virtualmachine Disk
+
+=== VirtualMachine Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -314,7 +340,8 @@ Management APIs used by this data collector:
 |VirtualMachine OID|Implemented|HTTPS|
 |===
 
-==== Host
+
+=== Host
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -326,7 +353,8 @@ Management APIs used by this data collector:
 |OID|Implemented|HTTPS|
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -340,9 +368,10 @@ Management APIs used by this data collector:
 |Originator Key|Implemented|HTTPS|
 |===
 
-=== Performance
 
-==== Data Store
+== Performance
+
+=== Data Store
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -352,7 +381,8 @@ Management APIs used by this data collector:
 |Over Commit Capacity Ratio|Implemented|HTTPS|Reported as a time series
 |===
 
-==== Virtual Disk
+
+=== Virtual Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -366,7 +396,8 @@ Management APIs used by this data collector:
 |Throughput Write|Implemented|HTTPS|
 |===
 
-==== VM
+
+=== vm
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -384,7 +415,8 @@ Management APIs used by this data collector:
 |ipThroughput.write|Implemented|HTTPS|
 |===
 
-==== VM
+
+=== VM
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -394,7 +426,9 @@ Management APIs used by this data collector:
 |Server ID|Implemented|HTTPS|
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -408,21 +442,19 @@ Management APIs used by this data collector:
 |true
 |true
 
-|===
-
-'''
-
-== Microsoft Hyper-v
 
 
 |===
 
+== Microsoft Hyper-V
 
 
-|===
-=== Foundation
 
-==== Data Store
+
+
+== Foundation
+
+=== Data Store
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -436,7 +468,8 @@ Management APIs used by this data collector:
 |Virtual Center Ip|Implemented|WMI|
 |===
 
-==== Nasshare Datastore
+
+=== NasShare DataStore
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -446,7 +479,8 @@ Management APIs used by this data collector:
 |OID|Implemented|WMI|
 |===
 
-==== Nasshare Host
+
+=== NasShare Host
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -457,7 +491,8 @@ Management APIs used by this data collector:
 |Read Only|Implemented|WMI|
 |===
 
-==== Lun
+
+=== LUN
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -470,7 +505,8 @@ Management APIs used by this data collector:
 |TID|Implemented|WMI|
 |===
 
-==== Nas Share
+
+=== NAS Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -479,11 +515,12 @@ Management APIs used by this data collector:
 |Filer Ip|Implemented|WMI|
 |Filer Name|Implemented|WMI|
 |OID|Implemented|WMI|
-|Share Path|Implemented|WMI|For a HvNasShare to be matched to a Share
+|Share Path|Implemented|WMI| For a HvNasShare to be matched to a Share
 |Type|Gap|WMI|
 |===
 
-==== Path
+
+=== Path
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -496,7 +533,8 @@ Management APIs used by this data collector:
 |Type|Gap|WMI|
 |===
 
-==== Server
+
+=== Server
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -509,7 +547,8 @@ Management APIs used by this data collector:
 |Virtual Center Ip|Implemented|WMI|
 |===
 
-==== Virtual Disk
+
+=== Virtual Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -523,7 +562,8 @@ Management APIs used by this data collector:
 |Used Capacity|Implemented|WMI|
 |===
 
-==== Virtualmachine
+
+=== VirtualMachine
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -545,7 +585,8 @@ Management APIs used by this data collector:
 |Used Capacity|Implemented|WMI|
 |===
 
-==== Virtualmachine Disk
+
+=== VirtualMachine Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -555,7 +596,8 @@ Management APIs used by this data collector:
 |VirtualMachine OID|Implemented|WMI|
 |===
 
-==== Host
+
+=== Host
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -574,7 +616,8 @@ Management APIs used by this data collector:
 |Platform Type|Implemented|WMI|
 |===
 
-==== Iscsi Node
+
+=== ISCSI Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -585,7 +628,8 @@ Management APIs used by this data collector:
 |Type|Gap|WMI|
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -595,9 +639,10 @@ Management APIs used by this data collector:
 |Originator ID|Implemented|WMI|
 |===
 
-=== Performance
 
-==== Datastore
+== Performance
+
+=== DataStore
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -611,7 +656,8 @@ Management APIs used by this data collector:
 |Over Commit Capacity Ratio|Implemented|WS-Management|Reported as a time series
 |===
 
-==== Data Store
+
+=== Data Store
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -623,7 +669,8 @@ Management APIs used by this data collector:
 |Capacity Used Ratio|Implemented|WS-Management|
 |===
 
-==== Host
+
+=== Host
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -642,6 +689,14 @@ Management APIs used by this data collector:
 |Throughput total|Implemented|WS-Management|IP throughput total
 |ipThroughput.write|Implemented|WS-Management|
 |Total Memory Utilization|Implemented|WS-Management|
+|===
+
+
+=== Host
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |Total CPU Utilization|Implemented|WS-Management|
 |IOPs Read|Implemented|WS-Management|Number of read IOPs on the disk
 |diskIops.total|Implemented|WS-Management|
@@ -660,7 +715,8 @@ Management APIs used by this data collector:
 |Server ID|Implemented|WS-Management|
 |===
 
-==== Virtual Disk
+
+=== Virtual Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -677,7 +733,8 @@ Management APIs used by this data collector:
 |Throughput Write|Implemented|WS-Management|
 |===
 
-==== VM
+
+=== vm
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -698,7 +755,8 @@ Management APIs used by this data collector:
 |ipThroughput.write|Implemented|WS-Management|
 |===
 
-==== VM
+
+=== VM
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -710,7 +768,9 @@ Management APIs used by this data collector:
 |Server ID|Implemented|WS-Management|
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -734,4 +794,3 @@ Management APIs used by this data collector:
 |true
 |true
 
-|===

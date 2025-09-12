@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: dc_matrix_cisco.html
-summary: The Data Collector Support Matrix contains detailed information on supported Cisco data collectors.
-keywords: support matrix, {vendor}
+summary: The Data Collector Support Matrix contains detailed information on Cisco data collectors.
+keywords: support matrix, cisco, collector, matrix
 ---
 
-= Data Collector Support Matrix - Cisco
+= Data Collector Support Matrix for Cisco
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,11 +13,15 @@ keywords: support matrix, {vendor}
 :imagesdir: ./media/
 
 [.lead]
-The Data Collector Support Matrix provides reference for CISCO Data Collectors supported by Data Infrastructure Insights, including vendor and model information.
+The Data Collector Support Matrix provides reference for Cisco Data Collectors.
 
-== Cisco Mds & Nexus Fabric Switches
+== Cisco MDS & Nexus Fabric Switches
+
+Models and versions supported by this data collector:
+
 
 === Models
+
 * DS-C9124-2-K9
 * DS-C9124-K9
 * DS-C9132T-K9
@@ -51,7 +55,9 @@ The Data Collector Support Matrix provides reference for CISCO Data Collectors s
 * UCS-FI-64108
 * UCS-FI-6454
 
+
 === Firmware Versions
+
 * 3.3(1c)
 * 4.1(3a)
 * 4.2(1a)
@@ -138,9 +144,9 @@ The Data Collector Support Matrix provides reference for CISCO Data Collectors s
 * 9.4(3)
 
 
-=== Foundation
+== Foundation
 
-==== Fc Name Server Entry
+=== FC Name Server Entry
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -151,7 +157,8 @@ The Data Collector Support Matrix provides reference for CISCO Data Collectors s
 |Switch Port WWN|Implemented|SNMP|
 |===
 
-==== Fabric
+
+=== Fabric
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -162,7 +169,8 @@ The Data Collector Support Matrix provides reference for CISCO Data Collectors s
 |WWN|Implemented|SNMP|
 |===
 
-==== Ivr Physical Fabric
+
+=== IVR Physical Fabric
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -171,7 +179,8 @@ The Data Collector Support Matrix provides reference for CISCO Data Collectors s
 |Lowest IVR Chassis WWN|Implemented|SNMP|identifier of the IVR fabric
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -182,7 +191,8 @@ The Data Collector Support Matrix provides reference for CISCO Data Collectors s
 |Originator Key|Implemented|SNMP|
 |===
 
-==== Logical Switch
+
+=== Logical Switch
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -198,7 +208,8 @@ The Data Collector Support Matrix provides reference for CISCO Data Collectors s
 |WWN|Implemented|SNMP|
 |===
 
-==== Port
+
+=== Port
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -219,7 +230,8 @@ The Data Collector Support Matrix provides reference for CISCO Data Collectors s
 |WWN|Implemented|SNMP|
 |===
 
-==== Switch
+
+=== Switch
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -238,7 +250,8 @@ The Data Collector Support Matrix provides reference for CISCO Data Collectors s
 |WWN|Implemented|SNMP|
 |===
 
-==== Unknown
+
+=== Unknown
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -252,7 +265,8 @@ The Data Collector Support Matrix provides reference for CISCO Data Collectors s
 |WWN|Implemented|SNMP|
 |===
 
-==== Wwn Alias
+
+=== WWN Alias
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -263,7 +277,8 @@ The Data Collector Support Matrix provides reference for CISCO Data Collectors s
 |WWN|Implemented|SNMP|
 |===
 
-==== Zone
+
+=== Zone
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -272,7 +287,8 @@ The Data Collector Support Matrix provides reference for CISCO Data Collectors s
 |Zone Type|Implemented|SNMP|
 |===
 
-==== Zone Member
+
+=== Zone Member
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -281,7 +297,8 @@ The Data Collector Support Matrix provides reference for CISCO Data Collectors s
 |WWN|Implemented|SNMP|
 |===
 
-==== Zoning Capabilities
+
+=== Zoning Capabilities
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -293,9 +310,10 @@ The Data Collector Support Matrix provides reference for CISCO Data Collectors s
 |WWN|Implemented|SNMP|
 |===
 
-=== Performance
 
-==== Port
+== Performance
+
+=== port
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -310,7 +328,7 @@ The Data Collector Support Matrix provides reference for CISCO Data Collectors s
 |Port Error Short Frame|Implemented|SNMP|Port errors due to short frame
 |Port Errors Link Failure|Implemented|SNMP|Port Errors link failure
 |Port Errors Link Reset Rx|Implemented|SNMP|Port Errors Link Reset Rx
-|Port Error Transmit Link Reset|Implemented|SNMP|Port Error due to link reset
+|Port Error Transmit Link Reset |Implemented|SNMP|Port Error due to link reset
 |Port Error Signal Loss|Implemented|SNMP|Port errors signal loss
 |Port Error Sync Loss|Implemented|SNMP|Port error sync loss
 |Port Error Transmit Discard Timeout|Implemented|SNMP|Port errors timeout discard
@@ -328,7 +346,8 @@ The Data Collector Support Matrix provides reference for CISCO Data Collectors s
 |Traffic Transmit Utilization|Implemented|SNMP|
 |===
 
-==== Port Data
+
+=== Port Data
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -344,7 +363,7 @@ The Data Collector Support Matrix provides reference for CISCO Data Collectors s
 |Port Error Short Frame|Implemented|SNMP|Port errors due to short frame
 |Port Errors Link Failure|Implemented|SNMP|Port Errors link failure
 |Port Errors Link Reset Rx|Implemented|SNMP|Port Errors Link Reset Rx
-|Port Error Transmit Link Reset|Implemented|SNMP|Port Error due to link reset
+|Port Error Transmit Link Reset |Implemented|SNMP|Port Error due to link reset
 |Port Error Signal Loss|Implemented|SNMP|Port errors signal loss
 |Port Error Sync Loss|Implemented|SNMP|Port error sync loss
 |Port Error Transmit Discard Timeout|Implemented|SNMP|Port errors timeout discard
@@ -363,7 +382,9 @@ The Data Collector Support Matrix provides reference for CISCO Data Collectors s
 |Traffic Transmit Utilization|Implemented|SNMP|
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -377,4 +398,3 @@ Management APIs used by this data collector:
 |true
 |true
 
-|===

@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: dc_matrix_vmware.html
-summary: The Data Collector Support Matrix contains detailed information on supported Vmware data collectors.
-keywords: support matrix, {vendor}
+summary: The Data Collector Support Matrix contains detailed information on Vmware data collectors.
+keywords: support matrix, vmware, collector, matrix
 ---
 
-= Data Collector Support Matrix - Vmware
+= Data Collector Support Matrix for Vmware
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,12 +13,13 @@ keywords: support matrix, {vendor}
 :imagesdir: ./media/
 
 [.lead]
-The Data Collector Support Matrix provides reference for VMWARE Data Collectors supported by Data Infrastructure Insights, including vendor and model information.
+The Data Collector Support Matrix provides reference for Vmware Data Collectors.
 
+== VMware Cloud on AWS
 
-== Vmware Cloud on Aws
+Models and versions supported by this data collector:
+API versions: 
 
-=== API Versions
 * VMware vCenter Server 7.0.3 build-21477706
 * VMware vCenter Server 7.0.3 build-24322018
 * VMware vCenter Server 8.0.0 build-22877852
@@ -27,10 +28,9 @@ The Data Collector Support Matrix provides reference for VMWARE Data Collectors 
 * VMware vCenter Server 8.0.3 build-24322831
 
 
+== Foundation
 
-=== Foundation
-
-==== Data Store
+=== Data Store
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -45,7 +45,8 @@ The Data Collector Support Matrix provides reference for VMWARE Data Collectors 
 |Type|Implemented|Web Services|
 |===
 
-==== Nasshare Datastore
+
+=== NasShare DataStore
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -55,7 +56,8 @@ The Data Collector Support Matrix provides reference for VMWARE Data Collectors 
 |OID|Implemented|Web Services|
 |===
 
-==== Nasshare Host
+
+=== NasShare Host
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -66,7 +68,8 @@ The Data Collector Support Matrix provides reference for VMWARE Data Collectors 
 |Read Only|Implemented|Web Services|
 |===
 
-==== Lun
+
+=== LUN
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -80,7 +83,8 @@ The Data Collector Support Matrix provides reference for VMWARE Data Collectors 
 |TID|Implemented|Web Services|
 |===
 
-==== Nas Share
+
+=== NAS Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -89,11 +93,12 @@ The Data Collector Support Matrix provides reference for VMWARE Data Collectors 
 |Filer Ip|Implemented|Web Services|
 |Filer Name|Implemented|Web Services|
 |OID|Implemented|Web Services|
-|Share Path|Implemented|Web Services|For a HvNasShare to be matched to a Share
+|Share Path|Implemented|Web Services| For a HvNasShare to be matched to a Share
 |Type|Gap|Web Services|
 |===
 
-==== Path
+
+=== Path
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -106,7 +111,8 @@ The Data Collector Support Matrix provides reference for VMWARE Data Collectors 
 |Type|Gap|Web Services|
 |===
 
-==== Server
+
+=== Server
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -119,7 +125,8 @@ The Data Collector Support Matrix provides reference for VMWARE Data Collectors 
 |Virtual Center Ip|Implemented|Web Services|
 |===
 
-==== Virtual Disk
+
+=== Virtual Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -133,7 +140,8 @@ The Data Collector Support Matrix provides reference for VMWARE Data Collectors 
 |Used Capacity|Implemented|Web Services|
 |===
 
-==== Virtualmachine
+
+=== VirtualMachine
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -156,7 +164,8 @@ The Data Collector Support Matrix provides reference for VMWARE Data Collectors 
 |UUID|Implemented|Web Services|
 |===
 
-==== Virtualmachine Disk
+
+=== VirtualMachine Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -166,7 +175,8 @@ The Data Collector Support Matrix provides reference for VMWARE Data Collectors 
 |VirtualMachine OID|Implemented|Web Services|
 |===
 
-==== Host
+
+=== Host
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -185,7 +195,8 @@ The Data Collector Support Matrix provides reference for VMWARE Data Collectors 
 |Platform Type|Implemented|Web Services|
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -200,9 +211,10 @@ The Data Collector Support Matrix provides reference for VMWARE Data Collectors 
 |Originator ID|Implemented|Web Services|
 |===
 
-=== Performance
 
-==== Host
+== Performance
+
+=== Host
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -228,7 +240,9 @@ The Data Collector Support Matrix provides reference for VMWARE Data Collectors 
 |Total Swap Rate|Implemented|Web Services|
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -242,13 +256,15 @@ Management APIs used by this data collector:
 |true
 |true
 
+
+
 |===
 
-'''
+== VMware vSphere (Web Services)
 
-== Vmware Vsphere (web Services)
+Models and versions supported by this data collector:
+API versions: 
 
-=== API Versions
 * VMware ESXi 6.0.0 build-10474991
 * VMware ESXi 6.0.0 build-10719132
 * VMware ESXi 6.0.0 build-13635687
@@ -347,10 +363,9 @@ Management APIs used by this data collector:
 * VMware vCenter Server 8.0.3 build-24322831
 
 
+== Foundation
 
-=== Foundation
-
-==== Data Store
+=== Data Store
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -365,7 +380,8 @@ Management APIs used by this data collector:
 |Type|Implemented|Web Services|
 |===
 
-==== Nasshare Datastore
+
+=== NasShare DataStore
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -375,7 +391,8 @@ Management APIs used by this data collector:
 |OID|Implemented|Web Services|
 |===
 
-==== Nasshare Host
+
+=== NasShare Host
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -386,7 +403,8 @@ Management APIs used by this data collector:
 |Read Only|Implemented|Web Services|
 |===
 
-==== Lun
+
+=== LUN
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -401,7 +419,8 @@ Management APIs used by this data collector:
 |Volume Uuid|Implemented|Web Services|
 |===
 
-==== Nas Share
+
+=== NAS Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -410,11 +429,12 @@ Management APIs used by this data collector:
 |Filer Ip|Implemented|Web Services|
 |Filer Name|Implemented|Web Services|
 |OID|Implemented|Web Services|
-|Share Path|Implemented|Web Services|For a HvNasShare to be matched to a Share
+|Share Path|Implemented|Web Services| For a HvNasShare to be matched to a Share
 |Type|Gap|Web Services|
 |===
 
-==== Path
+
+=== Path
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -427,7 +447,8 @@ Management APIs used by this data collector:
 |Type|Gap|Web Services|
 |===
 
-==== Server
+
+=== Server
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -440,7 +461,8 @@ Management APIs used by this data collector:
 |Virtual Center Ip|Implemented|Web Services|
 |===
 
-==== Virtual Disk
+
+=== Virtual Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -455,7 +477,8 @@ Management APIs used by this data collector:
 |Used Capacity|Implemented|Web Services|
 |===
 
-==== Virtualmachine
+
+=== VirtualMachine
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -478,7 +501,8 @@ Management APIs used by this data collector:
 |UUID|Implemented|Web Services|
 |===
 
-==== Virtualmachine Disk
+
+=== VirtualMachine Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -488,7 +512,8 @@ Management APIs used by this data collector:
 |VirtualMachine OID|Implemented|Web Services|
 |===
 
-==== Host
+
+=== Host
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -507,7 +532,8 @@ Management APIs used by this data collector:
 |Platform Type|Implemented|Web Services|
 |===
 
-==== Iscsi Node
+
+=== ISCSI Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -518,7 +544,8 @@ Management APIs used by this data collector:
 |Type|Gap|Web Services|
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -533,9 +560,10 @@ Management APIs used by this data collector:
 |Originator ID|Implemented|Web Services|
 |===
 
-=== Performance
 
-==== Data Store
+== Performance
+
+=== Data Store
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -556,7 +584,8 @@ Management APIs used by this data collector:
 |Throughput Write|Implemented|Web Services|
 |===
 
-==== Host
+
+=== Host
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -578,6 +607,14 @@ Management APIs used by this data collector:
 |swapRate.inRate|Implemented|Web Services|
 |Swap Rate|Implemented|Web Services|
 |Total Swap Rate|Implemented|Web Services|
+|===
+
+
+=== Host
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |Total CPU Utilization|Implemented|Web Services|
 |IOPs Read|Implemented|Web Services|Number of read IOPs on the disk
 |diskIops.total|Implemented|Web Services|
@@ -599,7 +636,8 @@ Management APIs used by this data collector:
 |Total Swap Rate|Implemented|Web Services|
 |===
 
-==== Virtual Disk
+
+=== Virtual Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -618,7 +656,8 @@ Management APIs used by this data collector:
 |Throughput Write|Implemented|Web Services|
 |===
 
-==== VM
+
+=== vm
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -650,7 +689,9 @@ Management APIs used by this data collector:
 |Schedule wait time|Implemented|Web Services|Waiting to be scheduled time in percent
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -664,4 +705,3 @@ Management APIs used by this data collector:
 |true
 |true
 
-|===

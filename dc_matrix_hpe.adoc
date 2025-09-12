@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: dc_matrix_hpe.html
-summary: The Data Collector Support Matrix contains detailed information on supported Hpe data collectors.
-keywords: support matrix, {vendor}
+summary: The Data Collector Support Matrix contains detailed information on Hpe data collectors.
+keywords: support matrix, hpe, collector, matrix
 ---
 
-= Data Collector Support Matrix - Hpe
+= Data Collector Support Matrix for Hpe
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,28 +13,20 @@ keywords: support matrix, {vendor}
 :imagesdir: ./media/
 
 [.lead]
-The Data Collector Support Matrix provides reference for HPE Data Collectors supported by Data Infrastructure Insights, including vendor and model information.
+The Data Collector Support Matrix provides reference for Hpe Data Collectors.
 
-== Hpe Nimble / Alletra 6000 Storage
+== HPE Nimble / Alletra 6000 Storage
+
+Models and versions supported by this data collector:
+
+
+=== API Versions
+
+* v1
+
 
 === Models
-* v1
-* 5.0.8.0-677726-opt
-* 5.2.1.1100-1027043-opt
-* 5.2.1.400-796142-opt
-* 5.2.1.700-882343-opt
-* 5.2.1.800-930936-opt
-* 6.0.0.400-991061-opt
-* 6.0.0.500-1005932-opt
-* 6.1.1.200-1020304-opt
-* 6.1.1.300-1028597-opt
-* 6.1.2.300-1042680-opt
-* 6.1.2.400-1048557-opt
-* 6.1.2.500-1053701-opt
-* 6.1.2.502-1057650-opt
-* 6.1.2.600-1064273-opt
 
-=== Firmware Versions
 * 5050
 * 6070
 * AF1000
@@ -53,9 +45,26 @@ The Data Collector Support Matrix provides reference for HPE Data Collectors sup
 * HF60
 
 
-=== Foundation
+=== Firmware Versions
 
-==== Disk
+* 5.0.8.0-677726-opt
+* 5.2.1.1100-1027043-opt
+* 5.2.1.400-796142-opt
+* 5.2.1.700-882343-opt
+* 5.2.1.800-930936-opt
+* 6.0.0.400-991061-opt
+* 6.0.0.500-1005932-opt
+* 6.1.1.200-1020304-opt
+* 6.1.1.300-1028597-opt
+* 6.1.2.300-1042680-opt
+* 6.1.2.400-1048557-opt
+* 6.1.2.500-1053701-opt
+* 6.1.2.502-1057650-opt
+* 6.1.2.600-1064273-opt
+
+== Foundation
+
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -79,7 +88,8 @@ The Data Collector Support Matrix provides reference for HPE Data Collectors sup
 |Vendor|Implemented|HTTPS|
 |===
 
-==== Iscsi Network Portal
+
+=== ISCSI Network Portal
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -90,7 +100,8 @@ The Data Collector Support Matrix provides reference for HPE Data Collectors sup
 |OID|Implemented|HTTPS|
 |===
 
-==== Iscsi Network Portal Group
+
+=== ISCSI Network Portal Group
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -100,7 +111,8 @@ The Data Collector Support Matrix provides reference for HPE Data Collectors sup
 |Portal Group Tag|Implemented|HTTPS|
 |===
 
-==== Iscsi Node
+
+=== ISCSI Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -111,7 +123,8 @@ The Data Collector Support Matrix provides reference for HPE Data Collectors sup
 |Type|Gap|HTTPS|
 |===
 
-==== Iscsi Session
+
+=== ISCSI Session
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -125,7 +138,8 @@ The Data Collector Support Matrix provides reference for HPE Data Collectors sup
 |Security|Implemented|HTTPS|
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -138,7 +152,8 @@ The Data Collector Support Matrix provides reference for HPE Data Collectors sup
 |Originator Key|Implemented|HTTPS|
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -159,7 +174,8 @@ The Data Collector Support Matrix provides reference for HPE Data Collectors sup
 |Virtual|Implemented|HTTPS|Is this a storage virtualization device?
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -172,7 +188,8 @@ The Data Collector Support Matrix provides reference for HPE Data Collectors sup
 |Parent Serial Number|Implemented|HTTPS|
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -197,7 +214,8 @@ The Data Collector Support Matrix provides reference for HPE Data Collectors sup
 |Virtual|Implemented|HTTPS|Is this a storage virtualization device?
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -216,7 +234,8 @@ The Data Collector Support Matrix provides reference for HPE Data Collectors sup
 |Encrypted|Implemented|HTTPS|
 |===
 
-==== Volume Map
+
+=== Volume Map
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -228,7 +247,8 @@ The Data Collector Support Matrix provides reference for HPE Data Collectors sup
 |Type|Gap|HTTPS|
 |===
 
-==== Volume Mask
+
+=== Volume Mask
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -239,7 +259,8 @@ The Data Collector Support Matrix provides reference for HPE Data Collectors sup
 |Type|Gap|HTTPS|
 |===
 
-==== Wwn Alias
+
+=== WWN Alias
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -250,9 +271,10 @@ The Data Collector Support Matrix provides reference for HPE Data Collectors sup
 |WWN|Implemented|HTTPS|
 |===
 
-=== Performance
 
-==== Storage
+== Performance
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -271,6 +293,14 @@ The Data Collector Support Matrix provides reference for HPE Data Collectors sup
 |Throughput Read|Implemented|HTTPS|
 |Throughput Total|Implemented|HTTPS|Average disk total rate (read and write across all disks) in MB/s
 |Throughput Write|Implemented|HTTPS|
+|===
+
+
+=== Storage
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |Failed Raw Capacity|Implemented|HTTPS|
 |Raw Capacity|Implemented|HTTPS|
 |Spare Raw Capacity|Implemented|HTTPS|Raw capacity of spare disks (sum of all disks that are spare)
@@ -289,7 +319,8 @@ The Data Collector Support Matrix provides reference for HPE Data Collectors sup
 |Throughput Write|Implemented|HTTPS|
 |===
 
-==== Storagepool Disk
+
+=== StoragePool Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -302,7 +333,8 @@ The Data Collector Support Matrix provides reference for HPE Data Collectors sup
 |Throughput Write|Implemented|HTTPS|
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -324,7 +356,9 @@ The Data Collector Support Matrix provides reference for HPE Data Collectors sup
 |Throughput Write|Implemented|HTTPS|
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -338,4 +372,3 @@ Management APIs used by this data collector:
 |true
 |true
 
-|===

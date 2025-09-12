@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: dc_matrix_nutanix.html
-summary: The Data Collector Support Matrix contains detailed information on supported Nutanix data collectors.
-keywords: support matrix, {vendor}
+summary: The Data Collector Support Matrix contains detailed information on Nutanix data collectors.
+keywords: support matrix, nutanix, collector, matrix
 ---
 
-= Data Collector Support Matrix - Nutanix
+= Data Collector Support Matrix for Nutanix
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,11 +13,15 @@ keywords: support matrix, {vendor}
 :imagesdir: ./media/
 
 [.lead]
-The Data Collector Support Matrix provides reference for NUTANIX Data Collectors supported by Data Infrastructure Insights, including vendor and model information.
+The Data Collector Support Matrix provides reference for Nutanix Data Collectors.
 
-== Nutanix Storage (rest)
+== Nutanix Storage (REST)
+
+Models and versions supported by this data collector:
+
 
 === Models
+
 * NX-3170-G7
 * NX-8155-G7
 * HPE DX380 12LFF G11
@@ -36,7 +40,9 @@ The Data Collector Support Matrix provides reference for NUTANIX Data Collectors
 * XF3070
 * XF8050-Core
 
+
 === Firmware Versions
+
 * 5.20.1.1
 * 6.10
 * 6.10.1
@@ -52,9 +58,9 @@ The Data Collector Support Matrix provides reference for NUTANIX Data Collectors
 * 7.0
 
 
-=== Foundation
+== Foundation
 
-==== Disk
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -75,7 +81,8 @@ The Data Collector Support Matrix provides reference for NUTANIX Data Collectors
 |Vendor|Implemented|HTTPS|
 |===
 
-==== File Share
+
+=== File Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -87,7 +94,8 @@ The Data Collector Support Matrix provides reference for NUTANIX Data Collectors
 |Qtree Id|Implemented|HTTPS|unique id of the qtree
 |===
 
-==== Iscsi Network Portal
+
+=== ISCSI Network Portal
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -98,7 +106,8 @@ The Data Collector Support Matrix provides reference for NUTANIX Data Collectors
 |OID|Implemented|HTTPS|
 |===
 
-==== Iscsi Network Portal Group
+
+=== ISCSI Network Portal Group
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -108,7 +117,8 @@ The Data Collector Support Matrix provides reference for NUTANIX Data Collectors
 |Portal Group Tag|Implemented|HTTPS|
 |===
 
-==== Iscsi Node
+
+=== ISCSI Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -118,7 +128,8 @@ The Data Collector Support Matrix provides reference for NUTANIX Data Collectors
 |Type|Gap|HTTPS|
 |===
 
-==== Iscsi Node Map
+
+=== ISCSI Node Map
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -127,7 +138,8 @@ The Data Collector Support Matrix provides reference for NUTANIX Data Collectors
 |Portal Group OID|Implemented|HTTPS|
 |===
 
-==== Iscsi Session
+
+=== ISCSI Session
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -141,7 +153,8 @@ The Data Collector Support Matrix provides reference for NUTANIX Data Collectors
 |Security|Implemented|HTTPS|
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -153,7 +166,8 @@ The Data Collector Support Matrix provides reference for NUTANIX Data Collectors
 |Originator Key|Implemented|HTTPS|
 |===
 
-==== Internal Volume
+
+=== Internal Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -174,7 +188,8 @@ The Data Collector Support Matrix provides reference for NUTANIX Data Collectors
 |UUID|Implemented|HTTPS|
 |===
 
-==== Storage Synchronization
+
+=== Storage Synchronization
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -184,7 +199,8 @@ The Data Collector Support Matrix provides reference for NUTANIX Data Collectors
 |Technology|Implemented|HTTPS|technology which causes storage efficiency changed
 |===
 
-==== Qtree
+
+=== QTree
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -194,7 +210,8 @@ The Data Collector Support Matrix provides reference for NUTANIX Data Collectors
 |Type|Gap|HTTPS|
 |===
 
-==== Share
+
+=== Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -204,7 +221,8 @@ The Data Collector Support Matrix provides reference for NUTANIX Data Collectors
 |Protocol|Implemented|HTTPS|enum for share protocol
 |===
 
-==== Share Initiator
+
+=== Share Initiator
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -212,7 +230,8 @@ The Data Collector Support Matrix provides reference for NUTANIX Data Collectors
 |Initiator|Implemented|HTTPS|
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -234,7 +253,8 @@ The Data Collector Support Matrix provides reference for NUTANIX Data Collectors
 |Virtual|Implemented|HTTPS|Is this a storage virtualization device?
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -248,7 +268,8 @@ The Data Collector Support Matrix provides reference for NUTANIX Data Collectors
 |UUID|Implemented|HTTPS|
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -270,7 +291,8 @@ The Data Collector Support Matrix provides reference for NUTANIX Data Collectors
 |Virtual|Implemented|HTTPS|Is this a storage virtualization device?
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -286,7 +308,8 @@ The Data Collector Support Matrix provides reference for NUTANIX Data Collectors
 |UUID|Implemented|HTTPS|
 |===
 
-==== Volume Map
+
+=== Volume Map
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -297,7 +320,8 @@ The Data Collector Support Matrix provides reference for NUTANIX Data Collectors
 |Type|Gap|HTTPS|
 |===
 
-==== Volume Mask
+
+=== Volume Mask
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -308,9 +332,10 @@ The Data Collector Support Matrix provides reference for NUTANIX Data Collectors
 |Type|Gap|HTTPS|
 |===
 
-=== Performance
 
-==== Storage
+== Performance
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -325,6 +350,14 @@ The Data Collector Support Matrix provides reference for NUTANIX Data Collectors
 |Throughput Total|Implemented|HTTPS|Average disk total rate (read and write across all disks) in MB/s
 |IOPs Total|Implemented|HTTPS|
 |Latency Write|Implemented|HTTPS|
+|===
+
+
+=== Storage
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |Failed Raw Capacity|Implemented|HTTPS|
 |Raw Capacity|Implemented|HTTPS|
 |Spare Raw Capacity|Implemented|HTTPS|Raw capacity of spare disks (sum of all disks that are spare)
@@ -343,7 +376,8 @@ The Data Collector Support Matrix provides reference for NUTANIX Data Collectors
 |Throughput Write|Implemented|HTTPS|
 |===
 
-==== Storagepool Disk
+
+=== StoragePool Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -356,7 +390,8 @@ The Data Collector Support Matrix provides reference for NUTANIX Data Collectors
 |Throughput Write|Implemented|HTTPS|
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -372,7 +407,9 @@ The Data Collector Support Matrix provides reference for NUTANIX Data Collectors
 |Latency Write|Implemented|HTTPS|
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -386,4 +423,3 @@ Management APIs used by this data collector:
 |true
 |true
 
-|===

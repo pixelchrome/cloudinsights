@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: dc_matrix_hicommand.html
-summary: The Data Collector Support Matrix contains detailed information on supported Hicommand data collectors.
-keywords: support matrix, {vendor}
+summary: The Data Collector Support Matrix contains detailed information on Hicommand data collectors.
+keywords: support matrix, hicommand, collector, matrix
 ---
 
-= Data Collector Support Matrix - Hicommand
+= Data Collector Support Matrix for Hicommand
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,17 +13,38 @@ keywords: support matrix, {vendor}
 :imagesdir: ./media/
 
 [.lead]
-The Data Collector Support Matrix provides reference for HICOMMAND Data Collectors supported by Data Infrastructure Insights, including vendor and model information.
+The Data Collector Support Matrix provides reference for Hicommand Data Collectors.
 
-== Hicommand Device Manager
+== HiCommand Device Manager
 
-=== Models
+Models and versions supported by this data collector:
+
+
+=== API Versions
+
 * 7.6.1
 * 8.0
 * 8.7.1
 * 8.7.3
 * 8.7.6
 * 8.8.3
+
+
+=== Models
+
+* DF850MH
+* DF850S
+* HM800
+* HM850
+* P9500
+* RAID800
+* VSP5000
+* XP24000
+* XP8
+
+
+=== Firmware Versions
+
 * 0983/A-H
 * 0984/B-H
 * 0985/B-S
@@ -68,21 +89,9 @@ The Data Collector Support Matrix provides reference for HICOMMAND Data Collecto
 * SVP:90-09-24/00
 * SVP:90-09-25/00
 
-=== Firmware Versions
-* DF850MH
-* DF850S
-* HM800
-* HM850
-* P9500
-* RAID800
-* VSP5000
-* XP24000
-* XP8
+== Foundation
 
-
-=== Foundation
-
-==== Disk
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -103,7 +112,8 @@ The Data Collector Support Matrix provides reference for HICOMMAND Data Collecto
 |Vendor Id|Implemented|HDS XML API|
 |===
 
-==== Disk Group
+
+=== Disk Group
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -121,7 +131,8 @@ The Data Collector Support Matrix provides reference for HICOMMAND Data Collecto
 |Virtual|Implemented|HDS XML API|Is this a storage virtualization device?
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -134,7 +145,8 @@ The Data Collector Support Matrix provides reference for HICOMMAND Data Collecto
 |Originator Key|Implemented|HDS XML API|
 |===
 
-==== Network Pipe
+
+=== Network Pipe
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -144,7 +156,8 @@ The Data Collector Support Matrix provides reference for HICOMMAND Data Collecto
 |Bidirectional|Implemented|HDS XML API|
 |===
 
-==== Protocol Endpoint
+
+=== Protocol EndPoint
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -154,7 +167,8 @@ The Data Collector Support Matrix provides reference for HICOMMAND Data Collecto
 |Storage Ip|Implemented|HDS XML API|
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -174,7 +188,8 @@ The Data Collector Support Matrix provides reference for HICOMMAND Data Collecto
 |Virtual|Implemented|HDS XML API|Is this a storage virtualization device?
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -183,7 +198,8 @@ The Data Collector Support Matrix provides reference for HICOMMAND Data Collecto
 |UUID|Implemented|HDS XML API|
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -208,7 +224,8 @@ The Data Collector Support Matrix provides reference for HICOMMAND Data Collecto
 |Virtual|Implemented|HDS XML API|Is this a storage virtualization device?
 |===
 
-==== Storage Synchronization
+
+=== Storage Synchronization
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -224,7 +241,8 @@ The Data Collector Support Matrix provides reference for HICOMMAND Data Collecto
 |Technology|Implemented|HDS XML API|technology which causes storage efficiency changed
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -246,7 +264,8 @@ The Data Collector Support Matrix provides reference for HICOMMAND Data Collecto
 |Used Capacity|Implemented|HDS XML API|
 |===
 
-==== Volume Map
+
+=== Volume Map
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -257,7 +276,8 @@ The Data Collector Support Matrix provides reference for HICOMMAND Data Collecto
 |Storage Port|Implemented|HDS XML API|
 |===
 
-==== Volume Mask
+
+=== Volume Mask
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -267,7 +287,8 @@ The Data Collector Support Matrix provides reference for HICOMMAND Data Collecto
 |Storage Port|Implemented|HDS XML API|
 |===
 
-==== Volume Member
+
+=== Volume Member
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -281,7 +302,8 @@ The Data Collector Support Matrix provides reference for HICOMMAND Data Collecto
 |Used Capacity|Implemented|HDS XML API|
 |===
 
-==== Wwn Alias
+
+=== WWN Alias
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -292,9 +314,10 @@ The Data Collector Support Matrix provides reference for HICOMMAND Data Collecto
 |WWN|Implemented|HDS XML API|
 |===
 
-=== Performance
 
-==== Disk
+== Performance
+
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -306,6 +329,14 @@ The Data Collector Support Matrix provides reference for HICOMMAND Data Collecto
 |Throughput Write|Implemented|Export/CLI|
 |Throughput Total|Implemented|Export/CLI|Average disk total rate (read and write across all disks) in MB/s
 |IOPs Total|Implemented|Export/CLI|
+|===
+
+
+=== Disk
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |IOPs Read|Implemented|Export/CLI|Number of read IOPs on the disk
 |IOPs Total|Implemented|Export/CLI|
 |IOPs Write|Implemented|Export/CLI|
@@ -317,7 +348,8 @@ The Data Collector Support Matrix provides reference for HICOMMAND Data Collecto
 |Utilization Total|Implemented|Export/CLI|
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -341,6 +373,14 @@ The Data Collector Support Matrix provides reference for HICOMMAND Data Collecto
 |Spare Raw Capacity|Implemented|Export/CLI|Raw capacity of spare disks (sum of all disks that are spare)
 |Raw Capacity|Implemented|Export/CLI|
 |StoragePools Capacity|Implemented|Export/CLI|
+|===
+
+
+=== Storage
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |Key|Implemented|Export/CLI|
 |Server ID|Implemented|Export/CLI|
 |Raw Capacity|Implemented|Export/CLI|
@@ -349,7 +389,8 @@ The Data Collector Support Matrix provides reference for HICOMMAND Data Collecto
 |StoragePools Capacity|Implemented|Export/CLI|
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -359,7 +400,8 @@ The Data Collector Support Matrix provides reference for HICOMMAND Data Collecto
 |IOPs Total|Implemented|Export/CLI|
 |===
 
-==== Storage Node Data
+
+=== Storage Node Data
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -368,7 +410,8 @@ The Data Collector Support Matrix provides reference for HICOMMAND Data Collecto
 |Server ID|Implemented|Export/CLI|
 |===
 
-==== Storagepool Disk
+
+=== StoragePool Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -389,7 +432,8 @@ The Data Collector Support Matrix provides reference for HICOMMAND Data Collecto
 |Utilization Total|Implemented|Export/CLI|
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -410,6 +454,14 @@ The Data Collector Support Matrix provides reference for HICOMMAND Data Collecto
 |Raw Capacity|Implemented|Export/CLI|
 |Used Capacity|Implemented|Export/CLI|
 |Capacity Used Ratio|Implemented|Export/CLI|
+|===
+
+
+=== Volume
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |Key|Implemented|Export/CLI|
 |Server ID|Implemented|Export/CLI|
 |Total Capacity|Implemented|Export/CLI|
@@ -418,7 +470,9 @@ The Data Collector Support Matrix provides reference for HICOMMAND Data Collecto
 |Capacity Used Ratio|Implemented|Export/CLI|
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -442,4 +496,3 @@ Management APIs used by this data collector:
 |true
 |true
 
-|===

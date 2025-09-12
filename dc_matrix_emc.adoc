@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: dc_matrix_emc.html
-summary: The Data Collector Support Matrix contains detailed information on supported Emc data collectors.
-keywords: support matrix, {vendor}
+summary: The Data Collector Support Matrix contains detailed information on Emc data collectors.
+keywords: support matrix, emc, collector, matrix
 ---
 
-= Data Collector Support Matrix - EMC
+= Data Collector Support Matrix for Emc
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,12 +13,15 @@ keywords: support matrix, {vendor}
 :imagesdir: ./media/
 
 [.lead]
-The Data Collector Support Matrix provides reference for EMC Data Collectors supported by Data Infrastructure Insights, including vendor and model information.
+The Data Collector Support Matrix provides reference for Emc Data Collectors.
 
+== EMC Celerra (SSH)
 
-== EMC Celerra (ssh)
+Models and versions supported by this data collector:
+
 
 === Models
+
 * NSX
 * VG8
 * VNX5200
@@ -26,7 +29,9 @@ The Data Collector Support Matrix provides reference for EMC Data Collectors sup
 * VNX5400
 * VNX5500
 
+
 === Firmware Versions
+
 * 5.5.38-1
 * 7.1.76-4
 * 7.1.79-8
@@ -35,9 +40,9 @@ The Data Collector Support Matrix provides reference for EMC Data Collectors sup
 * 8.1.9-155
 
 
-=== Foundation
+== Foundation
 
-==== File Share
+=== File Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -50,7 +55,8 @@ The Data Collector Support Matrix provides reference for EMC Data Collectors sup
 |Status|Implemented|SSH|
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -63,7 +69,8 @@ The Data Collector Support Matrix provides reference for EMC Data Collectors sup
 |Originator Key|Implemented|SSH|
 |===
 
-==== Internal Volume
+
+=== Internal Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -91,7 +98,8 @@ The Data Collector Support Matrix provides reference for EMC Data Collectors sup
 |Virtual Storage|Implemented|SSH|Owning virtual storage (vfiler)
 |===
 
-==== Qtree
+
+=== QTree
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -106,7 +114,8 @@ The Data Collector Support Matrix provides reference for EMC Data Collectors sup
 |Type|Gap|SSH|
 |===
 
-==== Quota
+
+=== Quota
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -124,7 +133,8 @@ The Data Collector Support Matrix provides reference for EMC Data Collectors sup
 |GuidKey 2|Implemented|SSH|GuidKey2 is implicit for all objects whose GUID key has not changed since OCI version 7.3.5.
 |===
 
-==== Share
+
+=== Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -134,7 +144,8 @@ The Data Collector Support Matrix provides reference for EMC Data Collectors sup
 |Protocol|Implemented|SSH|enum for share protocol
 |===
 
-==== Share Initiator
+
+=== Share Initiator
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -143,7 +154,8 @@ The Data Collector Support Matrix provides reference for EMC Data Collectors sup
 |Permission|Implemented|SSH|Permissions for this particular share
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -162,7 +174,8 @@ The Data Collector Support Matrix provides reference for EMC Data Collectors sup
 |Virtual|Implemented|SSH|Is this a storage virtualization device?
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -185,7 +198,9 @@ The Data Collector Support Matrix provides reference for EMC Data Collectors sup
 |Virtual|Implemented|SSH|Is this a storage virtualization device?
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -199,17 +214,40 @@ Management APIs used by this data collector:
 |true
 |true
 
+
+
 |===
 
-'''
+== EMC CLARiiON (NaviCLI)
 
-== EMC Clariion (navicli)
+Models and versions supported by this data collector:
 
-=== Models
+
+=== API Versions
+
 * 6.26
 * 6.28
 * 7.32
 * 7.33
+
+
+=== Models
+
+* CX3-40f
+* CX4-480
+* VNX5100
+* VNX5200
+* VNX5300
+* VNX5400
+* VNX5500
+* VNX5600
+* VNX5700
+* VNX5800
+* VNX7600
+
+
+=== Firmware Versions
+
 * 04.28.000.5.710
 * 05.32.000.5.206
 * 05.32.000.5.218
@@ -229,23 +267,9 @@ Management APIs used by this data collector:
 * 05.33.021.5.322
 * 3.26.40.5.029
 
-=== Firmware Versions
-* CX3-40f
-* CX4-480
-* VNX5100
-* VNX5200
-* VNX5300
-* VNX5400
-* VNX5500
-* VNX5600
-* VNX5700
-* VNX5800
-* VNX7600
+== Foundation
 
-
-=== Foundation
-
-==== Disk
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -266,7 +290,8 @@ Management APIs used by this data collector:
 |Vendor|Implemented|CLI|
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -280,7 +305,8 @@ Management APIs used by this data collector:
 |Originator ID|Implemented|CLI|
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -301,7 +327,8 @@ Management APIs used by this data collector:
 |Virtual|Implemented|CLI|Is this a storage virtualization device?
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -312,7 +339,8 @@ Management APIs used by this data collector:
 |ManagementIp Addresses|Implemented|CLI|
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -337,7 +365,8 @@ Management APIs used by this data collector:
 |Virtual|Implemented|CLI|Is this a storage virtualization device?
 |===
 
-==== Storage Synchronization
+
+=== Storage Synchronization
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -351,7 +380,8 @@ Management APIs used by this data collector:
 |Technology|Implemented|CLI|technology which causes storage efficiency changed
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -375,7 +405,8 @@ Management APIs used by this data collector:
 |Used Capacity|Implemented|CLI|
 |===
 
-==== Volume Map
+
+=== Volume Map
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -386,7 +417,8 @@ Management APIs used by this data collector:
 |Type|Gap|CLI|
 |===
 
-==== Volume Mask
+
+=== Volume Mask
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -397,7 +429,8 @@ Management APIs used by this data collector:
 |Type|Gap|CLI|
 |===
 
-==== Volume Member
+
+=== Volume Member
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -411,7 +444,8 @@ Management APIs used by this data collector:
 |Used Capacity|Implemented|CLI|
 |===
 
-==== Wwn Alias
+
+=== WWN Alias
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -423,9 +457,10 @@ Management APIs used by this data collector:
 |WWN|Implemented|CLI|
 |===
 
-=== Performance
 
-==== Disk
+== Performance
+
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -439,6 +474,14 @@ Management APIs used by this data collector:
 |Read Utilization|Implemented|CLI|
 |Utilization Total|Implemented|CLI|
 |Utilization Write|Implemented|CLI|
+|===
+
+
+=== Disk
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |IOPs Read|Implemented|CLI|Number of read IOPs on the disk
 |IOPs Total|Implemented|CLI|
 |IOPs Write|Implemented|CLI|
@@ -452,7 +495,8 @@ Management APIs used by this data collector:
 |Utilization Write|Implemented|CLI|
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -475,6 +519,14 @@ Management APIs used by this data collector:
 |Spare Raw Capacity|Implemented|CLI|Raw capacity of spare disks (sum of all disks that are spare)
 |Raw Capacity|Implemented|CLI|
 |StoragePools Capacity|Implemented|CLI|
+|===
+
+
+=== Storage
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |Failed Raw Capacity|Implemented|CLI|
 |Raw Capacity|Implemented|CLI|
 |Spare Raw Capacity|Implemented|CLI|Raw capacity of spare disks (sum of all disks that are spare)
@@ -483,7 +535,8 @@ Management APIs used by this data collector:
 |Server ID|Implemented|CLI|
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -494,7 +547,8 @@ Management APIs used by this data collector:
 |Utilization Total|Implemented|CLI|
 |===
 
-==== Storagepool Disk
+
+=== StoragePool Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -518,7 +572,8 @@ Management APIs used by this data collector:
 |Utilization Write|Implemented|CLI|
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -542,7 +597,9 @@ Management APIs used by this data collector:
 |Throughput Write|Implemented|CLI|
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -556,13 +613,17 @@ Management APIs used by this data collector:
 |true
 |false
 
+
+
 |===
 
-'''
+== EMC Data Domain (SSH)
 
-== EMC Data Domain (ssh)
+Models and versions supported by this data collector:
+
 
 === Models
+
 * DD VE
 * DD2500
 * DD3300
@@ -581,7 +642,9 @@ Management APIs used by this data collector:
 * DD9900
 * DD9910
 
+
 === Firmware Versions
+
 * 6.0.2.30-606339
 * 6.1.2.051-633576
 * 6.1.2.20-606786
@@ -612,9 +675,9 @@ Management APIs used by this data collector:
 * 8.1.0.10-1127744
 
 
-=== Foundation
+== Foundation
 
-==== Disk
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -635,7 +698,8 @@ Management APIs used by this data collector:
 |Type Enum|Implemented|SSH|enum for disk type
 |===
 
-==== File Share
+
+=== File Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -647,7 +711,8 @@ Management APIs used by this data collector:
 |Qtree Id|Implemented|SSH|unique id of the qtree
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -657,7 +722,8 @@ Management APIs used by this data collector:
 |Originator ID|Implemented|SSH|
 |===
 
-==== Internal Volume
+
+=== Internal Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -680,7 +746,8 @@ Management APIs used by this data collector:
 |Type|Gap|SSH|
 |===
 
-==== Qtree
+
+=== QTree
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -692,7 +759,8 @@ Management APIs used by this data collector:
 |Type|Gap|SSH|
 |===
 
-==== Quota
+
+=== Quota
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -706,7 +774,8 @@ Management APIs used by this data collector:
 |Used Capacity|Implemented|SSH|
 |===
 
-==== Share
+
+=== Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -716,7 +785,8 @@ Management APIs used by this data collector:
 |Protocol|Implemented|SSH|enum for share protocol
 |===
 
-==== Share Initiator
+
+=== Share Initiator
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -725,7 +795,8 @@ Management APIs used by this data collector:
 |Permission|Implemented|SSH|Permissions for this particular share
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -746,7 +817,8 @@ Management APIs used by this data collector:
 |Virtual|Implemented|SSH|Is this a storage virtualization device?
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -760,7 +832,8 @@ Management APIs used by this data collector:
 |ManagementIp Addresses|Implemented|SSH|
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -784,7 +857,9 @@ Management APIs used by this data collector:
 |Virtual|Implemented|SSH|Is this a storage virtualization device?
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -798,16 +873,22 @@ Management APIs used by this data collector:
 |true
 |true
 
+
+
 |===
 
-'''
+== EMC ECS
 
-== EMC Ecs
+Models and versions supported by this data collector:
+
 
 === Models
+
 * ECS
 
+
 === Firmware Versions
+
 * 3.6.1.3
 * 3.6.2.1
 * 3.7.0.0
@@ -825,9 +906,9 @@ Management APIs used by this data collector:
 * 3.8.1.3
 
 
-=== Foundation
+== Foundation
 
-==== Disk
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -846,7 +927,8 @@ Management APIs used by this data collector:
 |Vendor|Implemented|HTTPS|
 |===
 
-==== Disk Group
+
+=== Disk Group
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -858,7 +940,8 @@ Management APIs used by this data collector:
 |Virtual|Implemented|HTTPS|Is this a storage virtualization device?
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -868,7 +951,8 @@ Management APIs used by this data collector:
 |Originator ID|Implemented|HTTPS|
 |===
 
-==== Internal Volume
+
+=== Internal Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -886,7 +970,8 @@ Management APIs used by this data collector:
 |Type|Gap|HTTPS|
 |===
 
-==== Qtree
+
+=== QTree
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -896,7 +981,8 @@ Management APIs used by this data collector:
 |Type|Gap|HTTPS|
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -914,7 +1000,8 @@ Management APIs used by this data collector:
 |Virtual|Implemented|HTTPS|Is this a storage virtualization device?
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -927,7 +1014,8 @@ Management APIs used by this data collector:
 |Node Capacity Utilization Used in MB|Implemented|HTTPS|
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -945,9 +1033,10 @@ Management APIs used by this data collector:
 |Virtual|Implemented|HTTPS|Is this a storage virtualization device?
 |===
 
-=== Performance
 
-==== Internal Volume
+== Performance
+
+=== Internal Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -956,6 +1045,14 @@ Management APIs used by this data collector:
 |Used Capacity|Implemented|HTTPS|
 |Capacity Used Ratio|Implemented|HTTPS|
 |Total Objects|Implemented|HTTPS|
+|===
+
+
+=== Internal Volume
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |Total Capacity|Implemented|HTTPS|
 |Used Capacity|Implemented|HTTPS|
 |Capacity Used Ratio|Implemented|HTTPS|
@@ -964,7 +1061,8 @@ Management APIs used by this data collector:
 |Server ID|Implemented|HTTPS|
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -979,7 +1077,8 @@ Management APIs used by this data collector:
 |Throughput Write|Implemented|HTTPS|
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -993,7 +1092,8 @@ Management APIs used by this data collector:
 |Throughput Write|Implemented|HTTPS|
 |===
 
-==== Storage Node Data
+
+=== Storage Node Data
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1009,7 +1109,8 @@ Management APIs used by this data collector:
 |Throughput Write|Implemented|HTTPS|
 |===
 
-==== Storagepool Disk
+
+=== StoragePool Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1022,7 +1123,9 @@ Management APIs used by this data collector:
 |Capacity Used Ratio|Implemented|HTTPS|
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -1036,13 +1139,17 @@ Management APIs used by this data collector:
 |true
 |true
 
+
+
 |===
 
-'''
+== EMC PowerStore REST
 
-== EMC Powerstore Rest
+Models and versions supported by this data collector:
+
 
 === Models
+
 * PowerStore 1000T
 * PowerStore 1200T
 * PowerStore 3000T
@@ -1052,7 +1159,9 @@ Management APIs used by this data collector:
 * PowerStore 9000T
 * PowerStore 9200T
 
+
 === Firmware Versions
+
 * 2.1.0.1
 * 2.1.1.0
 * 3.2.0.1
@@ -1071,9 +1180,9 @@ Management APIs used by this data collector:
 * 4.0.1.0
 
 
-=== Foundation
+== Foundation
 
-==== Disk
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1090,7 +1199,8 @@ Management APIs used by this data collector:
 |Vendor|Implemented||
 |===
 
-==== File Share
+
+=== File Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1102,7 +1212,8 @@ Management APIs used by this data collector:
 |Qtree Id|Implemented||unique id of the qtree
 |===
 
-==== Iscsi Network Portal
+
+=== ISCSI Network Portal
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1113,7 +1224,8 @@ Management APIs used by this data collector:
 |OID|Implemented||
 |===
 
-==== Iscsi Network Portal Group
+
+=== ISCSI Network Portal Group
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1123,7 +1235,8 @@ Management APIs used by this data collector:
 |Portal Group Tag|Implemented||
 |===
 
-==== Iscsi Node
+
+=== ISCSI Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1134,7 +1247,8 @@ Management APIs used by this data collector:
 |Type|Gap||
 |===
 
-==== Iscsi Session
+
+=== ISCSI Session
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1148,7 +1262,8 @@ Management APIs used by this data collector:
 |Security|Implemented||
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1160,7 +1275,8 @@ Management APIs used by this data collector:
 |Originator Key|Implemented||
 |===
 
-==== Internal Volume
+
+=== Internal Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1179,7 +1295,8 @@ Management APIs used by this data collector:
 |Virtual Storage|Implemented||Owning virtual storage (vfiler)
 |===
 
-==== Qtree
+
+=== QTree
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1189,7 +1306,8 @@ Management APIs used by this data collector:
 |Type|Gap||
 |===
 
-==== Share
+
+=== Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1199,7 +1317,8 @@ Management APIs used by this data collector:
 |Protocol|Implemented||enum for share protocol
 |===
 
-==== Share Initiator
+
+=== Share Initiator
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1208,7 +1327,8 @@ Management APIs used by this data collector:
 |Permission|Implemented||Permissions for this particular share
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1229,7 +1349,8 @@ Management APIs used by this data collector:
 |Virtual|Implemented||Is this a storage virtualization device?
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1241,7 +1362,8 @@ Management APIs used by this data collector:
 |Parent Serial Number|Implemented||
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1260,7 +1382,8 @@ Management APIs used by this data collector:
 |Virtual|Implemented||Is this a storage virtualization device?
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1277,7 +1400,8 @@ Management APIs used by this data collector:
 |QoS - Policy|Implemented||
 |===
 
-==== Volume Map
+
+=== Volume Map
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1289,7 +1413,8 @@ Management APIs used by this data collector:
 |Type|Gap||
 |===
 
-==== Volume Mask
+
+=== Volume Mask
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1299,7 +1424,8 @@ Management APIs used by this data collector:
 |Type|Gap||
 |===
 
-==== Wwn Alias
+
+=== WWN Alias
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1310,9 +1436,10 @@ Management APIs used by this data collector:
 |WWN|Implemented||
 |===
 
-=== Performance
 
-==== Storage
+== Performance
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1331,6 +1458,14 @@ Management APIs used by this data collector:
 |Throughput Read|Implemented||
 |Throughput Total|Implemented||Average disk total rate (read and write across all disks) in MB/s
 |Throughput Write|Implemented||
+|===
+
+
+=== Storage
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |Failed Raw Capacity|Implemented||
 |Raw Capacity|Implemented||
 |Spare Raw Capacity|Implemented||Raw capacity of spare disks (sum of all disks that are spare)
@@ -1349,7 +1484,8 @@ Management APIs used by this data collector:
 |Throughput Write|Implemented||
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1366,7 +1502,8 @@ Management APIs used by this data collector:
 |Utilization Total|Implemented||
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1375,7 +1512,8 @@ Management APIs used by this data collector:
 |Server ID|Implemented||
 |===
 
-==== Storagepool Disk
+
+=== StoragePool Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1395,7 +1533,8 @@ Management APIs used by this data collector:
 |Throughput Write|Implemented||
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1413,6 +1552,14 @@ Management APIs used by this data collector:
 |Throughput Read|Implemented||
 |Throughput Total|Implemented||Average disk total rate (read and write across all disks) in MB/s
 |Throughput Write|Implemented||
+|===
+
+
+=== Volume
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |Raw Capacity|Implemented||
 |Total Capacity|Implemented||
 |Used Capacity|Implemented||
@@ -1430,7 +1577,9 @@ Management APIs used by this data collector:
 |Throughput Write|Implemented||
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -1444,16 +1593,22 @@ Management APIs used by this data collector:
 |true
 |true
 
+
+
 |===
 
-'''
+== EMC RecoverPoint (HTTP)
 
-== EMC Recoverpoint (http)
+Models and versions supported by this data collector:
+
 
 === Models
+
 * RecoverPoint
 
+
 === Firmware Versions
+
 * 5.1.SP4.P1(h.89)
 * 5.1.SP4.P2(h.101)
 * 5.1.SP4.P3(h.109)
@@ -1461,9 +1616,9 @@ Management APIs used by this data collector:
 * 5.1.SP4.P5(h.138)
 
 
-=== Foundation
+== Foundation
 
-==== Info
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1474,7 +1629,8 @@ Management APIs used by this data collector:
 |Originator Key|Implemented|HTTPS|
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1494,7 +1650,8 @@ Management APIs used by this data collector:
 |Virtual|Implemented|HTTPS|Is this a storage virtualization device?
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1509,7 +1666,8 @@ Management APIs used by this data collector:
 |Version|Implemented|HTTPS|software version
 |===
 
-==== Storage Synchronization
+
+=== Storage Synchronization
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1525,7 +1683,9 @@ Management APIs used by this data collector:
 |Technology|Implemented|HTTPS|technology which causes storage efficiency changed
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -1539,23 +1699,29 @@ Management APIs used by this data collector:
 |true
 |true
 
+
+
 |===
 
-'''
+== EMC ScaleIO & PowerFlex REST
 
-== EMC Scaleio & Powerflex Rest
+Models and versions supported by this data collector:
+
 
 === Models
+
 * ScaleIO
 
+
 === Firmware Versions
+
 * R3_5.1201.101
 * R3_6.1000.134
 
 
-=== Foundation
+== Foundation
 
-==== Disk
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1570,7 +1736,8 @@ Management APIs used by this data collector:
 |Status Enum|Implemented|HTTPS|enum for disk status
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1585,7 +1752,8 @@ Management APIs used by this data collector:
 |Originator Key|Implemented|HTTPS|
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1605,7 +1773,8 @@ Management APIs used by this data collector:
 |Virtual|Implemented|HTTPS|Is this a storage virtualization device?
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1614,7 +1783,8 @@ Management APIs used by this data collector:
 |UUID|Implemented|HTTPS|
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1633,7 +1803,8 @@ Management APIs used by this data collector:
 |Virtual|Implemented|HTTPS|Is this a storage virtualization device?
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1648,9 +1819,10 @@ Management APIs used by this data collector:
 |Host IPs|Implemented|HTTPS|
 |===
 
-=== Performance
 
-==== Storage
+== Performance
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1669,7 +1841,9 @@ Management APIs used by this data collector:
 |Throughput Write|Implemented||
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -1683,13 +1857,17 @@ Management APIs used by this data collector:
 |true
 |true
 
+
+
 |===
 
-'''
+== EMC Symmetrix CLI
 
-== EMC Symmetrix Cli
+Models and versions supported by this data collector:
 
-=== Models
+
+=== API Versions
+
 * V10.0.0.0
 * V10.0.1.1
 * V10.1.0.0
@@ -1714,6 +1892,27 @@ Management APIs used by this data collector:
 * V9.2.4.6
 * V9.2.4.7
 * V9.2.4.8
+
+
+=== Models
+
+* PMax8000
+* PowerMax_2000
+* PowerMax_8000
+* VMAX-1
+* VMAX100K
+* VMAX10K
+* VMAX200K
+* VMAX250F
+* VMAX400K
+* VMAX40K
+* VMAX450F
+* VMAX850F
+* VMAX950F
+
+
+=== Firmware Versions
+
 * 5876.286.194(16F40000) build 115
 * 5876.309.196(16F40000) build 153
 * 5876.309.196(16F40000) build 162
@@ -1742,25 +1941,9 @@ Management APIs used by this data collector:
 * 5978.714.714(175A0000) build 53
 * 5978.714.714(175A0000) build 79
 
-=== Firmware Versions
-* PMax8000
-* PowerMax_2000
-* PowerMax_8000
-* VMAX-1
-* VMAX100K
-* VMAX10K
-* VMAX200K
-* VMAX250F
-* VMAX400K
-* VMAX40K
-* VMAX450F
-* VMAX850F
-* VMAX950F
+== Foundation
 
-
-=== Foundation
-
-==== Device Group
+=== Device Group
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1770,7 +1953,8 @@ Management APIs used by this data collector:
 |Type|Gap||
 |===
 
-==== Disk
+
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1789,7 +1973,8 @@ Management APIs used by this data collector:
 |Vendor|Implemented||
 |===
 
-==== Disk Group
+
+=== Disk Group
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1804,7 +1989,8 @@ Management APIs used by this data collector:
 |Virtual|Implemented||Is this a storage virtualization device?
 |===
 
-==== Iscsi Network Portal
+
+=== ISCSI Network Portal
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1815,7 +2001,8 @@ Management APIs used by this data collector:
 |Listening Port|Implemented||
 |===
 
-==== Iscsi Network Portal Group
+
+=== ISCSI Network Portal Group
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1825,7 +2012,8 @@ Management APIs used by this data collector:
 |Portal Group Tag|Implemented||
 |===
 
-==== Iscsi Node
+
+=== ISCSI Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1835,7 +2023,8 @@ Management APIs used by this data collector:
 |Type|Gap||
 |===
 
-==== Iscsi Node Map
+
+=== ISCSI Node Map
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1844,7 +2033,8 @@ Management APIs used by this data collector:
 |Portal Group OID|Implemented||
 |===
 
-==== Iscsi Session
+
+=== ISCSI Session
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1858,7 +2048,8 @@ Management APIs used by this data collector:
 |Security|Implemented||
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1875,7 +2066,8 @@ Management APIs used by this data collector:
 |Originator Key|Implemented||
 |===
 
-==== Network Pipe
+
+=== Network Pipe
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1887,7 +2079,8 @@ Management APIs used by this data collector:
 |Target Id|Implemented||
 |===
 
-==== Network Pipe Port Wwn
+
+=== Network Pipe Port Wwn
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1895,7 +2088,8 @@ Management APIs used by this data collector:
 |WWN|Implemented||
 |===
 
-==== Protocol Endpoint
+
+=== Protocol EndPoint
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1905,7 +2099,8 @@ Management APIs used by this data collector:
 |Storage Ip|Implemented||
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1924,7 +2119,8 @@ Management APIs used by this data collector:
 |Virtual|Implemented||Is this a storage virtualization device?
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1933,7 +2129,8 @@ Management APIs used by this data collector:
 |UUID|Implemented||
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1963,7 +2160,8 @@ Management APIs used by this data collector:
 |Effective Used Capacity Percent|Implemented||
 |===
 
-==== Storage Synchronization
+
+=== Storage Synchronization
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1979,7 +2177,8 @@ Management APIs used by this data collector:
 |Technology|Implemented||technology which causes storage efficiency changed
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2007,7 +2206,8 @@ Management APIs used by this data collector:
 |storage Groups|Implemented||
 |===
 
-==== Volume Map
+
+=== Volume Map
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2018,7 +2218,8 @@ Management APIs used by this data collector:
 |Type|Gap||
 |===
 
-==== Volume Mask
+
+=== Volume Mask
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2029,7 +2230,8 @@ Management APIs used by this data collector:
 |Type|Gap||
 |===
 
-==== Volume Member
+
+=== Volume Member
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2045,7 +2247,8 @@ Management APIs used by this data collector:
 |UUID|Implemented||
 |===
 
-==== Volume Ref
+
+=== Volume Ref
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2054,7 +2257,8 @@ Management APIs used by this data collector:
 |Storage Ip|Implemented||
 |===
 
-==== Wwn Alias
+
+=== WWN Alias
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2065,9 +2269,10 @@ Management APIs used by this data collector:
 |WWN|Implemented||
 |===
 
-=== Performance
 
-==== Disk
+== Performance
+
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2080,7 +2285,8 @@ Management APIs used by this data collector:
 |Throughput Write|Implemented||
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2101,6 +2307,14 @@ Management APIs used by this data collector:
 |Throughput Total|Implemented||Average disk total rate (read and write across all disks) in MB/s
 |Throughput Write|Implemented||
 |Write Pending|Implemented||total write pending
+|===
+
+
+=== Storage
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |Cache Hit Ratio Read|Implemented||
 |Cache Hit Ratio Total|Implemented||
 |Cache Hit Ratio Write|Implemented||
@@ -2120,7 +2334,8 @@ Management APIs used by this data collector:
 |Write Pending|Implemented||total write pending
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2135,7 +2350,8 @@ Management APIs used by this data collector:
 |Utilization Total|Implemented||
 |===
 
-==== Storagepool Disk
+
+=== StoragePool Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2153,13 +2369,14 @@ Management APIs used by this data collector:
 |IOPs Write|Implemented||
 |Other Used Capacity|Implemented||
 |Snapshot Used Capacity|Implemented||
-|Snapshot Used Capacity Ratio|Implemented||Reported as a time series
+|Snapshot Used Capacity Ratio|Implemented|| Reported as a time series
 |Throughput Read|Implemented||
 |Throughput Total|Implemented||Average disk total rate (read and write across all disks) in MB/s
 |Throughput Write|Implemented||
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2183,6 +2400,14 @@ Management APIs used by this data collector:
 |Throughput Total|Implemented||Average disk total rate (read and write across all disks) in MB/s
 |Throughput Write|Implemented||
 |Write Pending|Implemented||total write pending
+|===
+
+
+=== Volume
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |Cache Hit Ratio Read|Implemented||
 |Cache Hit Ratio Total|Implemented||
 |Cache Hit Ratio Write|Implemented||
@@ -2206,7 +2431,9 @@ Management APIs used by this data collector:
 |Write Pending|Implemented||total write pending
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -2230,18 +2457,24 @@ Management APIs used by this data collector:
 |false
 |true
 
+
+
 |===
 
-'''
+== EMC VNX (SSH)
 
-== EMC Vnx (ssh)
+Models and versions supported by this data collector:
+
 
 === Models
+
 * VNX5300
 * VNX5500
 * VNX5700
 
+
 === Firmware Versions
+
 * 05.32.000.5.216
 * 05.32.000.5.221
 * 05.32.000.5.249
@@ -2249,9 +2482,9 @@ Management APIs used by this data collector:
 * 7.1.80-3
 
 
-=== Foundation
+== Foundation
 
-==== Disk
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2272,7 +2505,8 @@ Management APIs used by this data collector:
 |Group|Implemented|SSH|
 |===
 
-==== File Share
+
+=== File Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2285,7 +2519,8 @@ Management APIs used by this data collector:
 |Status|Implemented|SSH|
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2300,7 +2535,8 @@ Management APIs used by this data collector:
 |Client Api Version|Implemented|SSH|
 |===
 
-==== Internal Volume
+
+=== Internal Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2327,7 +2563,8 @@ Management APIs used by this data collector:
 |Virtual Storage|Implemented|SSH|Owning virtual storage (vfiler)
 |===
 
-==== Qtree
+
+=== QTree
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2342,7 +2579,8 @@ Management APIs used by this data collector:
 |Quota UsedCapacity|Implemented|SSH|Space in MB currently used
 |===
 
-==== Quota
+
+=== Quota
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2360,7 +2598,8 @@ Management APIs used by this data collector:
 |GuidKey 2|Implemented|SSH|GuidKey2 is implicit for all objects whose GUID key has not changed since OCI version 7.3.5.
 |===
 
-==== Share
+
+=== Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2370,7 +2609,8 @@ Management APIs used by this data collector:
 |IP Interfaces|Implemented|SSH|comma separated list of IP addresses on which this share is exposed
 |===
 
-==== Share Initiator
+
+=== Share Initiator
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2379,7 +2619,8 @@ Management APIs used by this data collector:
 |Permission|Implemented|SSH|Permissions for this particular share
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2401,7 +2642,8 @@ Management APIs used by this data collector:
 |Cpu Count|Implemented|SSH|Cpu Count of the storage
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2412,7 +2654,8 @@ Management APIs used by this data collector:
 |ManagementIp Addresses|Implemented|SSH|
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2439,7 +2682,8 @@ Management APIs used by this data collector:
 |Data Allocated Capacity|Gap|SSH|capacity allocated for data
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2459,7 +2703,8 @@ Management APIs used by this data collector:
 |DiskGroup|Implemented|SSH|Disk Group Type
 |===
 
-==== Volume Map
+
+=== Volume Map
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2470,7 +2715,8 @@ Management APIs used by this data collector:
 |Type|Gap|SSH|
 |===
 
-==== Volume Mask
+
+=== Volume Mask
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2481,7 +2727,8 @@ Management APIs used by this data collector:
 |Type|Gap|SSH|
 |===
 
-==== Volume Member
+
+=== Volume Member
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2495,7 +2742,8 @@ Management APIs used by this data collector:
 |Redundancy|Implemented|SSH|Redundancy level
 |===
 
-==== Wwn Alias
+
+=== WWN Alias
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2507,9 +2755,10 @@ Management APIs used by this data collector:
 |IP|Implemented|SSH|
 |===
 
-=== Performance
 
-==== Disk
+== Performance
+
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2523,6 +2772,14 @@ Management APIs used by this data collector:
 |Throughput Total|Implemented|SSH|Average disk total rate (read and write across all disks) in MB/s
 |IOPs Total|Implemented|SSH|
 |Utilization Total|Implemented|SSH|
+|===
+
+
+=== Disk
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |Key|Implemented|SSH|
 |Server ID|Implemented|SSH|
 |Throughput Read|Implemented|SSH|
@@ -2536,7 +2793,8 @@ Management APIs used by this data collector:
 |Utilization Total|Implemented|SSH|
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2559,6 +2817,14 @@ Management APIs used by this data collector:
 |Cache Hit Ratio Read|Implemented|SSH|
 |Cache Hit Ratio Total|Implemented|SSH|
 |Cache Hit Ratio Write|Implemented|SSH|
+|===
+
+
+=== Storage
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |Key|Implemented|SSH|
 |Server ID|Implemented|SSH|
 |Raw Capacity|Implemented|SSH|
@@ -2567,7 +2833,8 @@ Management APIs used by this data collector:
 |StoragePools Capacity|Implemented|SSH|
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2578,7 +2845,8 @@ Management APIs used by this data collector:
 |Utilization Total|Implemented|SSH|
 |===
 
-==== Storagepool Disk
+
+=== StoragePool Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2600,7 +2868,8 @@ Management APIs used by this data collector:
 |Over Commit Capacity Ratio|Implemented|SSH|Reported as a time series
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2620,7 +2889,9 @@ Management APIs used by this data collector:
 |Throughput Total|Implemented|SSH|Average disk total rate (read and write across all disks) in MB/s
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -2634,13 +2905,17 @@ Management APIs used by this data collector:
 |true
 |true
 
+
+
 |===
 
-'''
+== EMC VNXe & Unity Unisphere (CLI)
 
-== EMC Vnxe & Unity Unisphere (cli)
+Models and versions supported by this data collector:
+
 
 === Models
+
 * Unity 300
 * Unity 300F
 * Unity 350F
@@ -2661,7 +2936,9 @@ Management APIs used by this data collector:
 * UnityVSA
 * VNXe3200
 
+
 === Firmware Versions
+
 * 3.1.17.10229825
 * 4.1.2.9257522
 * 5.0.6.0.5.008
@@ -2676,9 +2953,9 @@ Management APIs used by this data collector:
 * 5.4.1.0.5.006
 
 
-=== Foundation
+== Foundation
 
-==== Disk
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2700,7 +2977,8 @@ Management APIs used by this data collector:
 |Vendor|Implemented|HTTPS|
 |===
 
-==== Disk Group
+
+=== Disk Group
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2713,7 +2991,8 @@ Management APIs used by this data collector:
 |Virtual|Implemented|HTTPS|Is this a storage virtualization device?
 |===
 
-==== File Share
+
+=== File Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2725,7 +3004,8 @@ Management APIs used by this data collector:
 |Qtree Id|Implemented|HTTPS|unique id of the qtree
 |===
 
-==== Iscsi Network Portal
+
+=== ISCSI Network Portal
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2736,7 +3016,8 @@ Management APIs used by this data collector:
 |OID|Implemented|HTTPS|
 |===
 
-==== Iscsi Network Portal Group
+
+=== ISCSI Network Portal Group
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2746,7 +3027,8 @@ Management APIs used by this data collector:
 |Portal Group Tag|Implemented|HTTPS|
 |===
 
-==== Iscsi Node
+
+=== ISCSI Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2756,7 +3038,8 @@ Management APIs used by this data collector:
 |Type|Gap|HTTPS|
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2766,7 +3049,8 @@ Management APIs used by this data collector:
 |Originator ID|Implemented|HTTPS|
 |===
 
-==== Internal Volume
+
+=== Internal Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2790,7 +3074,8 @@ Management APIs used by this data collector:
 |Type|Gap|HTTPS|
 |===
 
-==== Qtree
+
+=== QTree
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2800,7 +3085,8 @@ Management APIs used by this data collector:
 |Type|Gap|HTTPS|
 |===
 
-==== Share
+
+=== Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2811,7 +3097,8 @@ Management APIs used by this data collector:
 |Protocol|Implemented|HTTPS|enum for share protocol
 |===
 
-==== Share Initiator
+
+=== Share Initiator
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2820,7 +3107,8 @@ Management APIs used by this data collector:
 |Permission|Implemented|HTTPS|Permissions for this particular share
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2839,7 +3127,8 @@ Management APIs used by this data collector:
 |Virtual|Implemented|HTTPS|Is this a storage virtualization device?
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2852,7 +3141,8 @@ Management APIs used by this data collector:
 |UUID|Implemented|HTTPS|
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2876,7 +3166,8 @@ Management APIs used by this data collector:
 |Virtual|Implemented|HTTPS|Is this a storage virtualization device?
 |===
 
-==== Storage Synchronization
+
+=== Storage Synchronization
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2892,7 +3183,8 @@ Management APIs used by this data collector:
 |Technology|Implemented|HTTPS|technology which causes storage efficiency changed
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2907,7 +3199,8 @@ Management APIs used by this data collector:
 |Used Capacity|Implemented|HTTPS|
 |===
 
-==== Volume Map
+
+=== Volume Map
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2918,7 +3211,8 @@ Management APIs used by this data collector:
 |Type|Gap|HTTPS|
 |===
 
-==== Volume Mask
+
+=== Volume Mask
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2929,9 +3223,10 @@ Management APIs used by this data collector:
 |Type|Gap|HTTPS|
 |===
 
-=== Performance
 
-==== Disk
+== Performance
+
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2942,6 +3237,14 @@ Management APIs used by this data collector:
 |Throughput Read|Implemented|HTTPS|
 |Throughput Total|Implemented|HTTPS|Average disk total rate (read and write across all disks) in MB/s
 |Throughput Write|Implemented|HTTPS|
+|===
+
+
+=== Disk
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |IOPs Read|Implemented|HTTPS|Number of read IOPs on the disk
 |IOPs Total|Implemented|HTTPS|
 |IOPs Write|Implemented|HTTPS|
@@ -2952,7 +3255,8 @@ Management APIs used by this data collector:
 |Throughput Write|Implemented|HTTPS|
 |===
 
-==== Internal Volume
+
+=== Internal Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2966,7 +3270,8 @@ Management APIs used by this data collector:
 |Throughput Write|Implemented|HTTPS|
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2977,7 +3282,8 @@ Management APIs used by this data collector:
 |StoragePools Capacity|Implemented|HTTPS|
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -2988,7 +3294,8 @@ Management APIs used by this data collector:
 |Utilization Total|Implemented|HTTPS|
 |===
 
-==== Storagepool Disk
+
+=== StoragePool Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -3008,7 +3315,8 @@ Management APIs used by this data collector:
 |Throughput Write|Implemented|HTTPS|
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -3026,7 +3334,9 @@ Management APIs used by this data collector:
 |Throughput Write|Implemented|HTTPS|
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -3040,24 +3350,30 @@ Management APIs used by this data collector:
 |true
 |true
 
+
+
 |===
 
-'''
+== EMC VPLEX
 
-== EMC Vplex
+Models and versions supported by this data collector:
+
 
 === Models
+
 * VPLEX
 
+
 === Firmware Versions
+
 * 6.2.0.04.00.07
 * 6.2.0.07.00.02
 * 6.2.1.0.0.519
 
 
-=== Foundation
+== Foundation
 
-==== Info
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -3068,7 +3384,8 @@ Management APIs used by this data collector:
 |Originator Key|Implemented|HTTP/S|
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -3088,7 +3405,8 @@ Management APIs used by this data collector:
 |Virtual|Implemented|HTTP/S|Is this a storage virtualization device?
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -3099,7 +3417,8 @@ Management APIs used by this data collector:
 |UUID|Implemented|HTTP/S|
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -3120,7 +3439,8 @@ Management APIs used by this data collector:
 |Virtual|Implemented|HTTP/S|Is this a storage virtualization device?
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -3135,7 +3455,8 @@ Management APIs used by this data collector:
 |Virtual|Implemented|HTTP/S|Is this a storage virtualization device?
 |===
 
-==== Volume Map
+
+=== Volume Map
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -3146,7 +3467,8 @@ Management APIs used by this data collector:
 |Type|Gap|HTTP/S|
 |===
 
-==== Volume Mask
+
+=== Volume Mask
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -3157,9 +3479,10 @@ Management APIs used by this data collector:
 |Type|Gap|HTTP/S|
 |===
 
-=== Performance
 
-==== Storage
+== Performance
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -3179,7 +3502,8 @@ Management APIs used by this data collector:
 |Throughput Write|Implemented|SSH|
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -3199,7 +3523,8 @@ Management APIs used by this data collector:
 |Utilization Total|Implemented|SSH|
 |===
 
-==== Storage Node Data
+
+=== Storage Node Data
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -3210,7 +3535,8 @@ Management APIs used by this data collector:
 |Utilization Total|Implemented|SSH|
 |===
 
-==== Storagepool Disk
+
+=== StoragePool Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -3224,7 +3550,8 @@ Management APIs used by this data collector:
 |Other Used Capacity|Implemented|SSH|
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -3240,6 +3567,14 @@ Management APIs used by this data collector:
 |Throughput Read|Implemented|SSH|
 |Throughput Total|Implemented|SSH|Average disk total rate (read and write across all disks) in MB/s
 |Throughput Write|Implemented|SSH|
+|===
+
+
+=== Volume
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |Raw Capacity|Implemented|SSH|
 |Total Capacity|Implemented|SSH|
 |IOPs Total|Implemented|SSH|
@@ -3253,7 +3588,9 @@ Management APIs used by this data collector:
 |Throughput Write|Implemented|SSH|
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -3277,25 +3614,27 @@ Management APIs used by this data collector:
 |true
 |true
 
+
+
 |===
 
-'''
+== EMC XtremIO (HTTP)
 
-== EMC Xtremio (http)
+Models and versions supported by this data collector:
 
-=== Models
+
+=== API Versions
+
 * 6.2.1
 * 6.3.2
 * 6.3.3
 * 6.4.0
 * 6.4.1
 * 6.4.2
-* 4.0.27-1
-* 4.0.31-11
-* 6.3.3-8_X2
-* 6.4.0-36_hotfix_2_X2
 
-=== Firmware Versions
+
+=== Models
+
 * 1 Bricks & 125TB
 * 1 Bricks & 24TB
 * 1 Bricks & 31TB
@@ -3313,9 +3652,16 @@ Management APIs used by this data collector:
 * 6X40TB
 
 
-=== Foundation
+=== Firmware Versions
 
-==== Disk
+* 4.0.27-1
+* 4.0.31-11
+* 6.3.3-8_X2
+* 6.4.0-36_hotfix_2_X2
+
+== Foundation
+
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -3340,7 +3686,8 @@ Management APIs used by this data collector:
 |Vendor Id|Implemented|HTTPS|
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -3355,7 +3702,8 @@ Management APIs used by this data collector:
 |Originator Key|Implemented|HTTPS|
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -3377,7 +3725,8 @@ Management APIs used by this data collector:
 |Virtual|Implemented|HTTPS|Is this a storage virtualization device?
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -3390,7 +3739,8 @@ Management APIs used by this data collector:
 |ManagementIp Addresses|Implemented|HTTPS|
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -3416,7 +3766,8 @@ Management APIs used by this data collector:
 |Virtual|Implemented|HTTPS|Is this a storage virtualization device?
 |===
 
-==== Storage Synchronization
+
+=== Storage Synchronization
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -3430,7 +3781,8 @@ Management APIs used by this data collector:
 |Technology|Implemented|HTTPS|technology which causes storage efficiency changed
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -3450,7 +3802,8 @@ Management APIs used by this data collector:
 |Virtual|Implemented|HTTPS|Is this a storage virtualization device?
 |===
 
-==== Volume Map
+
+=== Volume Map
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -3460,7 +3813,8 @@ Management APIs used by this data collector:
 |Type|Gap|HTTPS|
 |===
 
-==== Volume Mask
+
+=== Volume Mask
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -3470,9 +3824,10 @@ Management APIs used by this data collector:
 |Type|Gap|HTTPS|
 |===
 
-=== Performance
 
-==== Storage
+== Performance
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -3491,6 +3846,14 @@ Management APIs used by this data collector:
 |Throughput Read|Implemented|HTTPS|
 |Throughput Total|Implemented|HTTPS|Average disk total rate (read and write across all disks) in MB/s
 |Throughput Write|Implemented|HTTPS|
+|===
+
+
+=== Storage
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |Failed Raw Capacity|Implemented|HTTPS|
 |Raw Capacity|Implemented|HTTPS|
 |Spare Raw Capacity|Implemented|HTTPS|Raw capacity of spare disks (sum of all disks that are spare)
@@ -3499,7 +3862,8 @@ Management APIs used by this data collector:
 |Server ID|Implemented|HTTPS|
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -3515,7 +3879,8 @@ Management APIs used by this data collector:
 |Throughput Write|Implemented|HTTPS|
 |===
 
-==== Storage Node Data
+
+=== Storage Node Data
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -3530,7 +3895,8 @@ Management APIs used by this data collector:
 |Throughput Write|Implemented|HTTPS|
 |===
 
-==== Storagepool Disk
+
+=== StoragePool Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -3545,7 +3911,8 @@ Management APIs used by this data collector:
 |Data Used Capacity|Implemented|HTTPS|
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -3564,6 +3931,14 @@ Management APIs used by this data collector:
 |Throughput Read|Implemented|HTTPS|
 |Throughput Total|Implemented|HTTPS|Average disk total rate (read and write across all disks) in MB/s
 |Throughput Write|Implemented|HTTPS|
+|===
+
+
+=== Volume
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |Raw Capacity|Implemented|HTTPS|
 |Total Capacity|Implemented|HTTPS|
 |Used Capacity|Implemented|HTTPS|
@@ -3582,7 +3957,9 @@ Management APIs used by this data collector:
 |Throughput Write|Implemented|HTTPS|
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -3596,4 +3973,3 @@ Management APIs used by this data collector:
 |true
 |true
 
-|===

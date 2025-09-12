@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: dc_matrix_cohesity.html
-summary: The Data Collector Support Matrix contains detailed information on supported Cohesity data collectors.
-keywords: support matrix, {vendor}
+summary: The Data Collector Support Matrix contains detailed information on Cohesity data collectors.
+keywords: support matrix, cohesity, collector, matrix
 ---
 
-= Data Collector Support Matrix - Cohesity
+= Data Collector Support Matrix for Cohesity
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,11 +13,15 @@ keywords: support matrix, {vendor}
 :imagesdir: ./media/
 
 [.lead]
-The Data Collector Support Matrix provides reference for COHESITY Data Collectors supported by Data Infrastructure Insights, including vendor and model information.
+The Data Collector Support Matrix provides reference for Cohesity Data Collectors.
 
 == Cohesity
 
+Models and versions supported by this data collector:
+
+
 === Models
+
 * C4000 Compute Node
 * C4600
 * C5036
@@ -30,7 +34,9 @@ The Data Collector Support Matrix provides reference for COHESITY Data Collector
 * UCS-C240M5H10
 * Virtual ROBO
 
+
 === Firmware Versions
+
 * 6.8.1_u1_release-20221022_6f58ed2a
 * 6.8.2_u1_release-20240509_a5da4644
 * 7.1.2_u2_release-20240925_66722648
@@ -39,9 +45,9 @@ The Data Collector Support Matrix provides reference for COHESITY Data Collector
 * 7.2.2_release-20250228_63e93ccf
 
 
-=== Foundation
+== Foundation
 
-==== Disk
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -51,7 +57,8 @@ The Data Collector Support Matrix provides reference for COHESITY Data Collector
 |Name|Implemented||
 |===
 
-==== File Share
+
+=== File Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -63,7 +70,8 @@ The Data Collector Support Matrix provides reference for COHESITY Data Collector
 |Qtree Id|Implemented||unique id of the qtree
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -75,7 +83,8 @@ The Data Collector Support Matrix provides reference for COHESITY Data Collector
 |Originator Key|Implemented||
 |===
 
-==== Internal Volume
+
+=== Internal Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -95,7 +104,8 @@ The Data Collector Support Matrix provides reference for COHESITY Data Collector
 |Type|Gap||
 |===
 
-==== Qtree
+
+=== QTree
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -105,7 +115,8 @@ The Data Collector Support Matrix provides reference for COHESITY Data Collector
 |Type|Gap||
 |===
 
-==== Share
+
+=== Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -115,7 +126,8 @@ The Data Collector Support Matrix provides reference for COHESITY Data Collector
 |Protocol|Implemented||enum for share protocol
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -135,7 +147,8 @@ The Data Collector Support Matrix provides reference for COHESITY Data Collector
 |Virtual|Implemented||Is this a storage virtualization device?
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -147,7 +160,8 @@ The Data Collector Support Matrix provides reference for COHESITY Data Collector
 |Version|Implemented||software version
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -170,9 +184,10 @@ The Data Collector Support Matrix provides reference for COHESITY Data Collector
 |Encrypted|Implemented||
 |===
 
-=== Performance
 
-==== Storage
+== Performance
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -195,7 +210,9 @@ The Data Collector Support Matrix provides reference for COHESITY Data Collector
 |Utilization Total|Implemented||
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -209,4 +226,3 @@ Management APIs used by this data collector:
 |true
 |true
 
-|===

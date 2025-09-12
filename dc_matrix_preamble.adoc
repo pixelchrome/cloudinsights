@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: dc_matrix_preamble.html
-summary: The Data Collector Support Matrix contains detailed information on supported Preamble data collectors.
-keywords: support matrix, {vendor}
+summary: The Data Collector Support Matrix contains detailed information on Preamble data collectors.
+keywords: support matrix, preamble, collector, matrix
 ---
 
-= Data Collector Support Matrix - Preamble
+= Data Collector Support Matrix for Preamble
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,20 +13,5 @@ keywords: support matrix, {vendor}
 :imagesdir: ./media/
 
 [.lead]
-The Data Collector Support Matrix provides reference for PREAMBLE Data Collectors supported by Data Infrastructure Insights, including vendor and model information.
+The Data Collector Support Matrix provides reference for Preamble Data Collectors.
 
----
-sidebar: sidebar
-permalink: reference_data_collector_support_matrix.html
-summary: The Data Collector Support Matrix contains detailed information on supported data collectors. 
-keywords: support matrix, vendor, NetApp, IBM, EMC, Dell, HP, Hitachi, VMware, Huawei, OpenStack
----
-
-:hardbreaks:
-:nofooter:
-:icons: font
-:linkattrs:
-:imagesdir: ./media/
-
-[.lead]
-The Data Collector Support Matrix provides reference for PREAMBLE Data Collectors supported by Data Infrastructure Insights, including vendor and model information.

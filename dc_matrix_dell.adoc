@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: dc_matrix_dell.html
-summary: The Data Collector Support Matrix contains detailed information on supported Dell data collectors.
-keywords: support matrix, {vendor}
+summary: The Data Collector Support Matrix contains detailed information on Dell data collectors.
+keywords: support matrix, dell, collector, matrix
 ---
 
-= Data Collector Support Matrix - Dell
+= Data Collector Support Matrix for Dell
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,12 +13,15 @@ keywords: support matrix, {vendor}
 :imagesdir: ./media/
 
 [.lead]
-The Data Collector Support Matrix provides reference for DELL Data Collectors supported by Data Infrastructure Insights, including vendor and model information.
+The Data Collector Support Matrix provides reference for Dell Data Collectors.
 
+== Dell EMC Isilon & PowerScale Rest
 
-== Dell EMC Isilon & Powerscale Rest
+Models and versions supported by this data collector:
+
 
 === Models
+
 * A100
 * A200
 * A2000
@@ -38,7 +41,9 @@ The Data Collector Support Matrix provides reference for DELL Data Collectors su
 * X210
 * X410
 
+
 === Firmware Versions
+
 * 9.1.0.10
 * 9.1.0.6
 * 9.1.0.9
@@ -77,9 +82,9 @@ The Data Collector Support Matrix provides reference for DELL Data Collectors su
 * v9.0.0.0
 
 
-=== Foundation
+== Foundation
 
-==== Disk
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -102,7 +107,8 @@ The Data Collector Support Matrix provides reference for DELL Data Collectors su
 |Vendor Id|Implemented|HTTPS|
 |===
 
-==== Disk Group
+
+=== Disk Group
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -119,7 +125,8 @@ The Data Collector Support Matrix provides reference for DELL Data Collectors su
 |Virtual|Implemented|HTTPS|Is this a storage virtualization device?
 |===
 
-==== File Share
+
+=== File Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -131,7 +138,8 @@ The Data Collector Support Matrix provides reference for DELL Data Collectors su
 |Qtree Id|Implemented|HTTPS|unique id of the qtree
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -141,7 +149,8 @@ The Data Collector Support Matrix provides reference for DELL Data Collectors su
 |Originator ID|Implemented|HTTPS|
 |===
 
-==== Internal Volume
+
+=== Internal Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -165,7 +174,8 @@ The Data Collector Support Matrix provides reference for DELL Data Collectors su
 |Type|Gap|HTTPS|
 |===
 
-==== Qtree
+
+=== QTree
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -178,7 +188,8 @@ The Data Collector Support Matrix provides reference for DELL Data Collectors su
 |Type|Gap|HTTPS|
 |===
 
-==== Quota
+
+=== Quota
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -197,7 +208,8 @@ The Data Collector Support Matrix provides reference for DELL Data Collectors su
 |User/Group Target|Implemented|HTTPS|user/group target this quota refers to
 |===
 
-==== Share
+
+=== Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -208,7 +220,8 @@ The Data Collector Support Matrix provides reference for DELL Data Collectors su
 |Protocol|Implemented|HTTPS|enum for share protocol
 |===
 
-==== Share Initiator
+
+=== Share Initiator
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -217,7 +230,8 @@ The Data Collector Support Matrix provides reference for DELL Data Collectors su
 |Permission|Implemented|HTTPS|Permissions for this particular share
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -238,7 +252,8 @@ The Data Collector Support Matrix provides reference for DELL Data Collectors su
 |UUID|Implemented|HTTPS|
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -253,7 +268,8 @@ The Data Collector Support Matrix provides reference for DELL Data Collectors su
 |ManagementIp Addresses|Implemented|HTTPS|
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -279,9 +295,10 @@ The Data Collector Support Matrix provides reference for DELL Data Collectors su
 |Virtual|Implemented|HTTPS|Is this a storage virtualization device?
 |===
 
-=== Performance
 
-==== Disk
+== Performance
+
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -294,7 +311,8 @@ The Data Collector Support Matrix provides reference for DELL Data Collectors su
 |Throughput Write|Implemented|HTTPS|
 |===
 
-==== Internal Volume
+
+=== Internal Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -309,13 +327,14 @@ The Data Collector Support Matrix provides reference for DELL Data Collectors su
 |IOPs Write|Implemented|HTTPS|
 |Snapshot Reserved Capacity|Implemented|HTTPS|
 |Snapshot Used Capacity|Implemented|HTTPS|
-|Snapshot Used Capacity Ratio|Implemented|HTTPS|Reported as a time series
+|Snapshot Used Capacity Ratio|Implemented|HTTPS| Reported as a time series
 |Throughput Read|Implemented|HTTPS|
 |Throughput Total|Implemented|HTTPS|Average disk total rate (read and write across all disks) in MB/s
 |Throughput Write|Implemented|HTTPS|
 |===
 
-==== Qtree
+
+=== Qtree
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -326,7 +345,8 @@ The Data Collector Support Matrix provides reference for DELL Data Collectors su
 |Quota Capacity|Implemented|HTTPS|Physical used quota capacity
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -343,6 +363,14 @@ The Data Collector Support Matrix provides reference for DELL Data Collectors su
 |Throughput Read|Implemented|HTTPS|
 |Throughput Total|Implemented|HTTPS|Average disk total rate (read and write across all disks) in MB/s
 |Throughput Write|Implemented|HTTPS|
+|===
+
+
+=== Storage
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |Failed Raw Capacity|Implemented|HTTPS|
 |Raw Capacity|Implemented|HTTPS|
 |Spare Raw Capacity|Implemented|HTTPS|Raw capacity of spare disks (sum of all disks that are spare)
@@ -359,7 +387,8 @@ The Data Collector Support Matrix provides reference for DELL Data Collectors su
 |Throughput Write|Implemented|HTTPS|
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -379,7 +408,8 @@ The Data Collector Support Matrix provides reference for DELL Data Collectors su
 |Utilization Total|Implemented|HTTPS|
 |===
 
-==== Storage Node Data
+
+=== Storage Node Data
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -401,7 +431,8 @@ The Data Collector Support Matrix provides reference for DELL Data Collectors su
 |Utilization Total|Implemented|HTTPS|
 |===
 
-==== Storagepool Disk
+
+=== StoragePool Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -421,13 +452,15 @@ The Data Collector Support Matrix provides reference for DELL Data Collectors su
 |Other Used Capacity|Implemented|HTTPS|
 |Snapshot Reserved Capacity|Implemented|HTTPS|
 |Snapshot Used Capacity|Implemented|HTTPS|
-|Snapshot Used Capacity Ratio|Implemented|HTTPS|Reported as a time series
+|Snapshot Used Capacity Ratio|Implemented|HTTPS| Reported as a time series
 |Throughput Read|Implemented|HTTPS|
 |Throughput Total|Implemented|HTTPS|Average disk total rate (read and write across all disks) in MB/s
 |Throughput Write|Implemented|HTTPS|
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -441,13 +474,17 @@ Management APIs used by this data collector:
 |true
 |true
 
+
+
 |===
 
-'''
+== Dell EMC Isilon / PowerScale (CLI)
 
-== Dell EMC Isilon / Powerscale (cli)
+Models and versions supported by this data collector:
+
 
 === Models
+
 * A200
 * H400
 * H500
@@ -459,7 +496,9 @@ Management APIs used by this data collector:
 * X400
 * X410
 
+
 === Firmware Versions
+
 * 9.1.0.18
 * 9.1.0.19
 * 9.2.1.12
@@ -481,9 +520,9 @@ Management APIs used by this data collector:
 * v8.1.2.0
 
 
-=== Foundation
+== Foundation
 
-==== Disk
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -506,7 +545,8 @@ Management APIs used by this data collector:
 |Vendor Id|Implemented|SSH|
 |===
 
-==== Disk Group
+
+=== Disk Group
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -523,7 +563,8 @@ Management APIs used by this data collector:
 |Virtual|Implemented|SSH|Is this a storage virtualization device?
 |===
 
-==== File Share
+
+=== File Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -535,7 +576,8 @@ Management APIs used by this data collector:
 |Qtree Id|Implemented|SSH|unique id of the qtree
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -545,7 +587,8 @@ Management APIs used by this data collector:
 |Originator ID|Implemented|SSH|
 |===
 
-==== Internal Volume
+
+=== Internal Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -566,7 +609,8 @@ Management APIs used by this data collector:
 |Type|Gap|SSH|
 |===
 
-==== Qtree
+
+=== QTree
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -579,7 +623,8 @@ Management APIs used by this data collector:
 |Type|Gap|SSH|
 |===
 
-==== Quota
+
+=== Quota
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -598,7 +643,8 @@ Management APIs used by this data collector:
 |User/Group Target|Implemented|SSH|user/group target this quota refers to
 |===
 
-==== Share
+
+=== Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -609,7 +655,8 @@ Management APIs used by this data collector:
 |Protocol|Implemented|SSH|enum for share protocol
 |===
 
-==== Share Initiator
+
+=== Share Initiator
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -618,7 +665,8 @@ Management APIs used by this data collector:
 |Permission|Implemented|SSH|Permissions for this particular share
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -637,7 +685,8 @@ Management APIs used by this data collector:
 |Virtual|Implemented|SSH|Is this a storage virtualization device?
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -650,7 +699,8 @@ Management APIs used by this data collector:
 |ManagementIp Addresses|Implemented|SSH|
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -672,9 +722,10 @@ Management APIs used by this data collector:
 |Virtual|Implemented|SSH|Is this a storage virtualization device?
 |===
 
-=== Performance
 
-==== Internal Volume
+== Performance
+
+=== Internal Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -684,21 +735,31 @@ Management APIs used by this data collector:
 |Data Used Capacity|Implemented|SSH|
 |Snapshot Used Capacity|Implemented|SSH|
 |Snapshot Reserved Capacity|Implemented|SSH|
-|Snapshot Used Capacity Ratio|Implemented|SSH|Reported as a time series
+|Snapshot Used Capacity Ratio|Implemented|SSH| Reported as a time series
 |===
 
-==== Qtree
+
+=== Qtree
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
 |Quota Capacity|Implemented|SSH|Physical used quota capacity
+|===
+
+
+=== Qtree
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |Key|Implemented|SSH|
 |Server ID|Implemented|SSH|
 |Quota Capacity|Implemented|SSH|Physical used quota capacity
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -715,6 +776,14 @@ Management APIs used by this data collector:
 |Spare Raw Capacity|Implemented|SSH|Raw capacity of spare disks (sum of all disks that are spare)
 |StoragePools Capacity|Implemented|SSH|
 |Raw Capacity|Implemented|SSH|
+|===
+
+
+=== Storage
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |Key|Implemented|SSH|
 |Server ID|Implemented|SSH|
 |Raw Capacity|Implemented|SSH|
@@ -723,7 +792,8 @@ Management APIs used by this data collector:
 |StoragePools Capacity|Implemented|SSH|
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -742,7 +812,8 @@ Management APIs used by this data collector:
 |File Throughput Read|Implemented|SSH|
 |===
 
-==== Storage Node Data
+
+=== Storage Node Data
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -763,7 +834,8 @@ Management APIs used by this data collector:
 |Utilization Total|Implemented|SSH|
 |===
 
-==== Storagepool Disk
+
+=== StoragePool Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -778,10 +850,12 @@ Management APIs used by this data collector:
 |Over Commit Capacity Ratio|Implemented|SSH|Reported as a time series
 |Snapshot Used Capacity|Implemented|SSH|
 |Snapshot Reserved Capacity|Implemented|SSH|
-|Snapshot Used Capacity Ratio|Implemented|SSH|Reported as a time series
+|Snapshot Used Capacity Ratio|Implemented|SSH| Reported as a time series
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -795,13 +869,17 @@ Management APIs used by this data collector:
 |true
 |true
 
+
+
 |===
 
-'''
+== Dell Unisphere REST
 
-== Dell Unisphere Rest
+Models and versions supported by this data collector:
 
-=== Models
+
+=== API Versions
+
 * V10.0.0.5
 * V10.0.1.5
 * V10.1.0.1
@@ -822,6 +900,23 @@ Management APIs used by this data collector:
 * V9.2.4.6
 * V9.2.4.7
 * V9.2.4.9
+
+
+=== Models
+
+* PowerMax_2000
+* PowerMax_2500
+* PowerMax_8000
+* PowerMax_8500
+* VMAX200K
+* VMAX250F
+* VMAX400K
+* VMAX450F
+* VMAX950F
+
+
+=== Firmware Versions
+
 * 5977.1131.1131 build 615
 * 5977.1151.1151 build 60 build 60
 * 5978.711.711 build 205
@@ -865,21 +960,9 @@ Management APIs used by this data collector:
 * 6079.225.0 build 86 build 86
 * 6079.275.0 build 221 build 221
 
-=== Firmware Versions
-* PowerMax_2000
-* PowerMax_2500
-* PowerMax_8000
-* PowerMax_8500
-* VMAX200K
-* VMAX250F
-* VMAX400K
-* VMAX450F
-* VMAX950F
+== Foundation
 
-
-=== Foundation
-
-==== Disk
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -895,7 +978,8 @@ Management APIs used by this data collector:
 |Vendor|Implemented|HTTPS|
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -912,7 +996,8 @@ Management APIs used by this data collector:
 |Originator Key|Implemented|HTTPS|
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -932,7 +1017,8 @@ Management APIs used by this data collector:
 |Virtual|Implemented|HTTPS|Is this a storage virtualization device?
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -941,7 +1027,8 @@ Management APIs used by this data collector:
 |UUID|Implemented|HTTPS|
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -961,7 +1048,8 @@ Management APIs used by this data collector:
 |Effective Used Capacity Percent|Implemented|HTTPS|
 |===
 
-==== Storage Synchronization
+
+=== Storage Synchronization
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -977,7 +1065,8 @@ Management APIs used by this data collector:
 |Technology|Implemented|HTTPS|technology which causes storage efficiency changed
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1002,7 +1091,8 @@ Management APIs used by this data collector:
 |storage Groups|Implemented|HTTPS|
 |===
 
-==== Volume Map
+
+=== Volume Map
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1013,7 +1103,8 @@ Management APIs used by this data collector:
 |Type|Gap|HTTPS|
 |===
 
-==== Volume Mask
+
+=== Volume Mask
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1024,7 +1115,8 @@ Management APIs used by this data collector:
 |Type|Gap|HTTPS|
 |===
 
-==== Wwn Alias
+
+=== WWN Alias
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1035,9 +1127,10 @@ Management APIs used by this data collector:
 |WWN|Implemented|HTTPS|
 |===
 
-=== Performance
 
-==== Disk
+== Performance
+
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1053,7 +1146,8 @@ Management APIs used by this data collector:
 |Utilization Total|Implemented|HTTPS|
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1080,7 +1174,8 @@ Management APIs used by this data collector:
 |Write Pending|Implemented|HTTPS|total write pending
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1097,7 +1192,8 @@ Management APIs used by this data collector:
 |Utilization Total|Implemented|HTTPS|
 |===
 
-==== Storage Node Data
+
+=== Storage Node Data
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1116,7 +1212,8 @@ Management APIs used by this data collector:
 |Utilization Total|Implemented|HTTPS|
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1137,14 +1234,15 @@ Management APIs used by this data collector:
 |Key|Implemented|HTTPS|
 |Server ID|Implemented|HTTPS|
 |Snapshot Reserved Capacity|Implemented|HTTPS|
-|Snapshot Used Capacity Ratio|Implemented|HTTPS|Reported as a time series
+|Snapshot Used Capacity Ratio|Implemented|HTTPS| Reported as a time series
 |Throughput Read|Implemented|HTTPS|
 |Throughput Total|Implemented|HTTPS|Average disk total rate (read and write across all disks) in MB/s
 |Throughput Write|Implemented|HTTPS|
 |Utilization Total|Implemented|HTTPS|
 |===
 
-==== Storagepool Disk
+
+=== StoragePool Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1163,14 +1261,15 @@ Management APIs used by this data collector:
 |IOPs Total|Implemented|HTTPS|
 |IOPs Write|Implemented|HTTPS|
 |Snapshot Reserved Capacity|Implemented|HTTPS|
-|Snapshot Used Capacity Ratio|Implemented|HTTPS|Reported as a time series
+|Snapshot Used Capacity Ratio|Implemented|HTTPS| Reported as a time series
 |Throughput Read|Implemented|HTTPS|
 |Throughput Total|Implemented|HTTPS|Average disk total rate (read and write across all disks) in MB/s
 |Throughput Write|Implemented|HTTPS|
 |Utilization Total|Implemented|HTTPS|
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1189,6 +1288,14 @@ Management APIs used by this data collector:
 |Throughput Read|Implemented|HTTPS|
 |Throughput Total|Implemented|HTTPS|Average disk total rate (read and write across all disks) in MB/s
 |Throughput Write|Implemented|HTTPS|
+|===
+
+
+=== Volume
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |Key|Implemented|HTTPS|
 |Server ID|Implemented|HTTPS|
 |Throughput Read|Implemented|HTTPS|
@@ -1207,7 +1314,9 @@ Management APIs used by this data collector:
 |Total Compression Savings|Implemented|HTTPS|
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -1221,4 +1330,3 @@ Management APIs used by this data collector:
 |true
 |true
 
-|===

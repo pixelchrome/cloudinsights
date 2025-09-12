@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: dc_matrix_brocade.html
-summary: The Data Collector Support Matrix contains detailed information on supported Brocade data collectors.
-keywords: support matrix, {vendor}
+summary: The Data Collector Support Matrix contains detailed information on Brocade data collectors.
+keywords: support matrix, brocade, collector, matrix
 ---
 
-= Data Collector Support Matrix - Brocade
+= Data Collector Support Matrix for Brocade
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,12 +13,15 @@ keywords: support matrix, {vendor}
 :imagesdir: ./media/
 
 [.lead]
-The Data Collector Support Matrix provides reference for BROCADE Data Collectors supported by Data Infrastructure Insights, including vendor and model information.
-
+The Data Collector Support Matrix provides reference for Brocade Data Collectors.
 
 == Brocade Fibre Channel Switches
 
+Models and versions supported by this data collector:
+
+
 === Models
+
 * 176.51
 * 183.0
 * Brocade 200E
@@ -54,7 +57,9 @@ The Data Collector Support Matrix provides reference for BROCADE Data Collectors
 * Brocade X7-4
 * Brocade X7-8
 
+
 === Firmware Versions
+
 * v6.2.2b
 * v6.2.2f
 * v6.2.2g
@@ -164,9 +169,9 @@ The Data Collector Support Matrix provides reference for BROCADE Data Collectors
 * v9.2.2
 
 
-=== Foundation
+== Foundation
 
-==== Fc Name Server Entry
+=== FC Name Server Entry
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -177,7 +182,8 @@ The Data Collector Support Matrix provides reference for BROCADE Data Collectors
 |Switch Port WWN|Implemented|SSH|
 |===
 
-==== Fabric
+
+=== Fabric
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -188,7 +194,8 @@ The Data Collector Support Matrix provides reference for BROCADE Data Collectors
 |WWN|Implemented|SSH|
 |===
 
-==== Ivr Physical Fabric
+
+=== IVR Physical Fabric
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -197,7 +204,8 @@ The Data Collector Support Matrix provides reference for BROCADE Data Collectors
 |Lowest IVR Chassis WWN|Implemented|SSH|identifier of the IVR fabric
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -208,7 +216,8 @@ The Data Collector Support Matrix provides reference for BROCADE Data Collectors
 |Originator Key|Implemented|SSH|
 |===
 
-==== Logical Switch
+
+=== Logical Switch
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -228,7 +237,8 @@ The Data Collector Support Matrix provides reference for BROCADE Data Collectors
 |WWN|Implemented|SSH|
 |===
 
-==== Port
+
+=== Port
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -251,7 +261,8 @@ The Data Collector Support Matrix provides reference for BROCADE Data Collectors
 |WWN|Implemented|SSH|
 |===
 
-==== Switch
+
+=== Switch
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -272,7 +283,8 @@ The Data Collector Support Matrix provides reference for BROCADE Data Collectors
 |WWN|Implemented|SSH|
 |===
 
-==== Unknown
+
+=== Unknown
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -286,7 +298,8 @@ The Data Collector Support Matrix provides reference for BROCADE Data Collectors
 |WWN|Implemented|SSH|
 |===
 
-==== Wwn Alias
+
+=== WWN Alias
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -297,7 +310,8 @@ The Data Collector Support Matrix provides reference for BROCADE Data Collectors
 |WWN|Implemented|SSH|
 |===
 
-==== Zone
+
+=== Zone
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -305,7 +319,8 @@ The Data Collector Support Matrix provides reference for BROCADE Data Collectors
 |Zone Name|Implemented|SSH|
 |===
 
-==== Zone Member
+
+=== Zone Member
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -314,7 +329,8 @@ The Data Collector Support Matrix provides reference for BROCADE Data Collectors
 |WWN|Implemented|SSH|
 |===
 
-==== Zoning Capabilities
+
+=== Zoning Capabilities
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -325,9 +341,10 @@ The Data Collector Support Matrix provides reference for BROCADE Data Collectors
 |WWN|Implemented|SSH|
 |===
 
-=== Performance
 
-==== Port
+== Performance
+
+=== port
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -344,7 +361,7 @@ The Data Collector Support Matrix provides reference for BROCADE Data Collectors
 |Port Error Short Frame|Implemented|SNMP|Port errors due to short frame
 |Port Errors Link Failure|Implemented|SNMP|Port Errors link failure
 |Port Errors Link Reset Rx|Implemented|SNMP|Port Errors Link Reset Rx
-|Port Error Transmit Link Reset|Implemented|SNMP|Port Error due to link reset
+|Port Error Transmit Link Reset |Implemented|SNMP|Port Error due to link reset
 |Port Error Signal Loss|Implemented|SNMP|Port errors signal loss
 |Port Error Sync Loss|Implemented|SNMP|Port error sync loss
 |Port Error Transmit Discard Timeout|Implemented|SNMP|Port errors timeout discard
@@ -362,7 +379,8 @@ The Data Collector Support Matrix provides reference for BROCADE Data Collectors
 |Traffic Transmit Utilization|Implemented|SNMP|
 |===
 
-==== Port Data
+
+=== Port Data
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -380,7 +398,7 @@ The Data Collector Support Matrix provides reference for BROCADE Data Collectors
 |Port Error Short Frame|Implemented|SNMP|Port errors due to short frame
 |Port Errors Link Failure|Implemented|SNMP|Port Errors link failure
 |Port Errors Link Reset Rx|Implemented|SNMP|Port Errors Link Reset Rx
-|Port Error Transmit Link Reset|Implemented|SNMP|Port Error due to link reset
+|Port Error Transmit Link Reset |Implemented|SNMP|Port Error due to link reset
 |Port Error Signal Loss|Implemented|SNMP|Port errors signal loss
 |Port Error Sync Loss|Implemented|SNMP|Port error sync loss
 |Port Error Transmit Discard Timeout|Implemented|SNMP|Port errors timeout discard
@@ -399,7 +417,9 @@ The Data Collector Support Matrix provides reference for BROCADE Data Collectors
 |Traffic Transmit Utilization|Implemented|SNMP|
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -433,21 +453,23 @@ Management APIs used by this data collector:
 |true
 |true
 
+
+
 |===
 
-'''
+== Brocade Network Advisor HTTP
 
-== Brocade Network Advisor Http
+Models and versions supported by this data collector:
 
-=== Models
+
+=== API Versions
+
 * 14.4.3
 * 14.4.4
-* v7.3.0b
-* v7.4.1b
-* v8.2.3c1
-* v9.0.1e1
 
-=== Firmware Versions
+
+=== Models
+
 * Brocade 6520
 * Brocade DCX 8510-4
 * Brocade G620
@@ -455,9 +477,16 @@ Management APIs used by this data collector:
 * EMC Connectrix DS-6510B
 
 
-=== Foundation
+=== Firmware Versions
 
-==== Fc Name Server Entry
+* v7.3.0b
+* v7.4.1b
+* v8.2.3c1
+* v9.0.1e1
+
+== Foundation
+
+=== FC Name Server Entry
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -468,7 +497,8 @@ Management APIs used by this data collector:
 |Physical Port WWN|Implemented|HTTP/S|
 |===
 
-==== Fabric
+
+=== Fabric
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -479,7 +509,8 @@ Management APIs used by this data collector:
 |WWN|Implemented|HTTP/S|
 |===
 
-==== Ivr Physical Fabric
+
+=== IVR Physical Fabric
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -488,7 +519,8 @@ Management APIs used by this data collector:
 |IVR Chassis WWNs|Implemented|HTTP/S|Comma seperated list of IVR enabled chassis WWNs
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -502,7 +534,8 @@ Management APIs used by this data collector:
 |Originator Key|Implemented|HTTP/S|
 |===
 
-==== Logical Switch
+
+=== Logical Switch
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -522,7 +555,8 @@ Management APIs used by this data collector:
 |Chassis WWN|Implemented|HTTP/S|
 |===
 
-==== Port
+
+=== Port
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -544,7 +578,8 @@ Management APIs used by this data collector:
 |GBIC Type|Implemented|HTTP/S|
 |===
 
-==== Switch
+
+=== Switch
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -565,7 +600,8 @@ Management APIs used by this data collector:
 |VSAN Enabled|Implemented|HTTP/S|
 |===
 
-==== Unknown
+
+=== Unknown
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -577,7 +613,8 @@ Management APIs used by this data collector:
 |Model|Implemented|HTTP/S|
 |===
 
-==== Wwn Alias
+
+=== WWN Alias
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -588,7 +625,8 @@ Management APIs used by this data collector:
 |WWN|Implemented|HTTP/S|
 |===
 
-==== Zone
+
+=== Zone
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -596,7 +634,8 @@ Management APIs used by this data collector:
 |Zone Name|Implemented|HTTP/S|
 |===
 
-==== Zone Member
+
+=== Zone Member
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -605,7 +644,8 @@ Management APIs used by this data collector:
 |WWN|Implemented|HTTP/S|
 |===
 
-==== Zoning Capabilities
+
+=== Zoning Capabilities
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -615,9 +655,10 @@ Management APIs used by this data collector:
 |WWN|Implemented|HTTP/S|
 |===
 
-=== Performance
 
-==== Port
+== Performance
+
+=== port
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -627,7 +668,9 @@ Management APIs used by this data collector:
 |BB Credit Zero Ms Transmitted|Implemented|HTTP/S|BB Credit Zero Ms Transmitted
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -641,13 +684,17 @@ Management APIs used by this data collector:
 |true
 |true
 
+
+
 |===
 
-'''
+== Brocade FOS REST
 
-== Brocade Fos Rest
+Models and versions supported by this data collector:
+
 
 === Models
+
 * 183.0
 * 184.0
 * 190.0
@@ -668,7 +715,9 @@ Management APIs used by this data collector:
 * Brocade X7-4
 * Brocade X7-8
 
+
 === Firmware Versions
+
 * v8.2.2a
 * v8.2.2d
 * v8.2.2d4
@@ -710,9 +759,9 @@ Management APIs used by this data collector:
 * v9.2.2
 
 
-=== Foundation
+== Foundation
 
-==== Fc Name Server Entry
+=== FC Name Server Entry
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -723,7 +772,8 @@ Management APIs used by this data collector:
 |Switch Port WWN|Implemented|HTTPS|
 |===
 
-==== Fabric
+
+=== Fabric
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -734,7 +784,8 @@ Management APIs used by this data collector:
 |WWN|Implemented|HTTPS|
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -748,7 +799,8 @@ Management APIs used by this data collector:
 |Originator Key|Implemented|HTTPS|
 |===
 
-==== Logical Switch
+
+=== Logical Switch
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -768,7 +820,8 @@ Management APIs used by this data collector:
 |WWN|Implemented|HTTPS|
 |===
 
-==== Port
+
+=== Port
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -791,7 +844,8 @@ Management APIs used by this data collector:
 |Description|Implemented|HTTPS|
 |===
 
-==== Switch
+
+=== Switch
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -812,7 +866,8 @@ Management APIs used by this data collector:
 |WWN|Implemented|HTTPS|
 |===
 
-==== Unknown
+
+=== Unknown
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -825,7 +880,8 @@ Management APIs used by this data collector:
 |WWN|Implemented|HTTPS|
 |===
 
-==== Wwn Alias
+
+=== WWN Alias
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -836,7 +892,8 @@ Management APIs used by this data collector:
 |WWN|Implemented|HTTPS|
 |===
 
-==== Zone
+
+=== Zone
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -844,7 +901,8 @@ Management APIs used by this data collector:
 |Zone Name|Implemented|HTTPS|
 |===
 
-==== Zone Member
+
+=== Zone Member
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -853,7 +911,8 @@ Management APIs used by this data collector:
 |WWN|Implemented|HTTPS|
 |===
 
-==== Zoning Capabilities
+
+=== Zoning Capabilities
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -864,9 +923,10 @@ Management APIs used by this data collector:
 |WWN|Implemented|HTTPS|
 |===
 
-=== Performance
 
-==== Port
+== Performance
+
+=== port
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -883,7 +943,7 @@ Management APIs used by this data collector:
 |Port Error Short Frame|Implemented|HTTPS|Port errors due to short frame
 |Port Errors Link Failure|Implemented|HTTPS|Port Errors link failure
 |Port Errors Link Reset Rx|Implemented|HTTPS|Port Errors Link Reset Rx
-|Port Error Transmit Link Reset|Implemented|HTTPS|Port Error due to link reset
+|Port Error Transmit Link Reset |Implemented|HTTPS|Port Error due to link reset
 |Port Error Signal Loss|Implemented|HTTPS|Port errors signal loss
 |Port Error Sync Loss|Implemented|HTTPS|Port error sync loss
 |Total Port Errors|Implemented|HTTPS|Total port errors
@@ -900,7 +960,8 @@ Management APIs used by this data collector:
 |Traffic Transmit Utilization|Implemented|HTTPS|
 |===
 
-==== Port Data
+
+=== Port Data
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -918,7 +979,7 @@ Management APIs used by this data collector:
 |Port Error Short Frame|Implemented|HTTPS|Port errors due to short frame
 |Port Errors Link Failure|Implemented|HTTPS|Port Errors link failure
 |Port Errors Link Reset Rx|Implemented|HTTPS|Port Errors Link Reset Rx
-|Port Error Transmit Link Reset|Implemented|HTTPS|Port Error due to link reset
+|Port Error Transmit Link Reset |Implemented|HTTPS|Port Error due to link reset
 |Port Error Signal Loss|Implemented|HTTPS|Port errors signal loss
 |Port Error Sync Loss|Implemented|HTTPS|Port error sync loss
 |Total Port Errors|Implemented|HTTPS|Total port errors
@@ -936,7 +997,9 @@ Management APIs used by this data collector:
 |Traffic Transmit Utilization|Implemented|HTTPS|
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -950,4 +1013,3 @@ Management APIs used by this data collector:
 |true
 |true
 
-|===

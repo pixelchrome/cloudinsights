@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: dc_matrix_ibm.html
-summary: The Data Collector Support Matrix contains detailed information on supported Ibm data collectors.
-keywords: support matrix, {vendor}
+summary: The Data Collector Support Matrix contains detailed information on Ibm data collectors.
+keywords: support matrix, ibm, collector, matrix
 ---
 
-= Data Collector Support Matrix - Ibm
+= Data Collector Support Matrix for Ibm
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,20 +13,17 @@ keywords: support matrix, {vendor}
 :imagesdir: ./media/
 
 [.lead]
-The Data Collector Support Matrix provides reference for IBM Data Collectors supported by Data Infrastructure Insights, including vendor and model information.
+The Data Collector Support Matrix provides reference for Ibm Data Collectors.
 
-
-== Ibm Cleversafe
-
-
-|===
+== IBM Cleversafe
 
 
 
-|===
-=== Foundation
 
-==== Disk
+
+== Foundation
+
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -43,7 +40,8 @@ The Data Collector Support Matrix provides reference for IBM Data Collectors sup
 |Status|Implemented|HTTPS|
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -53,7 +51,8 @@ The Data Collector Support Matrix provides reference for IBM Data Collectors sup
 |Originator ID|Implemented|HTTPS|
 |===
 
-==== Internal Volume
+
+=== Internal Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -74,7 +73,8 @@ The Data Collector Support Matrix provides reference for IBM Data Collectors sup
 |Status|Implemented|HTTPS|
 |===
 
-==== Qtree
+
+=== QTree
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -84,7 +84,8 @@ The Data Collector Support Matrix provides reference for IBM Data Collectors sup
 |Type|Gap|HTTPS|
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -101,7 +102,8 @@ The Data Collector Support Matrix provides reference for IBM Data Collectors sup
 |Virtual|Implemented|HTTPS|Is this a storage virtualization device?
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -114,7 +116,8 @@ The Data Collector Support Matrix provides reference for IBM Data Collectors sup
 |ManagementIp Addresses|Implemented|HTTPS|
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -132,7 +135,9 @@ The Data Collector Support Matrix provides reference for IBM Data Collectors sup
 |Virtual|Implemented|HTTPS|Is this a storage virtualization device?
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -146,13 +151,17 @@ Management APIs used by this data collector:
 |true
 |true
 
+
+
 |===
 
-'''
+== IBM DS 8K (DSCLI)
 
-== Ibm Ds 8k (dscli)
+Models and versions supported by this data collector:
+
 
 === Models
+
 * 2107-951
 * 2107-961
 * 2107-993
@@ -160,7 +169,9 @@ Management APIs used by this data collector:
 * 2107-996
 * 2107-A05
 
+
 === Firmware Versions
+
 * -
 * 7.10.1.8
 * 7.6.31.4250
@@ -172,9 +183,9 @@ Management APIs used by this data collector:
 * 7.9.41.65
 
 
-=== Foundation
+== Foundation
 
-==== Disk
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -195,7 +206,8 @@ Management APIs used by this data collector:
 |Vendor Id|Implemented|DSNI|
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -206,7 +218,8 @@ Management APIs used by this data collector:
 |Originator Key|Implemented|DSNI|
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -226,7 +239,8 @@ Management APIs used by this data collector:
 |Virtual|Implemented|DSNI|Is this a storage virtualization device?
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -249,7 +263,8 @@ Management APIs used by this data collector:
 |Virtual|Implemented|DSNI|Is this a storage virtualization device?
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -265,7 +280,8 @@ Management APIs used by this data collector:
 |Used Capacity|Implemented|DSNI|
 |===
 
-==== Volume Map
+
+=== Volume Map
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -275,7 +291,8 @@ Management APIs used by this data collector:
 |Storage Port|Implemented|DSNI|
 |===
 
-==== Volume Mask
+
+=== Volume Mask
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -285,7 +302,8 @@ Management APIs used by this data collector:
 |Storage Port|Implemented|DSNI|
 |===
 
-==== Wwn Alias
+
+=== WWN Alias
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -297,9 +315,10 @@ Management APIs used by this data collector:
 |WWN|Implemented|DSNI|
 |===
 
-=== Performance
 
-==== Disk
+== Performance
+
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -313,6 +332,14 @@ Management APIs used by this data collector:
 |Throughput Total|Implemented|DSNI|Average disk total rate (read and write across all disks) in MB/s
 |IOPs Total|Implemented|DSNI|
 |Utilization Total|Implemented|DSNI|
+|===
+
+
+=== Disk
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |IOPs Read|Implemented|DSNI|Number of read IOPs on the disk
 |IOPs Total|Implemented|DSNI|
 |IOPs Write|Implemented|DSNI|
@@ -326,7 +353,8 @@ Management APIs used by this data collector:
 |Utilization Write|Implemented|DSNI|
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -344,6 +372,14 @@ Management APIs used by this data collector:
 |Cache Hit Ratio Write|Implemented|DSNI|
 |Throughput Write|Implemented|DSNI|
 |Throughput Total|Implemented|DSNI|Average disk total rate (read and write across all disks) in MB/s
+|===
+
+
+=== Storage
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |Failed Raw Capacity|Implemented|DSNI|
 |Raw Capacity|Implemented|DSNI|
 |Spare Raw Capacity|Implemented|DSNI|Raw capacity of spare disks (sum of all disks that are spare)
@@ -352,7 +388,8 @@ Management APIs used by this data collector:
 |Server ID|Implemented|DSNI|
 |===
 
-==== Storagepool Disk
+
+=== StoragePool Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -376,7 +413,8 @@ Management APIs used by this data collector:
 |Over Commit Capacity Ratio|Implemented|DSNI|Reported as a time series
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -397,6 +435,14 @@ Management APIs used by this data collector:
 |Raw Capacity|Implemented|DSNI|
 |Used Capacity|Implemented|DSNI|
 |Capacity Used Ratio|Implemented|DSNI|
+|===
+
+
+=== Volume
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |Cache Hit Ratio Read|Implemented|DSNI|
 |Cache Hit Ratio Total|Implemented|DSNI|
 |Cache Hit Ratio Write|Implemented|DSNI|
@@ -417,7 +463,9 @@ Management APIs used by this data collector:
 |Throughput Write|Implemented|DSNI|
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -441,21 +489,19 @@ Management APIs used by this data collector:
 |true
 |true
 
-|===
-
-'''
-
-== Ibm Powervm (ssh)
 
 
 |===
 
+== IBM PowerVM (SSH)
 
 
-|===
-=== Foundation
 
-==== Data Store
+
+
+== Foundation
+
+=== Data Store
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -468,7 +514,8 @@ Management APIs used by this data collector:
 |Virtual Center Ip|Implemented|SSH|
 |===
 
-==== Lun
+
+=== LUN
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -480,7 +527,8 @@ Management APIs used by this data collector:
 |OID|Implemented|SSH|
 |===
 
-==== Path
+
+=== Path
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -493,7 +541,8 @@ Management APIs used by this data collector:
 |Type|Gap|SSH|
 |===
 
-==== Server
+
+=== Server
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -504,7 +553,8 @@ Management APIs used by this data collector:
 |Virtual Center Ip|Implemented|SSH|
 |===
 
-==== Virtual Disk
+
+=== Virtual Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -517,7 +567,8 @@ Management APIs used by this data collector:
 |Type|Gap|SSH|
 |===
 
-==== Virtualmachine
+
+=== VirtualMachine
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -536,7 +587,8 @@ Management APIs used by this data collector:
 |Processors|Implemented|SSH|
 |===
 
-==== Virtualmachine Disk
+
+=== VirtualMachine Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -546,7 +598,8 @@ Management APIs used by this data collector:
 |VirtualMachine OID|Implemented|SSH|
 |===
 
-==== Host
+
+=== Host
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -562,7 +615,8 @@ Management APIs used by this data collector:
 |Platform Type|Implemented|SSH|
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -572,7 +626,9 @@ Management APIs used by this data collector:
 |Originator ID|Implemented|SSH|
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -586,13 +642,17 @@ Management APIs used by this data collector:
 |true
 |true
 
+
+
 |===
 
-'''
+== IBM SVC (CLI)
 
-== Ibm Svc (cli)
+Models and versions supported by this data collector:
+
 
 === Models
+
 * 2072-12F
 * 2072-12G
 * 2072-224
@@ -654,7 +714,9 @@ Management APIs used by this data collector:
 * 9848-UG8
 * SVC
 
+
 === Firmware Versions
+
 * 1.5.2.7
 * 1.6.1.2
 * 1.6.1.4
@@ -709,9 +771,9 @@ Management APIs used by this data collector:
 * 8.7.0.3
 
 
-=== Foundation
+== Foundation
 
-==== Disk
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -733,7 +795,8 @@ Management APIs used by this data collector:
 |Vendor Id|Implemented|SSH|
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -743,7 +806,8 @@ Management APIs used by this data collector:
 |Originator ID|Implemented|SSH|
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -763,7 +827,8 @@ Management APIs used by this data collector:
 |Virtual|Implemented|SSH|Is this a storage virtualization device?
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -777,7 +842,8 @@ Management APIs used by this data collector:
 |Parent Serial Number|Implemented|SSH|
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -802,7 +868,8 @@ Management APIs used by this data collector:
 |Encrypted|Implemented|SSH|
 |===
 
-==== Storage Synchronization
+
+=== Storage Synchronization
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -818,7 +885,8 @@ Management APIs used by this data collector:
 |Technology|Implemented|SSH|technology which causes storage efficiency changed
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -843,7 +911,8 @@ Management APIs used by this data collector:
 |Encrypted|Implemented|SSH|
 |===
 
-==== Volume Map
+
+=== Volume Map
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -853,7 +922,8 @@ Management APIs used by this data collector:
 |Storage Port|Implemented|SSH|
 |===
 
-==== Volume Mask
+
+=== Volume Mask
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -864,7 +934,8 @@ Management APIs used by this data collector:
 |Type|Gap|SSH|
 |===
 
-==== Wwn Alias
+
+=== WWN Alias
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -875,9 +946,10 @@ Management APIs used by this data collector:
 |WWN|Implemented|SSH|
 |===
 
-=== Performance
 
-==== Disk
+== Performance
+
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -891,6 +963,14 @@ Management APIs used by this data collector:
 |Read Utilization|Implemented|SSH|
 |Utilization Total|Implemented|SSH|
 |Utilization Write|Implemented|SSH|
+|===
+
+
+=== Disk
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |IOPs Read|Implemented|SSH|Number of read IOPs on the disk
 |IOPs Total|Implemented|SSH|
 |IOPs Write|Implemented|SSH|
@@ -904,7 +984,8 @@ Management APIs used by this data collector:
 |Utilization Write|Implemented|SSH|
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -926,6 +1007,14 @@ Management APIs used by this data collector:
 |Throughput Read|Implemented|SSH|
 |Throughput Total|Implemented|SSH|Average disk total rate (read and write across all disks) in MB/s
 |Throughput Write|Implemented|SSH|
+|===
+
+
+=== Storage
+[cols="25,25,25,25", options="header"]
+|===
+^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
+
 |Failed Raw Capacity|Implemented|SSH|
 |Raw Capacity|Implemented|SSH|
 |Spare Raw Capacity|Implemented|SSH|Raw capacity of spare disks (sum of all disks that are spare)
@@ -934,7 +1023,8 @@ Management APIs used by this data collector:
 |Server ID|Implemented|SSH|
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -952,7 +1042,8 @@ Management APIs used by this data collector:
 |Utilization Total|Implemented|SSH|
 |===
 
-==== Storage Node Data
+
+=== Storage Node Data
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -972,7 +1063,8 @@ Management APIs used by this data collector:
 |Utilization Total|Implemented|SSH|
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -987,7 +1079,8 @@ Management APIs used by this data collector:
 |Over Commit Capacity Ratio|Implemented|SSH|Reported as a time series
 |===
 
-==== Storagepool Disk
+
+=== StoragePool Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1009,7 +1102,8 @@ Management APIs used by this data collector:
 |Utilization Write|Implemented|SSH|
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1034,7 +1128,9 @@ Management APIs used by this data collector:
 |Throughput Write|Implemented|SSH|
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -1048,22 +1144,28 @@ Management APIs used by this data collector:
 |true
 |true
 
+
+
 |===
 
-'''
+== IBM XIV & A9000 (XIVCLI)
 
-== Ibm Xiv & A9000 (xivcli)
+Models and versions supported by this data collector:
+
 
 === Models
+
 * A14
 
+
 === Firmware Versions
+
 * 10.2.4.e
 
 
-=== Foundation
+== Foundation
 
-==== Disk
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1082,7 +1184,8 @@ Management APIs used by this data collector:
 |Type Enum|Implemented|XIV CLI|enum for disk type
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1095,7 +1198,8 @@ Management APIs used by this data collector:
 |Client Api Version|Implemented|XIV CLI|
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1114,7 +1218,8 @@ Management APIs used by this data collector:
 |Failed Raw Capacity|Implemented|XIV CLI|Raw capacity of failed disks (sum of all disks that are failed)
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1139,7 +1244,8 @@ Management APIs used by this data collector:
 |Soft Limit (MB)|Implemented|XIV CLI|logical volume size that is defined during volume creation or resizing operations
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1157,7 +1263,8 @@ Management APIs used by this data collector:
 |Compression Enabled|Implemented|XIV CLI|
 |===
 
-==== Volume Map
+
+=== Volume Map
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1166,7 +1273,8 @@ Management APIs used by this data collector:
 |Protocol Controller|Implemented|XIV CLI|
 |===
 
-==== Volume Mask
+
+=== Volume Mask
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1175,7 +1283,8 @@ Management APIs used by this data collector:
 |Protocol Controller|Implemented|XIV CLI|
 |===
 
-==== Wwn Alias
+
+=== WWN Alias
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1187,7 +1296,9 @@ Management APIs used by this data collector:
 |Host OS|Implemented|XIV CLI|
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -1211,4 +1322,3 @@ Management APIs used by this data collector:
 |true
 |false
 
-|===

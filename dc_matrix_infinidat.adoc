@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: dc_matrix_infinidat.html
-summary: The Data Collector Support Matrix contains detailed information on supported Infinidat data collectors.
-keywords: support matrix, {vendor}
+summary: The Data Collector Support Matrix contains detailed information on Infinidat data collectors.
+keywords: support matrix, infinidat, collector, matrix
 ---
 
-= Data Collector Support Matrix - Infinidat
+= Data Collector Support Matrix for Infinidat
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,16 +13,22 @@ keywords: support matrix, {vendor}
 :imagesdir: ./media/
 
 [.lead]
-The Data Collector Support Matrix provides reference for INFINIDAT Data Collectors supported by Data Infrastructure Insights, including vendor and model information.
+The Data Collector Support Matrix provides reference for Infinidat Data Collectors.
 
-== Infinidat Infinibox (http)
+== Infinidat Infinibox (HTTP)
+
+Models and versions supported by this data collector:
+
 
 === Models
+
 * F4303
 * F6230
 * F6240
 
+
 === Firmware Versions
+
 * 6.0.20.40
 * 6.0.31.0
 * 7.1.14.0
@@ -31,9 +37,9 @@ The Data Collector Support Matrix provides reference for INFINIDAT Data Collecto
 * 8.1.0.280
 
 
-=== Foundation
+== Foundation
 
-==== Disk
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -51,7 +57,8 @@ The Data Collector Support Matrix provides reference for INFINIDAT Data Collecto
 |Vendor|Implemented|HTTPS|
 |===
 
-==== File Share
+
+=== File Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -63,7 +70,8 @@ The Data Collector Support Matrix provides reference for INFINIDAT Data Collecto
 |Qtree Id|Implemented|HTTPS|unique id of the qtree
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -74,7 +82,8 @@ The Data Collector Support Matrix provides reference for INFINIDAT Data Collecto
 |Originator Key|Implemented|HTTPS|
 |===
 
-==== Internal Volume
+
+=== Internal Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -92,7 +101,8 @@ The Data Collector Support Matrix provides reference for INFINIDAT Data Collecto
 |Type|Gap|HTTPS|
 |===
 
-==== Qtree
+
+=== QTree
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -102,7 +112,8 @@ The Data Collector Support Matrix provides reference for INFINIDAT Data Collecto
 |Type|Gap|HTTPS|
 |===
 
-==== Share
+
+=== Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -112,7 +123,8 @@ The Data Collector Support Matrix provides reference for INFINIDAT Data Collecto
 |Protocol|Implemented|HTTPS|enum for share protocol
 |===
 
-==== Share Initiator
+
+=== Share Initiator
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -121,7 +133,8 @@ The Data Collector Support Matrix provides reference for INFINIDAT Data Collecto
 |Permission|Implemented|HTTPS|Permissions for this particular share
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -142,7 +155,8 @@ The Data Collector Support Matrix provides reference for INFINIDAT Data Collecto
 |Virtual|Implemented|HTTPS|Is this a storage virtualization device?
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -153,7 +167,8 @@ The Data Collector Support Matrix provides reference for INFINIDAT Data Collecto
 |UUID|Implemented|HTTPS|
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -177,7 +192,8 @@ The Data Collector Support Matrix provides reference for INFINIDAT Data Collecto
 |Virtual|Implemented|HTTPS|Is this a storage virtualization device?
 |===
 
-==== Storage Synchronization
+
+=== Storage Synchronization
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -193,7 +209,8 @@ The Data Collector Support Matrix provides reference for INFINIDAT Data Collecto
 |Technology|Implemented|HTTPS|technology which causes storage efficiency changed
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -213,7 +230,8 @@ The Data Collector Support Matrix provides reference for INFINIDAT Data Collecto
 |Virtual|Implemented|HTTPS|Is this a storage virtualization device?
 |===
 
-==== Volume Map
+
+=== Volume Map
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -224,7 +242,8 @@ The Data Collector Support Matrix provides reference for INFINIDAT Data Collecto
 |Type|Gap|HTTPS|
 |===
 
-==== Volume Mask
+
+=== Volume Mask
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -235,7 +254,8 @@ The Data Collector Support Matrix provides reference for INFINIDAT Data Collecto
 |Type|Gap|HTTPS|
 |===
 
-==== Wwn Alias
+
+=== WWN Alias
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -246,7 +266,9 @@ The Data Collector Support Matrix provides reference for INFINIDAT Data Collecto
 |WWN|Implemented|HTTPS|
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -260,4 +282,3 @@ Management APIs used by this data collector:
 |true
 |true
 
-|===

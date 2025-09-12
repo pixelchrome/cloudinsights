@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: dc_matrix_red.html
-summary: The Data Collector Support Matrix contains detailed information on supported Red data collectors.
-keywords: support matrix, {vendor}
+summary: The Data Collector Support Matrix contains detailed information on Red data collectors.
+keywords: support matrix, red, collector, matrix
 ---
 
-= Data Collector Support Matrix - Red
+= Data Collector Support Matrix for Red
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,19 +13,17 @@ keywords: support matrix, {vendor}
 :imagesdir: ./media/
 
 [.lead]
-The Data Collector Support Matrix provides reference for RED Data Collectors supported by Data Infrastructure Insights, including vendor and model information.
+The Data Collector Support Matrix provides reference for Red Data Collectors.
 
-== Red Hat Rhv (rest)
-
-
-|===
+== Red Hat RHV (REST)
 
 
 
-|===
-=== Foundation
 
-==== Data Store
+
+== Foundation
+
+=== Data Store
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -39,7 +37,8 @@ The Data Collector Support Matrix provides reference for RED Data Collectors sup
 |Virtual Center Ip|Implemented|HTTP/S|
 |===
 
-==== Nasshare Datastore
+
+=== NasShare DataStore
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -49,7 +48,8 @@ The Data Collector Support Matrix provides reference for RED Data Collectors sup
 |OID|Implemented|HTTP/S|
 |===
 
-==== Nasshare Host
+
+=== NasShare Host
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -60,7 +60,8 @@ The Data Collector Support Matrix provides reference for RED Data Collectors sup
 |OID|Implemented|HTTP/S|
 |===
 
-==== Lun
+
+=== LUN
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -71,20 +72,22 @@ The Data Collector Support Matrix provides reference for RED Data Collectors sup
 |OID|Implemented|HTTP/S|
 |===
 
-==== Nas Share
+
+=== NAS Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
 
 |Filer Name|Implemented|HTTP/S|
 |Filer Ip|Implemented|HTTP/S|
-|Share Path|Implemented|HTTP/S|For a HvNasShare to be matched to a Share
+|Share Path|Implemented|HTTP/S| For a HvNasShare to be matched to a Share
 |Capacity|Implemented|HTTP/S|Allocated capacity in MB
 |Type|Gap|HTTP/S|
 |OID|Implemented|HTTP/S|
 |===
 
-==== Path
+
+=== Path
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -97,7 +100,8 @@ The Data Collector Support Matrix provides reference for RED Data Collectors sup
 |Type|Gap|HTTP/S|
 |===
 
-==== Server
+
+=== Server
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -110,7 +114,8 @@ The Data Collector Support Matrix provides reference for RED Data Collectors sup
 |Virtual Center Ip|Implemented|HTTP/S|
 |===
 
-==== Virtual Disk
+
+=== Virtual Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -123,7 +128,8 @@ The Data Collector Support Matrix provides reference for RED Data Collectors sup
 |Used Capacity|Implemented|HTTP/S|
 |===
 
-==== Virtualmachine
+
+=== VirtualMachine
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -143,7 +149,8 @@ The Data Collector Support Matrix provides reference for RED Data Collectors sup
 |Used Capacity|Implemented|HTTP/S|
 |===
 
-==== Virtualmachine Disk
+
+=== VirtualMachine Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -153,7 +160,8 @@ The Data Collector Support Matrix provides reference for RED Data Collectors sup
 |VirtualMachine OID|Implemented|HTTP/S|
 |===
 
-==== Host
+
+=== Host
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -171,7 +179,8 @@ The Data Collector Support Matrix provides reference for RED Data Collectors sup
 |Platform Type|Implemented|HTTP/S|
 |===
 
-==== Iscsi Node
+
+=== ISCSI Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -181,7 +190,8 @@ The Data Collector Support Matrix provides reference for RED Data Collectors sup
 |Type|Gap|HTTP/S|
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -191,7 +201,9 @@ The Data Collector Support Matrix provides reference for RED Data Collectors sup
 |Originator ID|Implemented|HTTP/S|
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -205,4 +217,3 @@ Management APIs used by this data collector:
 |true
 |true
 
-|===

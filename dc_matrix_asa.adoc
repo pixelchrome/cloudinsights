@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: dc_matrix_asa.html
-summary: The Data Collector Support Matrix contains detailed information on supported ASA data collectors.
-keywords: support matrix, {vendor}
+summary: The Data Collector Support Matrix contains detailed information on Asa data collectors.
+keywords: support matrix, asa, collector, matrix
 ---
 
-= Data Collector Support Matrix - ASA
+= Data Collector Support Matrix for Asa
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,23 +13,29 @@ keywords: support matrix, {vendor}
 :imagesdir: ./media/
 
 [.lead]
-The Data Collector Support Matrix provides reference for ASA Data Collectors supported by Data Infrastructure Insights, including vendor and model information.
+The Data Collector Support Matrix provides reference for Asa Data Collectors.
 
 == ASA
 
+Models and versions supported by this data collector:
+
+
 === Models
+
 * ASA-A1K
 * ASA-A20
 * ASA-A90
 
+
 === Firmware Versions
+
 * NetApp Release 9.16.1: Sat Jan 18 19:31:15 UTC 2025
 * NetApp Release 9.16.1RC1: Mon Nov 04 10:39:46 UTC 2024
 
 
-=== Foundation
+== Foundation
 
-==== Capability
+=== Capability
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -40,7 +46,8 @@ The Data Collector Support Matrix provides reference for ASA Data Collectors sup
 |Used|Implemented|HTTPS|
 |===
 
-==== Disk
+
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -62,7 +69,8 @@ The Data Collector Support Matrix provides reference for ASA Data Collectors sup
 |Vendor|Implemented|HTTPS|
 |===
 
-==== File Share
+
+=== File Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -77,7 +85,8 @@ The Data Collector Support Matrix provides reference for ASA Data Collectors sup
 |Is Oplocks Enabled|Implemented|HTTPS|whether opportunistic locks are enabled on the FileShare
 |===
 
-==== Iscsi Network Portal
+
+=== ISCSI Network Portal
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -88,7 +97,8 @@ The Data Collector Support Matrix provides reference for ASA Data Collectors sup
 |OID|Implemented|HTTPS|
 |===
 
-==== Iscsi Network Portal Group
+
+=== ISCSI Network Portal Group
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -98,7 +108,8 @@ The Data Collector Support Matrix provides reference for ASA Data Collectors sup
 |Portal Group Tag|Implemented|HTTPS|
 |===
 
-==== Iscsi Node
+
+=== ISCSI Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -109,7 +120,8 @@ The Data Collector Support Matrix provides reference for ASA Data Collectors sup
 |Type|Gap|HTTPS|
 |===
 
-==== Iscsi Node Map
+
+=== ISCSI Node Map
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -118,7 +130,8 @@ The Data Collector Support Matrix provides reference for ASA Data Collectors sup
 |Portal Group OID|Implemented|HTTPS|
 |===
 
-==== Iscsi Security Info
+
+=== ISCSI Security Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -131,7 +144,8 @@ The Data Collector Support Matrix provides reference for ASA Data Collectors sup
 |Target Node Name|Implemented|HTTPS|
 |===
 
-==== Iscsi Session
+
+=== ISCSI Session
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -147,7 +161,8 @@ The Data Collector Support Matrix provides reference for ASA Data Collectors sup
 |Target Session Id|Implemented|HTTPS|
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -160,7 +175,8 @@ The Data Collector Support Matrix provides reference for ASA Data Collectors sup
 |Originator Key|Implemented|HTTPS|
 |===
 
-==== Internal Volume
+
+=== Internal Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -195,7 +211,8 @@ The Data Collector Support Matrix provides reference for ASA Data Collectors sup
 |Encrypted|Implemented|HTTPS|
 |===
 
-==== Storage Synchronization
+
+=== Storage Synchronization
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -205,7 +222,8 @@ The Data Collector Support Matrix provides reference for ASA Data Collectors sup
 |Technology|Implemented|HTTPS|technology which causes storage efficiency changed
 |===
 
-==== Qtree
+
+=== QTree
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -218,7 +236,8 @@ The Data Collector Support Matrix provides reference for ASA Data Collectors sup
 |Oplocks|Implemented|HTTPS|Indicates whether opportunistic locks are enabled on the Qtree
 |===
 
-==== Storage
+
+=== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -243,7 +262,8 @@ The Data Collector Support Matrix provides reference for ASA Data Collectors sup
 |UUID|Implemented|HTTPS|
 |===
 
-==== Storage Node
+
+=== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -262,7 +282,8 @@ The Data Collector Support Matrix provides reference for ASA Data Collectors sup
 |ManagementIp Addresses|Implemented|HTTPS|
 |===
 
-==== Storage Pool
+
+=== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -294,7 +315,8 @@ The Data Collector Support Matrix provides reference for ASA Data Collectors sup
 |UUID|Implemented|HTTPS|
 |===
 
-==== Storage Virtualmachine
+
+=== Storage VirtualMachine
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -312,7 +334,8 @@ The Data Collector Support Matrix provides reference for ASA Data Collectors sup
 |Used Capacity|Implemented|HTTPS|
 |===
 
-==== Virtualmachine Internal Volume Ref
+
+=== VirtualMachine Internal Volume Ref
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -320,7 +343,8 @@ The Data Collector Support Matrix provides reference for ASA Data Collectors sup
 |Internal Volume Id|Implemented|HTTPS|
 |===
 
-==== Virtualmachine Storagepool Lref
+
+=== VirtualMachine StoragePool lRef
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -328,7 +352,8 @@ The Data Collector Support Matrix provides reference for ASA Data Collectors sup
 |Storage Pool Id|Implemented|HTTPS|
 |===
 
-==== Virtualmachine Volume Ref
+
+=== VirtualMachine Volume Ref
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -336,7 +361,8 @@ The Data Collector Support Matrix provides reference for ASA Data Collectors sup
 |Volume Name|Implemented|HTTPS|
 |===
 
-==== Volume
+
+=== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -358,7 +384,8 @@ The Data Collector Support Matrix provides reference for ASA Data Collectors sup
 |Encrypted|Implemented|HTTPS|
 |===
 
-==== Volume Map
+
+=== Volume Map
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -369,7 +396,8 @@ The Data Collector Support Matrix provides reference for ASA Data Collectors sup
 |Type|Gap|HTTPS|
 |===
 
-==== Volume Mask
+
+=== Volume Mask
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -380,9 +408,10 @@ The Data Collector Support Matrix provides reference for ASA Data Collectors sup
 |Type|Gap|HTTPS|
 |===
 
-=== Performance
 
-==== Disk
+== Performance
+
+=== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -400,7 +429,9 @@ The Data Collector Support Matrix provides reference for ASA Data Collectors sup
 |Utilization Write|Implemented|HTTPS|
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -414,4 +445,3 @@ Management APIs used by this data collector:
 |true
 |true
 
-|===

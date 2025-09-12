@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: dc_matrix_openstack.html
-summary: The Data Collector Support Matrix contains detailed information on supported Openstack data collectors.
-keywords: support matrix, {vendor}
+summary: The Data Collector Support Matrix contains detailed information on Openstack data collectors.
+keywords: support matrix, openstack, collector, matrix
 ---
 
-= Data Collector Support Matrix - Openstack
+= Data Collector Support Matrix for Openstack
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,19 +13,17 @@ keywords: support matrix, {vendor}
 :imagesdir: ./media/
 
 [.lead]
-The Data Collector Support Matrix provides reference for OPENSTACK Data Collectors supported by Data Infrastructure Insights, including vendor and model information.
+The Data Collector Support Matrix provides reference for Openstack Data Collectors.
 
-== Openstack (rest API / Ssh)
-
-
-|===
+== OpenStack (REST API / SSH)
 
 
 
-|===
-=== Foundation
 
-==== Data Store
+
+== Foundation
+
+=== Data Store
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -39,7 +37,8 @@ The Data Collector Support Matrix provides reference for OPENSTACK Data Collecto
 |Virtual Center Ip|Implemented|HTTPS|
 |===
 
-==== Nasshare Datastore
+
+=== NasShare DataStore
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -49,7 +48,8 @@ The Data Collector Support Matrix provides reference for OPENSTACK Data Collecto
 |OID|Implemented|HTTPS|
 |===
 
-==== Nasshare Host
+
+=== NasShare Host
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -60,7 +60,8 @@ The Data Collector Support Matrix provides reference for OPENSTACK Data Collecto
 |Read Only|Implemented|HTTPS|
 |===
 
-==== Lun
+
+=== LUN
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -73,7 +74,8 @@ The Data Collector Support Matrix provides reference for OPENSTACK Data Collecto
 |TID|Implemented|HTTPS|
 |===
 
-==== Nas Share
+
+=== NAS Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -82,11 +84,12 @@ The Data Collector Support Matrix provides reference for OPENSTACK Data Collecto
 |Filer Ip|Implemented|HTTPS|
 |Filer Name|Implemented|HTTPS|
 |OID|Implemented|HTTPS|
-|Share Path|Implemented|HTTPS|For a HvNasShare to be matched to a Share
+|Share Path|Implemented|HTTPS| For a HvNasShare to be matched to a Share
 |Type|Gap|HTTPS|
 |===
 
-==== Path
+
+=== Path
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -99,7 +102,8 @@ The Data Collector Support Matrix provides reference for OPENSTACK Data Collecto
 |Type|Gap|HTTPS|
 |===
 
-==== Server
+
+=== Server
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -112,7 +116,8 @@ The Data Collector Support Matrix provides reference for OPENSTACK Data Collecto
 |Virtual Center Ip|Implemented|HTTPS|
 |===
 
-==== Virtual Disk
+
+=== Virtual Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -126,7 +131,8 @@ The Data Collector Support Matrix provides reference for OPENSTACK Data Collecto
 |Used Capacity|Implemented|HTTPS|
 |===
 
-==== Virtualmachine
+
+=== VirtualMachine
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -146,7 +152,8 @@ The Data Collector Support Matrix provides reference for OPENSTACK Data Collecto
 |Used Capacity|Implemented|HTTPS|
 |===
 
-==== Virtualmachine Disk
+
+=== VirtualMachine Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -156,7 +163,8 @@ The Data Collector Support Matrix provides reference for OPENSTACK Data Collecto
 |VirtualMachine OID|Implemented|HTTPS|
 |===
 
-==== Host
+
+=== Host
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -170,7 +178,8 @@ The Data Collector Support Matrix provides reference for OPENSTACK Data Collecto
 |OID|Implemented|HTTPS|
 |===
 
-==== Iscsi Node
+
+=== ISCSI Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -181,7 +190,8 @@ The Data Collector Support Matrix provides reference for OPENSTACK Data Collecto
 |Type|Gap|HTTPS|
 |===
 
-==== Info
+
+=== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -192,9 +202,10 @@ The Data Collector Support Matrix provides reference for OPENSTACK Data Collecto
 |Originator Key|Implemented|HTTPS|
 |===
 
-=== Performance
 
-==== Host
+== Performance
+
+=== Host
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -205,7 +216,9 @@ The Data Collector Support Matrix provides reference for OPENSTACK Data Collecto
 |Server ID|Implemented||
 |===
 
-Management APIs used by this data collector:
+
+=== Management APIs used by this data collector:
+
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
 
@@ -229,4 +242,3 @@ Management APIs used by this data collector:
 |true
 |true
 
-|===

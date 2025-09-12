@@ -342,8 +342,18 @@ sidebar:
 
     - title: Data Collector Support Matrix
       entries:
-        - title: Preamble
-          url: /dc_matrix_preamble.html
+        - title: Amazon
+          url: /dc_matrix_amazon.html
+        - title: ASA
+          url: /dc_matrix_asa.html
+        - title: Brocade
+          url: /dc_matrix_brocade.html
+        - title: Cisco
+          url: /dc_matrix_cisco.html
+        - title: Cohesity
+          url: /dc_matrix_cohesity.html
+        - title: Dell
+          url: /dc_matrix_dell.html
         - title: Dell EMC
           url: /dc_matrix_emc.html
         - title: Fujitsu
