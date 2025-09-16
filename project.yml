@@ -451,12 +451,12 @@ sidebar:
                   url: /task_dc_ms_hyperv.html
             - title: NetApp
               entries:
-#                - title: Cloud Connection for ONTAP 9.9+
-#                  url: /task_dc_na_cloud_connection.html
                 - title: Cloud Volumes ONTAP
                   url: /task_dc_na_cloud_volumes_ontap.html
                 - title: Cloud Volumes Services for AWS
                   url: /task_dc_na_cloud_volumes.html
+                - title: ONTAP ASA (All-SAN Array) r2
+                  url: /task_dc_na_ontap_all_san_array.html
                 - title: ONTAP Data Management Software 
                   url: /task_dc_na_cdot.html
                 - title: ONTAP REST collector
