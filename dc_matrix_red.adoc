@@ -21,9 +21,9 @@ The Data Collector Support Matrix provides reference for Red Data Collectors.
 
 
 
-== Foundation
+=== Foundation
 
-=== Data Store
+==== Data Store
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -38,7 +38,7 @@ The Data Collector Support Matrix provides reference for Red Data Collectors.
 |===
 
 
-=== NasShare DataStore
+==== NasShare DataStore
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -49,7 +49,7 @@ The Data Collector Support Matrix provides reference for Red Data Collectors.
 |===
 
 
-=== NasShare Host
+==== NasShare Host
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -61,7 +61,7 @@ The Data Collector Support Matrix provides reference for Red Data Collectors.
 |===
 
 
-=== LUN
+==== LUN
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -73,7 +73,7 @@ The Data Collector Support Matrix provides reference for Red Data Collectors.
 |===
 
 
-=== NAS Share
+==== NAS Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -87,7 +87,7 @@ The Data Collector Support Matrix provides reference for Red Data Collectors.
 |===
 
 
-=== Path
+==== Path
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -101,7 +101,7 @@ The Data Collector Support Matrix provides reference for Red Data Collectors.
 |===
 
 
-=== Server
+==== Server
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -115,7 +115,7 @@ The Data Collector Support Matrix provides reference for Red Data Collectors.
 |===
 
 
-=== Virtual Disk
+==== Virtual Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -129,7 +129,7 @@ The Data Collector Support Matrix provides reference for Red Data Collectors.
 |===
 
 
-=== VirtualMachine
+==== VirtualMachine
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -150,7 +150,7 @@ The Data Collector Support Matrix provides reference for Red Data Collectors.
 |===
 
 
-=== VirtualMachine Disk
+==== VirtualMachine Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -161,7 +161,7 @@ The Data Collector Support Matrix provides reference for Red Data Collectors.
 |===
 
 
-=== Host
+==== Host
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -180,7 +180,7 @@ The Data Collector Support Matrix provides reference for Red Data Collectors.
 |===
 
 
-=== ISCSI Node
+==== ISCSI Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -191,7 +191,7 @@ The Data Collector Support Matrix provides reference for Red Data Collectors.
 |===
 
 
-=== Info
+==== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -202,7 +202,7 @@ The Data Collector Support Matrix provides reference for Red Data Collectors.
 |===
 
 
-=== Management APIs used by this data collector:
+==== Management APIs used by this data collector:
 
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 

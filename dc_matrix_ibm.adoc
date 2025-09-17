@@ -21,9 +21,9 @@ The Data Collector Support Matrix provides reference for Ibm Data Collectors.
 
 
 
-== Foundation
+=== Foundation
 
-=== Disk
+==== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -41,7 +41,7 @@ The Data Collector Support Matrix provides reference for Ibm Data Collectors.
 |===
 
 
-=== Info
+==== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -52,7 +52,7 @@ The Data Collector Support Matrix provides reference for Ibm Data Collectors.
 |===
 
 
-=== Internal Volume
+==== Internal Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -74,7 +74,7 @@ The Data Collector Support Matrix provides reference for Ibm Data Collectors.
 |===
 
 
-=== QTree
+==== QTree
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -85,7 +85,7 @@ The Data Collector Support Matrix provides reference for Ibm Data Collectors.
 |===
 
 
-=== Storage
+==== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -103,7 +103,7 @@ The Data Collector Support Matrix provides reference for Ibm Data Collectors.
 |===
 
 
-=== Storage Node
+==== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -117,7 +117,7 @@ The Data Collector Support Matrix provides reference for Ibm Data Collectors.
 |===
 
 
-=== Storage Pool
+==== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -136,7 +136,7 @@ The Data Collector Support Matrix provides reference for Ibm Data Collectors.
 |===
 
 
-=== Management APIs used by this data collector:
+==== Management APIs used by this data collector:
 
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
@@ -150,6 +150,7 @@ The Data Collector Support Matrix provides reference for Ibm Data Collectors.
 |true
 |true
 |true
+
 
 
 
@@ -183,9 +184,9 @@ Models and versions supported by this data collector:
 * 7.9.41.65
 
 
-== Foundation
+=== Foundation
 
-=== Disk
+==== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -207,7 +208,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Info
+==== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -219,7 +220,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Storage
+==== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -240,7 +241,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Storage Pool
+==== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -264,7 +265,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Volume
+==== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -281,7 +282,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Volume Map
+==== Volume Map
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -292,7 +293,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Volume Mask
+==== Volume Mask
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -303,7 +304,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== WWN Alias
+==== WWN Alias
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -316,9 +317,9 @@ Models and versions supported by this data collector:
 |===
 
 
-== Performance
+=== Performance
 
-=== Disk
+==== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -335,7 +336,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Disk
+==== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -354,7 +355,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Storage
+==== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -375,7 +376,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Storage
+==== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -389,7 +390,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== StoragePool Disk
+==== StoragePool Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -414,7 +415,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Volume
+==== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -438,7 +439,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Volume
+==== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -464,7 +465,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Management APIs used by this data collector:
+==== Management APIs used by this data collector:
 
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
@@ -491,6 +492,7 @@ Models and versions supported by this data collector:
 
 
 
+
 |===
 
 == IBM PowerVM (SSH)
@@ -499,9 +501,9 @@ Models and versions supported by this data collector:
 
 
 
-== Foundation
+=== Foundation
 
-=== Data Store
+==== Data Store
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -515,7 +517,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== LUN
+==== LUN
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -528,7 +530,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Path
+==== Path
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -542,7 +544,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Server
+==== Server
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -554,7 +556,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Virtual Disk
+==== Virtual Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -568,7 +570,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== VirtualMachine
+==== VirtualMachine
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -588,7 +590,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== VirtualMachine Disk
+==== VirtualMachine Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -599,7 +601,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Host
+==== Host
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -616,7 +618,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Info
+==== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -627,7 +629,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Management APIs used by this data collector:
+==== Management APIs used by this data collector:
 
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
@@ -641,6 +643,7 @@ Models and versions supported by this data collector:
 |false
 |true
 |true
+
 
 
 
@@ -771,9 +774,9 @@ Models and versions supported by this data collector:
 * 8.7.0.3
 
 
-== Foundation
+=== Foundation
 
-=== Disk
+==== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -796,7 +799,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Info
+==== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -807,7 +810,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Storage
+==== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -828,7 +831,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Storage Node
+==== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -843,7 +846,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Storage Pool
+==== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -869,7 +872,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Storage Synchronization
+==== Storage Synchronization
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -886,7 +889,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Volume
+==== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -912,7 +915,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Volume Map
+==== Volume Map
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -923,7 +926,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Volume Mask
+==== Volume Mask
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -935,7 +938,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== WWN Alias
+==== WWN Alias
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -947,9 +950,9 @@ Models and versions supported by this data collector:
 |===
 
 
-== Performance
+=== Performance
 
-=== Disk
+==== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -966,7 +969,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Disk
+==== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -985,7 +988,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Storage
+==== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1010,7 +1013,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Storage
+==== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1024,7 +1027,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Storage Node
+==== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1043,7 +1046,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Storage Node Data
+==== Storage Node Data
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1064,7 +1067,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Storage Pool
+==== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1080,7 +1083,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== StoragePool Disk
+==== StoragePool Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1103,7 +1106,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Volume
+==== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1129,7 +1132,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Management APIs used by this data collector:
+==== Management APIs used by this data collector:
 
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
@@ -1143,6 +1146,7 @@ Models and versions supported by this data collector:
 |false
 |true
 |true
+
 
 
 
@@ -1163,9 +1167,9 @@ Models and versions supported by this data collector:
 * 10.2.4.e
 
 
-== Foundation
+=== Foundation
 
-=== Disk
+==== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1185,7 +1189,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Info
+==== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1199,7 +1203,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Storage
+==== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1219,7 +1223,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Storage Pool
+==== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1245,7 +1249,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Volume
+==== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1264,7 +1268,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Volume Map
+==== Volume Map
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1274,7 +1278,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Volume Mask
+==== Volume Mask
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1284,7 +1288,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== WWN Alias
+==== WWN Alias
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -1297,7 +1301,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Management APIs used by this data collector:
+==== Management APIs used by this data collector:
 
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 

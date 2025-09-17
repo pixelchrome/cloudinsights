@@ -31,9 +31,9 @@ Models and versions supported by this data collector:
 * Azure NetApp Files
 
 
-== Foundation
+=== Foundation
 
-=== File Share
+==== File Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -46,7 +46,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Info
+==== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -58,7 +58,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Internal Volume
+==== Internal Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -87,7 +87,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Storage Synchronization
+==== Storage Synchronization
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -98,7 +98,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== QTree
+==== QTree
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -112,7 +112,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Quota
+==== Quota
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -126,7 +126,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Share
+==== Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -137,7 +137,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Share Initiator
+==== Share Initiator
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -147,7 +147,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Storage
+==== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -166,7 +166,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Storage Pool
+==== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -189,9 +189,9 @@ Models and versions supported by this data collector:
 |===
 
 
-== Performance
+=== Performance
 
-=== Internal Volume
+==== Internal Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -216,7 +216,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== StoragePool Disk
+==== StoragePool Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -230,7 +230,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Management APIs used by this data collector:
+==== Management APIs used by this data collector:
 
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
@@ -247,6 +247,7 @@ Models and versions supported by this data collector:
 
 
 
+
 |===
 
 == Microsoft Azure Compute
@@ -257,9 +258,9 @@ API versions:
 * 2018-06-01
 
 
-== Foundation
+=== Foundation
 
-=== Data Store
+==== Data Store
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -274,7 +275,7 @@ API versions:
 |===
 
 
-=== Server
+==== Server
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -288,7 +289,7 @@ API versions:
 |===
 
 
-=== Virtual Disk
+==== Virtual Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -304,7 +305,7 @@ API versions:
 |===
 
 
-=== VirtualMachine
+==== VirtualMachine
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -330,7 +331,7 @@ API versions:
 |===
 
 
-=== VirtualMachine Disk
+==== VirtualMachine Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -341,7 +342,7 @@ API versions:
 |===
 
 
-=== Host
+==== Host
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -354,7 +355,7 @@ API versions:
 |===
 
 
-=== Info
+==== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -369,9 +370,9 @@ API versions:
 |===
 
 
-== Performance
+=== Performance
 
-=== Data Store
+==== Data Store
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -382,7 +383,7 @@ API versions:
 |===
 
 
-=== Virtual Disk
+==== Virtual Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -397,7 +398,7 @@ API versions:
 |===
 
 
-=== vm
+==== vm
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -416,7 +417,7 @@ API versions:
 |===
 
 
-=== VM
+==== VM
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -427,7 +428,7 @@ API versions:
 |===
 
 
-=== Management APIs used by this data collector:
+==== Management APIs used by this data collector:
 
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
@@ -444,6 +445,7 @@ API versions:
 
 
 
+
 |===
 
 == Microsoft Hyper-V
@@ -452,9 +454,9 @@ API versions:
 
 
 
-== Foundation
+=== Foundation
 
-=== Data Store
+==== Data Store
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -469,7 +471,7 @@ API versions:
 |===
 
 
-=== NasShare DataStore
+==== NasShare DataStore
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -480,7 +482,7 @@ API versions:
 |===
 
 
-=== NasShare Host
+==== NasShare Host
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -492,7 +494,7 @@ API versions:
 |===
 
 
-=== LUN
+==== LUN
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -506,7 +508,7 @@ API versions:
 |===
 
 
-=== NAS Share
+==== NAS Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -520,7 +522,7 @@ API versions:
 |===
 
 
-=== Path
+==== Path
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -534,7 +536,7 @@ API versions:
 |===
 
 
-=== Server
+==== Server
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -548,7 +550,7 @@ API versions:
 |===
 
 
-=== Virtual Disk
+==== Virtual Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -563,7 +565,7 @@ API versions:
 |===
 
 
-=== VirtualMachine
+==== VirtualMachine
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -586,7 +588,7 @@ API versions:
 |===
 
 
-=== VirtualMachine Disk
+==== VirtualMachine Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -597,7 +599,7 @@ API versions:
 |===
 
 
-=== Host
+==== Host
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -617,7 +619,7 @@ API versions:
 |===
 
 
-=== ISCSI Node
+==== ISCSI Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -629,7 +631,7 @@ API versions:
 |===
 
 
-=== Info
+==== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -640,9 +642,9 @@ API versions:
 |===
 
 
-== Performance
+=== Performance
 
-=== DataStore
+==== DataStore
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -657,7 +659,7 @@ API versions:
 |===
 
 
-=== Data Store
+==== Data Store
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -670,7 +672,7 @@ API versions:
 |===
 
 
-=== Host
+==== Host
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -692,7 +694,7 @@ API versions:
 |===
 
 
-=== Host
+==== Host
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -716,7 +718,7 @@ API versions:
 |===
 
 
-=== Virtual Disk
+==== Virtual Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -734,7 +736,7 @@ API versions:
 |===
 
 
-=== vm
+==== vm
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -756,7 +758,7 @@ API versions:
 |===
 
 
-=== VM
+==== VM
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -769,7 +771,7 @@ API versions:
 |===
 
 
-=== Management APIs used by this data collector:
+==== Management APIs used by this data collector:
 
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 

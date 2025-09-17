@@ -37,9 +37,9 @@ Firmware versions:
 * 9.2.3-p1-29368
 
 
-== Foundation
+=== Foundation
 
-=== Disk
+==== Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -59,7 +59,7 @@ Firmware versions:
 |===
 
 
-=== Info
+==== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -73,7 +73,7 @@ Firmware versions:
 |===
 
 
-=== Storage
+==== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -94,7 +94,7 @@ Firmware versions:
 |===
 
 
-=== Storage Node
+==== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -112,7 +112,7 @@ Firmware versions:
 |===
 
 
-=== Storage Pool
+==== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -135,9 +135,9 @@ Firmware versions:
 |===
 
 
-== Performance
+=== Performance
 
-=== Storage
+==== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -156,7 +156,7 @@ Firmware versions:
 |===
 
 
-=== Storage Node
+==== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -174,7 +174,7 @@ Firmware versions:
 |===
 
 
-=== Storage Node Data
+==== Storage Node Data
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -194,7 +194,7 @@ Firmware versions:
 |===
 
 
-=== StoragePool Disk
+==== StoragePool Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -215,7 +215,7 @@ Firmware versions:
 |===
 
 
-=== Management APIs used by this data collector:
+==== Management APIs used by this data collector:
 
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 

@@ -169,9 +169,9 @@ Models and versions supported by this data collector:
 * v9.2.2
 
 
-== Foundation
+=== Foundation
 
-=== FC Name Server Entry
+==== FC Name Server Entry
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -183,7 +183,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Fabric
+==== Fabric
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -195,7 +195,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== IVR Physical Fabric
+==== IVR Physical Fabric
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -205,7 +205,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Info
+==== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -217,7 +217,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Logical Switch
+==== Logical Switch
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -238,7 +238,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Port
+==== Port
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -262,7 +262,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Switch
+==== Switch
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -284,7 +284,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Unknown
+==== Unknown
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -299,7 +299,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== WWN Alias
+==== WWN Alias
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -311,7 +311,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Zone
+==== Zone
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -320,7 +320,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Zone Member
+==== Zone Member
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -330,7 +330,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Zoning Capabilities
+==== Zoning Capabilities
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -342,9 +342,9 @@ Models and versions supported by this data collector:
 |===
 
 
-== Performance
+=== Performance
 
-=== port
+==== port
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -380,7 +380,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Port Data
+==== Port Data
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -418,7 +418,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Management APIs used by this data collector:
+==== Management APIs used by this data collector:
 
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
@@ -455,6 +455,7 @@ Models and versions supported by this data collector:
 
 
 
+
 |===
 
 == Brocade Network Advisor HTTP
@@ -484,9 +485,9 @@ Models and versions supported by this data collector:
 * v8.2.3c1
 * v9.0.1e1
 
-== Foundation
+=== Foundation
 
-=== FC Name Server Entry
+==== FC Name Server Entry
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -498,7 +499,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Fabric
+==== Fabric
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -510,7 +511,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== IVR Physical Fabric
+==== IVR Physical Fabric
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -520,7 +521,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Info
+==== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -535,7 +536,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Logical Switch
+==== Logical Switch
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -556,7 +557,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Port
+==== Port
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -579,7 +580,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Switch
+==== Switch
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -601,7 +602,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Unknown
+==== Unknown
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -614,7 +615,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== WWN Alias
+==== WWN Alias
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -626,7 +627,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Zone
+==== Zone
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -635,7 +636,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Zone Member
+==== Zone Member
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -645,7 +646,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Zoning Capabilities
+==== Zoning Capabilities
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -656,9 +657,9 @@ Models and versions supported by this data collector:
 |===
 
 
-== Performance
+=== Performance
 
-=== port
+==== port
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -669,7 +670,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Management APIs used by this data collector:
+==== Management APIs used by this data collector:
 
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
@@ -683,6 +684,7 @@ Models and versions supported by this data collector:
 |true
 |true
 |true
+
 
 
 
@@ -759,9 +761,9 @@ Models and versions supported by this data collector:
 * v9.2.2
 
 
-== Foundation
+=== Foundation
 
-=== FC Name Server Entry
+==== FC Name Server Entry
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -773,7 +775,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Fabric
+==== Fabric
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -785,7 +787,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Info
+==== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -800,7 +802,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Logical Switch
+==== Logical Switch
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -821,7 +823,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Port
+==== Port
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -845,7 +847,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Switch
+==== Switch
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -867,7 +869,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Unknown
+==== Unknown
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -881,7 +883,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== WWN Alias
+==== WWN Alias
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -893,7 +895,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Zone
+==== Zone
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -902,7 +904,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Zone Member
+==== Zone Member
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -912,7 +914,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Zoning Capabilities
+==== Zoning Capabilities
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -924,9 +926,9 @@ Models and versions supported by this data collector:
 |===
 
 
-== Performance
+=== Performance
 
-=== port
+==== port
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -961,7 +963,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Port Data
+==== Port Data
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -998,7 +1000,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Management APIs used by this data collector:
+==== Management APIs used by this data collector:
 
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 

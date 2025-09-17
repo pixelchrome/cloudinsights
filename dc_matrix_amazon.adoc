@@ -23,9 +23,9 @@ API versions:
 * 2014-10-01
 
 
-== Foundation
+=== Foundation
 
-=== Data Store
+==== Data Store
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -40,7 +40,7 @@ API versions:
 |===
 
 
-=== Server
+==== Server
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -54,7 +54,7 @@ API versions:
 |===
 
 
-=== Virtual Disk
+==== Virtual Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -70,7 +70,7 @@ API versions:
 |===
 
 
-=== VirtualMachine
+==== VirtualMachine
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -98,7 +98,7 @@ API versions:
 |===
 
 
-=== VirtualMachine Disk
+==== VirtualMachine Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -109,7 +109,7 @@ API versions:
 |===
 
 
-=== Host
+==== Host
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -122,7 +122,7 @@ API versions:
 |===
 
 
-=== Info
+==== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -137,9 +137,9 @@ API versions:
 |===
 
 
-== Performance
+=== Performance
 
-=== Data Store
+==== Data Store
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -150,7 +150,7 @@ API versions:
 |===
 
 
-=== Virtual Disk
+==== Virtual Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -167,7 +167,7 @@ API versions:
 |===
 
 
-=== vm
+==== vm
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -188,7 +188,7 @@ API versions:
 |===
 
 
-=== VM
+==== VM
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -199,7 +199,7 @@ API versions:
 |===
 
 
-=== Management APIs used by this data collector:
+==== Management APIs used by this data collector:
 
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
@@ -213,6 +213,7 @@ API versions:
 |true
 |true
 |true
+
 
 
 
@@ -233,9 +234,9 @@ Models and versions supported by this data collector:
 * 2010-08-01
 
 
-== Foundation
+=== Foundation
 
-=== Info
+==== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -250,7 +251,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Internal Volume
+==== Internal Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -268,7 +269,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== QTree
+==== QTree
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -279,7 +280,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Storage
+==== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -297,7 +298,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Storage Pool
+==== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -315,9 +316,9 @@ Models and versions supported by this data collector:
 |===
 
 
-== Performance
+=== Performance
 
-=== Internal Volume
+==== Internal Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -331,7 +332,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Management APIs used by this data collector:
+==== Management APIs used by this data collector:
 
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
@@ -345,6 +346,7 @@ Models and versions supported by this data collector:
 |true
 |true
 |true
+
 
 
 
@@ -365,9 +367,9 @@ Models and versions supported by this data collector:
 * Data ONTAP
 
 
-== Foundation
+=== Foundation
 
-=== Capability
+==== Capability
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -379,7 +381,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Disk Group
+==== Disk Group
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -393,7 +395,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== File Share
+==== File Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -409,7 +411,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== ISCSI Network Portal
+==== ISCSI Network Portal
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -421,7 +423,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== ISCSI Network Portal Group
+==== ISCSI Network Portal Group
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -432,7 +434,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== ISCSI Node
+==== ISCSI Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -444,7 +446,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== ISCSI Node Map
+==== ISCSI Node Map
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -454,7 +456,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== ISCSI Security Info
+==== ISCSI Security Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -468,7 +470,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== ISCSI Session
+==== ISCSI Session
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -485,7 +487,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Info
+==== Info
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -499,7 +501,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Internal Volume
+==== Internal Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -548,7 +550,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Storage Synchronization
+==== Storage Synchronization
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -559,7 +561,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== QTree
+==== QTree
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -579,7 +581,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Quota
+==== Quota
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -602,7 +604,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Share
+==== Share
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -614,7 +616,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Share Initiator
+==== Share Initiator
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -624,7 +626,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Storage
+==== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -650,7 +652,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Storage Node
+==== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -665,7 +667,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Storage Pool
+==== Storage Pool
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -702,7 +704,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Storage VirtualMachine
+==== Storage VirtualMachine
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -723,7 +725,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== VirtualMachine Internal Volume Ref
+==== VirtualMachine Internal Volume Ref
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -732,7 +734,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== VirtualMachine StoragePool lRef
+==== VirtualMachine StoragePool lRef
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -741,7 +743,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== VirtualMachine Volume Ref
+==== VirtualMachine Volume Ref
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -750,7 +752,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Volume
+==== Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -771,7 +773,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Volume Map
+==== Volume Map
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -783,7 +785,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Volume Mask
+==== Volume Mask
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -795,9 +797,9 @@ Models and versions supported by this data collector:
 |===
 
 
-== Performance
+=== Performance
 
-=== Internal Volume
+==== Internal Volume
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -838,7 +840,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Storage
+==== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -851,7 +853,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Storage
+==== Storage
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -866,7 +868,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Storage Node
+==== Storage Node
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -887,7 +889,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== StoragePool Disk
+==== StoragePool Disk
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -913,7 +915,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== VirtualMachine
+==== VirtualMachine
 [cols="25,25,25,25", options="header"]
 |===
 ^|Feature/Attribute ^|Status ^|Protocol Used ^|Additional Information
@@ -925,7 +927,7 @@ Models and versions supported by this data collector:
 |===
 
 
-=== Management APIs used by this data collector:
+==== Management APIs used by this data collector:
 
 |===
 ^|API ^|Protocol Used ^|Transport layer protocol used ^|Incoming ports used ^|Outgoing ports used ^|Supports authentication ^|Requires only 'Read-only' credentials ^|Supports Encryption ^|Firewall friendly (static ports) 
