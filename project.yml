@@ -337,8 +337,8 @@ sidebar:
         - title: Researching Data Collector Errors
           url: /task_research_failed_collector.html
           
-   - title: Data Collector Support Matrix
-#      url: /reference_data_collector_support_matrix.html
+    - title: Data Collector Support Matrix
+      url: /reference_data_collector_support_matrix.html
 
 #    - title: Data Collector Support Matrix
 #      entries:
