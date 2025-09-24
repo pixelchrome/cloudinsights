@@ -7,7 +7,6 @@ keywords: subscribe, trial, subscription, contract, raw capacity, region, data r
 
 = Subscribing to Data Infrastructure Insights
 :hardbreaks:
-
 :nofooter:
 :icons: font
 :linkattrs:
@@ -37,11 +36,14 @@ Getting started with Data Infrastructure Insights is as easy as three simple ste
 During the registration process, you can choose the global region to host your Data Infrastructure Insights environment. For more information, read about Data Infrastructure Insights link:security_information_and_region.html[Information and Region].
 
 
-For a full comparison of the features available in Data Infrastructure Insights Basic and Premium Editions, see the link:https://www.netapp.com/cloud-services/cloud-insights/editions-pricing[Data Infrastructure Insights Editions] page.
+For detailed information about Data Infrastructure Insights features and pricing options, see the link:https://www.netapp.com/cloud-services/cloud-insights/editions-pricing[Data Infrastructure Insights Editions] page.
 
 
+
+
+////
 WARNING: Inactive Data Infrastructure Insights Basic Edition environments are deleted and their resources are reclaimed. An environment is considered inactive if there is no user activity for 30 consecutive days, of if there is no data ingested for 7 consecutive days. Data Infrastructure Insights will send a notification and provide a grace period of four days before an environment is deleted.
-
+////
 
 While using Data Infrastructure Insights, if you see a padlock icon image:padlock.png[Padlock], it means the feature is not available in your current Subscription, or is available in a limited form. Subscribe to that feature for full access. Some features are available as a <<module-evaluation, Module Evaluation>> prior to subscribing.
 
