@@ -22,7 +22,7 @@ To provide consistent metering against DII entitlements across all StorageGRID s
 
 For customers using the Capacity-based licensing model, StorageGRID is metered as “Object” storage.
 
-For customers using the legacy (MU) licensing model, StorageGRID is metered as secondary storage, at a rate of 40TiB to 1 MU
+For customers using the legacy (MU) licensing model, StorageGRID is metered as secondary storage, at a rate of 40TiB to 1 MU.
 ====
 
 //NOTE: StorageGRID is metered at a different Raw TB to Managed Unit rate. Every 40 TB of unformatted StorageGRID capacity is charged as 1 link:concept_subscribing_to_cloud_insights.html#pricing[Managed Unit (MU)].
