@@ -150,7 +150,7 @@ Data Infrastructure Insights Observability meters usage according to the tier of
 
 Each tier is metered at a different rate, with the whole calculated together to give you a weighted entitlement. The formula for calculating weighted usage is as follows:
 
- Weighted usage = Raw TiB + (0.1 x Object Tier Raw TiB) + (0.25 x Cloud Tier Provisioning TiB)
+ Weighted Capacity = Raw TiB + (0.1 x Object Tier Raw TiB) + (0.25 x Cloud Tier Provisioned TiB)
 
 To facilitate this, DII calculates a single *weighted entitlement* number based on _subscribed_ quantities; it then calculates that same number based on _discovered_ storage and only declares breach if the discovered capacity is greater than the weighted entitlement. This gives you flexibility to monitor quantities that vary from the subscribed amounts for each tier, which DII allows as long as total discovered storage is within the subscribed weighted entitlement. 
 
