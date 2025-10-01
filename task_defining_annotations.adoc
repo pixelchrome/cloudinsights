@@ -122,6 +122,7 @@ When filtering on a Boolean annotation, you may be presented with the following 
 
 
 
+
 .After you finish 
 In the UI, the annotation is available immediately for use. 
 
