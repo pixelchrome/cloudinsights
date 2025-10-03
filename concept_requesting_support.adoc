@@ -2,12 +2,11 @@
 sidebar: sidebar
 permalink: concept_requesting_support.html
 summary: You can view knowledgebase articles, connect with the NetApp community, view videos, or open a ticket to request support.
-keywords: support, knowledgebase, documentation, community, videos, help, contact, intercom
+keywords: support, knowledgebase, documentation, community, videos, help, contact
 ---
 
 = Requesting Support
 :hardbreaks:
-
 :nofooter:
 :icons: font
 :linkattrs:
@@ -16,8 +15,7 @@ keywords: support, knowledgebase, documentation, community, videos, help, contac
 [.lead]
 You can access available support options in Data Infrastructure Insights by selecting *Help > Support*. 
 
-
-image:SupportPageExample.png[Support page]
+image:SupportPageExample.png[Support page, width=600]
 
 == Activating support entitlement
 
