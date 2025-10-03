@@ -19,6 +19,12 @@ NetApp is continually improving and enhancing its products and services. Here ar
 == October 2025
 
 
+=== Multi-Condition Monitors for Precise Alerting
+
+Reduce alert noise and improve monitoring precision by adding an optional second condition to any monitor. Alerts are triggered only when both conditions are met simultaneously, giving you more targeted notifications that focus on the scenarios that matter most to your environment. 
+
+image:multi-condition_monitor_second_condition.png[adding a second condition to a monitor]
+
 
 
 === Query Improvements: At-A-Glance Object Details
