@@ -1550,7 +1550,7 @@ Previous versions of the agent will continue to function with no user action req
 
 === Preview Features
 
-Cloud Insights regularly highlights a number of exciting new preview features. If you are interested in previewing one or more of these features, contact your link:https://bluexp.netapp.com/contact-cds[NetApp Sales Team] for more information.
+Cloud Insights regularly highlights a number of exciting new preview features. If you are interested in previewing one or more of these features, contact your link:https://console.netapp.com/contact-cds[NetApp Sales Team] for more information.
 
 |===
 
@@ -1616,7 +1616,7 @@ You can now configure Cloud Insights to alert when modification or removal of Fl
 
 === Preview Features
 
-Cloud Insights regularly highlights a number of exciting new preview features. If you are interested in previewing one or more of these features, contact your link:https://bluexp.netapp.com/contact-cds[NetApp Sales Team] for more information.
+Cloud Insights regularly highlights a number of exciting new preview features. If you are interested in previewing one or more of these features, contact your NetApp Sales Team for more information.
 
 |===
 
@@ -1676,7 +1676,7 @@ Cloud Insights keeps you on top of changes in your Kubernetes environment by ale
 
 === Preview Features
 
-Cloud Insights regularly highlights a number of exciting new preview features. If you are interested in previewing one or more of these features, contact your link:https://bluexp.netapp.com/contact-cds[NetApp Sales Team] for more information.
+Cloud Insights regularly highlights a number of exciting new preview features. If you are interested in previewing one or more of these features, contact your NetApp Sales Team for more information.
 
 |===
 

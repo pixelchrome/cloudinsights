@@ -16,17 +16,17 @@ keywords: subscribe, trial, subscription, contract, raw capacity, region, data r
 [.lead]
 Getting started with Data Infrastructure Insights is as easy as three simple steps:
 
-. Sign up for an account on link:https://bluexp.netapp.com//[*NetApp BlueXP*] to get access to all of NetApp's Cloud offerings.
+. Sign up for an account on link:https://console.netapp.com//[*NetApp Console*] to get access to all of NetApp's Cloud offerings.
 . Register for a free trial of Data Infrastructure Insights to explore the features available. To register for a free trial:
 ** Go to https://netapp.com
 ** Select *How to Buy* at the top of the page.
-** Select *Request trial*. If you are not already registered with BlueXP, Enter your details and sign up. Otherwise, sign in.
+** Select *Request trial*. If you are not already registered with Console, Enter your details and sign up. Otherwise, sign in.
 ** Schedule a meeting or wait for a representative to contact you about your trial.
 
 
 . *Subscribe* to Data Infrastructure Insights for on-going, uninterrupted access to your data though a variety of flexible subscription options:
 
-** link:https://bluexp.netapp.com/contact-cds[NetApp Sales direct]
+** link:https://console.netapp.com/contact-cds[NetApp Sales direct]
 ** AWS Marketplace:
 *** link:https://aws.amazon.com/marketplace/pp/prodview-axhuy7muvzfx2[Fixed term subscription]
 *** link:https://aws.amazon.com/marketplace/pp/prodview-rn4qwencpjpge[Pay-as-you-go subscription]
@@ -198,7 +198,7 @@ Clicking on the Amazon Marketplace link opens the AWS https://aws.amazon.com/mar
 
 After you have entered the total Managed Units count and chosen either 12-month or 36-month subscription term, click on *Set Up Your Account* to finish the subscription process.
 
-Once the AWS subscription process is complete, you will be taken back to your Data Infrastructure Insights environment. Or, if the environment is no longer active (for example, you have logged out), you will be taken to the NetAPp BlueXP sign-in page. When you sign in to Data Infrastructure Insights again, your subscription will be active. 
+Once the AWS subscription process is complete, you will be taken back to your Data Infrastructure Insights environment. Or, if the environment is no longer active (for example, you have logged out), you will be taken to the NetAPp Console sign-in page. When you sign in to Data Infrastructure Insights again, your subscription will be active. 
 
 NOTE: After clicking on *Set Up Your account* on the AWS Marketplace page, you must complete the AWS subscription process within one hour. If you do not complete it within one hour, you will need to click on *Set Up Your Account* again to complete the process.
 
