@@ -19,22 +19,31 @@ NetApp is continually improving and enhancing its products and services. Here ar
 == October 2025
 
 
-=== Infra Health TBD
+=== Infrastructure Health: Instant Visibility Into Storage and Fabric Risk
+
+Gain instant visibility into potential risks across your storage and fabrics with our new *Infrastructure Health* feature. A single, color-coded dashboard gives you unified risk visibility, helping you minimize downtime and quickly alleviate revenue loss. 
+
+Scores below 100 indicate potential problems; the lower the score, the less healthy the resources. Grouping resources by Data Center or Region for intuitive, consolidated health scores let you easily prioritize and troubleshoot critical areas.
+
+image:infra_health_dashboard.png[infra health dashboard showing red, amber, and green resource health scores, width=600]
+
+View detailed information in an on-screen slideout panel with the click of a button, quickly pinpointing issues requiring attention and keeping your systems secure and resilient.
+
+image:infra_health_detailpanel.png[infra health detail panel, width=600]
 
 
 === Multi-Condition Monitors for Precise Alerting
 
 Reduce alert noise and improve monitoring precision by adding an optional second condition to any metric monitor. Alerts are triggered only when both conditions are met, giving you more targeted notifications that focus on the scenarios that matter most to you. 
 
-image:multi-condition_monitor_second_condition.png[adding a second condition to a monitor]
-
+image:multi-condition_monitor_second_condition.png[adding a second condition to a monitor, width=600]
 
 
 === Query Improvements: At-A-Glance Object Details
 
 Selecting a row in an object query result list opens a detail panel for the selected object. Quickly view metrics and attributes (the default view for object queries), alerts and changes, performance, and health scores, or explore related resources. All relevant object information is at your fingertips.
 
-image:query_slideout_panel.png[illustration of a query slideout panel defaulted to the metrics and attributes tab]
+image:query_slideout_panel.png[illustration of a query slideout panel defaulted to the metrics and attributes tab, width=600]
 
 
 
