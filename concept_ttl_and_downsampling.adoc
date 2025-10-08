@@ -27,7 +27,7 @@ Data Infrastructure Insights retains data for an amount of time determined by th
 |Premium |13 Months
 |===
 
-A full list of features available in each Edition is available on the Data Infrastructure Insights link:https://bluexp.netapp.com/cloud-insights-pricing[Editions and Pricing] page.
+A full list of features available in each Edition is available on the Data Infrastructure Insights link:hhttps://www.netapp.com/data-infrastructure-insights/features/g[Editions and Pricing] page.
 
 //Premium Edition subscriptions with at least 500 Managed Units (MUs) retain Business Intelligence and Reporting data for 13 months.
 
