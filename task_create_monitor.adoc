@@ -56,7 +56,6 @@ image:MonitorMetricFilter.png[Metrics Filtering]
 
 When working with integration data (Kubernetes, ONTAP Advanced Data, etc.), metric filtering removes the individual/unmatched data points from the plotted data series, unlike infrastructure data (storage, VM, ports etc.) where filters work on the aggregated value of the data series and potentially remove the entire object from the chart.
 
-Metric monitors apply to Inventory objects such as storage, switch, host, vm, etc., as well as integration metrics such as ONTAP Advanced or Kubernetes data. When monitoring inventory objects, note that you cannot select a "Group By" method. However, grouping _is_ allowed when monitoring integration data.
 
 
 ==== Multi-Condition monitors
