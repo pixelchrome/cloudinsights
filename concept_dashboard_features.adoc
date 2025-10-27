@@ -196,7 +196,7 @@ When viewing the dashboard, selecting the legend for any widget whose data is gr
 
 If you have set a filter for the query, the data is grouped based on the filtered data.
 
-==== Identifying custom data
+=== Identifying custom data
 
 When you are creating or modifying a widget that is built on your own custom data, your data may not be represented properly in the widget without an identifying attribute. If DII cannot identify the object you have selected for your widget, it will present you with an _Advanced Configuration_ link in the "Group By" area. Expand this to select the attribute by which you wish to identify your data.
 
