@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar
 permalink: concept_feature_tutorials.html
-summary: Data Infrastructure Insights has tutorials to show you how to perform many tasks.
+summary: Step-by-step video tutorials help you master Data Infrastructure Insights features like dashboards, queries, monitoring, and troubleshooting.
 keywords: onboarding, getting started, video, tutorial, resolution, dashboard, query, troubleshooting
 ---
-= Feature Tutorials
+= Getting Started with Video Tutorials
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -12,7 +12,7 @@ keywords: onboarding, getting started, video, tutorial, resolution, dashboard, q
 :imagesdir: ./media/
 
 [.lead]
-Data Infrastructure Insights is loaded with useful features that enable you to quickly and easily troubleshoot issues, and provide insights into your corporate environment. Find data easily with powerful queries, visualize data in dashboards, and send email alerts for data thresholds you set. 
+Learn Data Infrastructure Insights efficiently with our feature tutorials with step-by-step video guides and a progress checklist. Master essential skills like creating dashboards, building queries, setting up monitoring, and troubleshooting issues through hands-on tutorials designed to get you productive quickly. 
 
 == Checklist and Video Tutorials
 
