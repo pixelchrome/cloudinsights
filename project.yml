@@ -492,8 +492,6 @@ sidebar:
                   url: /task_dc_ibm_cs.html
                 - title: System Storage DS8000 Series
                   url: /task_dc_ibm_ds.html
-                - title: PowerVM
-                  url: /task_dc_ibm_powervm.html
                 - title: San Volume Controller (SVC)
                   url: /task_dc_ibm_svc.html
                 - title: XIV/A9000
