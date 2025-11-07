@@ -76,7 +76,6 @@ Alphabetical list of Data Collectors supported by Data Infrastructure Insights:
 | link:task_dc_huawei_oceanstor.html[Huawei OceanStor and Dorado Devices ] |Infrastructure 
 | link:task_dc_ibm_cleversafe.html[IBM Cleversafe ] |Infrastructure 
 | link:task_dc_ibm_cs.html[IBM CS Series ] |Infrastructure 
-| link:task_dc_ibm_powervm.html[IBM PowerVM ] |Infrastructure 
 | link:task_dc_ibm_svc.html[IBM SAN Volume Controller (SVC) ] |Infrastructure 
 | link:task_dc_ibm_ds.html[IBM System Storage DS8000 Series ] |Infrastructure 
 | link:task_dc_ibm_xiv.html[IBM XIV and A9000 Storages ] |Infrastructure 
