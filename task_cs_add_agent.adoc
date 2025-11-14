@@ -2,20 +2,18 @@
 sidebar: sidebar
 permalink: task_cs_add_agent.html
 keywords: agent, Workload Security, installation, Cloud Secure
-summary: Adding Workload Security agents
+summary: Step-by-step instructions to deploy Workload Security agents to monitor user activity and detect security threats in your storage environment.
 ---
 
-= Workload Security Agent Installation
-:toc: macro
+= Deploy Workload Security Agents
 :hardbreaks:
-:toclevels: 1
 :nofooter:
 :icons: font
 :linkattrs:
 :imagesdir: ./media/
 
 [.lead]
-Workload Security (formerly Cloud Secure) collects user activity data using one or more agents. Agents connect to devices on your tenant and collect data that is sent to the Workload Security SaaS layer for analysis. See link:concept_cs_agent_requirements.html[Agent Requirements] to configure an agent VM.
+Workload Security agents are essential for monitoring user activity and detecting potential security threats across your storage infrastructure. This guide provides step-by-step instructions to deploy agents in your environment. Before you begin, ensure your agent server meets the link:concept_cs_agent_requirements.html[system requirements].
 
 
 
@@ -51,8 +49,6 @@ image:CloudSecureAgentWithProxy_Instructions.png[Agent Install with Proxy Note]
 + 
 image::new-agent-detect.png[Message for successful agent installation]
 
-//cd /var NEW
-//Grep /var/
 
 .After You Finish
 
