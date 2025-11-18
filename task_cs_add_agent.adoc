@@ -16,7 +16,6 @@ summary: Workload Security agents monitor user activity and detect security thre
 Workload Security agents are essential for monitoring user activity and detecting potential security threats across your storage infrastructure. This guide provides step-by-step instructions to deploy agents in your environment. Before you begin, ensure your agent server meets the link:concept_cs_agent_requirements.html[system requirements].
 
 
-
 == Before You Begin
 
 * The sudo privilege is required for installation, running scripts, and uninstall. 
@@ -29,7 +28,7 @@ Keep the following in mind before configuring your Workload Security agent.
 
 [cols="1,3"]
 |=== 
-| Pause and Resume | Pause: Removes fpolicies from ONTAP. Typically used when customers perform extended maintenance activities such as agent VM reboots, which may take several hours or days.
+| Pause and Resume | Pause: Removes fpolicies from ONTAP. Typically used when customers perform extended maintenance activities which may take significant time, such as agent VM reboots or storage replacements. 
 Resume: Adds fpolicies back to ONTAP.
 
 | Pin and Unpin
