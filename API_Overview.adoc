@@ -6,9 +6,8 @@ summary: The Data Infrastructure Insights API enables integration with other app
 ---
 
 = Data Infrastructure Insights API 
-:toc: macro
 :hardbreaks:
-:toclevels: 2
+
 :nofooter:
 :icons: font
 :linkattrs:
@@ -17,22 +16,6 @@ summary: The Data Infrastructure Insights API enables integration with other app
 [.lead]
 The Data Infrastructure Insights API enables NetApp customers and independent software vendors (ISVs) to integrate Data Infrastructure Insights with other applications, such as CMDB's or other ticketing systems.
 
-////
-Note that Data Infrastructure Insights APIs are available based on your current Edition: 
-
-[cols="<,^s,^s,^s"]
-|===
-|API Type|Basic|Standard|Premium
-
-|Acquisition Unit|image:SmallCheckMark.png[check mark]|image:SmallCheckMark.png[check mark]|image:SmallCheckMark.png[check mark]
-|Data Collection|image:SmallCheckMark.png[check mark]|image:SmallCheckMark.png[check mark]|image:SmallCheckMark.png[check mark]
-|Alerts| |image:SmallCheckMark.png[check mark]|image:SmallCheckMark.png[check mark]
-|Assets| |image:SmallCheckMark.png[check mark]|image:SmallCheckMark.png[check mark]
-|Data Ingestion| |image:SmallCheckMark.png[check mark]|image:SmallCheckMark.png[check mark]
-|Log Ingestion| |image:SmallCheckMark.png[check mark]|image:SmallCheckMark.png[check mark]
-
-|===
-////
 
 Your Data Infrastructure Insights link:https://docs.netapp.com/us-en/cloudinsights/concept_user_roles.html#permission-levels[feature set role] will determine which APIs you can access. User and Guest roles have fewer privileges than Administrator role. For example, if you have Administrator role in Monitor and Optimize, but User role in Reporting, you can manage all API types except Data Warehouse.
 
@@ -48,8 +31,6 @@ Your Data Infrastructure Insights link:https://docs.netapp.com/us-en/cloudinsigh
 
 The latest API information is found by logging in to Data Infrastructure Insights and navigating to *Admin > API Acccess*. Click the *API Documentation* link.
 
-//image:API_Types_Example.png[API Types]
-//image:API_Documentation.png[API Documentation]
 image:API_Swagger_Types.png[API types]
 
 The API Documentation is Swagger-based, which provides a brief description and usage information for the API, and allows you to try it out in your tenant. Depending on your user role and/or Data Infrastructure Insights edition, the API types available to you may vary.
@@ -178,10 +159,6 @@ A Performance Metric has a description and type and contains a collection of per
 
 A Performance Summary has a description, unit, sample start time, sample end time, and a collection of summarized values (current, min, max, avg, etc.) calculated from a single performance counter over a time range (1 hour, 24 hours, 3 days, and so on). 
 
-// == Performance Data 
-
-//The Performance data JSON...
-
 image:API_Performance.png[API Performance Example]
 
 The resulting Performance Data dictionary has the following keys:
@@ -239,7 +216,7 @@ Objects with capacity attributes use basic data types and the CapacityItem for r
 
 CapacityItem is a single logical unit of capacity. It has “value” and “highThreshold” in units defined by its parent object. It also supports an optional breakdown map that explains how the capacity value is constructed. For example, the total capacity of a 100 TB storagePool would be a CapacityItem with a value of 100. The breakdown may show 60 TB allocated for “data” and 40 TB for “snapshots”.
 
-Note:: “highThreshold” represents system defined thresholds for the corresponding metrics, which a client can use to generate alerts or visual cues on values that are out of acceptable configured ranges.
+Note: “highThreshold” represents system defined thresholds for the corresponding metrics, which a client can use to generate alerts or visual cues on values that are out of acceptable configured ranges.
 
 //Graphic
 
@@ -279,10 +256,10 @@ Note that these commands are using the default namespace "netapp-monitoring".  I
 Note: If you have the latest NetApp Kubernetes Monitoring Operator installed and using an API access token that is renewable, expiring tokens will automatically be replaced by new/refreshed API access tokens.  There is no need to perform the manual steps listed below.
 
 
-
+////
 * Edit the the NetApp Kubernetes Monitoring Operator.
 +
- kubectl -n netapp-monitoring edit agent agent-monitoring-netapp
+ kubectl -n netapp-monitoring edit agent netapp-ci-agent-monitoring-netapp
  
 * Modify the _spec.output-sink.api-key_ value, replacing the old API token with the new API token.
 +
@@ -290,6 +267,13 @@ Note: If you have the latest NetApp Kubernetes Monitoring Operator installed and
  …
    output-sink:
    - api-key:<NEW_API_TOKEN>
+////
+
+
+* Create a new API token.
+* Follow the steps for link:task_config_telegraf_agent_k8s.html#manual-upgrades[Manual Upgrade], selecting the new API token.
+
+Note: Customers managing their NetApp Kubernetes Monitoring Operator with a configuration management tool, such as Kustomize, can follow the same steps to generate and download an updated set of YAMLs to push to their repository.
 
 
 ==== RHEL/CentOS and Debian/Ubuntu

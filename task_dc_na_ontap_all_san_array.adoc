@@ -1,13 +1,12 @@
 ---
 sidebar: sidebar
 permalink: task_dc_na_ontap_all_san_array.html
-keywords: data collector, ontap, ontap, CDOT, REST, SAN, ASA
-summary: ONTAP All-San Array Data Collector
+keywords: data collector, ontap, ontap, CDOT, REST, SAN, ASA, r2
+summary: ONTAP All-San Array Data (ASA r2) Collector
 --- 
 
-= NetApp ONTAP All-SAN Array (ASA) data collector
+= NetApp ONTAP ASA r2 (All-SAN Array) data collector
 :hardbreaks:
-:toclevels: 2
 :nofooter:
 :icons: font
 :linkattrs:
@@ -25,6 +24,11 @@ The following are requirements to configure and use this data collector:
 ** Functionally, Data Infrastructure Insights primarily makes read requests, but some write permissions are required for Data Infrastructure Insights to register with the ONTAP array. See the _Note About Permissions_ immediately below.
 * ONTAP version 9.16.0 or higher.
 * Port requirements: 443
+
+NOTE: ASA R2 denotes the latest generation models of the ONTAP ASA storage platform. This includes array models ASA A1K, A90, A70, A50, A30 and A20.
+
+For all previous generation ASA systems, please use the link:task_dc_na_ontap_rest.html[ONTAP REST] collector.
+
 
 == A Note About Permissions
 
